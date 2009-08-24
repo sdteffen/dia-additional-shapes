@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<_name>Electric 2</_name>
+<_description>Additional Electric Symbols</_description>
+<contents>
+	<object name="electric2 - ckt-breaker">
+		<_description>CKT Breaker</_description>
+	</object>
+	<object name="electric2 - generator">
+		<_description>Generator</_description>
+	</object>
+		<object name="electric2 - isolator">
+		<_description>Isolator</_description>
+	</object>
+	<object name="electric2 - transformer">
+		<_description>Transformer</_description>
+	</object>
+</contents>
+</sheet>

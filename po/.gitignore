@@ -1,0 +1,12 @@
+*.gmo
+*.mo
+*.pot
+Makefile.in.in
+po2tbl.sed
+po2tbl.sed.in
+stamp-cat-id
+messages
+missing
+.intltool-merge-cache
+stamp-it
+.intltool-merge-cachemake
