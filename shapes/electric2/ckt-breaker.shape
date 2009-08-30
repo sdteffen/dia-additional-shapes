@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-  <name>ckt-breaker</name>
+  <name>electric2 - ckt-breaker</name>
   <icon>ckt-breaker.png</icon>
   <connections>
     <point x="5" y="-2.04351"/>

@@ -10,3 +10,10 @@ missing
 .intltool-merge-cache
 stamp-it
 .intltool-merge-cachemake
+Makefile
+Makefile.in
+POTFILES
+Rules-quot
+*.sed
+*.header
+*.sin

@@ -1,2 +1,17 @@
+missing
+ABOUT-NLS
+*~
+Makefile
 Makefile.in
+*.bz2
+*.zip
+*.gz
+m4
+config.*
 aclocal.m4
+install-sh
+*.cache
+configure
+intltool-merge.in
+intltool-extract.in
+intltool-update.in

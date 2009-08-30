@@ -6,6 +6,6 @@ mkdir pkg/$1
 mkdir pkg/$1/shapes
 mkdir pkg/$1/shapes/$1
 mkdir pkg/$1/sheets
-mkdir pkg/$1/
+mkdir pkg/$1/samples
 cp COPYING pkg/$1
 

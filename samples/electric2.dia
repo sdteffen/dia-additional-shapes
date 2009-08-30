@@ -81,7 +81,7 @@
         <dia:real val="0.050000000000000003"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="isolator" version="1" id="O1">
+    <dia:object type="electric2 - isolator" version="1" id="O1">
       <dia:attribute name="obj_pos">
         <dia:point val="-8.43259,9.9035"/>
       </dia:attribute>
@@ -127,7 +127,7 @@
       </dia:attribute>
     </dia:object>
     <dia:group>
-      <dia:object type="isolator" version="1" id="O2">
+      <dia:object type="electric2 - isolator" version="1" id="O2">
         <dia:attribute name="obj_pos">
           <dia:point val="-8.35384,12.7773"/>
         </dia:attribute>
@@ -173,7 +173,7 @@
         </dia:attribute>
       </dia:object>
       <dia:group>
-        <dia:object type="generator" version="1" id="O3">
+        <dia:object type="electric2 - generator" version="1" id="O3">
           <dia:attribute name="obj_pos">
             <dia:point val="-15.7039,12.2238"/>
           </dia:attribute>
@@ -240,7 +240,7 @@
             <dia:connection handle="1" to="O5" connection="0"/>
           </dia:connections>
         </dia:object>
-        <dia:object type="ckt-breaker" version="1" id="O5">
+        <dia:object type="electric2 - ckt-breaker" version="1" id="O5">
           <dia:attribute name="obj_pos">
             <dia:point val="-10.7538,12.7905"/>
           </dia:attribute>
@@ -372,7 +372,7 @@
       </dia:connections>
     </dia:object>
     <dia:group>
-      <dia:object type="isolator" version="1" id="O10">
+      <dia:object type="electric2 - isolator" version="1" id="O10">
         <dia:attribute name="obj_pos">
           <dia:point val="-2.10384,8.75225"/>
         </dia:attribute>
@@ -417,7 +417,7 @@
           <dia:real val="1"/>
         </dia:attribute>
       </dia:object>
-      <dia:object type="ckt-breaker" version="1" id="O11">
+      <dia:object type="electric2 - ckt-breaker" version="1" id="O11">
         <dia:attribute name="obj_pos">
           <dia:point val="-4.50384,8.76555"/>
         </dia:attribute>
@@ -485,7 +485,7 @@
       </dia:object>
     </dia:group>
     <dia:group>
-      <dia:object type="generator" version="1" id="O13">
+      <dia:object type="electric2 - generator" version="1" id="O13">
         <dia:attribute name="obj_pos">
           <dia:point val="-15.7827,9.35"/>
         </dia:attribute>
@@ -552,7 +552,7 @@
           <dia:connection handle="1" to="O15" connection="0"/>
         </dia:connections>
       </dia:object>
-      <dia:object type="ckt-breaker" version="1" id="O15">
+      <dia:object type="electric2 - ckt-breaker" version="1" id="O15">
         <dia:attribute name="obj_pos">
           <dia:point val="-10.8326,9.9168"/>
         </dia:attribute>
@@ -620,7 +620,7 @@
       </dia:object>
     </dia:group>
     <dia:group>
-      <dia:object type="isolator" version="1" id="O17">
+      <dia:object type="electric2 - isolator" version="1" id="O17">
         <dia:attribute name="obj_pos">
           <dia:point val="-2.09634,11.5998"/>
         </dia:attribute>
@@ -665,7 +665,7 @@
           <dia:real val="1"/>
         </dia:attribute>
       </dia:object>
-      <dia:object type="ckt-breaker" version="1" id="O18">
+      <dia:object type="electric2 - ckt-breaker" version="1" id="O18">
         <dia:attribute name="obj_pos">
           <dia:point val="-4.49634,11.613"/>
         </dia:attribute>
@@ -733,7 +733,7 @@
       </dia:object>
     </dia:group>
     <dia:group>
-      <dia:object type="isolator" version="1" id="O20">
+      <dia:object type="electric2 - isolator" version="1" id="O20">
         <dia:attribute name="obj_pos">
           <dia:point val="-1.98884,14.5973"/>
         </dia:attribute>
@@ -778,7 +778,7 @@
           <dia:real val="1"/>
         </dia:attribute>
       </dia:object>
-      <dia:object type="ckt-breaker" version="1" id="O21">
+      <dia:object type="electric2 - ckt-breaker" version="1" id="O21">
         <dia:attribute name="obj_pos">
           <dia:point val="-4.38884,14.6105"/>
         </dia:attribute>
@@ -1271,7 +1271,7 @@
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="transformer" version="1" id="O37">
+    <dia:object type="electric2 - transformer" version="1" id="O37">
       <dia:attribute name="obj_pos">
         <dia:point val="-7.19286,17.025"/>
       </dia:attribute>
@@ -1392,7 +1392,7 @@
       </dia:connections>
     </dia:object>
     <dia:group>
-      <dia:object type="isolator" version="1" id="O41">
+      <dia:object type="electric2 - isolator" version="1" id="O41">
         <dia:attribute name="obj_pos">
           <dia:point val="-2.06009,20.721"/>
         </dia:attribute>
@@ -1437,7 +1437,7 @@
           <dia:real val="1"/>
         </dia:attribute>
       </dia:object>
-      <dia:object type="ckt-breaker" version="1" id="O42">
+      <dia:object type="electric2 - ckt-breaker" version="1" id="O42">
         <dia:attribute name="obj_pos">
           <dia:point val="-4.46009,20.7343"/>
         </dia:attribute>

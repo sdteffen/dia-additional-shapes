@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-  <name>transformer</name>
+  <name>electric2 - transformer</name>
   <icon>transformer.png</icon>
   <connections>
     <point x="7.00625" y="7.76563"/>
