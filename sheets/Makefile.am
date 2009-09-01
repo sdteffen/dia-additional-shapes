@@ -7,7 +7,7 @@ sheet_in_files = \
 
 SHEETS = $(sheet_in_files:.sheet.in=.sheet)
 
-sheetdir = $(pkgdatadir)/sheets
+sheetdir = $(datadir)/dia/sheets
 sheet_DATA = $(SHEETS)
 
 %.sheet: %.sheet.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) 
