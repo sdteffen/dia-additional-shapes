@@ -29,9 +29,9 @@ public class Sheet2Html
 {
     public static void Main(string[] args)
     {
-        if (args.Length != 1 && args.Length != 2)
+        if (args.Length < 1 || args.Length > 3)
         {
-            Console.Error.WriteLine("USAGE: sheet2html [sheetname|-v|--version] [outputdir]");
+            Console.Error.WriteLine("USAGE: sheet2html [sheetname|-v|--version] [outputdir] [author]");
             return;
         }
 
@@ -44,8 +44,13 @@ public class Sheet2Html
 
         System.IO.DirectoryInfo outputdir = new System.IO.DirectoryInfo(".");
 
-        if (2 == args.Length)
+        if (2 <= args.Length)
             outputdir = new System.IO.DirectoryInfo(args[1]);
+
+        string author = "";
+
+        if (3 == args.Length)
+            author = args[2];
 
         XPathDocument document = new XPathDocument("sheets/" + args[0] + ".sheet");
         XPathNavigator nav = document.CreateNavigator();
@@ -87,14 +92,7 @@ public class Sheet2Html
             output.WriteAttributeString("content", "text/html; charset=utf-8");
             output.WriteEndElement();
 
-            output.WriteComment("#include virtual=\"/includes/head_yaml.html\"");
-            output.WriteStartElement("div");
-            output.WriteAttributeString("id", "main");
-            output.WriteStartElement("div");
-            output.WriteAttributeString("id", "col1");
-            output.WriteStartElement("div");
-            output.WriteAttributeString("id", "col1_content");
-            output.WriteAttributeString("class", "clearfix");
+            output.WriteComment("#include virtual=\"/include/head_yaml.html\"");            
             XPathNodeIterator sheetdescriptions = nav.Select(sheetdescquery);
             string sheetdescription = GetValueI18n(language, sheetdescriptions);
             
@@ -107,6 +105,7 @@ public class Sheet2Html
             output.WriteStartElement("meta");
             output.WriteAttributeString("name", "description");
             output.WriteAttributeString("content", sheetdescription);
+            output.WriteEndElement();
 
             // @todo: Canonical URL
 
@@ -116,7 +115,16 @@ public class Sheet2Html
             output.WriteAttributeString("class", "page_margins");
             output.WriteStartElement("div");
             output.WriteAttributeString("class", "page");
-            output.WriteComment("#include virtual=/includes/"+includelanguage+"/header_yaml.html");
+            output.WriteComment("#include virtual=\"/include/"+includelanguage+"/header_yaml.html\"");
+
+            output.WriteStartElement("div");
+            output.WriteAttributeString("id", "main");
+            output.WriteStartElement("div");
+            output.WriteAttributeString("id", "col1");
+            output.WriteStartElement("div");
+            output.WriteAttributeString("id", "col1_content");
+            output.WriteAttributeString("class", "clearfix");
+            
             output.WriteElementString("h1", sheetname);           
 
             // @todo: Use gettext
@@ -128,7 +136,50 @@ public class Sheet2Html
             output.WriteStartElement("img");
             output.WriteAttributeString("alt", sheetname);
             output.WriteAttributeString("src", "images/" + args[0] + ".png");
-            output.WriteEndElement();
+            output.WriteEndElement(); // img
+
+            if ("" != author)
+            {
+                // @todo Use gettext
+                string authorheader = "Author";
+                if ("de" == language)
+                    authorheader = "Autor";
+                output.WriteElementString("h2", authorheader);
+                output.WriteElementString("div", author);
+            }
+
+            if (1 < languages.Count)
+            {
+                // @todo Use gettext
+                string languageheader = "Languages";
+                if ("de" == language)
+                    languageheader = "Andere Sprachen";
+                output.WriteElementString("h2", languageheader);
+                output.WriteStartElement("div");
+                output.WriteAttributeString("id", "flags");
+                foreach (string flag in languages)
+                {
+                    if (flag == language)
+                        continue;
+                    output.WriteStartElement("a");
+                    output.WriteAttributeString("href", "index.html."+flag);
+                    output.WriteStartElement("img");
+                    output.WriteAttributeString("alt", flag);
+                    // @todo: Use CSS sprites
+                    output.WriteAttributeString("src", "../../images/" + flag + ".png");
+                    output.WriteEndElement(); // img
+                    output.WriteEndElement(); // a
+                }
+                output.WriteEndElement(); // div
+            }
+            output.WriteEndElement(); // div col1_content
+            output.WriteEndElement(); // div col1
+
+            output.WriteStartElement("div");
+            output.WriteAttributeString("id", "col3");
+            output.WriteStartElement("div");
+            output.WriteAttributeString("id", "col3_content");
+            output.WriteAttributeString("class", "clearfix");
 
             // @todo: Use gettext
             string objectlist = "Object list";
@@ -155,42 +206,20 @@ public class Sheet2Html
                 // @todo Verify that image exists
                 // @todo Use CSS sprites
                 output.WriteAttributeString("alt", objectdescription);
-                output.WriteAttributeString("src", "images/"+GetObjectIcon(args[0],objectname));
+                output.WriteAttributeString("src", "images/" + GetObjectIcon(args[0], objectname));
                 output.WriteEndElement();
                 output.WriteEndElement();
                 output.WriteElementString("td", objectdescription);
-   
-                              output.WriteEndElement(); // tr
+
+                output.WriteEndElement(); // tr
             }
             output.WriteEndElement(); // table
 
-            if (1 < languages.Count)
-            {
-                // @todo Use gettext
-                string languageheader = "Languages";
-                if ("de" == language)
-                    languageheader = "Andere Sprachen";
-                output.WriteElementString("h2", languageheader);
-                output.WriteStartElement("div");
-                output.WriteAttributeString("id", "flags");
-                foreach (string flag in languages)
-                {
-                    if (flag == language)
-                        continue;
-                    output.WriteStartElement("a");
-                    output.WriteAttributeString("href", "index.html."+flag);
-                    output.WriteStartElement("img");
-                    output.WriteAttributeString("alt", flag);
-                    output.WriteAttributeString("src", "../../images/" + flag + ".png");
-                    output.WriteEndElement(); // img
-                    output.WriteEndElement(); // a
-                }
-                output.WriteEndElement(); // div
-            }
-            output.WriteEndElement(); // div col1_content
-            output.WriteEndElement(); // div col1
+            output.WriteEndElement(); // div col3_content
+            output.WriteEndElement(); // div col3
+
+            output.WriteComment("#include virtual=\"/include/"+includelanguage+"/footer_yaml.html\"");
             output.WriteEndElement(); // div main
-            output.WriteComment("#include virtual=\"/includes/"+includelanguage+"/footer_yaml.html\"");
             output.WriteEndElement(); // div class page
             output.WriteEndElement(); // div class page_margins
             output.WriteEndElement(); // body
