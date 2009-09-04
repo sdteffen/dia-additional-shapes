@@ -67,6 +67,10 @@ public class Sheet2Html
         sheetdescquery.SetContext(manager);
         foreach (string language in languages)
         {
+            // includes are not available for all languages, fall back to en
+            string includelanguage = "en";
+            if ("de" == language)
+                includelanguage = "de";
             XmlTextWriter output = new XmlTextWriter(outputdir.ToString()+"/index.html."+language,System.Text.Encoding.UTF8);
             output.Formatting = Formatting.Indented;
             output.WriteDocType("html","-//W3C//DTD XHTML 1.0 Transitional//EN", "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd","");
@@ -82,7 +86,15 @@ public class Sheet2Html
             output.WriteAttributeString("http-equiv", "Content-type");
             output.WriteAttributeString("content", "text/html; charset=utf-8");
             output.WriteEndElement();
-            
+
+            output.WriteComment("#include virtual=\"/includes/head_yaml.html\"");
+            output.WriteStartElement("div");
+            output.WriteAttributeString("id", "main");
+            output.WriteStartElement("div");
+            output.WriteAttributeString("id", "col1");
+            output.WriteStartElement("div");
+            output.WriteAttributeString("id", "col1_content");
+            output.WriteAttributeString("class", "clearfix");
             XPathNodeIterator sheetdescriptions = nav.Select(sheetdescquery);
             string sheetdescription = GetValueI18n(language, sheetdescriptions);
             
@@ -96,10 +108,16 @@ public class Sheet2Html
             output.WriteAttributeString("name", "description");
             output.WriteAttributeString("content", sheetdescription);
 
-            output.WriteEndElement();
+            // @todo: Canonical URL
+
+            output.WriteEndElement(); // head
             output.WriteStartElement("body");
-            
-            output.WriteElementString("h1", sheetname);
+            output.WriteStartElement("div");
+            output.WriteAttributeString("class", "page_margins");
+            output.WriteStartElement("div");
+            output.WriteAttributeString("class", "page");
+            output.WriteComment("#include virtual=/includes/"+includelanguage+"/header_yaml.html");
+            output.WriteElementString("h1", sheetname);           
 
             // @todo: Use gettext
             string example = "Example";
@@ -118,53 +136,70 @@ public class Sheet2Html
                 objectlist = "Liste der Objekte";
             output.WriteElementString("h2", objectlist);
 
+            output.WriteStartElement("table");
+
             XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
             query.SetContext(manager);
             XPathNodeIterator links = nav.Select(query);
 
             while (links.MoveNext())
             {
-                string sDescription = links.Current.Value;
-                string sName = links.Current.GetAttribute("name", "");
-                XPathExpression descquery = nav.Compile("/dia:sheet/dia:contents/dia:object[@name='" + sName + "']/dia:description");
+                string objectname = links.Current.GetAttribute("name", "");
+                output.WriteStartElement("tr");
+                XPathExpression descquery = nav.Compile("/dia:sheet/dia:contents/dia:object[@name='" + objectname + "']/dia:description");
                 descquery.SetContext(manager);
-                XPathNodeIterator descriptions = nav.Select(descquery);
-                while (descriptions.MoveNext())
-                {
-                    Console.WriteLine(descriptions.Current.XmlLang);
-                }
-                Console.WriteLine("<!--" + sName + "-->");
-                System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo("shapes/" + args[0]);
-                foreach (System.IO.FileInfo f in dir.GetFiles("*.shape"))
-                {
-                    XmlDocument shape = new XmlDocument();
-                    shape.Load(f.FullName);
-
-                    XmlNamespaceManager nsmgr = new XmlNamespaceManager(shape.NameTable);
-                    nsmgr.AddNamespace("", "http://www.daa.com.au/~james/dia-shape-ns");
-                    XmlNodeList nodeList;
-                    nodeList = shape.GetElementsByTagName("name", "http://www.daa.com.au/~james/dia-shape-ns");
-                    foreach (XmlNode name in nodeList)
-                    {
-                        if (name.ParentNode.Name == "shape" && name.InnerText == sName)
-                        {
-                            XmlNodeList iconList;
-                            iconList = shape.GetElementsByTagName("icon", "http://www.daa.com.au/~james/dia-shape-ns");
-                            foreach (XmlNode icon in iconList)
-                            {
-                                Console.WriteLine("<tr><td><img src=\"images/" + icon.InnerText + "\" /></td><td>" + sDescription + "</td></tr>");
-                            }
-                        }
-                    }
-
-                }
+                XPathNodeIterator objectdescriptions = nav.Select(descquery);
+                string objectdescription = GetValueI18n(language, objectdescriptions);
+                output.WriteStartElement("td");
+                output.WriteStartElement("img");
+                // @todo Verify that image exists
+                // @todo Use CSS sprites
+                output.WriteAttributeString("alt", objectdescription);
+                output.WriteAttributeString("src", "images/"+GetObjectIcon(args[0],objectname));
+                output.WriteEndElement();
+                output.WriteEndElement();
+                output.WriteElementString("td", objectdescription);
+   
+                              output.WriteEndElement(); // tr
             }
+            output.WriteEndElement(); // table
+
+            if (1 < languages.Count)
+            {
+                // @todo Use gettext
+                string languageheader = "Languages";
+                if ("de" == language)
+                    languageheader = "Andere Sprachen";
+                output.WriteElementString("h2", languageheader);
+                output.WriteStartElement("div");
+                output.WriteAttributeString("id", "flags");
+                foreach (string flag in languages)
+                {
+                    if (flag == language)
+                        continue;
+                    output.WriteStartElement("a");
+                    output.WriteAttributeString("href", "index.html."+flag);
+                    output.WriteStartElement("img");
+                    output.WriteAttributeString("alt", flag);
+                    output.WriteAttributeString("src", "../../images/" + flag + ".png");
+                    output.WriteEndElement(); // img
+                    output.WriteEndElement(); // a
+                }
+                output.WriteEndElement(); // div
+            }
+            output.WriteEndElement(); // div col1_content
+            output.WriteEndElement(); // div col1
+            output.WriteEndElement(); // div main
+            output.WriteComment("#include virtual=\"/includes/"+includelanguage+"/footer_yaml.html\"");
+            output.WriteEndElement(); // div class page
+            output.WriteEndElement(); // div class page_margins
             output.WriteEndElement(); // body
             output.WriteEndElement(); // html
             output.Close();
         }
     }
 
+    // Return the value of a given language from an XPath
     public static string GetValueI18n(string language, XPathNodeIterator iterator)
     {
         string result = "";
@@ -173,10 +208,46 @@ public class Sheet2Html
         while (iterator.MoveNext())
         {
             if (language == iterator.Current.XmlLang)
+            {
+                result = iterator.Current.Value;
+                break;
+            }
+            // Fall back to English, if language is not available
+            if ("" == result && "" == iterator.Current.XmlLang)
                 result = iterator.Current.Value;
         }
         return result;
     }
+
+    // Loop through the shapes and find the icon image name
+    public static string GetObjectIcon(string sheet, string objectname)
+    {
+        System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo("shapes/" + sheet);
+        foreach (System.IO.FileInfo f in dir.GetFiles("*.shape"))
+        {
+            XmlDocument shape = new XmlDocument();
+            shape.Load(f.FullName);
+
+            XmlNamespaceManager nsmgr = new XmlNamespaceManager(shape.NameTable);
+            nsmgr.AddNamespace("", "http://www.daa.com.au/~james/dia-shape-ns");
+            XmlNodeList nodeList;
+            nodeList = shape.GetElementsByTagName("name", "http://www.daa.com.au/~james/dia-shape-ns");
+            foreach (XmlNode name in nodeList)
+            {
+                if (name.ParentNode.Name == "shape" && name.InnerText == objectname)
+                {
+                    XmlNodeList iconList;
+                    iconList = shape.GetElementsByTagName("icon", "http://www.daa.com.au/~james/dia-shape-ns");
+                    foreach (XmlNode icon in iconList)
+                    {
+                        return icon.InnerText;
+                    }
+                }
+            }
+        }
+        return "";
+    }
+
 }
 
 
