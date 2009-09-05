@@ -1,10 +1,10 @@
 //
-// sheet2html.cs: Convert dia sheets into multiview HTML fragments
+// sheet2html.cs: Convert dia sheets into multiview HTML documents
 //
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007,2009 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -29,9 +29,16 @@ public class Sheet2Html
 {
     public static void Main(string[] args)
     {
-        if (args.Length < 1 || args.Length > 3)
+        if (args.Length < 1 || (args.Length == 1 && ("-h" == args[0] )|| "--help" == args[0]))
         {
-            Console.Error.WriteLine("USAGE: sheet2html [sheetname|-v|--version] [outputdir] [author]");
+            Console.Error.WriteLine("USAGE: sheet2html [options] [sheetname]");
+            Console.Error.WriteLine("Options:");
+            Console.Error.WriteLine("--output-directory=DIR     Specify output directory");
+            Console.Error.WriteLine("--author=AUTHOR            Specify sheet creator");
+            Console.Error.WriteLine("--ssi                      Include SSI comments");
+            Console.Error.WriteLine("--comes-with-dia           Sheet is part of the Dia distribution");
+            Console.Error.WriteLine("-v, --version              Display version and exit");
+            Console.Error.WriteLine("-h, --help                 Display help and exit");
             return;
         }
 
@@ -42,17 +49,29 @@ public class Sheet2Html
             return;
         }
 
+        // Defaults
         System.IO.DirectoryInfo outputdir = new System.IO.DirectoryInfo(".");
-
-        if (2 <= args.Length)
-            outputdir = new System.IO.DirectoryInfo(args[1]);
-
         string author = "";
+        bool output_ssi = false;
+        bool comes_with_dia = false;
 
-        if (3 == args.Length)
-            author = args[2];
+        // Parse commandline arguments
+        for (int i = 0; i < args.Length; i++)
+        {
+            if (19 < args[i].Length && "--output-directory=" == args[i].Substring(0, 19))
+                outputdir = new System.IO.DirectoryInfo(args[i].Substring(19));
+                
+            if (9 < args[i].Length && "--author=" == args[i].Substring(0, 9))
+                author = args[i].Substring(9);
 
-        XPathDocument document = new XPathDocument("sheets/" + args[0] + ".sheet");
+            if ("--ssi" == args[i])
+                output_ssi = true;
+
+            if ("--comes-with-dia" == args[i])
+                comes_with_dia = true;
+        }
+
+        XPathDocument document = new XPathDocument("sheets/" + args[args.Length-1] + ".sheet");
         XPathNavigator nav = document.CreateNavigator();
         XmlNamespaceManager manager = new XmlNamespaceManager(nav.NameTable);
         manager.AddNamespace("dia", "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns");
@@ -92,7 +111,9 @@ public class Sheet2Html
             output.WriteAttributeString("content", "text/html; charset=utf-8");
             output.WriteEndElement();
 
-            output.WriteComment("#include virtual=\"/include/head_yaml.html\"");            
+            if(output_ssi)
+                output.WriteComment("#include virtual=\"/include/head_yaml.html\"");            
+            
             XPathNodeIterator sheetdescriptions = nav.Select(sheetdescquery);
             string sheetdescription = GetValueI18n(language, sheetdescriptions);
             
@@ -115,7 +136,9 @@ public class Sheet2Html
             output.WriteAttributeString("class", "page_margins");
             output.WriteStartElement("div");
             output.WriteAttributeString("class", "page");
-            output.WriteComment("#include virtual=\"/include/"+includelanguage+"/header_yaml.html\"");
+            
+            if(output_ssi)
+                output.WriteComment("#include virtual=\"/include/"+includelanguage+"/header_yaml.html\"");
 
             output.WriteStartElement("div");
             output.WriteAttributeString("id", "main");
@@ -125,8 +148,8 @@ public class Sheet2Html
             output.WriteAttributeString("id", "col1_content");
             output.WriteAttributeString("class", "clearfix");
             
-            output.WriteElementString("h1", sheetname);           
-
+            output.WriteElementString("h1", sheetname);
+            output.WriteElementString("div", sheetdescription);
             // @todo: Use gettext
             string example = "Example";
             if("de" == language)
@@ -135,10 +158,32 @@ public class Sheet2Html
 
             output.WriteStartElement("img");
             output.WriteAttributeString("alt", sheetname);
-            output.WriteAttributeString("src", "images/" + args[0] + ".png");
+            output.WriteAttributeString("src", "images/" + args[args.Length-1] + ".png");
             output.WriteEndElement(); // img
 
-            if ("" != author)
+            output.WriteStartElement("div");
+            output.WriteStartElement("a");
+            output.WriteAttributeString("href", args[args.Length-1]+".dia");
+            output.WriteString(args[args.Length - 1] + ".dia");
+            output.WriteEndElement(); // a
+            output.WriteString(" ");
+            // @todo: Use gettext
+            if ("de" == language)
+                output.WriteString("Beispieldiagramm im Dia-Format");
+            else
+                output.WriteString("example diagram in Dia format");
+            output.WriteEndElement(); // div
+
+            // @todo: Use gettext
+            output.WriteElementString("h2", "Download");
+            output.WriteStartElement("div");
+            output.WriteStartElement("a");
+            output.WriteAttributeString("href", args[args.Length - 1] + ".zip");
+            output.WriteString(args[args.Length - 1] + ".zip");
+            output.WriteEndElement(); // a
+            output.WriteEndElement(); // div
+
+            if ("" != author && !comes_with_dia)
             {
                 // @todo Use gettext
                 string authorheader = "Author";
@@ -206,7 +251,7 @@ public class Sheet2Html
                 // @todo Verify that image exists
                 // @todo Use CSS sprites
                 output.WriteAttributeString("alt", objectdescription);
-                output.WriteAttributeString("src", "images/" + GetObjectIcon(args[0], objectname));
+                output.WriteAttributeString("src", "images/" + GetObjectIcon(args[args.Length-1], objectname));
                 output.WriteEndElement();
                 output.WriteEndElement();
                 output.WriteElementString("td", objectdescription);
@@ -218,7 +263,9 @@ public class Sheet2Html
             output.WriteEndElement(); // div col3_content
             output.WriteEndElement(); // div col3
 
-            output.WriteComment("#include virtual=\"/include/"+includelanguage+"/footer_yaml.html\"");
+            if(output_ssi)
+                output.WriteComment("#include virtual=\"/include/"+includelanguage+"/footer_yaml.html\"");
+            
             output.WriteEndElement(); // div main
             output.WriteEndElement(); // div class page
             output.WriteEndElement(); // div class page_margins
