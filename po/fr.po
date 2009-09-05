@@ -26,7 +26,7 @@ msgstr "Disjoncteur"
 
 #: ../sheets/electric2.sheet.in.h:3
 msgid "Electric 2"
-msgstr "Elektrique 2"
+msgstr "Électrique 2"
 
 #: ../sheets/electric2.sheet.in.h:4
 msgid "Generator"

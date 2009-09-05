@@ -3,18 +3,15 @@
   <name>electric2 - transformer</name>
   <icon>transformer.png</icon>
   <connections>
-    <point x="7.00625" y="7.76563"/>
-    <point x="7.00625" y="7.41563"/>
-    <point x="7.00625" y="7.59063"/>
-    <point x="7.01312" y="10.59"/>
-    <point x="7.01875" y="10.2281"/>
-    <point x="7.01594" y="10.4091"/>
+    <point x="7" y="7.41563"/>
+    <point x="7" y="9.04" main="true" />
+    <point x="7" y="10.59"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" x1="7.00625" y1="7.76563" x2="7.00625" y2="7.41563"/>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" d="M 7.00625 7.76563 C 8.00625,7.76563 8.00625,9.35313 7.00625,9.35313 C 6.00625,9.35313 6.00625,7.76563 7.00625,7.76563"/>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" d="M 7.0025 8.66 C 8.0025,8.66 8.01875,10.2281 7.01875,10.2281 C 6.01875,10.2281 6.0025,8.66 7.0025,8.66"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" x1="7.01312" y1="10.59" x2="7.01875" y2="10.2281"/>
+    <svg:line style="stroke-width: 1;" x1="7" y1="7.76563" x2="7" y2="7.41563"/>
+    <svg:path style="stroke-width: 1;" d="M 7 7.76563 C 8,7.76563 8,9.35313 7,9.35313 C 6,9.35313 6,7.76563 7,7.76563"/>
+    <svg:path style="stroke-width: 1;" d="M 7 8.66 C 8,8.66 8,10.2281 7,10.2281 C 6,10.2281 6,8.66 7,8.66"/>
+    <svg:line style="stroke-width: 1;" x1="7" y1="10.59" x2="7" y2="10.2281"/>
   </svg:svg>
 </shape>

@@ -3,24 +3,24 @@
   <name>electric2 - ckt-breaker</name>
   <icon>ckt-breaker.png</icon>
   <connections>
-    <point x="5" y="-2.04351"/>
-    <point x="7" y="-2.025"/>
-    <point x="6" y="-2.03426"/>
-    <point x="9" y="-2.0375"/>
-    <point x="11" y="-2.05601"/>
-    <point x="10" y="-2.04676"/>
-    <point x="7" y="-3.03101"/>
-    <point x="9" y="-1.025"/>
-    <point x="8" y="-2.02801"/>
-    <point x="9" y="-3.00601"/>
-    <point x="7.0125" y="-1.01851"/>
-    <point x="8.00625" y="-2.01226"/>
+    <point x="5" y="-2"/>
+    <point x="7" y="-2"/>
+    <point x="6" y="-2"/>
+    <point x="9" y="-2"/>
+    <point x="11" y="-2"/>
+    <point x="10" y="-2"/>
+    <point x="7" y="-3"/>
+    <point x="9" y="-1"/>
+    <point x="8" y="-2"/>
+    <point x="9" y="-3"/>
+    <point x="7" y="-1"/>
+    <point x="8" y="-2"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.15; stroke: #000000" x1="5" y1="-2.04351" x2="7" y2="-2.025"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.15; stroke: #000000" x1="9" y1="-2.0375" x2="11" y2="-2.05601"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.15; stroke: #000000" x1="7" y1="-3.03101" x2="9" y2="-1.025"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.15; stroke: #000000" x1="9" y1="-3.00601" x2="7.0125" y2="-1.01851"/>
+    <svg:line style="stroke-width: 1;" x1="5" y1="-2" x2="7" y2="-2"/>
+    <svg:line style="stroke-width: 1;" x1="9" y1="-2" x2="11" y2="-2"/>
+    <svg:line style="stroke-width: 1;" x1="7" y1="-3" x2="9" y2="-1"/>
+    <svg:line style="stroke-width: 1;" x1="9" y1="-3" x2="7" y2="-1"/>
   </svg:svg>
 </shape>
