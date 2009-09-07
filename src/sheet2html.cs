@@ -149,7 +149,15 @@ public class Sheet2Html
             output.WriteAttributeString("class", "clearfix");
             
             output.WriteElementString("h1", sheetname);
-            output.WriteElementString("div", sheetdescription);
+            output.WriteStartElement("div");
+            output.WriteString(sheetdescription);
+            output.WriteString(". ");
+            // @todo: Use gettext
+            if ("de" == language)
+                output.WriteString("Diese Objekte können sie zu Ihrer Dia-Werkzeugkiste hinzufügen.");
+            else
+                output.WriteString("These objects can be added to your Dia toolbox.");
+            output.WriteEndElement(); // div
             // @todo: Use gettext
             string example = "Example";
             if("de" == language)
@@ -161,9 +169,24 @@ public class Sheet2Html
             output.WriteAttributeString("src", "images/" + args[args.Length-1] + ".png");
             output.WriteEndElement(); // img
 
-            output.WriteStartElement("div");
+            // @todo: Use gettext
+            output.WriteElementString("h2", "Download");
+            output.WriteStartElement("ul");
+            output.WriteStartElement("li");
             output.WriteStartElement("a");
-            output.WriteAttributeString("href", args[args.Length-1]+".dia");
+            output.WriteAttributeString("href", args[args.Length - 1] + ".zip");
+            output.WriteString(args[args.Length - 1] + ".zip");
+            output.WriteEndElement(); // a
+            output.WriteString(" ");
+            // @todo: Use gettext
+            if ("de" == language)
+                output.WriteString("Objekte und Objektbogen, als Zip-Archiv gepackt");
+            else
+                output.WriteString("sheet and objects, zipped");
+            output.WriteEndElement(); // li
+            output.WriteStartElement("li");
+            output.WriteStartElement("a");
+            output.WriteAttributeString("href", args[args.Length - 1] + ".dia");
             output.WriteString(args[args.Length - 1] + ".dia");
             output.WriteEndElement(); // a
             output.WriteString(" ");
@@ -172,16 +195,32 @@ public class Sheet2Html
                 output.WriteString("Beispieldiagramm im Dia-Format");
             else
                 output.WriteString("example diagram in Dia format");
-            output.WriteEndElement(); // div
+            output.WriteEndElement(); // li
+            output.WriteEndElement(); // ul
 
             // @todo: Use gettext
-            output.WriteElementString("h2", "Download");
-            output.WriteStartElement("div");
+            output.WriteElementString("h2", "Installation");
+            output.WriteStartElement("ul");
+            output.WriteStartElement("li");
+            // @todo: Use gettext
+            if ("de" == language)
+                output.WriteString("Automatisierte, wizard-basierte Installation:");
+            else
+                output.WriteString("Automated, wizard-based installation:");
+            output.WriteString(" ");
             output.WriteStartElement("a");
-            output.WriteAttributeString("href", args[args.Length - 1] + ".zip");
-            output.WriteString(args[args.Length - 1] + ".zip");
+            output.WriteAttributeString("href", "http://dia-installer.de/diashapes/index.html");
+            output.WriteString("diashapes");
             output.WriteEndElement(); // a
-            output.WriteEndElement(); // div
+            output.WriteEndElement(); // li
+            output.WriteStartElement("li");
+            // @todo: Use gettext
+            if ("de" == language)
+                output.WriteString("Manuelle Installation: Um die neuen Objekte zu benutzen, entpacken Sie diese Dateien in Ihren .dia Ordner und starten sie Dia neu.");
+            else
+                output.WriteString("Manual installation: extract the files to your .dia folder and restart Dia.");
+            output.WriteEndElement(); // li
+            output.WriteEndElement(); // ul
 
             if ("" != author && !comes_with_dia)
             {
