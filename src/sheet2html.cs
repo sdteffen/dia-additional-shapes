@@ -99,6 +99,7 @@ public class Sheet2Html
             output.Formatting = Formatting.Indented;
             output.WriteDocType("html","-//W3C//DTD XHTML 1.0 Transitional//EN", "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd","");
             output.WriteStartElement("html");
+            output.WriteAttributeString("xmlns", "http://www.w3.org/1999/xhtml");
             output.WriteAttributeString("lang", language);
             output.WriteAttributeString("xml:lang", language);
             output.WriteStartElement("head");
@@ -111,8 +112,18 @@ public class Sheet2Html
             output.WriteAttributeString("content", "text/html; charset=utf-8");
             output.WriteEndElement();
 
-            if(output_ssi)
-                output.WriteComment("#include virtual=\"/include/head_yaml.html\"");            
+            if (output_ssi)
+            {
+                output.WriteComment("#include virtual=\"/include/head_yaml.html\"");
+                output.WriteStartElement("script");
+                output.WriteAttributeString("type", "text/javascript");
+                output.WriteComment("#include virtual=\"/include/js/helper.js\"");
+                output.WriteEndElement(); // script
+                output.WriteStartElement("link");
+                output.WriteAttributeString("rel", "canonical");
+                output.WriteAttributeString("href", "http://dia-installer.de/shapes/" + args[args.Length - 1] + "/index.html." + language);
+                output.WriteEndElement(); // link
+            }
             
             XPathNodeIterator sheetdescriptions = nav.Select(sheetdescquery);
             string sheetdescription = GetValueI18n(language, sheetdescriptions);
@@ -147,7 +158,10 @@ public class Sheet2Html
             output.WriteStartElement("div");
             output.WriteAttributeString("id", "col1_content");
             output.WriteAttributeString("class", "clearfix");
-            
+
+            if (output_ssi)
+                output.WriteComment("#include virtual=\"/include/block.html\"");
+
             output.WriteElementString("h1", sheetname);
             output.WriteStartElement("div");
             output.WriteString(sheetdescription);
@@ -175,6 +189,7 @@ public class Sheet2Html
             output.WriteStartElement("li");
             output.WriteStartElement("a");
             output.WriteAttributeString("href", args[args.Length - 1] + ".zip");
+            output.WriteAttributeString("class", "track");
             output.WriteString(args[args.Length - 1] + ".zip");
             output.WriteEndElement(); // a
             output.WriteString(" ");
@@ -187,6 +202,7 @@ public class Sheet2Html
             output.WriteStartElement("li");
             output.WriteStartElement("a");
             output.WriteAttributeString("href", args[args.Length - 1] + ".dia");
+            output.WriteAttributeString("class", "track");
             output.WriteString(args[args.Length - 1] + ".dia");
             output.WriteEndElement(); // a
             output.WriteString(" ");
@@ -256,6 +272,10 @@ public class Sheet2Html
                 }
                 output.WriteEndElement(); // div
             }
+
+            if (output_ssi)
+                output.WriteComment("#include virtual=\"/include/block.html\"");
+
             output.WriteEndElement(); // div col1_content
             output.WriteEndElement(); // div col1
 
