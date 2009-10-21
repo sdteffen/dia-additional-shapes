@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher -->
+  <name>Racks - Rack 12U</name>
+  <icon>rack_12u.png</icon>
+  <connections>
+    <point x="0.0" y="0.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="5.89">
+    <svg:rect x="0.0" y="0.0" width="6.0" height="5.89" style="fill: #ffffff" />
+    <svg:rect x="0.587" y="0.28" width="0.15875" height="5.334" style="fill: #d9e6e6; stroke-width: 0.001; stroke: #000000" />
+    <svg:rect x="5.2543" y="0.28" width="0.15875" height="5.334" style="fill: #d9e6e6; stroke-width: 0.001; stroke: #000000" />
+
+    <svg:line x1="0.2" y1="0.280000" x2="0.4" y2="0.280000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="0.724500" x2="0.4" y2="0.724500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="1.169000" x2="0.4" y2="1.169000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="1.613500" x2="0.4" y2="1.613500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="2.058000" x2="0.4" y2="2.058000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="2.502500" x2="0.4" y2="2.502500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="2.947000" x2="0.4" y2="2.947000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="3.391500" x2="0.4" y2="3.391500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="3.836000" x2="0.4" y2="3.836000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="4.280500" x2="0.4" y2="4.280500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="4.725000" x2="0.4" y2="4.725000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="5.169500" x2="0.4" y2="5.169500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="5.614000" x2="0.4" y2="5.614000" style="stroke-width: 0.001; stroke: #000000" />
+  </svg:svg>
+</shape>

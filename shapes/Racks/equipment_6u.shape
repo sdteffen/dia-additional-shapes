@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher -->
+  <name>Racks - Equipment 6U</name>
+  <icon>equipment_6u.png</icon>
+  <connections>
+    <point x="0.0" y="0.0"/>
+    <point x="2.413" y="1.3335"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="4.826" height="2.6670">
+    <svg:rect x="0.0" y="0.0" width="4.826" height="2.6670" style="fill: default" />
+    <svg:line x1="0.15875" y1="0.0" x2="0.15875" y2="2.6670" style="fill: nofill; stroke-width: 0.001" />
+    <svg:line x1="4.66725" y1="0.0" x2="4.66725" y2="2.6670" style="fill: nofill; stroke-width: 0.001" />
+  </svg:svg>
+</shape>

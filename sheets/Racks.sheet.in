@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!-- Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher -->
+  <_name>Racks</_name>
+  <_name xml:lang="cs_CZ">Racky</_name>
+  <_description>Standard 19 inch racks and equipment</_description>
+  <_description xml:lang="cs_CZ">Standardní 19-palcové racky a vybavení</_description>
+  <contents>
+    <object name="Racks - Rack 42U">
+      <_description>Rack 42U</_description>
+    </object>
+    <object name="Racks - Rack 38U">
+      <_description>Rack 38U</_description>
+    </object>
+    <object name="Racks - Rack 20U">
+      <_description>Half-Rack 20U</_description>
+      <_description xml:lang="cs_CZ">Půlrack 20U</_description>
+    </object>
+    <object name="Racks - Rack 16U">
+      <_description>Half-Rack 16U</_description>
+      <_description xml:lang="cs_CZ">Půlrack 16U</_description>
+    </object>
+    <object name="Racks - Rack 12U">
+      <_description>Half-Rack 12U</_description>
+      <_description xml:lang="cs_CZ">Půlrack 12U</_description>
+    </object>
+    <object name="Racks - Label Anchors 42U">
+      <_description>Label Anchors, 42U</_description>
+    </object>
+    <object name="Racks - Power Strip UTE 8">
+      <_description>Power Strip - UTE, 8 sockets</_description>
+    </object>
+    <object name="Racks - Power Strip Schuko 8">
+      <_description>Power Strip - Schuko, 8 sockets</_description>
+    </object>
+    <object name="Racks - Power Strip BS 7">
+      <_description>Power Strip - British Standard, 7 sockets</_description>
+    </object>
+    <object name="Racks - Equipment 1U">
+      <_description>Generic 1U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 2U">
+      <_description>Generic 2U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 3U">
+      <_description>Generic 3U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 4U">
+      <_description>Generic 4U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 5U">
+      <_description>Generic 5U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 6U">
+      <_description>Generic 6U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 7U">
+      <_description>Generic 7U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 8U">
+      <_description>Generic 8U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 9U">
+      <_description>Generic 9U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 10U">
+      <_description>Generic 10U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 11U">
+      <_description>Generic 11U Equipment</_description>
+    </object>
+    <object name="Racks - Equipment 12U">
+      <_description>Generic 12U Equipment</_description>
+    </object>
+  </contents>
+</sheet>

@@ -3,7 +3,8 @@
 # sed 's!<description!<_description!;s!</description!</_description!;s!<name!<_name!;s!</name!</_name!;' 
 
 sheet_in_files = \
-  electric2.sheet.in
+  electric2.sheet.in \
+  Racks.sheet.in
 
 SHEETS = $(sheet_in_files:.sheet.in=.sheet)
 

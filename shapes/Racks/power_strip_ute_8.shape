@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher -->
+  <name>Racks - Power Strip UTE 8</name>
+  <icon>power_strip_ute.png</icon>
+  <connections>
+    <point x="0.0" y="0.0"/>
+    <point x="0.381050" y="0.2223"/>
+    <point x="0.825550" y="0.2223"/>
+    <point x="1.270050" y="0.2223"/>
+    <point x="1.714550" y="0.2223"/>
+    <point x="2.159050" y="0.2223"/>
+    <point x="2.603550" y="0.2223"/>
+    <point x="3.048050" y="0.2223"/>
+    <point x="3.492550" y="0.2223"/>
+    <point x="3.937050" y="0.2223"/>
+    <point x="4.381550" y="0.2223"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="20.0">
+    <svg:rect x="0.0" y="0.0" width="4.826" height="0.4445" style="fill: default" />
+    <svg:line x1="0.15875" y1="0.0" x2="0.15875" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+    <svg:line x1="4.66725" y1="0.0" x2="4.66725" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:line x1="0.603250" y1="0.0" x2="0.603250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:ellipse cx="0.825450" cy="0.2223" rx="0.18" ry="0.18" style="fill: none; stroke-width: 0.0"/>
+    <svg:ellipse cx="0.743250" cy="0.170" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="0.903250" cy="0.265" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="0.873250" cy="0.140" rx="0.02" ry="0.02" style="fill: none; stroke-width: 0.0"/>
+    <svg:line x1="1.047750" y1="0.0" x2="1.047750" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:ellipse cx="1.269950" cy="0.2223" rx="0.18" ry="0.18" style="fill: none; stroke-width: 0.0"/>
+    <svg:ellipse cx="1.187750" cy="0.170" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="1.347750" cy="0.265" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="1.317750" cy="0.140" rx="0.02" ry="0.02" style="fill: none; stroke-width: 0.0"/>
+    <svg:line x1="1.492250" y1="0.0" x2="1.492250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:ellipse cx="1.714450" cy="0.2223" rx="0.18" ry="0.18" style="fill: none; stroke-width: 0.0"/>
+    <svg:ellipse cx="1.632250" cy="0.170" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="1.792250" cy="0.265" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="1.762250" cy="0.140" rx="0.02" ry="0.02" style="fill: none; stroke-width: 0.0"/>
+    <svg:line x1="1.936750" y1="0.0" x2="1.936750" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:ellipse cx="2.158950" cy="0.2223" rx="0.18" ry="0.18" style="fill: none; stroke-width: 0.0"/>
+    <svg:ellipse cx="2.076750" cy="0.170" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="2.236750" cy="0.265" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="2.206750" cy="0.140" rx="0.02" ry="0.02" style="fill: none; stroke-width: 0.0"/>
+    <svg:line x1="2.381250" y1="0.0" x2="2.381250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:ellipse cx="2.603450" cy="0.2223" rx="0.18" ry="0.18" style="fill: none; stroke-width: 0.0"/>
+    <svg:ellipse cx="2.521250" cy="0.170" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="2.681250" cy="0.265" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="2.651250" cy="0.140" rx="0.02" ry="0.02" style="fill: none; stroke-width: 0.0"/>
+    <svg:line x1="2.825750" y1="0.0" x2="2.825750" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:ellipse cx="3.047950" cy="0.2223" rx="0.18" ry="0.18" style="fill: none; stroke-width: 0.0"/>
+    <svg:ellipse cx="2.965750" cy="0.170" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="3.125750" cy="0.265" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="3.095750" cy="0.140" rx="0.02" ry="0.02" style="fill: none; stroke-width: 0.0"/>
+    <svg:line x1="3.270250" y1="0.0" x2="3.270250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:ellipse cx="3.492450" cy="0.2223" rx="0.18" ry="0.18" style="fill: none; stroke-width: 0.0"/>
+    <svg:ellipse cx="3.410250" cy="0.170" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="3.570250" cy="0.265" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="3.540250" cy="0.140" rx="0.02" ry="0.02" style="fill: none; stroke-width: 0.0"/>
+    <svg:line x1="3.714750" y1="0.0" x2="3.714750" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:ellipse cx="3.936950" cy="0.2223" rx="0.18" ry="0.18" style="fill: none; stroke-width: 0.0"/>
+    <svg:ellipse cx="3.854750" cy="0.170" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="4.014750" cy="0.265" rx="0.02" ry="0.02" style="fill: fg; stroke-width: 0.0"/>
+    <svg:ellipse cx="3.984750" cy="0.140" rx="0.02" ry="0.02" style="fill: none; stroke-width: 0.0"/>
+    <svg:line x1="4.159250" y1="0.0" x2="4.159250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+  </svg:svg>
+</shape>

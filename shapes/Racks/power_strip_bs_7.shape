@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher -->
+  <name>Racks - Power Strip BS 7</name>
+  <icon>power_strip_bs.png</icon>
+  <connections>
+    <point x="0.0" y="0.0"/>
+    <point x="0.603300" y="0.2223"/>
+    <point x="1.270050" y="0.2223"/>
+    <point x="1.714550" y="0.2223"/>
+    <point x="2.159050" y="0.2223"/>
+    <point x="2.603550" y="0.2223"/>
+    <point x="3.048050" y="0.2223"/>
+    <point x="3.492550" y="0.2223"/>
+    <point x="3.937050" y="0.2223"/>
+    <point x="4.381550" y="0.2223"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="20.0">
+    <svg:rect x="0.0" y="0.0" width="4.826" height="0.4445" style="fill: default" />
+    <svg:line x1="0.15875" y1="0.0" x2="0.15875" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+    <svg:line x1="4.66725" y1="0.0" x2="4.66725" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:line x1="1.047750" y1="0.0" x2="1.047750" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:rect x="1.252750" y="0.102" width="0.04" height="0.06" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="1.144750" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="1.335750" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:line x1="1.492250" y1="0.0" x2="1.492250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:rect x="1.697250" y="0.102" width="0.04" height="0.06" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="1.589250" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="1.780250" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:line x1="1.936750" y1="0.0" x2="1.936750" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:rect x="2.141750" y="0.102" width="0.04" height="0.06" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="2.033750" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="2.224750" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:line x1="2.381250" y1="0.0" x2="2.381250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:rect x="2.586250" y="0.102" width="0.04" height="0.06" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="2.478250" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="2.669250" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:line x1="2.825750" y1="0.0" x2="2.825750" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:rect x="3.030750" y="0.102" width="0.04" height="0.06" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="2.922750" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="3.113750" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:line x1="3.270250" y1="0.0" x2="3.270250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:rect x="3.475250" y="0.102" width="0.04" height="0.06" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="3.367250" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="3.558250" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:line x1="3.714750" y1="0.0" x2="3.714750" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+    <svg:rect x="3.919750" y="0.102" width="0.04" height="0.06" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="3.811750" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:rect x="4.002750" y="0.305" width="0.065" height="0.04" style="fill: none; stroke-width: 0.0" />
+    <svg:line x1="4.159250" y1="0.0" x2="4.159250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+
+
+
+
+
+
+
+    <svg:line x1="4.159250" y1="0.0" x2="4.159250" y2="0.4445" style="fill: nofill; stroke-width: 0.0" />
+  </svg:svg>
+</shape>

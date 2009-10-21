@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher -->
+  <name>Racks - Rack 38U</name>
+  <icon>rack_38u.png</icon>
+  <connections>
+    <point x="0.0" y="0.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="18.0">
+    <svg:rect x="0.0" y="0.0" width="6.0" height="18.0" style="fill: #ffffff" />
+    <svg:rect x="0.587" y="0.449" width="0.15875" height="16.891" style="fill: #d9e6e6; stroke-width: 0.001; stroke: #000000" />
+    <svg:rect x="5.2543" y="0.449" width="0.15875" height="16.891" style="fill: #d9e6e6; stroke-width: 0.001; stroke: #000000" />
+
+    <svg:line x1="0.2" y1="0.449000" x2="0.4" y2="0.449000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="0.893500" x2="0.4" y2="0.893500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="1.338000" x2="0.4" y2="1.338000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="1.782500" x2="0.4" y2="1.782500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="2.227000" x2="0.4" y2="2.227000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="2.671500" x2="0.4" y2="2.671500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="3.116000" x2="0.4" y2="3.116000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="3.560500" x2="0.4" y2="3.560500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="4.005000" x2="0.4" y2="4.005000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="4.449500" x2="0.4" y2="4.449500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="4.894000" x2="0.4" y2="4.894000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="5.338500" x2="0.4" y2="5.338500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="5.783000" x2="0.4" y2="5.783000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="6.227500" x2="0.4" y2="6.227500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="6.672000" x2="0.4" y2="6.672000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="7.116500" x2="0.4" y2="7.116500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="7.561000" x2="0.4" y2="7.561000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="8.005500" x2="0.4" y2="8.005500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="8.450000" x2="0.4" y2="8.450000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="8.894500" x2="0.4" y2="8.894500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="9.339000" x2="0.4" y2="9.339000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="9.783500" x2="0.4" y2="9.783500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="10.228000" x2="0.4" y2="10.228000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="10.672500" x2="0.4" y2="10.672500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="11.117000" x2="0.4" y2="11.117000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="11.561500" x2="0.4" y2="11.561500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="12.006000" x2="0.4" y2="12.006000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="12.450500" x2="0.4" y2="12.450500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="12.895000" x2="0.4" y2="12.895000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="13.339500" x2="0.4" y2="13.339500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="13.784000" x2="0.4" y2="13.784000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="14.228500" x2="0.4" y2="14.228500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="14.673000" x2="0.4" y2="14.673000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="15.117500" x2="0.4" y2="15.117500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="15.562000" x2="0.4" y2="15.562000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="16.006500" x2="0.4" y2="16.006500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="16.451000" x2="0.4" y2="16.451000" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="16.895500" x2="0.4" y2="16.895500" style="stroke-width: 0.001; stroke: #000000" />
+    <svg:line x1="0.2" y1="17.340000" x2="0.4" y2="17.340000" style="stroke-width: 0.001; stroke: #000000" />
+  </svg:svg>
+</shape>

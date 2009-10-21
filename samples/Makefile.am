@@ -1,1 +1,1 @@
-EXTRA_DIST = electric2.dia
+EXTRA_DIST = electric2.dia Racks.dia

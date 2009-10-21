@@ -1,1 +1,1 @@
-SUBDIRS = electric2
+SUBDIRS = electric2 Racks
