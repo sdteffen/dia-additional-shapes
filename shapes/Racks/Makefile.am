@@ -52,7 +52,7 @@ Racks_DATA = $(SHAPES)
 Racks-zip: $(SHAPES) ../../sheets/Racks.sheet
 	-(cd ../.. && \
 	mkdir -p website/Racks/images && \
-	zip website/Racks/racks.zip COPYING sheets/Racks.sheet \
+	zip website/Racks/Racks.zip COPYING sheets/Racks.sheet \
 	shapes/Racks/*.png shapes/Racks/*.shape && \
 	cp shapes/Racks/*.png website/Racks/images )
 
