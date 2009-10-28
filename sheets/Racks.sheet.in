@@ -4,7 +4,6 @@
   <_name>Racks</_name>
   <_name xml:lang="cs_CZ">Racky</_name>
   <_description>Standard 19 inch racks and equipment</_description>
-  <_description xml:lang="cs_CZ">Standardní 19-palcové racky a vybavení</_description>
   <contents>
     <object name="Racks - Rack 42U">
       <_description>Rack 42U</_description>
@@ -14,15 +13,12 @@
     </object>
     <object name="Racks - Rack 20U">
       <_description>Half-Rack 20U</_description>
-      <_description xml:lang="cs_CZ">Půlrack 20U</_description>
     </object>
     <object name="Racks - Rack 16U">
       <_description>Half-Rack 16U</_description>
-      <_description xml:lang="cs_CZ">Půlrack 16U</_description>
     </object>
     <object name="Racks - Rack 12U">
       <_description>Half-Rack 12U</_description>
-      <_description xml:lang="cs_CZ">Půlrack 12U</_description>
     </object>
     <object name="Racks - Label Anchors 42U">
       <_description>Label Anchors, 42U</_description>
