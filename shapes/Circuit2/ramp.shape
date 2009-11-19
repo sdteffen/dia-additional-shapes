@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Circuit2 - Ramp Wave</name>
+  <icon>ramp.png</icon>
+  <connections>
+    <point x="6.6" y="7" main="yes" />
+    <point x="6.6" y="13.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="" height="">
+    <svg:ellipse style="fill: #ffffff" cx="6.6" cy="10.2" rx="1.6" ry="1.6"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="6.6" cy="10.2" rx="1.6" ry="1.6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="6.6" y1="8.6" x2="6.6" y2="7"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="6.6" y1="13.5" x2="6.6" y2="11.8"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="5.4,10.6 6.4,9.6 6.4,10.6 7.4,9.6 7.4,10.6 "/>
+  </svg:svg>
+</shape>

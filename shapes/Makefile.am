@@ -1,1 +1,1 @@
-SUBDIRS = electric2 Racks
+SUBDIRS = Circuit2 electric2 Racks

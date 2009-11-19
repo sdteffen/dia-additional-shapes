@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Circuit2 - Optoisolator</name>
+  <icon>opto.png</icon>
+  <connections>
+    <point x="-13.4" y="12.0"/>
+    <point x="-13.5" y="14.7"/>
+    <point x="-4.7" y="11.6"/>
+    <point x="-4.7" y="14.3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.06; stroke: #000000" x1="-8.3" y1="13.1" x2="-7.4" y2="13.1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.06; stroke: #000000" x1="-7.4" y1="12.2" x2="-7.4" y2="14.0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.06; stroke: #000000" x1="-7.4" y1="12.5" x2="-6.6" y2="11.9"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.06; stroke: #000000" x1="-7.4" y1="13.7" x2="-6.6" y2="14.2"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.06; stroke: #000000" points="-6.98515,14.2478 -6.55983,14.2478 -6.67201,13.9786 "/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="-12.4" y="11" width="6.6" height="4.6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-12.4" y1="12.0" x2="-13.4" y2="12.0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-12.4" y1="14.7" x2="-13.5" y2="14.7"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-4.7" y1="11.6" x2="-5.8" y2="11.6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-4.7" y1="14.3" x2="-5.7" y2="14.3"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" points="-10.4,12 -12.4,12.0 "/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" points="-10.4,14.0 -10.4,14.7 -12.4,14.7 "/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" points="-6.6,11.9 -6.6,11.6  -6.2,11.6 -4.7,11.6 "/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" points="-6.6,14.3  -6.0,14.3 -5.7,14.3 "/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-10.4" y1="14" x2="-10.4" y2="13.3043"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #000000" x1="-9.6" y1="13.3" x2="-11.2" y2="13.3"/>
+    <svg:polygon style="fill: #ffffff" points="-10.4,13.3043 -9.6,12.6957 -11.2,12.6957 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="-10.4,13.3043 -9.6,12.6957 -11.2,12.6957 "/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-9.6" y1="12.9" x2="-9.2" y2="13.2"/>
+    <svg:polygon style="fill: #000000" points="-9.2,13.0887 -9.2,13.2 -9.36,13.2 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="-9.2,13.0887 -9.2,13.2 -9.36,13.2 "/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-9.8" y1="13.0" x2="-9.4" y2="13.4"/>
+    <svg:polygon style="fill: #000000" points="-9.36,13.2626 -9.36,13.3739 -9.52,13.3739 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="-9.36,13.2626 -9.36,13.3739 -9.52,13.3739 "/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-10.4" y1="12.7" x2="-10.4" y2="12"/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Circuit2 - Relay</name>
+  <icon>relay.png</icon>
+  <connections>
+    <point x="3.6" y="17.2"/>
+    <point x="3.6" y="12.8"/> 
+    <point x="9.6" y="13"/>
+    <point x="9.6" y="17.2"/>
+    <point x="9.6" y="12.2"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="" height="">
+    <svg:rect style="fill: #ffffff" x="5.6" y="13.2" width="0.2" height="4.2"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="5.6" y="13.2" width="0.2" height="4.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 5 12.8 L 5,13.68 C 5.75,13.57 6.5,13.46 6.5,14.01 C 6.5,14.56 5,14.67 5,14.34 C 5,14.01 6.5,14.12 6.5,14.67 C 6.5,15.22 5,15.33 5,15 C 5,14.67 6.5,14.78 6.5,15.33 C 6.5,15.88 5,15.99 5,15.66 C 5,15.33 6.5,15.44 6.5,15.99 C 6.5,16.54 5.375,16.43 5,16.32 L 5,17.2"/>
+    <svg:rect style="fill: #ffffff" x="5.6" y="17.2" width="2.4" height="0.2"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="5.6" y="17.2" width="2.4" height="0.2"/>
+    <svg:rect style="fill: #ffffff" x="6.8" y="13" width="1.4" height="0.2"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="6.8" y="13" width="1.4" height="0.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #0000ff" x1="6.8" y1="13.2" x2="5.4" y2="12.4"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="3.6" y1="12.8" x2="5" y2="12.8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="3.6" y1="17.2" x2="5" y2="17.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="8.2" y1="13" x2="9.6" y2="13"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="9.6" y1="17.2" x2="8" y2="17.2"/>
+    <svg:rect style="fill: #ffffff" x="5.4" y="12.2" width="2.8" height="0.2"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="5.4" y="12.2" width="2.8" height="0.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="8.2" y1="12.2" x2="9.6" y2="12.2"/>
+  </svg:svg>
+</shape>

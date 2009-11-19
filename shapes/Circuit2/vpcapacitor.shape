@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Circuit2 - Vertical Polarized Capacitor</name>
+  <description>A vertically aligned polarized capacitor</description>
+  <icon>vpcapacitor.png</icon>
+  <connections>
+    <point x="0" y="0"/>
+    <point x="0" y="5"/>
+    <point x="0" y="2.5" main="yes"/>
+  </connections>
+  <svg:svg width="3.0" height="3.0">
+    <svg:line x1="0" y1="0" x2="0" y2="2" />
+    <svg:line x1="-1" y1="2" x2="1" y2="2" />
+    <svg:path style="fill: none; stroke-width: 1" d="M -1 4 C -0.6,2.7 0.6,2.7 1,4"/>
+
+    <svg:line x1="1" y1="0.5" x2="1" y2="1.5" />
+    <svg:line x1="0.5" y1="1.0" x2="1.5" y2="1.0" />
+
+    <svg:line x1="0.5" y1="4.5" x2="1.5" y2="4.5" />
+
+    <svg:line x1="0" y1="3" x2="0" y2="5" />
+  </svg:svg>
+</shape>
+

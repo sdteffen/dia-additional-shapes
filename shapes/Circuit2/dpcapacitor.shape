@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Circuit2 - Diagonal Polarized Capacitor</name>
+  <description>A diagonally aligned polarized capacitor</description>
+  <icon>dpcapacitor.png</icon>
+  <connections>
+    <point x="0" y="0" main="yes" />
+    <point x="4" y="4" />
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="4.0" height="4.0">
+    <svg:line x1="0" y1="0" x2="1" y2="1" />
+    <svg:line x1="0" y1="2" x2="2" y2="0" />
+
+    <svg:path style="fill: none; stroke-width: 1" d="M 2 4 C 2,3 3,2 4,2"/>
+
+    <svg:line x1="1" y1="0" x2="1" y2="0.5" />
+    <svg:line x1="0.75" y1="0.25" x2="1.25" y2="0.25" />
+
+    <svg:line x1="2.75" y1="4.0" x2="3.25" y2="4.0" />
+
+    <svg:line x1="2.6" y1="2.6" x2="4" y2="4" />
+  </svg:svg>
+</shape>
+

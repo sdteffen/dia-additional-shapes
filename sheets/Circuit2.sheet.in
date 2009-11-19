@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+  <_name>Circuit2</_name>
+  <_description>Diagonal and other components for circuit diagrams</_description>
+  <contents>
+    <object name="Circuit2 - Diagonal Resistor">
+      <_description>Diagonally aligned resistor</_description>
+    </object>
+    <object name="Circuit2 - Diagonal Inductor">
+      <_description>Diagonally aligned inductor</_description>
+    </object>
+    <object name="Circuit2 - Diagonal Resistor (European)">
+      <_description>Diagonally aligned resistor (European)</_description>
+    </object>
+    <object name="Circuit2 - Diagonal Inductor (European)">
+      <_description>Diagonally aligned inductor (European)</_description>
+    </object>
+    <br/>
+    <object name="Circuit2 - Diagonal Capacitor">
+      <_description>Diagonally aligned capacitor</_description>
+    </object>
+    <object name="Circuit2 - Horizontal Polarized Capacitor">
+       <_description>Horizontal Polarized Capacitor</_description>
+    </object>
+    <object name="Circuit2 - Vertical Polarized Capacitor">
+       <_description>Vertical Polarized Capacitor</_description>
+    </object>
+    <object name="Circuit2 - Diagonal Polarized Capacitor">
+      <_description>Diagonally aligned polarized capacitor</_description>
+    </object>
+
+    <br/>
+    <object name="Circuit2 - Diagonal Diode">
+      <_description>Diagonally aligned diode</_description>
+    </object>
+    <object name="Circuit2 - Diagonal Zener Diode">
+      <_description>Diagonally aligned zener diode</_description>
+    </object>
+
+    <object name="Circuit2 - Diagonal Led (European)">
+      <_description>Diagonally aligned LED</_description>
+    </object>
+    <object name="Circuit2 - Horizontal LED">
+       <_description>Horizontal LED</_description>
+    </object>
+    <object name="Circuit2 - Vertical LED">
+       <_description>Vertical LED</_description>
+    </object>
+
+    <br/>
+    <object name="Circuit2 - Sine Wave">
+     <_description>Sine Wave Source</_description>
+    </object>
+    <object name="Circuit2 - Square Wave">
+       <_description>Square Wave Source</_description>
+    </object>
+    <object name="Circuit2 - TRIAC">
+       <_description>TRIAC</_description>
+    </object>
+    <object name="Circuit2 - Optoisolator">
+       <_description>Optoisolator</_description>
+    </object>
+    <object name="Circuit2 - Relay">
+       <_description>Relay</_description>
+    </object>
+   <br/> 
+    <object name="Circuit2 - Triangle Wave">
+       <_description>Triangle Wave Source</_description>
+    </object>
+    <object name="Circuit2 - Ramp Wave">
+       <_description>Ramp Wave Source</_description>
+    </object>
+    <object name="Circuit2 - Vertical Ammeter">
+       <_description>Vertical Ammeter</_description>
+    </object>
+    <object name="Circuit2 - Vertical Voltmeter">
+       <_description>Vertical Voltmeter</_description>
+    </object>
+    <object name="Circuit2 - Horizontal Ammeter">
+       <_description>Horizontal Ammeter</_description>
+    </object>
+    <object name="Circuit2 - Horizontal Voltmeter">
+       <_description>Horizontal Voltmeter</_description>
+    </object>
+
+  </contents>
+</sheet>
