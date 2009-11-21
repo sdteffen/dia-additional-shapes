@@ -35,6 +35,7 @@ public class Sheet2Html
             Console.Error.WriteLine("Options:");
             Console.Error.WriteLine("--output-directory=DIR     Specify output directory");
             Console.Error.WriteLine("--author=AUTHOR            Specify sheet creator");
+	    Console.Error.WriteLine("--montage                  Create montage commandline (CSS sprites)");
             Console.Error.WriteLine("--ssi                      Include SSI comments");
             Console.Error.WriteLine("--comes-with-dia           Sheet is part of the Dia distribution");
             Console.Error.WriteLine("-v, --version              Display version and exit");
@@ -54,6 +55,7 @@ public class Sheet2Html
         string author = "";
         bool output_ssi = false;
         bool comes_with_dia = false;
+        bool montage = false;
 
         // Parse commandline arguments
         for (int i = 0; i < args.Length; i++)
@@ -69,12 +71,31 @@ public class Sheet2Html
 
             if ("--comes-with-dia" == args[i])
                 comes_with_dia = true;
+	    
+	   if ("--montage" == args[i])
+              montage = true;
         }
 
         XPathDocument document = new XPathDocument("sheets/" + args[args.Length-1] + ".sheet");
         XPathNavigator nav = document.CreateNavigator();
         XmlNamespaceManager manager = new XmlNamespaceManager(nav.NameTable);
         manager.AddNamespace("dia", "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns");
+
+        if(montage)
+	{
+   	    XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
+            query.SetContext(manager);
+            XPathNodeIterator links = nav.Select(query);
+ 	    string montagecmd = "montage -geometry +0+0 ";
+ 	    while (links.MoveNext())
+            {
+                string objectname = links.Current.GetAttribute("name", "");
+      		montagecmd += GetObjectIcon(args[args.Length-1], objectname) + " ";
+            }
+            montagecmd += " " + args[args.Length-1] + "-sprite.png";
+            Console.WriteLine(montagecmd);
+	    return;	
+        } 
 
         // Build language list
         ArrayList languages = new ArrayList();
@@ -140,6 +161,20 @@ public class Sheet2Html
             output.WriteEndElement();
 
             // @todo: Canonical URL
+
+            // CSS sprites
+ 	    output.WriteStartElement("style");
+	    XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
+            query.SetContext(manager);
+            XPathNodeIterator links = nav.Select(query);
+            int x=0;
+            //@todo complete
+            while (links.MoveNext())
+            {
+                string objectname = links.Current.GetAttribute("name", "");
+      		GetObjectIcon(args[args.Length-1], objectname);              
+            }
+	    output.WriteEndElement(); // style
 
             output.WriteEndElement(); // head
             output.WriteStartElement("body");
@@ -293,9 +328,9 @@ public class Sheet2Html
 
             output.WriteStartElement("table");
 
-            XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
+            query = nav.Compile("/dia:sheet/dia:contents/dia:object");
             query.SetContext(manager);
-            XPathNodeIterator links = nav.Select(query);
+            links = nav.Select(query);
 
             while (links.MoveNext())
             {
