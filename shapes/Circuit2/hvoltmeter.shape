@@ -8,11 +8,10 @@
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:ellipse style="fill: #ffffff" cx="7.9" cy="10.5" rx="1.5" ry="1.5"/>
-    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="7.9" cy="10.5" rx="1.5" ry="1.5"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="7.8" y1="11.2" x2="8.6" y2="9.6"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="7.8" y1="11.2" x2="7.2" y2="9.6"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="4.7" y1="10.5" x2="6.4" y2="10.5"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="9.4" y1="10.5" x2="11.1" y2="10.5"/>
+    <svg:ellipse style="fill: background" cx="7.9" cy="10.5" rx="1.5" ry="1.5"/>
+    <svg:line x1="7.8" y1="11.2" x2="8.6" y2="9.6"/>
+    <svg:line x1="7.8" y1="11.2" x2="7.2" y2="9.6"/>
+    <svg:line x1="4.7" y1="10.5" x2="6.4" y2="10.5"/>
+    <svg:line x1="9.4" y1="10.5" x2="11.1" y2="10.5"/>
   </svg:svg>
 </shape>

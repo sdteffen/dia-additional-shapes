@@ -15,7 +15,6 @@
     <object name="Circuit2 - Diagonal Inductor (European)">
       <_description>Diagonally aligned inductor (European)</_description>
     </object>
-    <br/>
     <object name="Circuit2 - Diagonal Capacitor">
       <_description>Diagonally aligned capacitor</_description>
     </object>
@@ -28,15 +27,12 @@
     <object name="Circuit2 - Diagonal Polarized Capacitor">
       <_description>Diagonally aligned polarized capacitor</_description>
     </object>
-
-    <br/>
     <object name="Circuit2 - Diagonal Diode">
       <_description>Diagonally aligned diode</_description>
     </object>
     <object name="Circuit2 - Diagonal Zener Diode">
       <_description>Diagonally aligned zener diode</_description>
     </object>
-
     <object name="Circuit2 - Diagonal Led (European)">
       <_description>Diagonally aligned LED</_description>
     </object>
@@ -46,8 +42,6 @@
     <object name="Circuit2 - Vertical LED">
        <_description>Vertical LED</_description>
     </object>
-
-    <br/>
     <object name="Circuit2 - Sine Wave">
      <_description>Sine Wave Source</_description>
     </object>
@@ -63,7 +57,6 @@
     <object name="Circuit2 - Relay">
        <_description>Relay</_description>
     </object>
-   <br/> 
     <object name="Circuit2 - Triangle Wave">
        <_description>Triangle Wave Source</_description>
     </object>
@@ -82,6 +75,5 @@
     <object name="Circuit2 - Horizontal Voltmeter">
        <_description>Horizontal Voltmeter</_description>
     </object>
-
   </contents>
 </sheet>

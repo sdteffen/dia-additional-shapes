@@ -1,4 +1,4 @@
-SUBDIRS = po samples shapes sheets src
+SUBDIRS = po samples sheets shapes src
 
 ACLOCAL_AMFLAGS = -I m4
 

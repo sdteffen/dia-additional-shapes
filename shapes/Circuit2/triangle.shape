@@ -8,10 +8,9 @@
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg width="" height="">
-    <svg:ellipse style="fill: #ffffff" cx="6.6" cy="10.2" rx="1.6" ry="1.6"/>
-    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="6.6" cy="10.2" rx="1.6" ry="1.6"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="6.6" y1="8.6" x2="6.6" y2="7"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="6.6" y1="13.5" x2="6.6" y2="11.8"/>
-    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="5.4,10.8 6.2,9.4 7,10.8 7.8,9.4 "/>
+    <svg:ellipse style="fill: background" cx="6.6" cy="10.2" rx="1.6" ry="1.6"/>
+    <svg:line x1="6.6" y1="8.6" x2="6.6" y2="7"/>
+    <svg:line x1="6.6" y1="13.5" x2="6.6" y2="11.8"/>
+    <svg:polyline points="5.4,10.8 6.2,9.4 7,10.8 7.8,9.4 "/>
   </svg:svg>
 </shape>

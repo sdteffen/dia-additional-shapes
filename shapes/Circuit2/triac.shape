@@ -10,8 +10,7 @@
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg width="11.8" height="8.2">
-    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="7" cy="7.6" rx="3.4" ry="3.4"/>
-    <svg:ellipse style="fill: #ffffff" cx="7" cy="7.6" rx="3.4" ry="3.4"/>
+    <svg:ellipse style="fill: background" cx="7" cy="7.6" rx="3.4" ry="3.4"/>
     <svg:polygon style="fill: #bfbfbf" points="4.2,7 7,7 5.6,8.2 "/>
     <svg:polygon style="fill: #bfbfbf" points="6.8,8.2 9.8,8.2 8.2,7 "/>
     <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="4.2,7 7,7 5.6,8.2 "/>
