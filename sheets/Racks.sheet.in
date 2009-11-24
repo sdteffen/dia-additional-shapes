@@ -2,7 +2,6 @@
 <sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
 <!-- Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher -->
   <_name>Racks</_name>
-  <_name xml:lang="cs_CZ">Racky</_name>
   <_description>Standard 19 inch racks and equipment</_description>
   <contents>
     <object name="Racks - Rack 42U">

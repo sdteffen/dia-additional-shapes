@@ -1,4 +1,5 @@
 # List of source files which contain translatable strings
+sheets/Circuit2.sheet.in
 sheets/electric2.sheet.in
 sheets/Racks.sheet.in
 

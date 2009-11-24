@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-21 21:45+0200\n"
+"POT-Creation-Date: 2009-11-24 23:24+0100\n"
 "PO-Revision-Date: 2009-10-28 06:07+0000\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
@@ -16,6 +16,111 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2009-10-28 07:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
+
+#: ../sheets/Circuit2.sheet.in.h:1
+msgid "Circuit2"
+msgstr "Schaltkreis2"
+
+#: ../sheets/Circuit2.sheet.in.h:2
+msgid "Diagonal and other components for circuit diagrams"
+msgstr "Diagonale und andere Bauteile für Schaltkreisdiagramme"
+
+#: ../sheets/Circuit2.sheet.in.h:3
+msgid "Diagonally aligned LED"
+msgstr "Diagonal ausgerichtete LED"
+
+#: ../sheets/Circuit2.sheet.in.h:4
+msgid "Diagonally aligned capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:5
+msgid "Diagonally aligned diode"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:6
+msgid "Diagonally aligned inductor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:7
+msgid "Diagonally aligned inductor (European)"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:8
+msgid "Diagonally aligned polarized capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:9
+msgid "Diagonally aligned resistor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:10
+msgid "Diagonally aligned resistor (European)"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:11
+msgid "Diagonally aligned zener diode"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:12
+msgid "Horizontal Ammeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:13
+msgid "Horizontal LED"
+msgstr "Horizontal ausgerichtete LED"
+
+#: ../sheets/Circuit2.sheet.in.h:14
+msgid "Horizontal Polarized Capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:15
+msgid "Horizontal Voltmeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:16
+#, fuzzy
+msgid "Optoisolator"
+msgstr "Isolationsschalter"
+
+#: ../sheets/Circuit2.sheet.in.h:17
+msgid "Ramp Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:18
+msgid "Relay"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:19
+msgid "Sine Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:20
+msgid "Square Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:21
+msgid "TRIAC"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:22
+msgid "Triangle Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:23
+msgid "Vertical Ammeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:24
+msgid "Vertical LED"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:25
+msgid "Vertical Polarized Capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:26
+msgid "Vertical Voltmeter"
+msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Additional Electric Symbols"
@@ -118,38 +223,18 @@ msgid "Power Strip - UTE, 8 sockets"
 msgstr "Mehrfachsteckdose, UTE, 8 Anschlüsse"
 
 #: ../sheets/Racks.sheet.in.h:20
-msgid "Půlrack 12U"
-msgstr "Půlrack 12HE"
-
-#: ../sheets/Racks.sheet.in.h:21
-msgid "Půlrack 16U"
-msgstr "Půlrack 16HE"
-
-#: ../sheets/Racks.sheet.in.h:22
-msgid "Půlrack 20U"
-msgstr "Půlrack 20HE"
-
-#: ../sheets/Racks.sheet.in.h:23
 msgid "Rack 38U"
 msgstr "Rack 38HE"
 
-#: ../sheets/Racks.sheet.in.h:24
+#: ../sheets/Racks.sheet.in.h:21
 msgid "Rack 42U"
 msgstr "Rack 42HE"
 
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
-#: ../sheets/Racks.sheet.in.h:26
+#: ../sheets/Racks.sheet.in.h:23
 msgid "Racks"
 msgstr "Racks"
 
-#: ../sheets/Racks.sheet.in.h:27
-msgid "Racky"
-msgstr ""
-
-#: ../sheets/Racks.sheet.in.h:28
+#: ../sheets/Racks.sheet.in.h:24
 msgid "Standard 19 inch racks and equipment"
 msgstr "Standard 19\" Racks und Geräte"
-
-#: ../sheets/Racks.sheet.in.h:29
-msgid "Standardní 19-palcové racky a vybavení"
-msgstr ""
