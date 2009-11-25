@@ -38,10 +38,10 @@
     <dia:attribute name="grid">
       <dia:composite type="grid">
         <dia:attribute name="width_x">
-          <dia:real val="1"/>
+          <dia:real val="0.20000000000000015"/>
         </dia:attribute>
         <dia:attribute name="width_y">
-          <dia:real val="1"/>
+          <dia:real val="0.20000000000000015"/>
         </dia:attribute>
         <dia:attribute name="visible_x">
           <dia:int val="1"/>
@@ -63,69 +63,24 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" active="true">
-    <dia:object type="Circuit2 - Diagonal Capacitor" version="1" id="O0">
+    <dia:object type="Circuit2 - Diagonal Diode" version="1" id="O0">
       <dia:attribute name="obj_pos">
-        <dia:point val="11,10"/>
+        <dia:point val="10.6,7.6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="10.9646,9.96464;13.0354,12.0354"/>
+        <dia:rectangle val="10.5074,7.50744;12.7061,9.70607"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="11,10"/>
+        <dia:point val="10.6,7.6"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="2"/>
+        <dia:real val="2.0000000000000018"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="2"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffffff"/>
-      </dia:attribute>
-      <dia:attribute name="show_background">
-        <dia:boolean val="true"/>
-      </dia:attribute>
-      <dia:attribute name="line_style">
-        <dia:enum val="0"/>
-        <dia:real val="1"/>
-      </dia:attribute>
-      <dia:attribute name="flip_horizontal">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="flip_vertical">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="subscale">
-        <dia:real val="1"/>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="Circuit2 - Diagonal Diode" version="1" id="O1">
-      <dia:attribute name="obj_pos">
-        <dia:point val="17,8"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="16.9074,7.90744;19.1061,10.1061"/>
-      </dia:attribute>
-      <dia:attribute name="meta">
-        <dia:composite type="dict"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="17,8"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="2"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="2"/>
+        <dia:real val="2.0000000000000018"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000149011612"/>
@@ -153,18 +108,18 @@
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Circuit2 - Diagonal Resistor (European)" version="1" id="O2">
+    <dia:object type="Circuit2 - Diagonal Resistor (European)" version="1" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="19,10"/>
+        <dia:point val="10.2,10.8"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="18.9646,9.96464;21.0354,12.0354"/>
+        <dia:rectangle val="10.1646,10.7646;12.2354,12.8354"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="19,10"/>
+        <dia:point val="10.2,10.8"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="2"/>
@@ -189,53 +144,8 @@
         <dia:real val="1"/>
       </dia:attribute>
       <dia:attribute name="flip_horizontal">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="flip_vertical">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="subscale">
-        <dia:real val="1"/>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="Circuit - Speaker (European)" version="1" id="O3">
-      <dia:attribute name="obj_pos">
-        <dia:point val="23,10"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.95,9.89597;25.05,12.104"/>
-      </dia:attribute>
-      <dia:attribute name="meta">
-        <dia:composite type="dict"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="23,10"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="2"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="2"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000149011612"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffff84"/>
-      </dia:attribute>
-      <dia:attribute name="show_background">
         <dia:boolean val="true"/>
       </dia:attribute>
-      <dia:attribute name="line_style">
-        <dia:enum val="0"/>
-        <dia:real val="1"/>
-      </dia:attribute>
-      <dia:attribute name="flip_horizontal">
-        <dia:boolean val="false"/>
-      </dia:attribute>
       <dia:attribute name="flip_vertical">
         <dia:boolean val="false"/>
       </dia:attribute>
@@ -243,7 +153,7 @@
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Circuit - Vertical Powersource (European)" version="1" id="O4">
+    <dia:object type="Circuit - Vertical Powersource (European)" version="1" id="O2">
       <dia:attribute name="obj_pos">
         <dia:point val="3,10"/>
       </dia:attribute>
@@ -288,42 +198,18 @@
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O5">
+    <dia:object type="Circuit2 - Diagonal Inductor" version="1" id="O3">
       <dia:attribute name="obj_pos">
-        <dia:point val="3.5,10"/>
+        <dia:point val="6.2,10.8"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="3.45,7.95;17.0496,10.05"/>
-      </dia:attribute>
-      <dia:attribute name="orth_points">
-        <dia:point val="3.5,10"/>
-        <dia:point val="3.5,8"/>
-        <dia:point val="16.9996,8"/>
-      </dia:attribute>
-      <dia:attribute name="orth_orient">
-        <dia:enum val="1"/>
-        <dia:enum val="0"/>
-      </dia:attribute>
-      <dia:attribute name="autorouting">
-        <dia:boolean val="true"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O4" connection="0"/>
-        <dia:connection handle="1" to="O1" connection="0"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Circuit2 - Diagonal Inductor" version="1" id="O6">
-      <dia:attribute name="obj_pos">
-        <dia:point val="7,10"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="6.96464,9.9253;9.08,12.0354"/>
+        <dia:rectangle val="6.16464,10.7646;8.28,12.8354"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="7,10"/>
+        <dia:point val="6.2,10.8"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="2.0800000000000001"/>
@@ -357,44 +243,18 @@
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O7">
-      <dia:attribute name="obj_pos">
-        <dia:point val="19,10"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="18.95,9.95;23.3833,11.05"/>
-      </dia:attribute>
-      <dia:attribute name="orth_points">
-        <dia:point val="19,10"/>
-        <dia:point val="23,10"/>
-        <dia:point val="23,11"/>
-        <dia:point val="23.3333,11"/>
-      </dia:attribute>
-      <dia:attribute name="orth_orient">
-        <dia:enum val="0"/>
-        <dia:enum val="1"/>
-        <dia:enum val="0"/>
-      </dia:attribute>
-      <dia:attribute name="autorouting">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O1" connection="1"/>
-        <dia:connection handle="1" to="O3" connection="3"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O8">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O4">
       <dia:attribute name="obj_pos">
         <dia:point val="3.5,13"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="3.45,11.95;21.05,14.05"/>
+        <dia:rectangle val="3.45,12.95;9.25,14.85"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
         <dia:point val="3.5,13"/>
-        <dia:point val="3.5,14"/>
-        <dia:point val="21,14"/>
-        <dia:point val="21,12"/>
+        <dia:point val="3.5,14.8"/>
+        <dia:point val="9.2,14.8"/>
+        <dia:point val="9.2,13.8"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
         <dia:enum val="1"/>
@@ -405,120 +265,21 @@
         <dia:boolean val="true"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O4" connection="1"/>
-        <dia:connection handle="1" to="O2" connection="1"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O9">
-      <dia:attribute name="obj_pos">
-        <dia:point val="21,12"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="20.95,10.95;23.3833,12.05"/>
-      </dia:attribute>
-      <dia:attribute name="orth_points">
-        <dia:point val="21,12"/>
-        <dia:point val="23,12"/>
-        <dia:point val="23,11"/>
-        <dia:point val="23.3333,11"/>
-      </dia:attribute>
-      <dia:attribute name="orth_orient">
-        <dia:enum val="0"/>
-        <dia:enum val="1"/>
-        <dia:enum val="0"/>
-      </dia:attribute>
-      <dia:attribute name="autorouting">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:connections>
         <dia:connection handle="0" to="O2" connection="1"/>
-        <dia:connection handle="1" to="O3" connection="3"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O10">
+    <dia:object type="Circuit2 - Horizontal Ammeter" version="1" id="O5">
       <dia:attribute name="obj_pos">
-        <dia:point val="6.99976,9.99976"/>
+        <dia:point val="3.4,5.2"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="4.92929,7.92929;7.07047,10.0705"/>
-      </dia:attribute>
-      <dia:attribute name="conn_endpoints">
-        <dia:point val="6.99976,9.99976"/>
-        <dia:point val="5,8"/>
-      </dia:attribute>
-      <dia:attribute name="numcp">
-        <dia:int val="1"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O6" connection="0"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O11">
-      <dia:attribute name="obj_pos">
-        <dia:point val="10.9998,9.99976"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.92953,7.92953;11.0705,10.0705"/>
-      </dia:attribute>
-      <dia:attribute name="conn_endpoints">
-        <dia:point val="10.9998,9.99976"/>
-        <dia:point val="9.00024,8.00024"/>
-      </dia:attribute>
-      <dia:attribute name="numcp">
-        <dia:int val="1"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O0" connection="0"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O12">
-      <dia:attribute name="obj_pos">
-        <dia:point val="11,14"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.92929,11.9293;11.0707,14.0707"/>
-      </dia:attribute>
-      <dia:attribute name="conn_endpoints">
-        <dia:point val="11,14"/>
-        <dia:point val="9,12"/>
-      </dia:attribute>
-      <dia:attribute name="numcp">
-        <dia:int val="1"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="1" to="O6" connection="1"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O13">
-      <dia:attribute name="obj_pos">
-        <dia:point val="15,14"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.9293,11.9293;15.0707,14.0707"/>
-      </dia:attribute>
-      <dia:attribute name="conn_endpoints">
-        <dia:point val="15,14"/>
-        <dia:point val="13,12"/>
-      </dia:attribute>
-      <dia:attribute name="numcp">
-        <dia:int val="1"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="1" to="O0" connection="1"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Circuit2 - Horizontal Ammeter" version="1" id="O14">
-      <dia:attribute name="obj_pos">
-        <dia:point val="12,7"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="12,6.95;16.2667,9.05"/>
+        <dia:rectangle val="3.4,5.15;7.66667,7.25"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="12,7"/>
+        <dia:point val="3.4,5.2"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="4.2666666666666657"/>
@@ -552,7 +313,7 @@
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Circuit2 - Vertical Voltmeter" version="1" id="O15">
+    <dia:object type="Circuit2 - Vertical Voltmeter" version="1" id="O6">
       <dia:attribute name="obj_pos">
         <dia:point val="0,9"/>
       </dia:attribute>
@@ -597,17 +358,17 @@
         <dia:real val="1"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O16">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O7">
       <dia:attribute name="obj_pos">
         <dia:point val="3.5,10"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="0.807143,7.95;3.55,10.05"/>
+        <dia:rectangle val="0.807143,6.15;3.55,10.05"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
         <dia:point val="3.5,10"/>
-        <dia:point val="3.5,8"/>
-        <dia:point val="0.857143,8"/>
+        <dia:point val="3.5,6.2"/>
+        <dia:point val="0.857143,6.2"/>
         <dia:point val="0.857143,9"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
@@ -616,25 +377,25 @@
         <dia:enum val="1"/>
       </dia:attribute>
       <dia:attribute name="autorouting">
-        <dia:boolean val="true"/>
+        <dia:boolean val="false"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O4" connection="0"/>
-        <dia:connection handle="1" to="O15" connection="0"/>
+        <dia:connection handle="0" to="O2" connection="0"/>
+        <dia:connection handle="1" to="O6" connection="0"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O17">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O8">
       <dia:attribute name="obj_pos">
         <dia:point val="0.857143,12.6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="0.807143,12.55;3.55,14.05"/>
+        <dia:rectangle val="0.807143,12.55;3.59286,14.85"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
         <dia:point val="0.857143,12.6"/>
-        <dia:point val="0.857143,14"/>
-        <dia:point val="3.5,14"/>
-        <dia:point val="3.5,13"/>
+        <dia:point val="0.857143,14.8"/>
+        <dia:point val="3.54286,14.8"/>
+        <dia:point val="3.54286,14.6"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
         <dia:enum val="1"/>
@@ -642,12 +403,248 @@
         <dia:enum val="1"/>
       </dia:attribute>
       <dia:attribute name="autorouting">
-        <dia:boolean val="true"/>
+        <dia:boolean val="false"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O15" connection="1"/>
-        <dia:connection handle="1" to="O4" connection="1"/>
+        <dia:connection handle="0" to="O6" connection="1"/>
       </dia:connections>
+    </dia:object>
+    <dia:object type="Circuit2 - Diagonal Capacitor" version="1" id="O9">
+      <dia:attribute name="obj_pos">
+        <dia:point val="6.2,7.2"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="6.16464,7.16464;8.23536,9.23536"/>
+      </dia:attribute>
+      <dia:attribute name="meta">
+        <dia:composite type="dict"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="6.2,7.2"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000149011612"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_style">
+        <dia:enum val="0"/>
+        <dia:real val="1"/>
+      </dia:attribute>
+      <dia:attribute name="flip_horizontal">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="flip_vertical">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="subscale">
+        <dia:real val="1"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O10">
+      <dia:attribute name="obj_pos">
+        <dia:point val="6.2,9.2"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="5.32929,9.12929;6.27071,10.0707"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="6.2,9.2"/>
+        <dia:point val="5.4,10"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O9" connection="1"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O11">
+      <dia:attribute name="obj_pos">
+        <dia:point val="5.4,10"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="5.32929,9.92929;6.27052,10.8705"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="5.4,10"/>
+        <dia:point val="6.1998,10.7998"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="1" to="O3" connection="0"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O12">
+      <dia:attribute name="obj_pos">
+        <dia:point val="8.20024,7.19976"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="8.12953,6.12929;9.27071,7.27047"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="8.20024,7.19976"/>
+        <dia:point val="9.2,6.2"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O9" connection="0"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O13">
+      <dia:attribute name="obj_pos">
+        <dia:point val="10.5997,7.59966"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="9.12929,6.12929;10.6704,7.67037"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="10.5997,7.59966"/>
+        <dia:point val="9.2,6.2"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O0" connection="0"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O14">
+      <dia:attribute name="obj_pos">
+        <dia:point val="12.6,9.6"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="12.5293,9.52929;13.0707,10.0707"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="12.6,9.6"/>
+        <dia:point val="13,10"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O0" connection="1"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O15">
+      <dia:attribute name="obj_pos">
+        <dia:point val="12.2002,10.7998"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="12.1295,9.92929;13.0707,10.8705"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="12.2002,10.7998"/>
+        <dia:point val="13,10"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O1" connection="0"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O16">
+      <dia:attribute name="obj_pos">
+        <dia:point val="8.2,12.8"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="8.12958,12.7296;9.27042,14.0704"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="8.2,12.8"/>
+        <dia:point val="9.2,14"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O3" connection="1"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O17">
+      <dia:attribute name="obj_pos">
+        <dia:point val="9.2,13.8"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="9.12929,12.7293;10.2707,13.8707"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="9.2,13.8"/>
+        <dia:point val="10.2,12.8"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="1" to="O1" connection="1"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O18">
+      <dia:attribute name="obj_pos">
+        <dia:point val="7.66667,6.2"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="7.61667,6.15;9.25,6.25"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="7.66667,6.2"/>
+        <dia:point val="9.2,6.2"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O5" connection="1"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O19">
+      <dia:attribute name="obj_pos">
+        <dia:point val="5.6,10"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="5.55,9.95;8.65,10.05"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="5.6,10"/>
+        <dia:point val="8.6,10"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O20">
+      <dia:attribute name="obj_pos">
+        <dia:point val="10.2,10"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="10.15,9.95;13.05,10.05"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="10.2,10"/>
+        <dia:point val="13,10"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
     </dia:object>
   </dia:layer>
 </dia:diagram>
