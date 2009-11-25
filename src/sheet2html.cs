@@ -86,13 +86,16 @@ public class Sheet2Html
    	    XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
             query.SetContext(manager);
             XPathNodeIterator links = nav.Select(query);
- 	    string montagecmd = "montage -geometry +0+0 ";
+ 	    string montagecmd = "montage -geometry +0+0 -tile ";
+            int objectcount = 0;
+            string files = "";
  	    while (links.MoveNext())
             {
                 string objectname = links.Current.GetAttribute("name", "");
-      		montagecmd += GetObjectIcon(args[args.Length-1], objectname) + " ";
+      		files += GetObjectIcon(args[args.Length-1], objectname) + " ";
+		objectcount++;
             }
-            montagecmd += " " + args[args.Length-1] + "-sprite.png";
+            montagecmd += objectcount + "x1 " + files + " " + args[args.Length-1] + "-sprite.png";
             Console.WriteLine(montagecmd);
 	    return;	
         } 
@@ -164,15 +167,17 @@ public class Sheet2Html
 
             // CSS sprites
  	    output.WriteStartElement("style");
+	    output.WriteString(".icon { width: 22px; height: 22px; }");
 	    XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
             query.SetContext(manager);
             XPathNodeIterator links = nav.Select(query);
             int x=0;
-            //@todo complete
             while (links.MoveNext())
             {
                 string objectname = links.Current.GetAttribute("name", "");
-      		GetObjectIcon(args[args.Length-1], objectname);              
+      		GetObjectIcon(args[args.Length-1], objectname);
+		output.WriteString("." + GetObjectIcon(args[args.Length-1], objectname).Replace(".png","") + " {background: transparent url(images/"+args[args.Length-1]+"-sprite.png) -"+x+"px 0px no-repeat;}\n");
+		x += 22;
             }
 	    output.WriteEndElement(); // style
 
@@ -341,13 +346,11 @@ public class Sheet2Html
                 XPathNodeIterator objectdescriptions = nav.Select(descquery);
                 string objectdescription = GetValueI18n(language, objectdescriptions);
                 output.WriteStartElement("td");
-                output.WriteStartElement("img");
-                // @todo Verify that image exists
-                // @todo Use CSS sprites
-                output.WriteAttributeString("alt", objectdescription);
-                output.WriteAttributeString("src", "images/" + GetObjectIcon(args[args.Length-1], objectname));
-                output.WriteEndElement();
-                output.WriteEndElement();
+		output.WriteStartElement("div");
+		output.WriteAttributeString("class", "icon "+GetObjectIcon(args[args.Length-1], objectname).Replace(".png",""));
+		output.WriteString(" ");
+		output.WriteEndElement(); // div 
+                output.WriteEndElement(); // td
                 output.WriteElementString("td", objectdescription);
 
                 output.WriteEndElement(); // tr
