@@ -363,7 +363,7 @@ public class Sheet2Html
             if(output_ssi)
 	    {
                 output.WriteComment("#include virtual=\"/include/"+includelanguage+"/footer_yaml.html\"");
-		output.WriteComment("#incude virtual=\"include/tail_yaml.html\"");
+		output.WriteComment("#include virtual=\"/include/tail_yaml.html\"");
 	    }
             
             output.WriteEndElement(); // div main
