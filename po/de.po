@@ -31,39 +31,39 @@ msgstr "Diagonal ausgerichtete LED"
 
 #: ../sheets/Circuit2.sheet.in.h:4
 msgid "Diagonally aligned capacitor"
-msgstr ""
+msgstr "Diagonal ausgerichteter Kondensator"
 
 #: ../sheets/Circuit2.sheet.in.h:5
 msgid "Diagonally aligned diode"
-msgstr ""
+msgstr "Diagonal ausgerichtete Diode"
 
 #: ../sheets/Circuit2.sheet.in.h:6
 msgid "Diagonally aligned inductor"
-msgstr ""
+msgstr "Diagonal ausgerichtete Drosselspule"
 
 #: ../sheets/Circuit2.sheet.in.h:7
 msgid "Diagonally aligned inductor (European)"
-msgstr ""
+msgstr "Diagonal ausgerichtete Drosselspule (Europäisch)"
 
 #: ../sheets/Circuit2.sheet.in.h:8
 msgid "Diagonally aligned polarized capacitor"
-msgstr ""
+msgstr "Diagonal ausgerichteter gepolter Kondensator"
 
 #: ../sheets/Circuit2.sheet.in.h:9
 msgid "Diagonally aligned resistor"
-msgstr ""
+msgstr "Diagonal ausgerichteter Widerstand"
 
 #: ../sheets/Circuit2.sheet.in.h:10
 msgid "Diagonally aligned resistor (European)"
-msgstr ""
+msgstr "Diagonal ausgerichteter Widerstand (Europäisch)"
 
 #: ../sheets/Circuit2.sheet.in.h:11
 msgid "Diagonally aligned zener diode"
-msgstr ""
+msgstr "Diagonal ausgerichtete Zener-Diode"
 
 #: ../sheets/Circuit2.sheet.in.h:12
 msgid "Horizontal Ammeter"
-msgstr ""
+msgstr "Horizontal ausgerichtetes Amperemeter"
 
 #: ../sheets/Circuit2.sheet.in.h:13
 msgid "Horizontal LED"
@@ -71,56 +71,56 @@ msgstr "Horizontal ausgerichtete LED"
 
 #: ../sheets/Circuit2.sheet.in.h:14
 msgid "Horizontal Polarized Capacitor"
-msgstr ""
+msgstr "Horizontal ausgerichteter gepolter Kondensator"
 
 #: ../sheets/Circuit2.sheet.in.h:15
 msgid "Horizontal Voltmeter"
-msgstr ""
+msgstr "Horizontal ausgerichtetes Voltmeter"
 
 #: ../sheets/Circuit2.sheet.in.h:16
 #, fuzzy
 msgid "Optoisolator"
-msgstr "Isolationsschalter"
+msgstr "Optoisolator"
 
 #: ../sheets/Circuit2.sheet.in.h:17
 msgid "Ramp Wave Source"
-msgstr ""
+msgstr "Sägezahnwellengenerator"
 
 #: ../sheets/Circuit2.sheet.in.h:18
 msgid "Relay"
-msgstr ""
+msgstr "Relais"
 
 #: ../sheets/Circuit2.sheet.in.h:19
 msgid "Sine Wave Source"
-msgstr ""
+msgstr "Sinuswellengenerator"
 
 #: ../sheets/Circuit2.sheet.in.h:20
 msgid "Square Wave Source"
-msgstr ""
+msgstr "Rechteckgenerator"
 
 #: ../sheets/Circuit2.sheet.in.h:21
 msgid "TRIAC"
-msgstr ""
+msgstr "Triac"
 
 #: ../sheets/Circuit2.sheet.in.h:22
 msgid "Triangle Wave Source"
-msgstr ""
+msgstr "Dreieckwellengenerator"
 
 #: ../sheets/Circuit2.sheet.in.h:23
 msgid "Vertical Ammeter"
-msgstr ""
+msgstr "Vertikal ausgerichtetes Amperemeter"
 
 #: ../sheets/Circuit2.sheet.in.h:24
 msgid "Vertical LED"
-msgstr ""
+msgstr "Vertikal ausgerichtete LED"
 
 #: ../sheets/Circuit2.sheet.in.h:25
 msgid "Vertical Polarized Capacitor"
-msgstr ""
+msgstr "Vertikal ausgerichteter gepolter Kondensator"
 
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Vertical Voltmeter"
-msgstr ""
+msgstr "Vertikal ausgerichtetes Voltmeter"
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Additional Electric Symbols"
