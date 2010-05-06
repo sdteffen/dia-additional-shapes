@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Building Site - Road Rotated Tee</name>
+  <icon>road_rotated_tee.png</icon>
+  <connections>
+    <point x="3" y="5"/>
+    <point x="3" y="1"/>
+    <point x="3" y="3" main="yes"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:path style="fill: default; stroke: none;" d="M 3 5 C 3,4.3 3,1.8 3,1 C 3.9,1 4.5,1 5,1 C 5,1.7 5.3,2 6,2 C 6,2.46667 6,3.5 6,4 C 5.3,4 5,4.3 5,5 C 4,5 3.5,5 3,5z"/>
+    <svg:path d="M 5 5 C 5,4.3 5.3,4 6,4"/>
+    <svg:path d="M 6 2 C 5.3,2 5,1.7 5,1.0125"/>
+    <svg:line x1="3" y1="5" x2="3" y2="1"/>
+  </svg:svg>
+</shape>

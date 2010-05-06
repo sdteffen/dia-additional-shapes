@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Building Site - Vertical Slope</name>
+  <icon>slope_vertical.png</icon>
+  <connections>
+    <point y="2.5" x="1" main="yes"/>
+    <point y="5" x="1"/>
+    <point y="0" x="1"/>
+  </connections>
+  <svg:svg>
+    <svg:line y1="0" x1="1" y2="5" x2="1"/>
+    <svg:line y1="0" x1="0" y2="0" x2="1"/>
+    <svg:line y1="1" x1="0" y2="1" x2="1"/>
+    <svg:line y1="2" x1="0" y2="2" x2="1"/>
+    <svg:line y1="3" x1="0" y2="3" x2="1"/>
+    <svg:line y1="4" x1="0" y2="4" x2="1"/>
+    <svg:line y1="5" x1="0" y2="5" x2="1"/>
+    <svg:line y1="0.5" x1="0.5" y2="0.5" x2="1"/>
+    <svg:line y1="1.5" x1="0.5" y2="1.5" x2="1"/>
+    <svg:line y1="2.5" x1="0.5" y2="2.5" x2="1"/>
+    <svg:line y1="3.5" x1="0.5" y2="3.5" x2="1"/>
+    <svg:line y1="4.5" x1="0.5" y2="4.5" x2="1"/>
+  </svg:svg>
+</shape>

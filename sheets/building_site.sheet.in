@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+  <_name>Building Site</_name>
+  <_description>Building Site Equipment</_description>
+  <contents>
+    <object name="Building Site - Horizontal Road">
+      <_description>Road (horizontal)</_description>
+    </object>
+    <object name="Building Site - Vertical Road">
+      <_description>Road (vertical)</_description>
+    </object>
+    <object name="Building Site - Road Turn">
+      <_description>Road (turn)</_description>
+    </object>
+    <object name="Building Site - Road Tee">
+      <_description>Road (tee)</_description>
+    </object>
+    <object name="Building Site - Road Rotated Tee">
+      <_description>Road (rotated tee)</_description>
+    </object>
+    <object name="Building Site - Road Crossroads">
+      <_description>Road (crossroads)</_description>
+    </object>
+    <object name="Building Site - Horizontal Fence">
+      <_description>Fence (horizontal)</_description>
+    </object>
+    <object name="Building Site - Vertical Fence">
+      <_description>Fence (vertical)</_description>
+    </object>
+    <object name="Building Site - Horizontal Slope">
+      <_description>Slope (horizontal)</_description>
+    </object>
+    <object name="Building Site - Vertical Slope">
+      <_description>Slope (vertical)</_description>
+    </object>
+    <object name="Building Site - Horizontal Wall">
+      <_description>Wall (horizontal)</_description>
+    </object>
+    <object name="Building Site - Vertical Wall">
+      <_description>Wall (vertical)</_description>
+    </object>
+  </contents>
+</sheet>
