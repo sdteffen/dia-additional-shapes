@@ -4,7 +4,7 @@
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007, 2009 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009, 2010 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -36,7 +36,7 @@ public class Sheet2Html
             Console.Error.WriteLine("--output-directory=DIR     Specify output directory");
             Console.Error.WriteLine("--author=AUTHOR            Specify sheet creator");
 	    Console.Error.WriteLine("--montage                  Create montage commandline (CSS sprites)");
-            Console.Error.WriteLine("--ssi                      Include SSI comments");
+            Console.Error.WriteLine("--tpl                      Create Smarty Template");
             Console.Error.WriteLine("--comes-with-dia           Sheet is part of the Dia distribution");
             Console.Error.WriteLine("-v, --version              Display version and exit");
             Console.Error.WriteLine("-h, --help                 Display help and exit");
@@ -45,17 +45,18 @@ public class Sheet2Html
 
         if ("-v" == args[0] || "--version" == args[0])
         {
-            Console.Error.WriteLine("sheet2html 0.1.0");
-            Console.Error.WriteLine("Copyright (c) 2007, 2009 Steffen Macke");
+            Console.Error.WriteLine("sheet2html 0.2.0");
+            Console.Error.WriteLine("Copyright (c) 2007, 2009, 2010 Steffen Macke");
             return;
         }
 
         // Defaults
         System.IO.DirectoryInfo outputdir = new System.IO.DirectoryInfo(".");
         string author = "";
-        bool output_ssi = false;
+        bool output_tpl = false;
         bool comes_with_dia = false;
         bool montage = false;
+        string output_suffix = "html";
 
         // Parse commandline arguments
         for (int i = 0; i < args.Length; i++)
@@ -66,8 +67,11 @@ public class Sheet2Html
             if (9 < args[i].Length && "--author=" == args[i].Substring(0, 9))
                 author = args[i].Substring(9);
 
-            if ("--ssi" == args[i])
-                output_ssi = true;
+            if ("--tpl" == args[i])
+		{
+                output_tpl = true;
+		output_suffix = "tpl";
+		}
 
             if ("--comes-with-dia" == args[i])
                 comes_with_dia = true;
@@ -119,14 +123,21 @@ public class Sheet2Html
             string includelanguage = "en";
             if ("de" == language)
                 includelanguage = "de";
-            XmlTextWriter output = new XmlTextWriter(outputdir.ToString()+"/index.html."+language,System.Text.Encoding.UTF8);
+            XmlTextWriter output = new XmlTextWriter(outputdir.ToString()+"/index."+output_suffix+"."+language,System.Text.Encoding.UTF8);
             output.Formatting = Formatting.Indented;
-            output.WriteDocType("html","-//W3C//DTD XHTML 1.0 Transitional//EN", "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd","");
+            //output.WriteDocType("html","-//W3C//DTD XHTML 1.0 Transitional//EN", "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd","");
+	    if (output_tpl)
+	{
+	    output.WriteRaw("{include file='header.tpl' language='"+includelanguage+"'}");
+}
+else
+{
             output.WriteStartElement("html");
             output.WriteAttributeString("xmlns", "http://www.w3.org/1999/xhtml");
             output.WriteAttributeString("lang", language);
             output.WriteAttributeString("xml:lang", language);
             output.WriteStartElement("head");
+}
             names = nav.Select(namequery);
             string sheetname = GetValueI18n(language, names);
             output.WriteElementString("title", sheetname);
@@ -136,7 +147,7 @@ public class Sheet2Html
             output.WriteAttributeString("content", "text/html; charset=utf-8");
             output.WriteEndElement();
 
-            if (output_ssi)
+            if (output_tpl)
             {
                 output.WriteComment("#include virtual=\"/include/head_yaml.html\"");
                 output.WriteStartElement("script");
@@ -163,8 +174,6 @@ public class Sheet2Html
             output.WriteAttributeString("content", sheetdescription);
             output.WriteEndElement();
 
-            // @todo: Canonical URL
-
             // CSS sprites
  	    output.WriteStartElement("style");
 	    output.WriteString(".icon { width: 22px; height: 22px; }");
@@ -180,28 +189,16 @@ public class Sheet2Html
 		x += 22;
             }
 	    output.WriteEndElement(); // style
-
+           if (output_tpl)
+{
+output.WriteRaw("{{include file='body.tpl' folder='/shapes page='/shapes/"+args[args.Length-1]+"/index.html' page_title='"+sheetname+"'}");
+}
+else
+{
             output.WriteEndElement(); // head
             output.WriteStartElement("body");
-            output.WriteStartElement("div");
-            output.WriteAttributeString("class", "page_margins");
-            output.WriteStartElement("div");
-            output.WriteAttributeString("class", "page");
-            
-            if(output_ssi)
-                output.WriteComment("#include virtual=\"/include/"+includelanguage+"/header_yaml.html\"");
-
-            output.WriteStartElement("div");
-            output.WriteAttributeString("id", "main");
-            output.WriteStartElement("div");
-            output.WriteAttributeString("id", "col1");
-            output.WriteStartElement("div");
-            output.WriteAttributeString("id", "col1_content");
-            output.WriteAttributeString("class", "clearfix");
-
-            if (output_ssi)
-                output.WriteComment("#include virtual=\"/include/block.html\"");
-
+}
+         
             output.WriteElementString("h1", sheetname);
             output.WriteStartElement("div");
             output.WriteString(sheetdescription);
@@ -313,7 +310,7 @@ public class Sheet2Html
                 output.WriteEndElement(); // div
             }
 
-            if (output_ssi)
+            if (output_tpl)
                 output.WriteComment("#include virtual=\"/include/block.html\"");
 
             output.WriteEndElement(); // div col1_content
@@ -360,7 +357,7 @@ public class Sheet2Html
             output.WriteEndElement(); // div col3_content
             output.WriteEndElement(); // div col3
 
-            if(output_ssi)
+            if(output_tpl)
 	    {
                 output.WriteComment("#include virtual=\"/include/"+includelanguage+"/footer_yaml.html\"");
 		output.WriteComment("#include virtual=\"/include/tail_yaml.html\"");
@@ -425,5 +422,4 @@ public class Sheet2Html
     }
 
 }
-
 
