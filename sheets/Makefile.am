@@ -6,7 +6,8 @@ sheet_in_files = \
   building_site.sheet.in \
   Circuit2.sheet.in \
   electric2.sheet.in \
-  Racks.sheet.in
+  Racks.sheet.in \
+  value_stream_mapping.sheet.in
 
 SHEETS = $(sheet_in_files:.sheet.in=.sheet)
 

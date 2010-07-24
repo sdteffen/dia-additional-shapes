@@ -1,16 +1,16 @@
-# Additional objects for Dia
-# Copyright (C) 2009 Steffen Macke
-# This file is distributed under the same license as the Dia package
-# Steffen Macke <sdteffen@sdteffen.de>, 2009.
+# Spanish translation for dia-additional-shapes
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the dia-additional-shapes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.0.1\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: dia-additional-shapes\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-10-21 21:45+0200\n"
-"PO-Revision-Date: 2010-01-26 19:21+0000\n"
-"Last-Translator: jojolebestof <Unknown>\n"
-"Language-Team: French <sdteffen@sdteffen.de>\n"
+"PO-Revision-Date: 2010-02-04 00:32+0000\n"
+"Last-Translator: Antonio Maldonado <Unknown>\n"
+"Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,137 +19,137 @@ msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Additional Electric Symbols"
-msgstr "Symboles électriques additionnels"
+msgstr "Símbolos electricos adicionales"
 
 #: ../sheets/electric2.sheet.in.h:2
 msgid "CKT Breaker"
-msgstr "Disjoncteur"
+msgstr "Disyuntor CKT"
 
 #: ../sheets/electric2.sheet.in.h:3
 msgid "Electric 2"
-msgstr "Électrique 2"
+msgstr "Eléctrico 2"
 
 #: ../sheets/electric2.sheet.in.h:4
 msgid "Generator"
-msgstr "Générateur électrique"
+msgstr "Generador"
 
 #: ../sheets/electric2.sheet.in.h:5
 msgid "Isolator"
-msgstr "Interrupteur"
+msgstr "Aislador"
 
 #: ../sheets/electric2.sheet.in.h:6
 msgid "Transformer"
-msgstr "Transformateur électrique"
+msgstr "Transformador"
 
 #: ../sheets/Racks.sheet.in.h:1
 msgid "Generic 10U Equipment"
-msgstr "Equipement générique 10U"
+msgstr "Equipo genérico 10U"
 
 #: ../sheets/Racks.sheet.in.h:2
 msgid "Generic 11U Equipment"
-msgstr "Equipements génériques 11U"
+msgstr "Equipo genérico 11U"
 
 #: ../sheets/Racks.sheet.in.h:3
 msgid "Generic 12U Equipment"
-msgstr "Equipement générique 12U"
+msgstr "Equipo genérico 12U"
 
 #: ../sheets/Racks.sheet.in.h:4
 msgid "Generic 1U Equipment"
-msgstr "Equipement générique 1U"
+msgstr "Equipo genérico 1U"
 
 #: ../sheets/Racks.sheet.in.h:5
 msgid "Generic 2U Equipment"
-msgstr "Equipement générique 2U"
+msgstr "Equipo genérico 2U"
 
 #: ../sheets/Racks.sheet.in.h:6
 msgid "Generic 3U Equipment"
-msgstr "Equipement générique 3U"
+msgstr "Equipo genérico 3U"
 
 #: ../sheets/Racks.sheet.in.h:7
 msgid "Generic 4U Equipment"
-msgstr "Equipement générique 4U"
+msgstr "Equipo genérico 4U"
 
 #: ../sheets/Racks.sheet.in.h:8
 msgid "Generic 5U Equipment"
-msgstr "Equipement générique 3U"
+msgstr "Equipo genérico 5U"
 
 #: ../sheets/Racks.sheet.in.h:9
 msgid "Generic 6U Equipment"
-msgstr "Equipement générique 5U"
+msgstr "Equipo genérico 6U"
 
 #: ../sheets/Racks.sheet.in.h:10
 msgid "Generic 7U Equipment"
-msgstr "Equipement générique 7U"
+msgstr "Equipo genérico 7U"
 
 #: ../sheets/Racks.sheet.in.h:11
 msgid "Generic 8U Equipment"
-msgstr "Equipement générique 8U"
+msgstr "Equipo genérico 8U"
 
 #: ../sheets/Racks.sheet.in.h:12
 msgid "Generic 9U Equipment"
-msgstr "Equipement générique 9U"
+msgstr "Equipo genérico 9U"
 
 #: ../sheets/Racks.sheet.in.h:13
 msgid "Half-Rack 12U"
-msgstr "Demi rack 12U"
+msgstr "Medio estante 12U"
 
 #: ../sheets/Racks.sheet.in.h:14
 msgid "Half-Rack 16U"
-msgstr "Demi rack 16U"
+msgstr "Medio estante 16U"
 
 #: ../sheets/Racks.sheet.in.h:15
 msgid "Half-Rack 20U"
-msgstr "Demi rack 20U"
+msgstr "Medio estante 20U"
 
 #: ../sheets/Racks.sheet.in.h:16
 msgid "Label Anchors, 42U"
-msgstr "Ancres étiquette 42U"
+msgstr "Etiquetas anclas, 42U"
 
 #: ../sheets/Racks.sheet.in.h:17
 msgid "Power Strip - British Standard, 7 sockets"
-msgstr "Multiprise, standard britannique, 7 sorties"
+msgstr "Contácto múltiple - Estandar británico, 7 enchufes"
 
 #: ../sheets/Racks.sheet.in.h:18
 msgid "Power Strip - Schuko, 8 sockets"
-msgstr "Multiprise Schuko, 8 sorties"
+msgstr "Contácto múltiple - Schuko, 8 enchufes"
 
 #: ../sheets/Racks.sheet.in.h:19
 msgid "Power Strip - UTE, 8 sockets"
-msgstr "Multiprise UTE, 8 sorties"
+msgstr "Contácto múltiple - UTE, 8 enchufes"
 
 #: ../sheets/Racks.sheet.in.h:20
 msgid "Půlrack 12U"
-msgstr "Demi rack 12U"
+msgstr "Medio estante 12U"
 
 #: ../sheets/Racks.sheet.in.h:21
 msgid "Půlrack 16U"
-msgstr "Demi rack 16U"
+msgstr "Medio estante 16U"
 
 #: ../sheets/Racks.sheet.in.h:22
 msgid "Půlrack 20U"
-msgstr "Demi rack 20U"
+msgstr "Medio estante 20U"
 
 #: ../sheets/Racks.sheet.in.h:23
 msgid "Rack 38U"
-msgstr "Rack 38U"
+msgstr "Estante 38U"
 
 #: ../sheets/Racks.sheet.in.h:24
 msgid "Rack 42U"
-msgstr "Rack 42U"
+msgstr "Estante 42U"
 
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
 #: ../sheets/Racks.sheet.in.h:26
 msgid "Racks"
-msgstr "Racks"
+msgstr "Estante"
 
 #: ../sheets/Racks.sheet.in.h:27
 msgid "Racky"
-msgstr "Rack"
+msgstr "Estante"
 
 #: ../sheets/Racks.sheet.in.h:28
 msgid "Standard 19 inch racks and equipment"
-msgstr "Racks et équipements standarts de 19 pouces"
+msgstr "Estante y equipo estándar de 19 pulgadas"
 
 #: ../sheets/Racks.sheet.in.h:29
 msgid "Standardní 19-palcové racky a vybavení"
-msgstr "Racks et équipements standarts de 19 pouces"
+msgstr "Estante y equipo estándar de 19 pulgadas"
