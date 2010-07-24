@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2009-10-21 21:45+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-24 11:39+0200\n"
 "PO-Revision-Date: 2010-01-03 14:26+0000\n"
 "Last-Translator: Nkolay Parukhin <parukhin@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -16,6 +16,168 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2010-07-24 10:24+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
+
+#: ../sheets/building_site.sheet.in.h:1
+msgid "Building Site"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:2
+msgid "Building Site Equipment"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:3
+msgid "Fence (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:4
+msgid "Fence (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:5
+msgid "Road (crossroads)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:6
+msgid "Road (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:7
+msgid "Road (rotated tee)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:8
+msgid "Road (tee)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:9
+msgid "Road (turn)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:10
+msgid "Road (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:11
+msgid "Slope (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:12
+msgid "Slope (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:13
+msgid "Wall (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:14
+msgid "Wall (vertical)"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:1
+msgid "Circuit2"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:2
+msgid "Diagonal and other components for circuit diagrams"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:3
+msgid "Diagonally aligned LED"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:4
+msgid "Diagonally aligned capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:5
+msgid "Diagonally aligned diode"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:6
+msgid "Diagonally aligned inductor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:7
+msgid "Diagonally aligned inductor (European)"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:8
+msgid "Diagonally aligned polarized capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:9
+msgid "Diagonally aligned resistor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:10
+msgid "Diagonally aligned resistor (European)"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:11
+msgid "Diagonally aligned zener diode"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:12
+msgid "Horizontal Ammeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:13
+msgid "Horizontal LED"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:14
+msgid "Horizontal Polarized Capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:15
+msgid "Horizontal Voltmeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:16
+#, fuzzy
+msgid "Optoisolator"
+msgstr "Изолятор"
+
+#: ../sheets/Circuit2.sheet.in.h:17
+msgid "Ramp Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:18
+#, fuzzy
+msgid "Relay"
+msgstr "Стойки"
+
+#: ../sheets/Circuit2.sheet.in.h:19
+msgid "Sine Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:20
+msgid "Square Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:21
+msgid "TRIAC"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:22
+msgid "Triangle Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:23
+msgid "Vertical Ammeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:24
+msgid "Vertical LED"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:25
+msgid "Vertical Polarized Capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:26
+msgid "Vertical Voltmeter"
+msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Additional Electric Symbols"
@@ -118,38 +280,33 @@ msgid "Power Strip - UTE, 8 sockets"
 msgstr "Удлинитель - UTE, 8 розеток"
 
 #: ../sheets/Racks.sheet.in.h:20
-msgid "Půlrack 12U"
-msgstr ""
-
-#: ../sheets/Racks.sheet.in.h:21
-msgid "Půlrack 16U"
-msgstr ""
-
-#: ../sheets/Racks.sheet.in.h:22
-msgid "Půlrack 20U"
-msgstr ""
-
-#: ../sheets/Racks.sheet.in.h:23
 msgid "Rack 38U"
 msgstr "Стойка 38U"
 
-#: ../sheets/Racks.sheet.in.h:24
+#: ../sheets/Racks.sheet.in.h:21
 msgid "Rack 42U"
 msgstr "Стойка 42U"
 
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
-#: ../sheets/Racks.sheet.in.h:26
+#: ../sheets/Racks.sheet.in.h:23
 msgid "Racks"
 msgstr "Стойки"
 
-#: ../sheets/Racks.sheet.in.h:27
-msgid "Racky"
-msgstr "Стойки"
-
-#: ../sheets/Racks.sheet.in.h:28
+#: ../sheets/Racks.sheet.in.h:24
 msgid "Standard 19 inch racks and equipment"
 msgstr "Стандартные 19-дюймовые стойки и оборудование"
 
-#: ../sheets/Racks.sheet.in.h:29
-msgid "Standardní 19-palcové racky a vybavení"
-msgstr "Стандартные 19-дюймовые стойки и оборудование"
+#: ../sheets/value_stream_mapping.sheet.in.h:1
+msgid "Analyze the flow of materials and information"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:2
+msgid "Happy Face"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:3
+msgid "Value Stream Mapping"
+msgstr ""
+
+#~ msgid "Standardní 19-palcové racky a vybavení"
+#~ msgstr "Стандартные 19-дюймовые стойки и оборудование"

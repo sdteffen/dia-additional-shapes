@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-06 21:59+0200\n"
+"POT-Creation-Date: 2010-07-24 11:39+0200\n"
 "PO-Revision-Date: 2009-10-28 06:07+0000\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
@@ -294,3 +294,15 @@ msgstr "Racks"
 #: ../sheets/Racks.sheet.in.h:24
 msgid "Standard 19 inch racks and equipment"
 msgstr "Standard 19\" Racks und Geräte"
+
+#: ../sheets/value_stream_mapping.sheet.in.h:1
+msgid "Analyze the flow of materials and information"
+msgstr "Material- und Informationsfluss analysieren"
+
+#: ../sheets/value_stream_mapping.sheet.in.h:2
+msgid "Happy Face"
+msgstr "Fröhliches Gesicht"
+
+#: ../sheets/value_stream_mapping.sheet.in.h:3
+msgid "Value Stream Mapping"
+msgstr "Wertstromanalyse"

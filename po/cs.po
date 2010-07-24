@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-11-26 23:59+0100\n"
+"POT-Creation-Date: 2010-07-24 11:39+0200\n"
 "PO-Revision-Date: 2009-11-26 21:48+0000\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2009-11-26 21:56+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
+
+#: ../sheets/building_site.sheet.in.h:1
+msgid "Building Site"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:2
+msgid "Building Site Equipment"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:3
+msgid "Fence (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:4
+msgid "Fence (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:5
+msgid "Road (crossroads)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:6
+msgid "Road (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:7
+msgid "Road (rotated tee)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:8
+msgid "Road (tee)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:9
+msgid "Road (turn)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:10
+msgid "Road (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:11
+msgid "Slope (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:12
+msgid "Slope (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:13
+msgid "Wall (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:14
+msgid "Wall (vertical)"
+msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:1
 msgid "Circuit2"
@@ -237,3 +293,15 @@ msgstr "Racky"
 #: ../sheets/Racks.sheet.in.h:24
 msgid "Standard 19 inch racks and equipment"
 msgstr "Standardní 19-palcové racky a vybavení"
+
+#: ../sheets/value_stream_mapping.sheet.in.h:1
+msgid "Analyze the flow of materials and information"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:2
+msgid "Happy Face"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:3
+msgid "Value Stream Mapping"
+msgstr ""
