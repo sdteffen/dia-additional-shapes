@@ -7,19 +7,19 @@
       <_description>Happy Face</_description>
     </object>
     <object name="Geometric - Perfect Circle">
-	    <_description>Harvey Balls 0</_description>
+      <_description>Harvey Balls 0</_description>
     </object>
     <object name="Network - Storage">
-	    <_description>MRP / ERP</_description>
+      <_description>MRP / ERP</_description>
     </object>
     <object name="Geometric - Isoceles Triangle">
-	<_description>Storage</_description>
-	</object>
-	<object name="SDL - Task">
-	<_description>Control Box</_description>
-	</object>
-	<object name="BPMN - Intermediate Event">
-		<_description>Sequenced Pull</_description>
-</object>
+      <_description>Storage</_description>
+    </object>
+    <object name="SDL - Task">
+      <_description>Control Box</_description>
+    </object>
+    <object name="BPMN - Intermediate Event">
+      <_description>Sequenced Pull</_description>
+    </object>
   </contents>
 </sheet>
