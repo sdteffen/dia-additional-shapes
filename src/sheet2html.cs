@@ -57,6 +57,7 @@ public class Sheet2Html
         bool comes_with_dia = false;
         bool montage = false;
         string output_suffix = "html";
+	string sheet_path_fragment = args[args.Length-1];
 
         // Parse commandline arguments
         for (int i = 0; i < args.Length; i++)
@@ -176,6 +177,8 @@ else
 
             // CSS sprites
  	    output.WriteStartElement("style");
+            if(output_tpl)
+		output.WriteRaw("{literal}");
 	    output.WriteString(".icon { width: 22px; height: 22px; }");
 	    XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
             query.SetContext(manager);
@@ -188,10 +191,12 @@ else
 		output.WriteString("." + GetObjectIcon(args[args.Length-1], objectname).Replace(".png","") + " {background: transparent url(images/"+args[args.Length-1]+"-sprite.png) -"+x+"px 0px no-repeat;}\n");
 		x += 22;
             }
+	    if(output_tpl)
+		output.WriteRaw("{/literal}");
 	    output.WriteEndElement(); // style
            if (output_tpl)
 {
-output.WriteRaw("{{include file='body.tpl' folder='/shapes page='/shapes/"+args[args.Length-1]+"/index.html' page_title='"+sheetname+"'}");
+output.WriteRaw("{include file='body.tpl' folder='/shapes' page='/shapes/"+args[args.Length-1]+"/index.html' page_title='"+sheetname+"'}");
 }
 else
 {
@@ -311,8 +316,11 @@ else
             }
 
             if (output_tpl)
-                output.WriteComment("#include virtual=\"/include/block.html\"");
-
+	{
+                output.WriteRaw("{capture name='col3_content'}");		
+	}
+	else
+{
             output.WriteEndElement(); // div col1_content
             output.WriteEndElement(); // div col1
 
@@ -321,7 +329,7 @@ else
             output.WriteStartElement("div");
             output.WriteAttributeString("id", "col3_content");
             output.WriteAttributeString("class", "clearfix");
-
+}
             // @todo: Use gettext
             string objectlist = "Object list";
             if ("de" == language)
@@ -353,21 +361,21 @@ else
                 output.WriteEndElement(); // tr
             }
             output.WriteEndElement(); // table
-
+	    if(output_tpl)
+{
+	output.WriteRaw("{/capture}");
+output.WriteRaw("{include file='footer.tpl' url='http://dia-installer.de/shapes/"+
+			sheet_path_fragment+"/index.html."+language+"'}");
+}
+else{	
             output.WriteEndElement(); // div col3_content
-            output.WriteEndElement(); // div col3
-
-            if(output_tpl)
-	    {
-                output.WriteComment("#include virtual=\"/include/"+includelanguage+"/footer_yaml.html\"");
-		output.WriteComment("#include virtual=\"/include/tail_yaml.html\"");
-	    }
-            
+            output.WriteEndElement(); // div col3       
             output.WriteEndElement(); // div main
             output.WriteEndElement(); // div class page
             output.WriteEndElement(); // div class page_margins
             output.WriteEndElement(); // body
             output.WriteEndElement(); // html
+}
             output.Close();
         }
     }
@@ -393,6 +401,7 @@ else
     }
 
     // Loop through the shapes and find the icon image name
+    // @todo support icons from Dia itself
     public static string GetObjectIcon(string sheet, string objectname)
     {
         System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo("shapes/" + sheet);
