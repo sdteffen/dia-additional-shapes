@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Building Site - Circle Diagonal Quarters Filled</name>
+  <icon>circle_diagonal_quarters_filled.png</icon>
+  <connections>
+    <point x="1" y="2"/>
+    <point x="1" y="0"/>
+    <point x="0" y="1"/>
+    <point x="2" y="1"/>
+    <point x="1" y="1" main="yes"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default" cx="1" cy="1" rx="1" ry="1"/>
+    <svg:path style="fill: foreground" d="M 1 0 C 1.5,0 2,0.5 2,1 C 1,1 2,1 1,1 C 1,-0.05 1,0.4 1,0z"/>
+    <svg:path style="fill: foreground" d="M 0 1 C 0,1.5 0.5,2 1,2 C 1,1 1,1.5 1,1 C 0.5,1 1,1 0,1z"/>
+  </svg:svg>
+</shape>

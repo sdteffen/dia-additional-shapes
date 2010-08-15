@@ -4,10 +4,18 @@ shapedir = $(datadir)/dia/shapes
 building_sitedir = $(shapedir)/building_site
 
 SHAPES = \
+	circle_diagonal_quarters_filled.png \
+	circle_diagonal_quarters_filled.shape \
+	concrete_mixer.png \
+	concrete_mixer.shape \
 	fence_horizontal.png \
 	fence_horizontal.shape \
 	fence_vertical.png \
 	fence_vertical.shape \
+	pre_silo.png \
+	pre_silo.shape \
+	proportioning_batcher.png \
+	proportioning_batcher.shape \
 	road_crossroads.png \
 	road_crossroads.shape \
 	road_horizontal.png \

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Building Site - Concrete Mixer</name>
+  <icon>concrete_mixer.png</icon>
+  <connections>
+    <point x="1.5" y="2" main="yes"/>
+  </connections>
+  <svg:svg>
+    <svg:rect style="fill: default" x="0" y="0" width="3" height="2"/>
+    <svg:polygon style="fill: default" points="1.2,2 1.8,2 2.2,3 0.8,3 "/>
+  </svg:svg>
+</shape>

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-24 11:39+0200\n"
-"PO-Revision-Date: 2009-10-28 06:07+0000\n"
+"POT-Creation-Date: 2010-08-15 15:10+0200\n"
+"PO-Revision-Date: 2010-08-15 15:25+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
 "MIME-Version: 1.0\n"
@@ -26,50 +26,66 @@ msgid "Building Site Equipment"
 msgstr "Symbole für Baustelleneinrichtungspläne"
 
 #: ../sheets/building_site.sheet.in.h:3
+msgid "Circle, Diagonal Quarters Filled"
+msgstr "Kreis, gegenüberliegende Viertel gefüllt"
+
+#: ../sheets/building_site.sheet.in.h:4
+msgid "Concrete Mixer"
+msgstr "Betonmischer"
+
+#: ../sheets/building_site.sheet.in.h:5
 msgid "Fence (horizontal)"
 msgstr "Zaun (horizontal)"
 
-#: ../sheets/building_site.sheet.in.h:4
+#: ../sheets/building_site.sheet.in.h:6
 msgid "Fence (vertical)"
 msgstr "Zaun (vertikal)"
 
-#: ../sheets/building_site.sheet.in.h:5
+#: ../sheets/building_site.sheet.in.h:7
+msgid "Pre-Silo"
+msgstr "Vorsilo"
+
+#: ../sheets/building_site.sheet.in.h:8
+msgid "Proportioning Batcher"
+msgstr "Zuteiler"
+
+#: ../sheets/building_site.sheet.in.h:9
 msgid "Road (crossroads)"
 msgstr "Straße (Kreuzung)"
 
-#: ../sheets/building_site.sheet.in.h:6
+#: ../sheets/building_site.sheet.in.h:10
 msgid "Road (horizontal)"
 msgstr "Straße (horizontal)"
 
-#: ../sheets/building_site.sheet.in.h:7
+#: ../sheets/building_site.sheet.in.h:11
 msgid "Road (rotated tee)"
 msgstr "Straße (rotiertes T)"
 
-#: ../sheets/building_site.sheet.in.h:8
+#: ../sheets/building_site.sheet.in.h:12
 msgid "Road (tee)"
 msgstr "Straße (T)"
 
-#: ../sheets/building_site.sheet.in.h:9
+#: ../sheets/building_site.sheet.in.h:13
 msgid "Road (turn)"
 msgstr "Straße (Bogen)"
 
-#: ../sheets/building_site.sheet.in.h:10
+#: ../sheets/building_site.sheet.in.h:14
 msgid "Road (vertical)"
 msgstr "Straße (vertikal)"
 
-#: ../sheets/building_site.sheet.in.h:11
+#: ../sheets/building_site.sheet.in.h:15
 msgid "Slope (horizontal)"
 msgstr "Böschung (horizontal)"
 
-#: ../sheets/building_site.sheet.in.h:12
+#: ../sheets/building_site.sheet.in.h:16
 msgid "Slope (vertical)"
 msgstr "Böschung (vertikal)"
 
-#: ../sheets/building_site.sheet.in.h:13
+#: ../sheets/building_site.sheet.in.h:17
 msgid "Wall (horizontal)"
 msgstr "Wand (horizontal)"
 
-#: ../sheets/building_site.sheet.in.h:14
+#: ../sheets/building_site.sheet.in.h:18
 msgid "Wall (vertical)"
 msgstr "Wand (vertikal)"
 
@@ -134,7 +150,6 @@ msgid "Horizontal Voltmeter"
 msgstr "Horizontal ausgerichtetes Voltmeter"
 
 #: ../sheets/Circuit2.sheet.in.h:16
-#, fuzzy
 msgid "Optoisolator"
 msgstr "Optoisolator"
 
@@ -300,9 +315,30 @@ msgid "Analyze the flow of materials and information"
 msgstr "Material- und Informationsfluss analysieren"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:2
+msgid "Control Box"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:3
 msgid "Happy Face"
 msgstr "Fröhliches Gesicht"
 
-#: ../sheets/value_stream_mapping.sheet.in.h:3
+#: ../sheets/value_stream_mapping.sheet.in.h:4
+msgid "Harvey Balls 0"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:5
+msgid "MRP / ERP"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:6
+msgid "Sequenced Pull"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:7
+msgid "Storage"
+msgstr "Speicher"
+
+#: ../sheets/value_stream_mapping.sheet.in.h:8
 msgid "Value Stream Mapping"
 msgstr "Wertstromanalyse"
+

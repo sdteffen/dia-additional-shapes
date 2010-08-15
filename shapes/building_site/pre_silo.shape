@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Building Site - Pre-Silo</name>
+  <icon>pre_silo.png</icon>
+  <connections>
+    <point x="0" y="1"/>
+    <point x="2" y="1"/>
+    <point x="1" y="2"/>
+    <point x="1" y="1"/>
+    <point x="1" y="1" main="yes"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill:default;" x="0" y="0" width="2" height="2"/>
+    <svg:ellipse style="fill:default;" cx="1" cy="1" rx="1" ry="1"/>
+  </svg:svg>
+</shape>

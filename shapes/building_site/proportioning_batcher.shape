@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Building Site - Proportioning Batcher</name>
+  <icon>proportioning_batcher.png</icon>
+  <connections>
+    <point x="0" y="5" main="yes"/>
+  </connections>
+  <svg:svg>
+    <svg:line x1="0" y1="0" x2="5" y2="0"/>
+    <svg:line x1="2.5" y1="0" x2="5" y2="2.4"/>
+    <svg:line x1="2.5" y1="0" x2="2.5" y2="2.4"/>
+    <svg:line x1="2.5" y1="0" x2="0" y2="2.4"/>
+  </svg:svg>
+</shape>

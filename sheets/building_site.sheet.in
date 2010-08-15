@@ -39,5 +39,17 @@
     <object name="Building Site - Vertical Wall">
       <_description>Wall (vertical)</_description>
     </object>
+    <object name="Building Site - Pre-Silo">
+      <_description>Pre-Silo</_description>
+    </object>
+    <object name="Building Site - Proportioning Batcher">
+      <_description>Proportioning Batcher</_description>
+    </object>
+    <object name="Building Site - Concrete Mixer">
+      <_description>Concrete Mixer</_description>
+    </object>
+    <object name="Building Site - Circle Diagonal Quarters Filled">
+      <_description>Circle, Diagonal Quarters Filled</_description>
+    </object>
   </contents>
 </sheet>
