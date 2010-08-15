@@ -126,7 +126,6 @@ public class Sheet2Html
                 includelanguage = "de";
             XmlTextWriter output = new XmlTextWriter(outputdir.ToString()+"/index."+output_suffix+"."+language,System.Text.Encoding.UTF8);
             output.Formatting = Formatting.Indented;
-            //output.WriteDocType("html","-//W3C//DTD XHTML 1.0 Transitional//EN", "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd","");
 	    if (output_tpl)
 	{
 	    output.WriteRaw("{include file='header.tpl' language='"+includelanguage+"'}");
@@ -150,11 +149,6 @@ else
 
             if (output_tpl)
             {
-                output.WriteComment("#include virtual=\"/include/head_yaml.html\"");
-                output.WriteStartElement("script");
-                output.WriteAttributeString("type", "text/javascript");
-                output.WriteComment("#include virtual=\"/include/js/helper.js\"");
-                output.WriteEndElement(); // script
                 output.WriteStartElement("link");
                 output.WriteAttributeString("rel", "canonical");
                 output.WriteAttributeString("href", "http://dia-installer.de/shapes/" + args[args.Length - 1] + "/index.html." + language);
@@ -163,12 +157,6 @@ else
             
             XPathNodeIterator sheetdescriptions = nav.Select(sheetdescquery);
             string sheetdescription = GetValueI18n(language, sheetdescriptions);
-            
-            output.WriteStartElement("meta");
-            output.WriteAttributeString("name", "keywords");
-            // @todo: Improve keywords
-            output.WriteAttributeString("content", "Dia "+sheetname+" "+sheetdescription);
-            output.WriteEndElement();
 
             output.WriteStartElement("meta");
             output.WriteAttributeString("name", "description");
@@ -196,7 +184,7 @@ else
 	    output.WriteEndElement(); // style
            if (output_tpl)
 {
-output.WriteRaw("{include file='body.tpl' folder='/shapes' page='/shapes/"+args[args.Length-1]+"/index.html' page_title='"+sheetname+"'}");
+output.WriteRaw("{include file='body.tpl' folder='/shapes' page='/shapes/"+args[args.Length-1]+"/index.html' page_title='"+sheetname+"' language='"+language+"'}");
 }
 else
 {
@@ -290,7 +278,7 @@ else
                 output.WriteElementString("div", author);
             }
 
-            if (1 < languages.Count)
+            if ((1 < languages.Count) && (!output_tpl))
             {
                 // @todo Use gettext
                 string languageheader = "Languages";
@@ -365,7 +353,7 @@ else
 {
 	output.WriteRaw("{/capture}");
 output.WriteRaw("{include file='footer.tpl' url='http://dia-installer.de/shapes/"+
-			sheet_path_fragment+"/index.html."+language+"'}");
+			sheet_path_fragment+"/index.html."+language+"' language='"+language+"'}");
 }
 else{	
             output.WriteEndElement(); // div col3_content
