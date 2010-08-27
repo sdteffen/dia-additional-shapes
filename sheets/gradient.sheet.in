@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+  <_name>Gradient</_name>
+  <_description>Basic gradients, semitransparent</_description>
+  <contents>
+    <object name="Gradient - White-Gray (horizontal)">
+      <_description>White-gray gradient box (horizontal)</_description>
+    </object>
+  </contents>
+</sheet>
