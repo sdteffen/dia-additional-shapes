@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-15 15:10+0200\n"
-"PO-Revision-Date: 2010-08-15 15:25+0100\n"
+"POT-Creation-Date: 2010-10-11 21:40+0200\n"
+"PO-Revision-Date: 2010-10-11 21:45+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
 "MIME-Version: 1.0\n"
@@ -216,6 +216,46 @@ msgstr "Isolationsschalter"
 #: ../sheets/electric2.sheet.in.h:6
 msgid "Transformer"
 msgstr "Transformator"
+
+#: ../sheets/gradient.sheet.in.h:1
+msgid "Basic gradients, semitransparent"
+msgstr "Grundlegende Farbverläufe, halbtransparent"
+
+#: ../sheets/gradient.sheet.in.h:2
+msgid "Dark-light horizontal gradient"
+msgstr "Horizontaler Farbverlauf hell-dunkel"
+
+#: ../sheets/gradient.sheet.in.h:3
+msgid "Dark-light horizontal gradient box"
+msgstr "Horizontaler Farbverlauf dunkel-hell"
+
+#: ../sheets/gradient.sheet.in.h:4
+msgid "Dark-light vertical gradient"
+msgstr "Vertikaler Farbverlauf dunkel-hell"
+
+#: ../sheets/gradient.sheet.in.h:5
+msgid "Dark-light vertical gradient box"
+msgstr "Kasten mit vertikalem Farbverlauf dunkel-hell"
+
+#: ../sheets/gradient.sheet.in.h:6
+msgid "Gradient"
+msgstr "Farbverlauf"
+
+#: ../sheets/gradient.sheet.in.h:7
+msgid "Light-dark horizontal gradient"
+msgstr "Horizontaler Farbverlauf hell-dunkel"
+
+#: ../sheets/gradient.sheet.in.h:8
+msgid "Light-dark horizontal gradient box"
+msgstr "Kasten mit horizontalem Farbverlauf hell-dunkel"
+
+#: ../sheets/gradient.sheet.in.h:9
+msgid "Light-dark vertical gradient"
+msgstr "Vertikaler Farbverlauf hell-dunkel"
+
+#: ../sheets/gradient.sheet.in.h:10
+msgid "Light-dark vertical gradient box"
+msgstr "Kasten mit vertikalem Farbverlauf hell-dunkel"
 
 #: ../sheets/Racks.sheet.in.h:1
 msgid "Generic 10U Equipment"

@@ -3,8 +3,29 @@
   <_name>Gradient</_name>
   <_description>Basic gradients, semitransparent</_description>
   <contents>
-    <object name="Gradient - White-Gray (horizontal)">
-      <_description>White-gray gradient box (horizontal)</_description>
+    <object name="Gradient - Light-dark horizontal gradient box">
+      <_description>Light-dark horizontal gradient box</_description>
+    </object>
+    <object name="Gradient - Dark-light horizontal gradient box">
+      <_description>Dark-light horizontal gradient box</_description>
+    </object>
+    <object name="Gradient - Light-dark vertical gradient box">
+      <_description>Light-dark vertical gradient box</_description>
+    </object>
+    <object name="Gradient - Dark-light vertical gradient box">
+      <_description>Dark-light vertical gradient box</_description>
+    </object>
+    <object name="Gradient - Light-dark horizontal gradient">
+      <_description>Light-dark horizontal gradient</_description>
+    </object>
+    <object name="Gradient - Dark-light horizontal gradient">
+      <_description>Dark-light horizontal gradient</_description>
+    </object>
+    <object name="Gradient - Light-dark vertical gradient">
+      <_description>Light-dark vertical gradient</_description>
+    </object>
+    <object name="Gradient - Dark-light vertical gradient">
+      <_description>Dark-light vertical gradient</_description>
     </object>
   </contents>
 </sheet>

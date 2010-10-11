@@ -4,9 +4,30 @@ shapedir = $(datadir)/dia/shapes
 gradientdir = $(shapedir)/gradient
 
 SHAPES = \
-	white_gray_horizontal.png \
-	white_gray_horizontal.shape \
-	white_gray_horizontal.svg
+	dark_light_horizontal_gradient_box.png \
+	dark_light_horizontal_gradient_box.shape \
+	dark_light_horizontal_gradient_box.svg \
+	dark_light_horizontal_gradient.png \
+	dark_light_horizontal_gradient.shape \
+	dark_light_horizontal_gradient.svg \
+	dark_light_vertical_gradient_box.png \
+	dark_light_vertical_gradient_box.shape \
+	dark_light_vertical_gradient_box.svg \
+	dark_light_vertical_gradient.png \
+	dark_light_vertical_gradient.shape \
+	dark_light_vertical_gradient.svg \
+	light_dark_horizontal_gradient_box.png \
+	light_dark_horizontal_gradient_box.shape \
+	light_dark_horizontal_gradient_box.svg \
+	light_dark_horizontal_gradient.png \
+	light_dark_horizontal_gradient.shape \
+	light_dark_horizontal_gradient.svg \
+	light_dark_vertical_gradient_box.png \
+	light_dark_vertical_gradient_box.shape \
+	light_dark_vertical_gradient_box.svg \
+	light_dark_vertical_gradient.png \
+	light_dark_vertical_gradient.shape \
+	light_dark_vertical_gradient.svg
 
 EXTRA_DIST = $(SHAPES)
 

@@ -352,7 +352,7 @@ else
 	    if(output_tpl)
 {
 	output.WriteRaw("{/capture}");
-output.WriteRaw("{include file='footer.tpl' url='http://dia-installer.de/shapes/"+
+output.WriteRaw("{include file='footer.tpl' url='dia-installer.de/shapes/"+
 			sheet_path_fragment+"/index.html."+language+"' language='"+language+"'}");
 }
 else{	

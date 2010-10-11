@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <name>Gradient - Light-dark horizontal gradient box</name>
-  <icon>light_dark_horizontal_gradient_box.png</icon>
+  <name>Gradient - Dark-light horizontal gradient</name>
+  <icon>dark_light_horizontal_gradient.png</icon>
   <connections>
-    <point x="1" y="1" main="yes"/>n
+    <point x="1" y="1" main="yes"/>
     <point x="1" y="0" />
     <point x="0" y="1" />
     <point x="2" y="1" />
     <point x="1" y="2" />
   </connections>
   <svg:svg>
-    <svg:rect style="fill:default;" x="0" y="0" width="2" height="2"/>
-    <svg:image x="0" y="0" width="2" height="2" xlink:href="./light_dark_horizontal_gradient_box.svg"/>
+    <svg:image x="0" y="0" width="2" height="2" xlink:href="./dark_light_horizontal_gradient.svg"/>
   </svg:svg>
 
 </shape>
