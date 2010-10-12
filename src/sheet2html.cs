@@ -242,7 +242,22 @@ else
             else
                 output.WriteString("example diagram in Dia format");
             output.WriteEndElement(); // li
-            output.WriteEndElement(); // ul
+
+	    output.WriteStartElement("li");
+            output.WriteStartElement("a");
+            output.WriteAttributeString("href", "images/" + args[args.Length - 1] + ".svg");
+            output.WriteAttributeString("class", "track");
+            output.WriteString(args[args.Length - 1] + ".svg");
+            output.WriteEndElement(); // a
+            output.WriteString(" ");
+            // @todo: Use gettext
+            if ("de" == language)
+                output.WriteString("Beispieldiagramm im SVG-Format");
+            else
+                output.WriteString("example diagram in SVG format");
+            output.WriteEndElement(); // li
+
+            output.WriteEndElement(); // ul   	
 
             // @todo: Use gettext
             output.WriteElementString("h2", "Installation");

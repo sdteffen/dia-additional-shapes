@@ -37,7 +37,8 @@ gradient-zip: $(SHAPES) ../../sheets/gradient.sheet
 	-(cd ../.. && \
 	mkdir -p website/gradient/images && \
 	zip website/gradient/gradient.zip COPYING sheets/gradient.sheet \
-	shapes/gradient/*.png shapes/gradient/*.shape && \
+	shapes/gradient/*.png shapes/gradient/*.shape \
+	shapes/gradient/*.svg && \
 	cp shapes/gradient/*.png website/gradient/images )
 
 all: gradient-zip
