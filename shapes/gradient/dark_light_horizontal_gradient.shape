@@ -10,7 +10,7 @@
     <point x="1" y="2" />
   </connections>
   <svg:svg>
-    <svg:rect style="fill:default;stroke:bg;" x="0" y="0" width="2" height="2"/>
+    <svg:rect style="fill:default;stroke:bg;stroke-width:0;" x="0" y="0" width="2" height="2"/>
     <svg:image x="0" y="0" width="2" height="2" xlink:href="./dark_light_horizontal_gradient.svg"/>
   </svg:svg>
 
