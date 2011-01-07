@@ -1,16 +1,12 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: dia-additional-shapes\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-10-21 21:45+0200\n"
-"PO-Revision-Date: 2009-11-26 21:48+0000\n"
-"Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2010-11-28 02:08+0000\n"
+"Last-Translator: el_libre - http://www.catmidia.cat  "
+"XDDDDDDDDDDDDDDDDDDDDDDDDDDD <el.libre@gmail.com>\n"
+"Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,137 +15,137 @@ msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Additional Electric Symbols"
-msgstr ""
+msgstr "Símbols elèctrics addicionals"
 
 #: ../sheets/electric2.sheet.in.h:2
 msgid "CKT Breaker"
-msgstr ""
+msgstr "Interruptor Automàtic CKT"
 
 #: ../sheets/electric2.sheet.in.h:3
 msgid "Electric 2"
-msgstr ""
+msgstr "Elèctric 2"
 
 #: ../sheets/electric2.sheet.in.h:4
 msgid "Generator"
-msgstr "Generátor"
+msgstr "Generador"
 
 #: ../sheets/electric2.sheet.in.h:5
 msgid "Isolator"
-msgstr ""
+msgstr "Isolador"
 
 #: ../sheets/electric2.sheet.in.h:6
 msgid "Transformer"
-msgstr ""
+msgstr "Transformador"
 
 #: ../sheets/Racks.sheet.in.h:1
 msgid "Generic 10U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 10U"
 
 #: ../sheets/Racks.sheet.in.h:2
 msgid "Generic 11U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 11U"
 
 #: ../sheets/Racks.sheet.in.h:3
 msgid "Generic 12U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 12U"
 
 #: ../sheets/Racks.sheet.in.h:4
 msgid "Generic 1U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 1U"
 
 #: ../sheets/Racks.sheet.in.h:5
 msgid "Generic 2U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 2U"
 
 #: ../sheets/Racks.sheet.in.h:6
 msgid "Generic 3U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 3U"
 
 #: ../sheets/Racks.sheet.in.h:7
 msgid "Generic 4U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 4U"
 
 #: ../sheets/Racks.sheet.in.h:8
 msgid "Generic 5U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 5U"
 
 #: ../sheets/Racks.sheet.in.h:9
 msgid "Generic 6U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 6U"
 
 #: ../sheets/Racks.sheet.in.h:10
 msgid "Generic 7U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 7U"
 
 #: ../sheets/Racks.sheet.in.h:11
 msgid "Generic 8U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 8U"
 
 #: ../sheets/Racks.sheet.in.h:12
 msgid "Generic 9U Equipment"
-msgstr ""
+msgstr "Equipament Genèric 9U"
 
 #: ../sheets/Racks.sheet.in.h:13
 msgid "Half-Rack 12U"
-msgstr "Půlrack 20U"
+msgstr "Mig-Rack 12U"
 
 #: ../sheets/Racks.sheet.in.h:14
 msgid "Half-Rack 16U"
-msgstr "Půlrack 16U"
+msgstr "Mig-Rack 16U"
 
 #: ../sheets/Racks.sheet.in.h:15
 msgid "Half-Rack 20U"
-msgstr "Půlrack 20U"
+msgstr "Mig-Rack 20U"
 
 #: ../sheets/Racks.sheet.in.h:16
 msgid "Label Anchors, 42U"
-msgstr ""
+msgstr "Anclatges de Volum, 42U"
 
 #: ../sheets/Racks.sheet.in.h:17
 msgid "Power Strip - British Standard, 7 sockets"
-msgstr ""
+msgstr "Banda d'energia - Estàndard Britànica, 7 endolls"
 
 #: ../sheets/Racks.sheet.in.h:18
 msgid "Power Strip - Schuko, 8 sockets"
-msgstr ""
+msgstr "Banda d'Energia - Schuko, 8 endolls"
 
 #: ../sheets/Racks.sheet.in.h:19
 msgid "Power Strip - UTE, 8 sockets"
-msgstr ""
+msgstr "Banda d'Energia - UTE, 8 endolls"
 
 #: ../sheets/Racks.sheet.in.h:20
 msgid "Půlrack 12U"
-msgstr ""
+msgstr "Půlrack 12U"
 
 #: ../sheets/Racks.sheet.in.h:21
 msgid "Půlrack 16U"
-msgstr ""
+msgstr "Půlrack 16U"
 
 #: ../sheets/Racks.sheet.in.h:22
 msgid "Půlrack 20U"
-msgstr ""
+msgstr "Půlrack 20U"
 
 #: ../sheets/Racks.sheet.in.h:23
 msgid "Rack 38U"
-msgstr "Rack 38U"
+msgstr "Graella 38U"
 
 #: ../sheets/Racks.sheet.in.h:24
 msgid "Rack 42U"
-msgstr "Rack 42U"
+msgstr "Graella 42U"
 
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
 #: ../sheets/Racks.sheet.in.h:26
 msgid "Racks"
-msgstr "Racky"
+msgstr "Graelles"
 
 #: ../sheets/Racks.sheet.in.h:27
 msgid "Racky"
-msgstr ""
+msgstr "Engraellat"
 
 #: ../sheets/Racks.sheet.in.h:28
 msgid "Standard 19 inch racks and equipment"
-msgstr "Standardní 19-palcové racky a vybavení"
+msgstr "Graelles de 19 polzades estàndard i equipament"
 
 #: ../sheets/Racks.sheet.in.h:29
 msgid "Standardní 19-palcové racky a vybavení"
-msgstr ""
+msgstr "Standardní 19-palcové racky a vybavení"
