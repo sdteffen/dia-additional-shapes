@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-03 11:12+0200\n"
-"PO-Revision-Date: 2010-07-24 19:30+0000\n"
-"Last-Translator: Nkolay Parukhin <parukhin@gmail.com>\n"
+"POT-Creation-Date: 2011-07-03 12:09+0200\n"
+"PO-Revision-Date: 2011-07-03 12:20+0100\n"
+"Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -89,6 +89,55 @@ msgstr ""
 #: ../sheets/building_site.sheet.in.h:18
 msgid "Wall (vertical)"
 msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:1
+msgid "CH-1 notation"
+msgstr "CH-1 нотация"
+
+#: ../sheets/CH-1.sheet.in.h:2
+msgid "Condition"
+msgstr "Условие"
+
+#: ../sheets/CH-1.sheet.in.h:3
+msgid "Delay"
+msgstr "Задержка"
+
+#: ../sheets/CH-1.sheet.in.h:4
+msgid "Department"
+msgstr "Подразделение"
+
+#: ../sheets/CH-1.sheet.in.h:5
+msgid "Device"
+msgstr "Техническое средство"
+
+#: ../sheets/CH-1.sheet.in.h:6
+msgid "Employee"
+msgstr "Сотрудник"
+
+#: ../sheets/CH-1.sheet.in.h:7
+msgid "Event"
+msgstr "Событие"
+
+#: ../sheets/CH-1.sheet.in.h:8
+msgid "Junction (AND, OR, XOR)"
+msgstr "Перекрёсток"
+
+#: ../sheets/CH-1.sheet.in.h:9
+msgid "Note"
+msgstr "Заметка"
+
+#: ../sheets/CH-1.sheet.in.h:10
+msgid "Outside participant"
+msgstr "Сторонний участник"
+
+#: ../sheets/CH-1.sheet.in.h:11
+#: ../sheets/value_stream_mapping.sheet.in.h:7
+msgid "Storage"
+msgstr "Хранилище"
+
+#: ../sheets/CH-1.sheet.in.h:12
+msgid "Work"
+msgstr "Работа"
 
 #: ../sheets/Circuit2.sheet.in.h:1
 msgid "Circuit2"
@@ -376,25 +425,18 @@ msgstr ""
 msgid "Sequenced Pull"
 msgstr ""
 
-#: ../sheets/value_stream_mapping.sheet.in.h:7
-msgid "Storage"
-msgstr ""
-
 #: ../sheets/value_stream_mapping.sheet.in.h:8
 msgid "Value Stream Mapping"
 msgstr ""
 
 #~ msgid "Půlrack 12U"
 #~ msgstr "Полустойка 12U"
-
 #~ msgid "Půlrack 16U"
 #~ msgstr "Полустойка 16U"
-
 #~ msgid "Půlrack 20U"
 #~ msgstr "Полустойка 20U"
-
 #~ msgid "Racky"
 #~ msgstr "Стойки"
-
 #~ msgid "Standardní 19-palcové racky a vybavení"
 #~ msgstr "Стандартные 19-дюймовые стойки и оборудование"
+

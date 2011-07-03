@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>CH-1 - Storage</name>
+  <description>Storage</description>
+  <icon>storage.png</icon>
+  <connections>
+    <point x="1.25" y="0"/>
+    <point x="1.25" y="1.8"/>
+    <point x="2.5" y="1.0"/>
+    <point x="0" y="1.0"/>
+    <point x="1.25" y="1" main="yes"/>
+  </connections>
+  <textbox x1="0.1" y1="0.8" x2="2.4" y2="1.67"/>
+  <svg:svg width="2.5" height="2">
+    <svg:path d="M 2.5,1.5 c 0,0.15 -0.5,0.277 -1.25,0.277 -0.7,0 -1.25,-0.12 -1.25,-0.277 L 0,0.3 l 2.5,0 z" style="fill: default"/>
+    <svg:path d="M 2.5,0.5 a 1.25,0.2777 0 0 1 -2.5,0" style="fill: default"/>
+    <svg:path d="M 2.5,0.3 a 1.25,0.2777 0 0 1 -2.5,0 1.25,0.277 0 1 1 2.5,0 z" style="fill: default"/>
+  </svg:svg>
+</shape>

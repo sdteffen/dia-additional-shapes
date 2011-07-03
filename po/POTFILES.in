@@ -1,5 +1,6 @@
 # List of source files which contain translatable strings
 sheets/building_site.sheet.in
+sheets/CH-1.sheet.in
 sheets/Circuit2.sheet.in
 sheets/electric2.sheet.in
 sheets/gradient.sheet.in

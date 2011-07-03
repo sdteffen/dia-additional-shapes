@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-03 11:12+0200\n"
+"POT-Creation-Date: 2011-07-03 12:09+0200\n"
 "PO-Revision-Date: 2011-05-18 08:26+0000\n"
 "Last-Translator: Guybrush88 <Unknown>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -89,6 +89,55 @@ msgstr "Muro (orizzontale)"
 #: ../sheets/building_site.sheet.in.h:18
 msgid "Wall (vertical)"
 msgstr "Muro (verticale)"
+
+#: ../sheets/CH-1.sheet.in.h:1
+msgid "CH-1 notation"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:2
+msgid "Condition"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:3
+#, fuzzy
+msgid "Delay"
+msgstr "Ripetizione"
+
+#: ../sheets/CH-1.sheet.in.h:4
+msgid "Department"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:5
+msgid "Device"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:6
+msgid "Employee"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:7
+msgid "Event"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:8
+msgid "Junction (AND, OR, XOR)"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:9
+msgid "Note"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:10
+msgid "Outside participant"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:11 ../sheets/value_stream_mapping.sheet.in.h:7
+msgid "Storage"
+msgstr "Archiviazione"
+
+#: ../sheets/CH-1.sheet.in.h:12
+msgid "Work"
+msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:1
 msgid "Circuit2"
@@ -374,10 +423,6 @@ msgstr "MRP / ERP"
 #: ../sheets/value_stream_mapping.sheet.in.h:6
 msgid "Sequenced Pull"
 msgstr "Forza in serie"
-
-#: ../sheets/value_stream_mapping.sheet.in.h:7
-msgid "Storage"
-msgstr "Archiviazione"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:8
 msgid "Value Stream Mapping"

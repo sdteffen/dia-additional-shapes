@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-03 11:12+0200\n"
-"PO-Revision-Date: 2010-08-31 16:25+0000\n"
-"Last-Translator: FetteNase <Unknown>\n"
+"POT-Creation-Date: 2011-07-03 12:09+0200\n"
+"PO-Revision-Date: 2011-07-03 12:37+0100\n"
+"Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,79 +20,128 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
-msgstr ""
+msgstr "Baustelleneinrichtung"
 
 #: ../sheets/building_site.sheet.in.h:2
 msgid "Building Site Equipment"
-msgstr ""
+msgstr "Symbole für Baustelleneinrichtungspläne"
 
 #: ../sheets/building_site.sheet.in.h:3
 msgid "Circle, Diagonal Quarters Filled"
-msgstr ""
+msgstr "Kreis, gegenüberliegende Viertel gefüllt"
 
 #: ../sheets/building_site.sheet.in.h:4
 msgid "Concrete Mixer"
-msgstr ""
+msgstr "Betonmischer"
 
 #: ../sheets/building_site.sheet.in.h:5
 msgid "Fence (horizontal)"
-msgstr ""
+msgstr "Zaun (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:6
 msgid "Fence (vertical)"
-msgstr ""
+msgstr "Zaun (vertikal)"
 
 #: ../sheets/building_site.sheet.in.h:7
 msgid "Pre-Silo"
-msgstr ""
+msgstr "Vorsilo"
 
 #: ../sheets/building_site.sheet.in.h:8
 msgid "Proportioning Batcher"
-msgstr ""
+msgstr "Zuteiler"
 
 #: ../sheets/building_site.sheet.in.h:9
 msgid "Road (crossroads)"
-msgstr ""
+msgstr "Straße (Kreuzung)"
 
 #: ../sheets/building_site.sheet.in.h:10
 msgid "Road (horizontal)"
-msgstr ""
+msgstr "Straße (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:11
 msgid "Road (rotated tee)"
-msgstr ""
+msgstr "Straße (rotiertes T)"
 
 #: ../sheets/building_site.sheet.in.h:12
 msgid "Road (tee)"
-msgstr ""
+msgstr "Straße (T)"
 
 #: ../sheets/building_site.sheet.in.h:13
 msgid "Road (turn)"
-msgstr ""
+msgstr "Straße (Bogen)"
 
 #: ../sheets/building_site.sheet.in.h:14
 msgid "Road (vertical)"
-msgstr ""
+msgstr "Straße (vertikal)"
 
 #: ../sheets/building_site.sheet.in.h:15
 msgid "Slope (horizontal)"
-msgstr ""
+msgstr "Böschung (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:16
 msgid "Slope (vertical)"
-msgstr ""
+msgstr "Böschung (vertikal)"
 
 #: ../sheets/building_site.sheet.in.h:17
 msgid "Wall (horizontal)"
-msgstr ""
+msgstr "Wand (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:18
 msgid "Wall (vertical)"
-msgstr ""
+msgstr "Straße (vertikal)"
+
+#: ../sheets/CH-1.sheet.in.h:1
+msgid "CH-1 notation"
+msgstr "CH-1-Notation"
+
+#: ../sheets/CH-1.sheet.in.h:2
+msgid "Condition"
+msgstr "Bedingung"
+
+#: ../sheets/CH-1.sheet.in.h:3
+msgid "Delay"
+msgstr "Verzögerung"
+
+#: ../sheets/CH-1.sheet.in.h:4
+msgid "Department"
+msgstr "Abteilung"
+
+#: ../sheets/CH-1.sheet.in.h:5
+msgid "Device"
+msgstr "Gerät"
+
+#: ../sheets/CH-1.sheet.in.h:6
+msgid "Employee"
+msgstr "Angestellter"
+
+#: ../sheets/CH-1.sheet.in.h:7
+msgid "Event"
+msgstr "Ereignis"
+
+#: ../sheets/CH-1.sheet.in.h:8
+msgid "Junction (AND, OR, XOR)"
+msgstr "Knoten (UND, ODER, XOR)"
+
+#: ../sheets/CH-1.sheet.in.h:9
+msgid "Note"
+msgstr "Notiz"
+
+#: ../sheets/CH-1.sheet.in.h:10
+msgid "Outside participant"
+msgstr "Außenstehender"
+
+#: ../sheets/CH-1.sheet.in.h:11
+#: ../sheets/value_stream_mapping.sheet.in.h:7
+msgid "Storage"
+msgstr "Speicher"
+
+#: ../sheets/CH-1.sheet.in.h:12
+msgid "Work"
+msgstr "Arbeit"
 
 #: ../sheets/Circuit2.sheet.in.h:1
 msgid "Circuit2"
-msgstr ""
+msgstr "Schaltkreis 2"
 
 #: ../sheets/Circuit2.sheet.in.h:2
 msgid "Diagonal and other components for circuit diagrams"
@@ -151,7 +200,6 @@ msgid "Horizontal Voltmeter"
 msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:16
-#, fuzzy
 msgid "Optoisolator"
 msgstr "Isolationsschalter"
 
@@ -376,25 +424,18 @@ msgstr ""
 msgid "Sequenced Pull"
 msgstr ""
 
-#: ../sheets/value_stream_mapping.sheet.in.h:7
-msgid "Storage"
-msgstr ""
-
 #: ../sheets/value_stream_mapping.sheet.in.h:8
 msgid "Value Stream Mapping"
 msgstr ""
 
 #~ msgid "Půlrack 12U"
 #~ msgstr "Půlrack 12HE"
-
 #~ msgid "Půlrack 16U"
 #~ msgstr "Půlrack 16HE"
-
 #~ msgid "Půlrack 20U"
 #~ msgstr "Půlrack 20HE"
-
 #~ msgid "Racky"
 #~ msgstr "Racks"
-
 #~ msgid "Standardní 19-palcové racky a vybavení"
 #~ msgstr "Standard 19-Zoll-Racks und Anlagen"
+
