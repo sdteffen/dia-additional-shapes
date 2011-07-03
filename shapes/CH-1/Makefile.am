@@ -35,7 +35,7 @@ ch1-zip: $(SHAPES) ../../sheets/CH-1.sheet
 	-(cd ../.. && \
 	mkdir -p website/CH-1/images && \
 	zip website/CH-1/CH-1.zip COPYING sheets/CH-1.sheet \
-	shapes/CH-1/*.png shapes/CH-1/*.shape && \
+	shapes/CH-1/*.png samples/CH-1.dia shapes/CH-1/*.shape && \
 	cp shapes/CH-1/*.png website/CH-1/images )
 
 all: ch1-zip
