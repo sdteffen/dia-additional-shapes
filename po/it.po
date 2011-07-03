@@ -1,30 +1,30 @@
-# Russian translation for dia-additional-shapes
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# Italian translation for dia-additional-shapes
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
 # This file is distributed under the same license as the dia-additional-shapes package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-03 11:12+0200\n"
-"PO-Revision-Date: 2010-07-24 19:30+0000\n"
-"Last-Translator: Nkolay Parukhin <parukhin@gmail.com>\n"
-"Language-Team: Russian <ru@li.org>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2011-05-18 08:26+0000\n"
+"Last-Translator: Guybrush88 <Unknown>\n"
+"Language-Team: Italian <it@li.org>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-01-07 20:04+0000\n"
-"X-Generator: Launchpad (build 12161)\n"
+"X-Launchpad-Export-Date: 2011-07-03 09:20+0000\n"
+"X-Generator: Launchpad (build 13333)\n"
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
-msgstr ""
+msgstr "Cantiere"
 
 #: ../sheets/building_site.sheet.in.h:2
 msgid "Building Site Equipment"
-msgstr ""
+msgstr "Equipaggiamento da cantiere"
 
 #: ../sheets/building_site.sheet.in.h:3
 msgid "Circle, Diagonal Quarters Filled"
@@ -32,15 +32,15 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:4
 msgid "Concrete Mixer"
-msgstr ""
+msgstr "Betoniera"
 
 #: ../sheets/building_site.sheet.in.h:5
 msgid "Fence (horizontal)"
-msgstr ""
+msgstr "Steccato (orizzontale)"
 
 #: ../sheets/building_site.sheet.in.h:6
 msgid "Fence (vertical)"
-msgstr ""
+msgstr "Steccato (verticale)"
 
 #: ../sheets/building_site.sheet.in.h:7
 msgid "Pre-Silo"
@@ -52,11 +52,11 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:9
 msgid "Road (crossroads)"
-msgstr ""
+msgstr "Strada (incrocio)"
 
 #: ../sheets/building_site.sheet.in.h:10
 msgid "Road (horizontal)"
-msgstr ""
+msgstr "Strada (orizzontale)"
 
 #: ../sheets/building_site.sheet.in.h:11
 msgid "Road (rotated tee)"
@@ -68,35 +68,35 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:13
 msgid "Road (turn)"
-msgstr ""
+msgstr "Strada (curva)"
 
 #: ../sheets/building_site.sheet.in.h:14
 msgid "Road (vertical)"
-msgstr ""
+msgstr "Strada (verticale)"
 
 #: ../sheets/building_site.sheet.in.h:15
 msgid "Slope (horizontal)"
-msgstr ""
+msgstr "Discesa (orizzontale)"
 
 #: ../sheets/building_site.sheet.in.h:16
 msgid "Slope (vertical)"
-msgstr ""
+msgstr "Discesa (verticale)"
 
 #: ../sheets/building_site.sheet.in.h:17
 msgid "Wall (horizontal)"
-msgstr ""
+msgstr "Muro (orizzontale)"
 
 #: ../sheets/building_site.sheet.in.h:18
 msgid "Wall (vertical)"
-msgstr ""
+msgstr "Muro (verticale)"
 
 #: ../sheets/Circuit2.sheet.in.h:1
 msgid "Circuit2"
-msgstr ""
+msgstr "Circuito2"
 
 #: ../sheets/Circuit2.sheet.in.h:2
 msgid "Diagonal and other components for circuit diagrams"
-msgstr ""
+msgstr "Trasversale e altri componenti per i diagrammi a circuito"
 
 #: ../sheets/Circuit2.sheet.in.h:3
 msgid "Diagonally aligned LED"
@@ -136,11 +136,11 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:12
 msgid "Horizontal Ammeter"
-msgstr ""
+msgstr "Amperometro orizzontale"
 
 #: ../sheets/Circuit2.sheet.in.h:13
 msgid "Horizontal LED"
-msgstr ""
+msgstr "LED orizzontale"
 
 #: ../sheets/Circuit2.sheet.in.h:14
 msgid "Horizontal Polarized Capacitor"
@@ -148,12 +148,11 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:15
 msgid "Horizontal Voltmeter"
-msgstr ""
+msgstr "Voltometro orizzontale"
 
 #: ../sheets/Circuit2.sheet.in.h:16
-#, fuzzy
 msgid "Optoisolator"
-msgstr "Изолятор"
+msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:17
 msgid "Ramp Wave Source"
@@ -161,7 +160,7 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:18
 msgid "Relay"
-msgstr ""
+msgstr "Ripetizione"
 
 #: ../sheets/Circuit2.sheet.in.h:19
 msgid "Sine Wave Source"
@@ -173,7 +172,7 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:21
 msgid "TRIAC"
-msgstr ""
+msgstr "TRIAC"
 
 #: ../sheets/Circuit2.sheet.in.h:22
 msgid "Triangle Wave Source"
@@ -181,11 +180,11 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:23
 msgid "Vertical Ammeter"
-msgstr ""
+msgstr "Amperometro verticale"
 
 #: ../sheets/Circuit2.sheet.in.h:24
 msgid "Vertical LED"
-msgstr ""
+msgstr "LED verticale"
 
 #: ../sheets/Circuit2.sheet.in.h:25
 msgid "Vertical Polarized Capacitor"
@@ -193,31 +192,31 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Vertical Voltmeter"
-msgstr ""
+msgstr "Voltometro verticale"
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Additional Electric Symbols"
-msgstr "Дополнительные электрические символы"
+msgstr "Simboli elettrici aggiuntivi"
 
 #: ../sheets/electric2.sheet.in.h:2
 msgid "CKT Breaker"
-msgstr "Авт. выключатель"
+msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:3
 msgid "Electric 2"
-msgstr "Электрика 2"
+msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:4
 msgid "Generator"
-msgstr "Генератор"
+msgstr "Generatore"
 
 #: ../sheets/electric2.sheet.in.h:5
 msgid "Isolator"
-msgstr "Изолятор"
+msgstr "Isolatore"
 
 #: ../sheets/electric2.sheet.in.h:6
 msgid "Transformer"
-msgstr "Трансформатор"
+msgstr "Trasformatore"
 
 #: ../sheets/gradient.sheet.in.h:1
 msgid "Basic gradients, semitransparent"
@@ -241,7 +240,7 @@ msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:6
 msgid "Gradient"
-msgstr ""
+msgstr "Gradiente"
 
 #: ../sheets/gradient.sheet.in.h:7
 msgid "Light-dark horizontal gradient"
@@ -261,108 +260,108 @@ msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:1
 msgid "Generic 10U Equipment"
-msgstr "Стандартное 10U оборудование"
+msgstr "Equipaggiamento 10U generico"
 
 #: ../sheets/Racks.sheet.in.h:2
 msgid "Generic 11U Equipment"
-msgstr "Стандартное 11U оборудование"
+msgstr "Equipaggiamento 11U generico"
 
 #: ../sheets/Racks.sheet.in.h:3
 msgid "Generic 12U Equipment"
-msgstr "Стандартное 12U оборудование"
+msgstr "Equipaggiamento 12U generico"
 
 #: ../sheets/Racks.sheet.in.h:4
 msgid "Generic 1U Equipment"
-msgstr "Стандартное 1U оборудование"
+msgstr "Equipaggiamento 1U generico"
 
 #: ../sheets/Racks.sheet.in.h:5
 msgid "Generic 2U Equipment"
-msgstr "Стандартное 2U оборудование"
+msgstr "Equipaggiamento 2U generico"
 
 #: ../sheets/Racks.sheet.in.h:6
 msgid "Generic 3U Equipment"
-msgstr "Стандартное 3U оборудование"
+msgstr "Equipaggiamento 3U generico"
 
 #: ../sheets/Racks.sheet.in.h:7
 msgid "Generic 4U Equipment"
-msgstr "Стандартное 4U оборудование"
+msgstr "Equipaggiamento 4U generico"
 
 #: ../sheets/Racks.sheet.in.h:8
 msgid "Generic 5U Equipment"
-msgstr "Стандартное 5U оборудование"
+msgstr "Equipaggiamento 5U generico"
 
 #: ../sheets/Racks.sheet.in.h:9
 msgid "Generic 6U Equipment"
-msgstr "Стандартное 6U оборудование"
+msgstr "Equipaggiamento 6U generico"
 
 #: ../sheets/Racks.sheet.in.h:10
 msgid "Generic 7U Equipment"
-msgstr "Стандартное 7U оборудование"
+msgstr "Equipaggiamento 7U generico"
 
 #: ../sheets/Racks.sheet.in.h:11
 msgid "Generic 8U Equipment"
-msgstr "Стандартное 8U оборудование"
+msgstr "Equipaggiamento 8U generico"
 
 #: ../sheets/Racks.sheet.in.h:12
 msgid "Generic 9U Equipment"
-msgstr "Стандартное 9U оборудование"
+msgstr "Equipaggiamento 9U generico"
 
 #: ../sheets/Racks.sheet.in.h:13
 msgid "Half-Rack 12U"
-msgstr "Полустойка 12U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:14
 msgid "Half-Rack 16U"
-msgstr "Полустойка 16U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:15
 msgid "Half-Rack 20U"
-msgstr "Полустойка 20U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:16
 msgid "Label Anchors, 42U"
-msgstr "Привязка меток, 42U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:17
 msgid "Power Strip - British Standard, 7 sockets"
-msgstr "Удлинитель  - Британский стандарт, 7 розеток"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:18
 msgid "Power Strip - Schuko, 8 sockets"
-msgstr "Удлинитель - Schuko, 8 розеток"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:19
 msgid "Power Strip - UTE, 8 sockets"
-msgstr "Удлинитель - UTE, 8 розеток"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:20
 msgid "Rack 38U"
-msgstr "Стойка 38U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:21
 msgid "Rack 42U"
-msgstr "Стойка 42U"
+msgstr ""
 
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
 #: ../sheets/Racks.sheet.in.h:23
 msgid "Racks"
-msgstr "Стойки"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:24
 msgid "Standard 19 inch racks and equipment"
-msgstr "Стандартные 19-дюймовые стойки и оборудование"
+msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:1
 msgid "Analyze the flow of materials and information"
-msgstr ""
+msgstr "Analizza il flusso di materiali e informazioni"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:2
 msgid "Control Box"
-msgstr ""
+msgstr "Scatola di controllo"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:3
 msgid "Happy Face"
-msgstr ""
+msgstr "Faccia felice"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:4
 msgid "Harvey Balls 0"
@@ -370,31 +369,16 @@ msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:5
 msgid "MRP / ERP"
-msgstr ""
+msgstr "MRP / ERP"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:6
 msgid "Sequenced Pull"
-msgstr ""
+msgstr "Forza in serie"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:7
 msgid "Storage"
-msgstr ""
+msgstr "Archiviazione"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:8
 msgid "Value Stream Mapping"
 msgstr ""
-
-#~ msgid "Půlrack 12U"
-#~ msgstr "Полустойка 12U"
-
-#~ msgid "Půlrack 16U"
-#~ msgstr "Полустойка 16U"
-
-#~ msgid "Půlrack 20U"
-#~ msgstr "Полустойка 20U"
-
-#~ msgid "Racky"
-#~ msgstr "Стойки"
-
-#~ msgid "Standardní 19-palcové racky a vybavení"
-#~ msgstr "Стандартные 19-дюймовые стойки и оборудование"

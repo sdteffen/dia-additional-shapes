@@ -1,17 +1,194 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2009-10-21 21:45+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-03 11:12+0200\n"
 "PO-Revision-Date: 2010-11-28 02:08+0000\n"
 "Last-Translator: el_libre - http://www.catmidia.cat  "
 "XDDDDDDDDDDDDDDDDDDDDDDDDDDD <el.libre@gmail.com>\n"
 "Language-Team: Catalan <ca@li.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-01-07 20:04+0000\n"
-"X-Generator: Launchpad (build 12161)\n"
+"X-Launchpad-Export-Date: 2011-07-03 09:20+0000\n"
+"X-Generator: Launchpad (build 13333)\n"
+
+#: ../sheets/building_site.sheet.in.h:1
+msgid "Building Site"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:2
+msgid "Building Site Equipment"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:3
+msgid "Circle, Diagonal Quarters Filled"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:4
+msgid "Concrete Mixer"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:5
+msgid "Fence (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:6
+msgid "Fence (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:7
+msgid "Pre-Silo"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:8
+msgid "Proportioning Batcher"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:9
+msgid "Road (crossroads)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:10
+msgid "Road (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:11
+msgid "Road (rotated tee)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:12
+msgid "Road (tee)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:13
+msgid "Road (turn)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:14
+msgid "Road (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:15
+msgid "Slope (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:16
+msgid "Slope (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:17
+msgid "Wall (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:18
+msgid "Wall (vertical)"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:1
+msgid "Circuit2"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:2
+msgid "Diagonal and other components for circuit diagrams"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:3
+msgid "Diagonally aligned LED"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:4
+msgid "Diagonally aligned capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:5
+msgid "Diagonally aligned diode"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:6
+msgid "Diagonally aligned inductor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:7
+msgid "Diagonally aligned inductor (European)"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:8
+msgid "Diagonally aligned polarized capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:9
+msgid "Diagonally aligned resistor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:10
+msgid "Diagonally aligned resistor (European)"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:11
+msgid "Diagonally aligned zener diode"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:12
+msgid "Horizontal Ammeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:13
+msgid "Horizontal LED"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:14
+msgid "Horizontal Polarized Capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:15
+msgid "Horizontal Voltmeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:16
+msgid "Optoisolator"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:17
+msgid "Ramp Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:18
+msgid "Relay"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:19
+msgid "Sine Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:20
+msgid "Square Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:21
+msgid "TRIAC"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:22
+msgid "Triangle Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:23
+msgid "Vertical Ammeter"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:24
+msgid "Vertical LED"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:25
+msgid "Vertical Polarized Capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:26
+msgid "Vertical Voltmeter"
+msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Additional Electric Symbols"
@@ -36,6 +213,46 @@ msgstr "Isolador"
 #: ../sheets/electric2.sheet.in.h:6
 msgid "Transformer"
 msgstr "Transformador"
+
+#: ../sheets/gradient.sheet.in.h:1
+msgid "Basic gradients, semitransparent"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:2
+msgid "Dark-light horizontal gradient"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:3
+msgid "Dark-light horizontal gradient box"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:4
+msgid "Dark-light vertical gradient"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:5
+msgid "Dark-light vertical gradient box"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:6
+msgid "Gradient"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:7
+msgid "Light-dark horizontal gradient"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:8
+msgid "Light-dark horizontal gradient box"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:9
+msgid "Light-dark vertical gradient"
+msgstr ""
+
+#: ../sheets/gradient.sheet.in.h:10
+msgid "Light-dark vertical gradient box"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:1
 msgid "Generic 10U Equipment"
@@ -114,38 +331,65 @@ msgid "Power Strip - UTE, 8 sockets"
 msgstr "Banda d'Energia - UTE, 8 endolls"
 
 #: ../sheets/Racks.sheet.in.h:20
-msgid "Půlrack 12U"
-msgstr "Půlrack 12U"
-
-#: ../sheets/Racks.sheet.in.h:21
-msgid "Půlrack 16U"
-msgstr "Půlrack 16U"
-
-#: ../sheets/Racks.sheet.in.h:22
-msgid "Půlrack 20U"
-msgstr "Půlrack 20U"
-
-#: ../sheets/Racks.sheet.in.h:23
 msgid "Rack 38U"
 msgstr "Graella 38U"
 
-#: ../sheets/Racks.sheet.in.h:24
+#: ../sheets/Racks.sheet.in.h:21
 msgid "Rack 42U"
 msgstr "Graella 42U"
 
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
-#: ../sheets/Racks.sheet.in.h:26
+#: ../sheets/Racks.sheet.in.h:23
 msgid "Racks"
 msgstr "Graelles"
 
-#: ../sheets/Racks.sheet.in.h:27
-msgid "Racky"
-msgstr "Engraellat"
-
-#: ../sheets/Racks.sheet.in.h:28
+#: ../sheets/Racks.sheet.in.h:24
 msgid "Standard 19 inch racks and equipment"
 msgstr "Graelles de 19 polzades estàndard i equipament"
 
-#: ../sheets/Racks.sheet.in.h:29
-msgid "Standardní 19-palcové racky a vybavení"
-msgstr "Standardní 19-palcové racky a vybavení"
+#: ../sheets/value_stream_mapping.sheet.in.h:1
+msgid "Analyze the flow of materials and information"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:2
+msgid "Control Box"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:3
+msgid "Happy Face"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:4
+msgid "Harvey Balls 0"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:5
+msgid "MRP / ERP"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:6
+msgid "Sequenced Pull"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:7
+msgid "Storage"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:8
+msgid "Value Stream Mapping"
+msgstr ""
+
+#~ msgid "Půlrack 12U"
+#~ msgstr "Půlrack 12U"
+
+#~ msgid "Půlrack 16U"
+#~ msgstr "Půlrack 16U"
+
+#~ msgid "Půlrack 20U"
+#~ msgstr "Půlrack 20U"
+
+#~ msgid "Standardní 19-palcové racky a vybavení"
+#~ msgstr "Standardní 19-palcové racky a vybavení"
+
+#~ msgid "Racky"
+#~ msgstr "Engraellat"
