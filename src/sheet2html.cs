@@ -4,7 +4,7 @@
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007, 2009, 2010 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009 - 2011 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -33,20 +33,22 @@ public class Sheet2Html
         {
             Console.Error.WriteLine("USAGE: sheet2html [options] [sheetname]");
             Console.Error.WriteLine("Options:");
-            Console.Error.WriteLine("--output-directory=DIR     Specify output directory");
             Console.Error.WriteLine("--author=AUTHOR            Specify sheet creator");
-	    Console.Error.WriteLine("--montage                  Create montage commandline (CSS sprites)");
-            Console.Error.WriteLine("--tpl                      Create Smarty Template");
             Console.Error.WriteLine("--comes-with-dia           Sheet is part of the Dia distribution");
-            Console.Error.WriteLine("-v, --version              Display version and exit");
             Console.Error.WriteLine("-h, --help                 Display help and exit");
+            Console.Error.WriteLine("--output-directory=DIR     Specify output directory");
+	    Console.Error.WriteLine("--montage                  Create montage commandline (CSS sprites)");
+	    Console.Error.WriteLine("--noads                    Add noads tags to template");
+            Console.Error.WriteLine("--tpl                      Create Smarty Template");
+            Console.Error.WriteLine("-v, --version              Display version and exit");
+
             return;
         }
 
         if ("-v" == args[0] || "--version" == args[0])
         {
-            Console.Error.WriteLine("sheet2html 0.2.0");
-            Console.Error.WriteLine("Copyright (c) 2007, 2009, 2010 Steffen Macke");
+            Console.Error.WriteLine("sheet2html 0.2.1");
+            Console.Error.WriteLine("Copyright (c) 2007, 2009 - 2011 Steffen Macke");
             return;
         }
 
@@ -56,6 +58,7 @@ public class Sheet2Html
         bool output_tpl = false;
         bool comes_with_dia = false;
         bool montage = false;
+	string noads = "";
         string output_suffix = "html";
 	string sheet_path_fragment = args[args.Length-1];
 
@@ -79,6 +82,9 @@ public class Sheet2Html
 	    
 	   if ("--montage" == args[i])
               montage = true;
+
+	   if("--noads" == args[i])
+		noads = " noads=1 ";
         }
 
         XPathDocument document = new XPathDocument("sheets/" + args[args.Length-1] + ".sheet");
@@ -176,7 +182,7 @@ else
             {
                 string objectname = links.Current.GetAttribute("name", "");
       		GetObjectIcon(args[args.Length-1], objectname);
-		output.WriteString("." + GetObjectIcon(args[args.Length-1], objectname).Replace(".png","") + " {background: transparent url(images/"+args[args.Length-1]+"-sprite.png) -"+x+"px 0px no-repeat;}\n");
+		output.WriteString("." + sheet_path_fragment + "_" + GetObjectIcon(args[args.Length-1], objectname).Replace(".png","") + " {background: transparent url(images/"+args[args.Length-1]+"-sprite.png) -"+x+"px 0px no-repeat;}\n");
 		x += 22;
             }
 	    if(output_tpl)
@@ -184,7 +190,7 @@ else
 	    output.WriteEndElement(); // style
            if (output_tpl)
 {
-output.WriteRaw("{include file='body.tpl' folder='/shapes' page='/shapes/"+args[args.Length-1]+"/index.html' page_title='"+sheetname+"' language='"+language+"'}");
+output.WriteRaw("{include file='body.tpl' folder='/shapes' page='/shapes/"+args[args.Length-1]+"/index.html' page_title='"+sheetname+"' language='"+language+"'"+noads+"}");
 }
 else
 {
@@ -355,7 +361,7 @@ else
                 string objectdescription = GetValueI18n(language, objectdescriptions);
                 output.WriteStartElement("td");
 		output.WriteStartElement("div");
-		output.WriteAttributeString("class", "icon "+GetObjectIcon(args[args.Length-1], objectname).Replace(".png",""));
+		output.WriteAttributeString("class", "icon "+sheet_path_fragment+"_"+GetObjectIcon(args[args.Length-1], objectname).Replace(".png",""));
 		output.WriteString(" ");
 		output.WriteEndElement(); // div 
                 output.WriteEndElement(); // td
@@ -368,7 +374,7 @@ else
 {
 	output.WriteRaw("{/capture}");
 output.WriteRaw("{include file='footer.tpl' url='dia-installer.de/shapes/"+
-			sheet_path_fragment+"/index.html."+language+"' language='"+language+"'}");
+	sheet_path_fragment+"/index.html."+language+"' language='"+language+"'"+noads+"}");
 }
 else{	
             output.WriteEndElement(); // div col3_content
