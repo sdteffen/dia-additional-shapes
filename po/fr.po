@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-03 12:09+0200\n"
+"POT-Creation-Date: 2011-11-20 20:44+0100\n"
 "PO-Revision-Date: 2010-01-26 19:21+0000\n"
 "Last-Translator: jojolebestof <Unknown>\n"
 "Language-Team: French <sdteffen@sdteffen.de>\n"
@@ -114,7 +114,7 @@ msgstr ""
 msgid "Employee"
 msgstr ""
 
-#: ../sheets/CH-1.sheet.in.h:7
+#: ../sheets/CH-1.sheet.in.h:7 ../sheets/edpc.sheet.in.h:3
 msgid "Event"
 msgstr ""
 
@@ -240,6 +240,44 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Vertical Voltmeter"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:1
+#, fuzzy
+msgid "And Operator"
+msgstr "Générateur électrique"
+
+#: ../sheets/edpc.sheet.in.h:2
+msgid "Document"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:4
+msgid "Event-driven process chain"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:5
+msgid "Function"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:6
+msgid "Information Object"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:7
+msgid "Objects to draw event-driven process chains"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:8
+#, fuzzy
+msgid "Or Operator"
+msgstr "Générateur électrique"
+
+#: ../sheets/edpc.sheet.in.h:9
+msgid "Organisation Unit"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:10
+msgid "XOR Operator"
 msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:1

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-03 12:09+0200\n"
+"POT-Creation-Date: 2011-11-20 20:44+0100\n"
 "PO-Revision-Date: 2011-07-03 12:37+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
@@ -114,7 +114,7 @@ msgstr "Gerät"
 msgid "Employee"
 msgstr "Angestellter"
 
-#: ../sheets/CH-1.sheet.in.h:7
+#: ../sheets/CH-1.sheet.in.h:7 ../sheets/edpc.sheet.in.h:3
 msgid "Event"
 msgstr "Ereignis"
 
@@ -130,8 +130,7 @@ msgstr "Notiz"
 msgid "Outside participant"
 msgstr "Außenstehender"
 
-#: ../sheets/CH-1.sheet.in.h:11
-#: ../sheets/value_stream_mapping.sheet.in.h:7
+#: ../sheets/CH-1.sheet.in.h:11 ../sheets/value_stream_mapping.sheet.in.h:7
 msgid "Storage"
 msgstr "Speicher"
 
@@ -241,6 +240,44 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Vertical Voltmeter"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:1
+#, fuzzy
+msgid "And Operator"
+msgstr "Generator"
+
+#: ../sheets/edpc.sheet.in.h:2
+msgid "Document"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:4
+msgid "Event-driven process chain"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:5
+msgid "Function"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:6
+msgid "Information Object"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:7
+msgid "Objects to draw event-driven process chains"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:8
+#, fuzzy
+msgid "Or Operator"
+msgstr "Generator"
+
+#: ../sheets/edpc.sheet.in.h:9
+msgid "Organisation Unit"
+msgstr ""
+
+#: ../sheets/edpc.sheet.in.h:10
+msgid "XOR Operator"
 msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:1
@@ -430,12 +467,15 @@ msgstr ""
 
 #~ msgid "Půlrack 12U"
 #~ msgstr "Půlrack 12HE"
+
 #~ msgid "Půlrack 16U"
 #~ msgstr "Půlrack 16HE"
+
 #~ msgid "Půlrack 20U"
 #~ msgstr "Půlrack 20HE"
+
 #~ msgid "Racky"
 #~ msgstr "Racks"
+
 #~ msgid "Standardní 19-palcové racky a vybavení"
 #~ msgstr "Standard 19-Zoll-Racks und Anlagen"
-
