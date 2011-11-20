@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>EDPC - And Operator</name>
+  <icon>and.png</icon>
+  <connections>
+    <point x="1" y="2"/>
+    <point x="1" y="0"/>
+    <point x="0" y="1"/>
+    <point x="2" y="1"/>
+    <point x="1" y="1" main="yes"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default;" cx="1" cy="1" rx="1" ry="1"/>
+    <svg:polygon style="fill: default;" points="0.3,1.5 0.4,1.5 1,0.7 1.6,1.5 1.7,1.5 1,0.5 "/>
+  </svg:svg>
+</shape>

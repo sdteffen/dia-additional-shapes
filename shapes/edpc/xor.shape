@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>EDPC - XOR Operator</name>
+  <icon>xor.png</icon>
+  <connections>
+    <point x="1" y="2"/>
+    <point x="1" y="0"/>
+    <point x="0" y="1"/>
+    <point x="2" y="1"/>
+    <point x="1" y="1" main="yes"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default;" cx="1" cy="1" rx="1" ry="1"/>
+    <svg:text style="fill: default; stroke: default; text-color: default; font-size: 1.0; text-anchor:middle; font-family: sans; font-style: normal; font-weight: 700" x="1" y="1.2" textLength="1.26">XOR</svg:text>
+  </svg:svg>
+</shape>

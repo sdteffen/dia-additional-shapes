@@ -6,6 +6,7 @@ sheet_in_files = \
   building_site.sheet.in \
   CH-1.sheet.in \
   Circuit2.sheet.in \
+  edpc.sheet.in \
   electric2.sheet.in \
   gradient.sheet.in \
   Racks.sheet.in \

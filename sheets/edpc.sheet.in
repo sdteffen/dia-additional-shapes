@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+  <_name>Event-driven process chain</_name>
+  <_description>Objects to draw event-driven process chains</_description>
+  <contents>
+    <object name="Flowchart - Document">
+      <_description>Document</_description>
+    </object>
+    <object name="Flowchart - Preparation">
+      <_description>Event</_description>
+    </object>
+    <object name="Flowchart - Predefined Process">
+      <_description>Information Object</_description>
+    </object>
+    <object name="EDPC - Organisation Unit">
+      <_description>Organisation Unit</_description>
+    </object>
+    <object name="EDPC - Function">
+      <_description>Function</_description>
+    </object>
+    <object name="EDPC - Or Operator">
+      <_description>Or Operator</_description>
+    </object>
+    <object name="EDPC - And Operator">
+      <_description>And Operator</_description>
+    </object>
+    <object name="EDPC - XOR Operator">
+      <_description>XOR Operator</_description>
+   </object>   
+  </contents>
+</sheet>
