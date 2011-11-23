@@ -66,22 +66,51 @@ public class Shapes2Sprite
 		XPathNodeIterator links = nav.Select(query);
 
 	 	while (links.MoveNext())
-		{
-			string objectname = links.Current.GetAttribute("name", "");
-			string icon =  GetObjectIcon(sheet, objectname);
-	      		files += icon + " ";
-			objectcount++;
-			Console.WriteLine("." + sheet + "_" + icon.Replace(".png","") + " {background: transparent url(s.png) -"+x+"px 0px no-repeat;}");
-			x += 22;
+		{			
+			try
+			{
+				string objectname = links.Current.GetAttribute("name", "");
+				string icon = DiaIconFinder.GetPathFromNode(sheet, objectname, nav); 
+				{
+			      		files += icon + " ";
+					objectcount++;
+					Console.WriteLine("." + sheet + "_" + icon.Replace(".png","") + " {background: transparent url(s.png) -"+x+"px 0px no-repeat;}");
+					x += 22;
+				}
+			} catch (Exception e) {}
 		}
 	} 
 	montagecmd += objectcount + "x1 " + files + " s.png */";
 	Console.WriteLine(montagecmd);
     }
 
+
+
+}
+
+class DiaIconFinder
+{
+	
+    // Returns the relative path to the icon file
+    public static string GetPathFromNode(string sheet, string objectname, XPathNavigator nav)
+    {
+	XmlNamespaceManager manager = new XmlNamespaceManager(nav.NameTable);
+	manager.AddNamespace("dia", "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns");
+
+	XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
+	XPathExpression iconquery = nav.Compile("/dia:sheet/dia:contents/dia:object[@name='" + objectname + "']/dia:icon");
+	iconquery.SetContext(manager);
+        XPathNodeIterator objectdescriptions = nav.Select(iconquery);
+	while(objectdescriptions.MoveNext())
+	{
+		return objectdescriptions.Current.Value;
+	}
+	
+	return GetPathFromObjectName(sheet, objectname);
+    }
+
     // Loop through the shapes and find the icon image name
-    // @todo support icons from Dia itself
-    public static string GetObjectIcon(string sheet, string objectname)
+    public static string GetPathFromObjectName(string sheet, string objectname)
     {
 	try
 	{        
@@ -111,6 +140,5 @@ public class Shapes2Sprite
 	} catch (Exception e) {}
         return "";
     }
-
 }
 
