@@ -87,6 +87,8 @@ public class Sheet2Html
 		noads = " noads=1 ";
         }
 
+		DiaIconFinder iconfinder = new DiaIconFinder();
+		
         XPathDocument document = new XPathDocument("sheets/" + args[args.Length-1] + ".sheet");
         XPathNavigator nav = document.CreateNavigator();
         XmlNamespaceManager manager = new XmlNamespaceManager(nav.NameTable);
@@ -181,7 +183,8 @@ else
             while (links.MoveNext())
             {
                 string objectname = links.Current.GetAttribute("name", "");
-      		GetObjectIcon(args[args.Length-1], objectname);
+      			GetObjectIcon(args[args.Length-1], objectname);
+				
 		output.WriteString("." + sheet_path_fragment + "_" + GetObjectIcon(args[args.Length-1], objectname).Replace(".png","") + " {background: transparent url(images/"+args[args.Length-1]+"-sprite.png) -"+x+"px 0px no-repeat;}\n");
 		x += 22;
             }
@@ -361,7 +364,7 @@ else
                 string objectdescription = GetValueI18n(language, objectdescriptions);
                 output.WriteStartElement("td");
 		output.WriteStartElement("div");
-		output.WriteAttributeString("class", "icon "+sheet_path_fragment+"_"+GetObjectIcon(args[args.Length-1], objectname).Replace(".png",""));
+		output.WriteAttributeString("class", "icon "+iconfinder.GetClassForObjectName(objectname));
 		output.WriteString(" ");
 		output.WriteEndElement(); // div 
                 output.WriteEndElement(); // td
