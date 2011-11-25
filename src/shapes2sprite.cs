@@ -36,6 +36,7 @@ public class Shapes2Sprite
         {
             Console.Error.WriteLine("USAGE: shapes2sprite [Options]");
             Console.Error.WriteLine("Options:");
+			Console.Error.WriteLine("--montage					Output montage command line");
             Console.Error.WriteLine("-h, --help                 Display help and exit");
             Console.Error.WriteLine("-v, --version              Display version and exit");
             return;
@@ -48,12 +49,15 @@ public class Shapes2Sprite
             return;
         }
 
-		string montagecmd = "/* montage -geometry +0+0 -tile ";
+		bool montage = (1 == args.Length && "--montage" == args[0]);
+		
+		string montagecmd = "montage -geometry +0+0 -tile ";
 		int objectcount = 0;
 		string files = "";
 	    int x=0;
 		
-		Console.WriteLine(".icon { width: 22px; height: 22px; }");
+		if(!montage)
+			Console.WriteLine(".icon { width: 22px; height: 22px; }");
 		
 		DiaIcons diaicons = new DiaIcons();
 		foreach( KeyValuePair<string, string>  icon in diaicons.icons)
@@ -62,11 +66,13 @@ public class Shapes2Sprite
 				continue;
 			files += icon.Value + " ";
 			objectcount++;
-			Console.WriteLine("." + icon.Key.Replace(".png","") + " {background: transparent url(s.png) -"+x+"px 0px no-repeat;}");
+			if(!montage)
+				Console.WriteLine("." + icon.Key.Replace(".png","") + " {background: transparent url(s.png) -"+x+"px 0px no-repeat;}");
 			x += 22;
 		}
-		montagecmd += objectcount + "x1 " + files + " s.png */";
-		Console.WriteLine(montagecmd);
+		montagecmd += objectcount + "x1 " + files + " s.png";
+		if(montage)
+			Console.WriteLine(montagecmd);
 		
     }
 	

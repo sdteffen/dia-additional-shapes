@@ -1,7 +1,7 @@
 
 shapedir = $(datadir)/dia/shapes
 
-electric2dir = $(shapedir)/edpc
+edpcdir = $(shapedir)/edpc
 
 SHAPES = \
 	and.png \
@@ -10,8 +10,8 @@ SHAPES = \
 	function.shape \
 	or.png \
 	or.shape \
-	organization_unit.png \
-	organization_unit.shape \
+	organisation_unit.png \
+	organisation_unit.shape \
 	xor.png \
 	xor.shape
 	

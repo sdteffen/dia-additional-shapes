@@ -104,10 +104,10 @@ class DiaIconFinder
 			{			
 				try
 				{
-					string objectname = links.Current.GetAttribute("name", "");
+					string objectname = links.Current.GetAttribute("name", "");					
 					string iconpath = DiaIconFinder.GetPathFromNode(sheet, objectname, nav); 
 					objecticons.Add(objectname, iconpath);
-				} catch (Exception e) {}
+				} catch {}
 			}
 		}
 	}
@@ -119,11 +119,7 @@ class DiaIconFinder
 	
 		if(objecticons.TryGetValue(name, out cssclass))
 		{
-			cssclass = DiaCss.CanonicalizePath(cssclass);
-			if(!icons.icons.TryGetValue(cssclass, out cssclass))
-			{
-				cssclass =  Path.GetFileNameWithoutExtension(cssclass);
-			}
+			cssclass = DiaCss.CanonicalizePath(cssclass).Replace(".png", "");
 		}
 		return cssclass;
 	}
@@ -135,7 +131,6 @@ class DiaIconFinder
 		XmlNamespaceManager manager = new XmlNamespaceManager(nav.NameTable);
 		manager.AddNamespace("dia", "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns");
 	
-		XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
 		XPathExpression iconquery = nav.Compile("/dia:sheet/dia:contents/dia:object[@name='" + objectname + "']/dia:icon");
 		iconquery.SetContext(manager);
 	        XPathNodeIterator objectdescriptions = nav.Select(iconquery);
@@ -175,7 +170,7 @@ class DiaIconFinder
 			        }
 			    }
 			}
-		} catch (Exception e) {}
+		} catch {}
         return "";
     }
 }

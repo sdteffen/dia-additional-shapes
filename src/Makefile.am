@@ -1,1 +1,7 @@
-EXTRA_DIST = scaffold.sh
+EXTRA_DIST = common.cs scaffold.sh shapes2sprite.cs sheet2html.cs
+
+sheet2html.exe: sheet2html.cs common.cs
+	gmcs sheet2html.cs common.cs
+	
+shapes2sprite.exe: shapes2sprite.cs common.cs
+	gmcs shapes2sprite.cs common.cs

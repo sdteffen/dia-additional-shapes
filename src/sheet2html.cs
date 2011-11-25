@@ -37,8 +37,7 @@ public class Sheet2Html
             Console.Error.WriteLine("--comes-with-dia           Sheet is part of the Dia distribution");
             Console.Error.WriteLine("-h, --help                 Display help and exit");
             Console.Error.WriteLine("--output-directory=DIR     Specify output directory");
-	    Console.Error.WriteLine("--montage                  Create montage commandline (CSS sprites)");
-	    Console.Error.WriteLine("--noads                    Add noads tags to template");
+	    	Console.Error.WriteLine("--noads                    Add noads tags to template");
             Console.Error.WriteLine("--tpl                      Create Smarty Template");
             Console.Error.WriteLine("-v, --version              Display version and exit");
 
@@ -47,7 +46,7 @@ public class Sheet2Html
 
         if ("-v" == args[0] || "--version" == args[0])
         {
-            Console.Error.WriteLine("sheet2html 0.2.1");
+            Console.Error.WriteLine("sheet2html 0.2.2");
             Console.Error.WriteLine("Copyright (c) 2007, 2009 - 2011 Steffen Macke");
             return;
         }
@@ -57,7 +56,6 @@ public class Sheet2Html
         string author = "";
         bool output_tpl = false;
         bool comes_with_dia = false;
-        bool montage = false;
 	string noads = "";
         string output_suffix = "html";
 	string sheet_path_fragment = args[args.Length-1];
@@ -79,9 +77,6 @@ public class Sheet2Html
 
             if ("--comes-with-dia" == args[i])
                 comes_with_dia = true;
-	    
-	   if ("--montage" == args[i])
-              montage = true;
 
 	   if("--noads" == args[i])
 		noads = " noads=1 ";
@@ -93,25 +88,6 @@ public class Sheet2Html
         XPathNavigator nav = document.CreateNavigator();
         XmlNamespaceManager manager = new XmlNamespaceManager(nav.NameTable);
         manager.AddNamespace("dia", "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns");
-
-        if(montage)
-	{
-   	    XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
-            query.SetContext(manager);
-            XPathNodeIterator links = nav.Select(query);
- 	    string montagecmd = "montage -geometry +0+0 -tile ";
-            int objectcount = 0;
-            string files = "";
- 	    while (links.MoveNext())
-            {
-                string objectname = links.Current.GetAttribute("name", "");
-      		files += GetObjectIcon(args[args.Length-1], objectname) + " ";
-		objectcount++;
-            }
-            montagecmd += objectcount + "x1 " + files + " " + args[args.Length-1] + "-sprite.png";
-            Console.WriteLine(montagecmd);
-	    return;	
-        } 
 
         // Build language list
         ArrayList languages = new ArrayList();
@@ -125,7 +101,7 @@ public class Sheet2Html
                 languages.Add(names.Current.XmlLang);
         }
         XPathExpression sheetdescquery = nav.Compile("/dia:sheet/dia:description");
-        sheetdescquery.SetContext(manager);
+        sheetdescquery.SetContext(manager);		
         foreach (string language in languages)
         {
             // includes are not available for all languages, fall back to en
@@ -172,25 +148,12 @@ else
             output.WriteEndElement();
 
             // CSS sprites
- 	    output.WriteStartElement("style");
-            if(output_tpl)
-		output.WriteRaw("{literal}");
-	    output.WriteString(".icon { width: 22px; height: 22px; }");
-	    XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");
-            query.SetContext(manager);
-            XPathNodeIterator links = nav.Select(query);
-            int x=0;
-            while (links.MoveNext())
-            {
-                string objectname = links.Current.GetAttribute("name", "");
-      			GetObjectIcon(args[args.Length-1], objectname);
-				
-		output.WriteString("." + sheet_path_fragment + "_" + GetObjectIcon(args[args.Length-1], objectname).Replace(".png","") + " {background: transparent url(images/"+args[args.Length-1]+"-sprite.png) -"+x+"px 0px no-repeat;}\n");
-		x += 22;
-            }
-	    if(output_tpl)
-		output.WriteRaw("{/literal}");
-	    output.WriteEndElement(); // style
+ 	    	output.WriteStartElement("link");
+            output.WriteAttributeString("rel", "stylesheet");
+			output.WriteAttributeString("type", "text/css");
+			// @todo timestamp based cache buster
+			output.WriteAttributeString("href", "http://dia-installer.de/shapes/d.css");
+	    	output.WriteEndElement(); // style
            if (output_tpl)
 {
 output.WriteRaw("{include file='body.tpl' folder='/shapes' page='/shapes/"+args[args.Length-1]+"/index.html' page_title='"+sheetname+"' language='"+language+"'"+noads+"}");
@@ -349,9 +312,10 @@ else
             output.WriteElementString("h2", objectlist);
 
             output.WriteStartElement("table");
-
-            query = nav.Compile("/dia:sheet/dia:contents/dia:object");
+			
+  			XPathExpression query = nav.Compile("/dia:sheet/dia:contents/dia:object");			
             query.SetContext(manager);
+			XPathNodeIterator links = nav.Select(query);
             links = nav.Select(query);
 
             while (links.MoveNext())
@@ -416,29 +380,32 @@ else{
     // @todo support icons from Dia itself
     public static string GetObjectIcon(string sheet, string objectname)
     {
-        System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo("shapes/" + sheet);
-        foreach (System.IO.FileInfo f in dir.GetFiles("*.shape"))
-        {
-            XmlDocument shape = new XmlDocument();
-            shape.Load(f.FullName);
-
-            XmlNamespaceManager nsmgr = new XmlNamespaceManager(shape.NameTable);
-            nsmgr.AddNamespace("", "http://www.daa.com.au/~james/dia-shape-ns");
-            XmlNodeList nodeList;
-            nodeList = shape.GetElementsByTagName("name", "http://www.daa.com.au/~james/dia-shape-ns");
-            foreach (XmlNode name in nodeList)
-            {
-                if (name.ParentNode.Name == "shape" && name.InnerText == objectname)
-                {
-                    XmlNodeList iconList;
-                    iconList = shape.GetElementsByTagName("icon", "http://www.daa.com.au/~james/dia-shape-ns");
-                    foreach (XmlNode icon in iconList)
-                    {
-                        return icon.InnerText;
-                    }
-                }
-            }
-        }
+		try
+		{
+	        System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo("shapes/" + sheet);
+	        foreach (System.IO.FileInfo f in dir.GetFiles("*.shape"))
+	        {
+	            XmlDocument shape = new XmlDocument();
+	            shape.Load(f.FullName);
+	
+	            XmlNamespaceManager nsmgr = new XmlNamespaceManager(shape.NameTable);
+	            nsmgr.AddNamespace("", "http://www.daa.com.au/~james/dia-shape-ns");
+	            XmlNodeList nodeList;
+	            nodeList = shape.GetElementsByTagName("name", "http://www.daa.com.au/~james/dia-shape-ns");
+	            foreach (XmlNode name in nodeList)
+	            {
+	                if (name.ParentNode.Name == "shape" && name.InnerText == objectname)
+	                {
+	                    XmlNodeList iconList;
+	                    iconList = shape.GetElementsByTagName("icon", "http://www.daa.com.au/~james/dia-shape-ns");
+	                    foreach (XmlNode icon in iconList)
+	                    {
+	                        return icon.InnerText;
+	                    }
+	                }
+	            }
+	        }
+		} catch {}
         return "";
     }
 
