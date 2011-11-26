@@ -32,11 +32,12 @@ public class Shapes2Sprite
 {
     public static void Main(string[] args)
     {
-        if ((args.Length == 1 && ("-h" == args[0] || "--help" == args[0])) || args.Length > 1)
+        if ((args.Length == 1 && ("-h" == args[0] || "--help" == args[0])) || args.Length > 2)
         {
             Console.Error.WriteLine("USAGE: shapes2sprite [Options]");
             Console.Error.WriteLine("Options:");
 			Console.Error.WriteLine("--montage					Output montage command line");
+			Console.Error.WriteLine("--datadir=datadir			Path where sheets and shapes reside");
             Console.Error.WriteLine("-h, --help                 Display help and exit");
             Console.Error.WriteLine("-v, --version              Display version and exit");
             return;
@@ -48,8 +49,16 @@ public class Shapes2Sprite
             Console.Error.WriteLine("Copyright (c) 2011 Steffen Macke");
             return;
         }
-
-		bool montage = (1 == args.Length && "--montage" == args[0]);
+		
+		bool montage = false;
+		
+		for (int i = 0; i < args.Length; i++)
+        {         
+			if(10 < args[i].Length && "--datadir=" == args[i].Substring(0, 10))
+				Directory.SetCurrentDirectory(args[i].Substring(10));
+			if("--montage" == args[i])
+				montage = true;
+		}
 		
 		string montagecmd = "montage -geometry +0+0 -tile ";
 		int objectcount = 0;
@@ -67,7 +76,7 @@ public class Shapes2Sprite
 			files += icon.Value + " ";
 			objectcount++;
 			if(!montage)
-				Console.WriteLine("." + icon.Key.Replace(".png","") + " {background: transparent url(s.png) -"+x+"px 0px no-repeat;}");
+				Console.WriteLine(".d" + icon.Key.Replace(".png","") + " {background: transparent url(s.png) -"+x+"px 0px no-repeat;}");
 			x += 22;
 		}
 		montagecmd += objectcount + "x1 " + files + " s.png";
@@ -77,4 +86,3 @@ public class Shapes2Sprite
     }
 	
 }
-

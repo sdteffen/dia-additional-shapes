@@ -35,6 +35,7 @@ public class Sheet2Html
             Console.Error.WriteLine("Options:");
             Console.Error.WriteLine("--author=AUTHOR            Specify sheet creator");
             Console.Error.WriteLine("--comes-with-dia           Sheet is part of the Dia distribution");
+			Console.Error.WriteLine("--datadir=datadir			Path where sheets and shapes reside");
             Console.Error.WriteLine("-h, --help                 Display help and exit");
             Console.Error.WriteLine("--output-directory=DIR     Specify output directory");
 	    	Console.Error.WriteLine("--noads                    Add noads tags to template");
@@ -69,6 +70,9 @@ public class Sheet2Html
             if (9 < args[i].Length && "--author=" == args[i].Substring(0, 9))
                 author = args[i].Substring(9);
 
+			if(10 < args[i].Length && "--datadir=" == args[i].Substring(0, 10))
+				System.IO.Directory.SetCurrentDirectory(args[i].Substring(10));
+			
             if ("--tpl" == args[i])
 		{
                 output_tpl = true;

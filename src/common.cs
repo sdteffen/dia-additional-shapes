@@ -81,12 +81,16 @@ class DiaCss
 class DiaIconFinder
 {
 	DiaIcons icons;
+	// objectname is key, pngname value
 	Dictionary<string,string> objecticons;
+	// objectname is key, sheet value
+	Dictionary<string,string> objectsheets;
 	
 	public DiaIconFinder()
 	{
 		icons = new DiaIcons();
 		objecticons = new Dictionary<string, string>();
+		objectsheets = new Dictionary<string, string>();
 		System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo("sheets");
 	    foreach (System.IO.FileInfo f in dir.GetFiles("*.sheet"))
 	    {
@@ -107,6 +111,7 @@ class DiaIconFinder
 					string objectname = links.Current.GetAttribute("name", "");					
 					string iconpath = DiaIconFinder.GetPathFromNode(sheet, objectname, nav); 
 					objecticons.Add(objectname, iconpath);
+					objectsheets.Add(objectname, sheet);
 				} catch {}
 			}
 		}
@@ -116,10 +121,23 @@ class DiaIconFinder
 	public string GetClassForObjectName(string name)
 	{
 		string cssclass = "";
+		string path = "";
+		string sheet = "";
 	
 		if(objecticons.TryGetValue(name, out cssclass))
 		{
-			cssclass = DiaCss.CanonicalizePath(cssclass).Replace(".png", "");
+			if(icons.icons.TryGetValue(cssclass, out path))
+			{
+				if(DiaIcons.SHEET_SPECIFIC == path)
+				{
+					if(objectsheets.TryGetValue(name, out sheet))
+					{
+						cssclass = "d"+sheet+DiaCss.CanonicalizePath(cssclass).Replace(".png", "");
+					}
+				}
+				else 
+					cssclass = "d"+DiaCss.CanonicalizePath(cssclass).Replace(".png", "");
+			}
 		}
 		return cssclass;
 	}
