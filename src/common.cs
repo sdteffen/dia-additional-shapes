@@ -56,6 +56,10 @@ class DiaIcons
 							icons.Add(DiaCss.CanonicalizePath(path), path);
 							icons[f.Name] = SHEET_SPECIFIC;
 						}
+						else
+						{
+							icons.Add(DiaCss.CanonicalizePath(path), path);
+						}
 					}
 					else
 					{
