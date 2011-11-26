@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-20 20:44+0100\n"
-"PO-Revision-Date: 2010-02-04 00:32+0000\n"
-"Last-Translator: Antonio Maldonado <Unknown>\n"
+"PO-Revision-Date: 2011-11-26 12:04+0100\n"
+"Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -114,7 +114,8 @@ msgstr ""
 msgid "Employee"
 msgstr ""
 
-#: ../sheets/CH-1.sheet.in.h:7 ../sheets/edpc.sheet.in.h:3
+#: ../sheets/CH-1.sheet.in.h:7
+#: ../sheets/edpc.sheet.in.h:3
 msgid "Event"
 msgstr ""
 
@@ -130,7 +131,8 @@ msgstr ""
 msgid "Outside participant"
 msgstr ""
 
-#: ../sheets/CH-1.sheet.in.h:11 ../sheets/value_stream_mapping.sheet.in.h:7
+#: ../sheets/CH-1.sheet.in.h:11
+#: ../sheets/value_stream_mapping.sheet.in.h:7
 msgid "Storage"
 msgstr ""
 
@@ -243,42 +245,40 @@ msgid "Vertical Voltmeter"
 msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:1
-#, fuzzy
 msgid "And Operator"
-msgstr "Generador"
+msgstr "Operator AND"
 
 #: ../sheets/edpc.sheet.in.h:2
 msgid "Document"
-msgstr ""
+msgstr "Documento"
 
 #: ../sheets/edpc.sheet.in.h:4
 msgid "Event-driven process chain"
-msgstr "Cadena de procesos condicionados por eventos"
+msgstr "Cadena de procesos dirigida por eventos"
 
 #: ../sheets/edpc.sheet.in.h:5
 msgid "Function"
-msgstr ""
+msgstr "Funcoón"
 
 #: ../sheets/edpc.sheet.in.h:6
 msgid "Information Object"
-msgstr ""
+msgstr "Objeto de información"
 
 #: ../sheets/edpc.sheet.in.h:7
 msgid "Objects to draw event-driven process chains"
 msgstr "Formas para dibujar cadena de procesos condicionados por eventos"
 
 #: ../sheets/edpc.sheet.in.h:8
-#, fuzzy
 msgid "Or Operator"
-msgstr "Generador"
+msgstr "Operador OR"
 
 #: ../sheets/edpc.sheet.in.h:9
 msgid "Organisation Unit"
-msgstr ""
+msgstr "Unidad organizativa"
 
 #: ../sheets/edpc.sheet.in.h:10
 msgid "XOR Operator"
-msgstr ""
+msgstr "Operador XOR"
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Additional Electric Symbols"
@@ -467,15 +467,12 @@ msgstr ""
 
 #~ msgid "Půlrack 12U"
 #~ msgstr "Medio estante 12U"
-
 #~ msgid "Půlrack 16U"
 #~ msgstr "Medio estante 16U"
-
 #~ msgid "Půlrack 20U"
 #~ msgstr "Medio estante 20U"
-
 #~ msgid "Racky"
 #~ msgstr "Estante"
-
 #~ msgid "Standardní 19-palcové racky a vybavení"
 #~ msgstr "Estante y equipo estándar de 19 pulgadas"
+
