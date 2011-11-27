@@ -110,9 +110,12 @@ public class Sheet2Html
         {
             // includes are not available for all languages, fall back to en
             string includelanguage = "en";
-            if ("de" == language)
-                includelanguage = "de";
-            XmlTextWriter output = new XmlTextWriter(outputdir.ToString()+"/index."+output_suffix+"."+language,System.Text.Encoding.UTF8);
+            if (("de" == language)||("es" == language)||("fr" == language))
+                includelanguage = language;
+			string outputfilename = outputdir.ToString()+"/index."+output_suffix;
+			if("en" != language)
+				outputfilename = outputfilename+"."+language;
+            XmlTextWriter output = new XmlTextWriter(outputfilename,System.Text.Encoding.UTF8);
             output.Formatting = Formatting.Indented;
 	    if (output_tpl)
 	{
@@ -171,17 +174,10 @@ else
             output.WriteElementString("h1", sheetname);
             output.WriteStartElement("div");
             output.WriteString(sheetdescription);
-            output.WriteString(". ");
-            // @todo: Use gettext
-            if ("de" == language)
-                output.WriteString("Diese Objekte können sie zu Ihrer Dia-Werkzeugkiste hinzufügen.");
-            else
-                output.WriteString("These objects can be added to your Dia toolbox.");
+            output.WriteString(". ");            
+            output.WriteString("{t}These objects can be added to your Dia toolbox.{/t}");
             output.WriteEndElement(); // div
-            // @todo: Use gettext
-            string example = "Example";
-            if("de" == language)
-                example = "Beispieldiagramm";
+            string example = "{t}Example{/t}";            
             output.WriteElementString("h2", example);
 
             output.WriteStartElement("img");
@@ -189,8 +185,7 @@ else
             output.WriteAttributeString("src", "images/" + args[args.Length-1] + ".png");
             output.WriteEndElement(); // img
 
-            // @todo: Use gettext
-            output.WriteElementString("h2", "Download");
+            output.WriteElementString("h2", "{t}Download{/t}");
             output.WriteStartElement("ul");
             output.WriteStartElement("li");
             output.WriteStartElement("a");
@@ -198,12 +193,8 @@ else
             output.WriteAttributeString("class", "track");
             output.WriteString(args[args.Length - 1] + ".zip");
             output.WriteEndElement(); // a
-            output.WriteString(" ");
-            // @todo: Use gettext
-            if ("de" == language)
-                output.WriteString("Objekte und Objektbogen, als Zip-Archiv gepackt");
-            else
-                output.WriteString("sheet and objects, zipped");
+            output.WriteString(" ");            
+            output.WriteString("{t}sheet and objects, zipped{/t}");
             output.WriteEndElement(); // li
             output.WriteStartElement("li");
             output.WriteStartElement("a");
@@ -212,38 +203,25 @@ else
             output.WriteString(args[args.Length - 1] + ".dia");
             output.WriteEndElement(); // a
             output.WriteString(" ");
-            // @todo: Use gettext
-            if ("de" == language)
-                output.WriteString("Beispieldiagramm im Dia-Format");
-            else
-                output.WriteString("example diagram in Dia format");
+            output.WriteString("{t}example diagram in Dia format{/t}");
             output.WriteEndElement(); // li
 
-	    output.WriteStartElement("li");
+		    output.WriteStartElement("li");
             output.WriteStartElement("a");
             output.WriteAttributeString("href", "images/" + args[args.Length - 1] + ".svg");
             output.WriteAttributeString("class", "track");
             output.WriteString(args[args.Length - 1] + ".svg");
             output.WriteEndElement(); // a
-            output.WriteString(" ");
-            // @todo: Use gettext
-            if ("de" == language)
-                output.WriteString("Beispieldiagramm im SVG-Format");
-            else
-                output.WriteString("example diagram in SVG format");
+            output.WriteString(" ");            
+            output.WriteString("{t}example diagram in SVG format{/t}");
             output.WriteEndElement(); // li
 
             output.WriteEndElement(); // ul   	
 
-            // @todo: Use gettext
-            output.WriteElementString("h2", "Installation");
+            output.WriteElementString("h2", "{t}Installation{/t}");
             output.WriteStartElement("ul");
             output.WriteStartElement("li");
-            // @todo: Use gettext
-            if ("de" == language)
-                output.WriteString("Automatisierte, wizard-basierte Installation:");
-            else
-                output.WriteString("Automated, wizard-based installation:");
+            output.WriteString("{t}Automated, wizard-based installation:{/t}");
             output.WriteString(" ");
             output.WriteStartElement("a");
             output.WriteAttributeString("href", "http://dia-installer.de/diashapes/index.html");
@@ -251,30 +229,20 @@ else
             output.WriteEndElement(); // a
             output.WriteEndElement(); // li
             output.WriteStartElement("li");
-            // @todo: Use gettext
-            if ("de" == language)
-                output.WriteString("Manuelle Installation: Um die neuen Objekte zu benutzen, entpacken Sie diese Dateien in Ihren .dia Ordner und starten sie Dia neu.");
-            else
-                output.WriteString("Manual installation: extract the files to your .dia folder and restart Dia.");
+            output.WriteString("{t}Manual installation: extract the files to your .dia folder and restart Dia.{/t}");
             output.WriteEndElement(); // li
             output.WriteEndElement(); // ul
 
             if ("" != author && !comes_with_dia)
             {
-                // @todo Use gettext
-                string authorheader = "Author";
-                if ("de" == language)
-                    authorheader = "Autor";
+                string authorheader = "{t}Author{/t}";                
                 output.WriteElementString("h2", authorheader);
                 output.WriteElementString("div", author);
             }
 
             if ((1 < languages.Count) && (!output_tpl))
             {
-                // @todo Use gettext
-                string languageheader = "Languages";
-                if ("de" == language)
-                    languageheader = "Andere Sprachen";
+                string languageheader = "{t}Languages{/t}";                
                 output.WriteElementString("h2", languageheader);
                 output.WriteStartElement("div");
                 output.WriteAttributeString("id", "flags");
@@ -309,10 +277,7 @@ else
             output.WriteAttributeString("id", "col3_content");
             output.WriteAttributeString("class", "clearfix");
 }
-            // @todo: Use gettext
-            string objectlist = "Object list";
-            if ("de" == language)
-                objectlist = "Liste der Objekte";
+            string objectlist = "{t}Object list{/t}";
             output.WriteElementString("h2", objectlist);
 
             output.WriteStartElement("table");

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-20 20:44+0100\n"
-"PO-Revision-Date: 2011-11-26 12:04+0100\n"
+"PO-Revision-Date: 2011-11-27 11:11+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
@@ -117,7 +117,7 @@ msgstr ""
 #: ../sheets/CH-1.sheet.in.h:7
 #: ../sheets/edpc.sheet.in.h:3
 msgid "Event"
-msgstr ""
+msgstr "Evento"
 
 #: ../sheets/CH-1.sheet.in.h:8
 msgid "Junction (AND, OR, XOR)"
@@ -258,7 +258,7 @@ msgstr "Cadena de procesos dirigida por eventos"
 
 #: ../sheets/edpc.sheet.in.h:5
 msgid "Function"
-msgstr "Funcoón"
+msgstr "Función"
 
 #: ../sheets/edpc.sheet.in.h:6
 msgid "Information Object"
