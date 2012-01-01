@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-20 20:44+0100\n"
+"POT-Creation-Date: 2012-01-01 18:55+0100\n"
 "PO-Revision-Date: 2011-07-03 12:20+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -88,6 +88,153 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:18
 msgid "Wall (vertical)"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:1
+msgid "Cable organizer 1U"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:2
+msgid "Cable organizer 2U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:3
+msgid "Central Data Processing"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:4
+msgid "Central data processing (server rack)"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:5
+msgid "DAS Storage 15un 3U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:6
+msgid "DAS Storage 16un 3U's - SAN - ISCSI"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:7
+msgid "Litter"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:8
+msgid "Modem"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:9
+msgid "Patch painel 24p"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:10
+#, fuzzy
+msgid "Rack 15U's"
+msgstr "Стойка 38U"
+
+#: ../sheets/central_data_processing.sheet.in.h:11
+#, fuzzy
+msgid "Rack 32U's"
+msgstr "Стойка 38U"
+
+#: ../sheets/central_data_processing.sheet.in.h:12
+#, fuzzy
+msgid "Rack 36U's"
+msgstr "Стойка 38U"
+
+#: ../sheets/central_data_processing.sheet.in.h:13
+#, fuzzy
+msgid "Rack 42U's"
+msgstr "Стойка 42U"
+
+#: ../sheets/central_data_processing.sheet.in.h:14
+#, fuzzy
+msgid "Rack 44U's"
+msgstr "Стойка 42U"
+
+#: ../sheets/central_data_processing.sheet.in.h:15
+#, fuzzy
+msgid "Rack 5U's"
+msgstr "Стойки"
+
+#: ../sheets/central_data_processing.sheet.in.h:16
+#, fuzzy
+msgid "Rack 7U's"
+msgstr "Стойки"
+
+#: ../sheets/central_data_processing.sheet.in.h:17
+msgid "Router"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:18
+msgid "Server 1U"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:19
+msgid "Server 2U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:20
+msgid "Server 3U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:21
+msgid "Server 3U's slow density"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:22
+msgid "Server 4U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:23
+msgid "Server 4U's Slow Capacity"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:24
+msgid "Server 4U's right capacity"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:25
+msgid "Server 4U's very right capacity"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:26
+msgid "Server 5U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:27
+msgid "Server 5U's right density"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:28
+msgid "Server Rack 2U's Slow density"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:29
+msgid "Server Rack 2U's very Slow density"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:30
+msgid "Switch 16p + 2 SFP"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:31
+msgid "Switch 24p + 2 SFP"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:32
+msgid "Switch 48p + 2 SFP"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:33
+msgid "Telephone exchange - Rack"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:34
+msgid "Voice painel 20p"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:35
+msgid "Voice painel 50p"
 msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:1

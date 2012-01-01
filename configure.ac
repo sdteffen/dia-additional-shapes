@@ -6,7 +6,8 @@ AC_SUBST(GETTEXT_PACKAGE)
 dnl AM_GNU_GETTEXT_VERSION([0.17])
 dnl AM_GNU_GETTEXT([external])
 AC_CONFIG_FILES([Makefile samples/Makefile shapes/Makefile \
-	shapes/building_site/Makefile shapes/CH-1/Makefile \
+	shapes/building_site/Makefile shapes/central_data_processing/Makefile \
+	shapes/CH-1/Makefile \
 	shapes/Circuit2/Makefile shapes/edpc/Makefile \
 	shapes/electric2/Makefile \
 	shapes/gradient/Makefile shapes/Racks/Makefile	\

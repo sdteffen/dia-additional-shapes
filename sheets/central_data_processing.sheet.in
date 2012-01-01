@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<_name>Central Data Processing</_name>
+<_description>Central data processing (server rack)</_description>
+<contents>
+ <object name="CPD - Rack5U">
+  <_description>Rack 5U's</_description></object>
+ <object name="CPD - Rack7U">
+  <_description>Rack 7U's</_description></object>
+ <object name="CPD - Rack15U">
+  <_description>Rack 15U's</_description></object>
+ <object name="CPD - Rack32U">
+  <_description>Rack 32U's</_description></object>
+ <object name="CPD - Rack36U">
+  <_description>Rack 36U's</_description></object>
+ <object name="CPD - Rack42U">
+  <_description>Rack 42U's</_description></object>
+ <object name="CPD - Rack44U">
+  <_description>Rack 44U's</_description></object>
+ <object name="CPD - ServerRack1U">
+  <_description>Server 1U</_description></object>
+ <object name="CPD - ServerRack2U">
+  <_description>Server 2U's</_description></object>
+ <object name="CPD - ServerRack2USlow">
+  <_description>Server Rack 2U's Slow density</_description></object>
+ <object name="CPD - ServerRack2UVerySlow">
+  <_description>Server Rack 2U's very Slow density</_description></object>
+ <object name="CPD - ServerRack3U">
+  <_description>Server 3U's</_description></object>
+ <object name="CPD - ServerRack3USlowDensity">
+  <_description>Server 3U's slow density</_description></object>
+ <object name="CPD - ServerRack4USlowCapacity">
+  <_description>Server 4U's Slow Capacity</_description></object>
+ <object name="CPD - ServerRack4U">
+  <_description>Server 4U's</_description></object>
+ <object name="CPD - ServerRack4URightCapacity">
+  <_description>Server 4U's right capacity</_description></object>
+ <object name="CPD - ServerRack4UVeryRightCapacity">
+  <_description>Server 4U's very right capacity</_description></object>
+ <object name="CPD - ServerRack5U">
+  <_description>Server 5U's</_description></object>
+ <object name="CPD - ServerRack5URightDensity">
+  <_description>Server 5U's right density</_description></object>
+ <object name="CPD - StorageRack3U">
+  <_description>DAS Storage 15un 3U's</_description></object>
+ <object name="CPD - StorageRack3USAN">
+  <_description>DAS Storage 16un 3U's - SAN - ISCSI</_description></object>
+ <object name="CPD - OrganizerRack1U">
+  <_description>Cable organizer 1U</_description></object>
+ <object name="CPD - OrganizerRack2U">
+  <_description>Cable organizer 2U's</_description></object>
+ <object name="CPD - SwitchRack16P">
+  <_description>Switch 16p + 2 SFP</_description></object>
+ <object name="CPD - SwitchRack24P">
+  <_description>Switch 24p + 2 SFP</_description></object>
+ <object name="CPD - SwitchRack48P">
+  <_description>Switch 48p + 2 SFP</_description></object>
+ <object name="CPD - Router">
+  <_description>Router</_description></object>
+ <object name="CPD - Modem">
+  <_description>Modem</_description></object>
+ <object name="CPD - VoicePainel50P">
+  <_description>Voice painel 50p</_description></object>
+ <object name="CPD - VoicePainel20P">
+  <_description>Voice painel 20p</_description></object>
+ <object name="CPD - PatchPainel24P">
+  <_description>Patch painel 24p</_description></object>
+ <object name="CPD - Litter">
+  <_description>Litter</_description></object>
+ <object name="CPD - TelephoneExchange">
+  <_description>Telephone exchange - Rack</_description></object>
+</contents></sheet>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>CPD - VoicePainel20P</name>
+  <icon>Voice_Painel_20P.png</icon>
+  <connections>
+    <point x="0" y="0"/>
+    <point x="0.495" y="0.13"/>
+    <point x="0.945" y="0.13"/>
+    <point x="1.395" y="0.13"/>
+    <point x="1.845" y="0.13"/>
+    <point x="2.295" y="0.13"/>
+
+    <point x="3.645" y="0.13"/>
+    <point x="4.095" y="0.13"/>
+    <point x="4.545" y="0.13"/>
+    <point x="4.995" y="0.13"/>
+    <point x="5.445" y="0.13"/>
+
+
+    <point x="0.495" y="0.33"/>
+    <point x="0.945" y="0.33"/>
+    <point x="1.395" y="0.33"/>
+    <point x="1.845" y="0.33"/>
+    <point x="2.295" y="0.33"/>
+
+    <point x="3.645" y="0.33"/>
+    <point x="4.095" y="0.33"/>
+    <point x="4.545" y="0.33"/>
+    <point x="4.995" y="0.33"/>
+    <point x="5.445" y="0.33"/>
+
+
+    <point x="0" y="0.25"/>
+    <point x="0" y="0.5"/>
+    <point x="3" y="0"/>
+    <point x="3" y="0.5"/>
+    <point x="6" y="0"/>
+    <point x="6" y="0.25"/>
+    <point x="6" y="0.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+<!-- Main -->
+    <svg:rect style="fill: #393535" x="0" y="0" width="6" height="0.5"/>
+
+
+<!-- Suport -->
+    <svg:line style="stroke-width: 0.01" x1="0.1" y1="0" x2="0.1" y2="0.5"/>
+    <svg:line style="stroke-width: 0.01" x1="5.9" y1="0" x2="5.9" y2="0.5"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="0.05" cy="0.25" r="0.02"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="5.95" cy="0.25" r="0.02"/>
+
+<!-- Port -->
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="0.425" y="0.07" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="0.875" y="0.07" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="1.325" y="0.07" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="1.77" y="0.07" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="2.225" y="0.07" width="0.15" height="0.12"/>
+
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="3.575" y="0.07" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="4.025" y="0.07" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="4.475" y="0.07" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="4.925" y="0.07" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="5.375" y="0.07" width="0.15" height="0.12"/>
+
+
+
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="0.425" y="0.27" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="0.875" y="0.27" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="1.325" y="0.27" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="1.77" y="0.27" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="2.225" y="0.27" width="0.15" height="0.12"/>
+
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="3.575" y="0.27" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="4.025" y="0.27" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="4.475" y="0.27" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="4.925" y="0.27" width="0.15" height="0.12"/>
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="5.375" y="0.27" width="0.15" height="0.12"/>
+
+
+<!-- Display -->
+
+
+
+  </svg:svg>
+</shape>

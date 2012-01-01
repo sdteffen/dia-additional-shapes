@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>CPD - ServerRack2UVerySlow</name>
+  <icon>Server_Rack_2U_Slow.png</icon>
+  <connections>
+    <point x="0" y="0"/>
+    <point x="0" y="0.5"/>
+    <point x="0" y="1"/>
+    <point x="3" y="0"/>
+    <point x="3" y="1"/>
+    <point x="6" y="0"/>
+    <point x="6" y="0.5"/>
+    <point x="6" y="1"/>
+    <point x="3" y="0.5" main="yes"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+<!-- Main -->
+    <svg:rect style="fill: #7b7b7b" x="0" y="0" width="6" height="1"/>
+<!-- Display-CD -->
+    <svg:rect style="fill: #c0c0c0; stroke-width: 0.01; stroke: #000000" x="0.55" y="0.075" width="0.6" height="0.075"/>
+    <svg:rect style="fill: #3a3a3a" x="0.5" y="0.2" width="1.6" height="0.075"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="1.7" cy="0.1" r="0.015"/>
+    <svg:circle style="fill: #2200aa; stroke-width: 0; stroke: #2200aa" cx="1.9" cy="0.1" r="0.015"/>
+<!-- HD's -->
+    <svg:rect style="fill: #000000" x="4.5" y="0.225" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="4.55" y="0.275" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="5.55" y="0.275" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="4.52" cy="0.25" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="4.52" cy="0.5" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="4.5" y="0.6" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="4.55" y="0.65" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="5.55" y="0.65" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="4.52" cy="0.625" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="4.52" cy="0.875" r="0.013"/>
+
+<!-- support -->
+    <svg:line style="stroke-width: 0.01" x1="0.1" y1="0" x2="0.1" y2="1"/>
+    <svg:line style="stroke-width: 0.01" x1="5.9" y1="0" x2="5.9" y2="1"/>
+    <svg:rect style="fill: #000000; stroke-width: 0" x="0.025" y="0.35" width="0.05" height="0.3"/>
+    <svg:rect style="fill: #000000; stroke-width: 0" x="5.925" y="0.35" width="0.05" height="0.3"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="0.05" cy="0.25" r="0.02"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="0.05" cy="0.75" r="0.02"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="5.95" cy="0.25" r="0.02"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="5.95" cy="0.75" r="0.02"/>
+<!-- other -->
+    <svg:line style="stroke-width: 0.01" x1="3.1" y1="0.2" x2="3.1" y2="0.85"/>
+    <svg:line style="stroke-width: 0.01" x1="3.3" y1="0.2" x2="3.3" y2="0.85"/>
+    <svg:line style="stroke-width: 0.01" x1="3.5" y1="0.2" x2="3.5" y2="0.85"/>
+    <svg:line style="stroke-width: 0.01" x1="3.7" y1="0.2" x2="3.7" y2="0.85"/>
+    <svg:line style="stroke-width: 0.01" x1="3.9" y1="0.2" x2="3.9" y2="0.85"/>
+    <svg:line style="stroke-width: 0.01" x1="4.1" y1="0.2" x2="4.1" y2="0.85"/>
+    <svg:line style="stroke-width: 0.01" x1="4.3" y1="0.2" x2="4.3" y2="0.85"/>
+
+    <svg:line style="stroke-dasharray: 0.1; stroke: #332f2f" x1="3.2" y1="0.1" x2="5.6" y2="0.1"/>
+    <svg:line style="stroke-dasharray: 0.1; stroke: #332f2f" x1="0.3" y1="0.4" x2="2.7" y2="0.4"/>
+    <svg:line style="stroke-dasharray: 0.1; stroke: #332f2f" x1="0.3" y1="0.5" x2="2.7" y2="0.5"/>
+    <svg:line style="stroke-dasharray: 0.1; stroke: #332f2f" x1="0.3" y1="0.6" x2="2.7" y2="0.6"/>
+    <svg:line style="stroke-dasharray: 0.1; stroke: #332f2f" x1="0.3" y1="0.7" x2="2.7" y2="0.7"/>
+    <svg:line style="stroke-dasharray: 0.1; stroke: #332f2f" x1="0.3" y1="0.8" x2="2.7" y2="0.8"/>
+  </svg:svg>
+</shape>

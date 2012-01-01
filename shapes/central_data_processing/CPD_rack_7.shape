@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>CPD - Rack7U</name>
+  <icon>CPD_rack_7.png</icon>
+  <connections>
+    <point x="0" y="0"/>
+    <point x="0" y="2.25"/>
+    <point x="0" y="4.5"/>
+    <point x="3.5" y="0"/>
+    <point x="3.5" y="2.25"/>
+    <point x="3.5" y="4.5"/>
+    <point x="7" y="0"/>
+    <point x="7" y="2.25"/>
+    <point x="7" y="4.5"/>
+    <point x="2.25" y="1" main="yes"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="7" height="4.5">
+<!-- Main -->
+    <svg:polygon style="fill: #4d4d4d" points="0,0 0.5,0 0.5,4 6.5,4 6.5,0 7,0 7,4.5 0,4.5 "/>
+<!-- Suport -->
+<!-- Top -->
+    <svg:rect style="fill: #4d4d4d" x="0.5" y="0" width="6" height="0.5"/>
+<!-- Other -->
+    <svg:rect style="fill: #3b3b3b; stroke-widht: 0.01" x="3" y="0.13" width="1" height="0.17"/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>CPD - StorageRack3USAN</name>
+  <icon>Storage_Rack_3U_SAN.png</icon>
+  <connections>
+    <point x="0" y="0"/>
+    <point x="0" y="0.75"/>
+    <point x="0" y="1.5"/>
+    <point x="3" y="0"/>
+    <point x="3" y="1.5"/>
+    <point x="6" y="0"/>
+    <point x="6" y="0.75"/>
+    <point x="6" y="1.5"/>
+    <point x="3" y="0.75" main="yes"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+<!-- Main -->
+    <svg:rect style="fill: #7b7b7b" x="0" y="0" width="6" height="1.5"/>
+<!-- Display-CD -->
+<!-- HD's -->
+
+    <svg:rect style="fill: #000000" x="0.3" y="0.07" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="0.35" y="0.12" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="1.35" y="0.12" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="0.32" cy="0.09" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="0.32" cy="0.34" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="0.3" y="0.42" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="0.35" y="0.47" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="1.35" y="0.47" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="0.32" cy="0.445" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="0.32" cy="0.695" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="0.3" y="0.77" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="0.35" y="0.82" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="1.35" y="0.82" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="0.32" cy="0.79" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="0.32" cy="1.04" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="0.3" y="1.12" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="0.35" y="1.17" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="1.35" y="1.17" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="0.32" cy="1.145" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="0.32" cy="1.395" r="0.013"/>
+
+
+
+    <svg:rect style="fill: #000000" x="1.7" y="0.07" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="1.75" y="0.12" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="2.75" y="0.12" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="1.72" cy="0.09" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="1.72" cy="0.34" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="1.7" y="0.42" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="1.75" y="0.47" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="2.75" y="0.47" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="1.72" cy="0.445" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="1.72" cy="0.695" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="1.7" y="0.77" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="1.75" y="0.82" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="2.75" y="0.82" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="1.72" cy="0.79" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="1.72" cy="1.04" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="1.7" y="1.12" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="1.75" y="1.17" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="2.75" y="1.17" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="1.72" cy="1.145" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="1.72" cy="1.395" r="0.013"/>
+
+
+
+    <svg:rect style="fill: #000000" x="3.1" y="0.07" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="3.15" y="0.12" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="4.15" y="0.12" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="3.12" cy="0.09" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="3.12" cy="0.34" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="3.1" y="0.42" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="3.15" y="0.47" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="4.15" y="0.47" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="3.12" cy="0.445" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="3.12" cy="0.695" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="3.1" y="0.77" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="3.15" y="0.82" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="4.15" y="0.82" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="3.12" cy="0.79" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="3.12" cy="1.04" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="3.1" y="1.12" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="3.15" y="1.17" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="4.15" y="1.17" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="3.12" cy="1.145" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="3.12" cy="1.395" r="0.013"/>
+
+
+
+    <svg:rect style="fill: #000000" x="4.5" y="0.07" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="4.55" y="0.12" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="5.55" y="0.12" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="4.52" cy="0.09" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="4.52" cy="0.34" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="4.5" y="0.42" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="4.55" y="0.47" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="5.55" y="0.47" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="4.52" cy="0.445" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="4.52" cy="0.695" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="4.5" y="0.77" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="4.55" y="0.82" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="5.55" y="0.82" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="4.52" cy="0.79" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="4.52" cy="1.04" r="0.013"/>
+
+    <svg:rect style="fill: #000000" x="4.5" y="1.12" width="1.2" height="0.3"/>
+    <svg:rect style="fill: #332f2f" x="4.55" y="1.17" width="1" height="0.2"/>
+    <svg:rect style="fill: #332f2f" x="5.55" y="1.17" width="0.1" height="0.2"/>
+    <svg:circle style="fill: #10aa00; stroke-width: 0; stroke: #10aa00" cx="4.52" cy="1.145" r="0.013"/>
+    <svg:circle style="fill: #ea9f00; stroke-width: 0; stroke: #ea9f00" cx="4.52" cy="1.395" r="0.013"/>
+
+<!-- support -->
+    <svg:line style="stroke-width: 0.01" x1="0.1" y1="0" x2="0.1" y2="1.5"/>
+    <svg:line style="stroke-width: 0.01" x1="5.9" y1="0" x2="5.9" y2="1.5"/>
+    <svg:rect style="fill: #000000; stroke-width: 0" x="0.025" y="0.95" width="0.05" height="0.4"/>
+    <svg:rect style="fill: #000000; stroke-width: 0" x="5.925" y="0.95" width="0.05" height="0.4"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="0.05" cy="0.25" r="0.02"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="0.05" cy="0.75" r="0.02"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="5.95" cy="0.25" r="0.02"/>
+    <svg:circle style="fill: #000000; stroke-width: 0" cx="5.95" cy="0.75" r="0.02"/>
+<!-- other -->
+
+  </svg:svg>
+</shape>
