@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Renewable Energy - Solar Module</name>
+  <icon>solar_module.png</icon>
+  <aspectratio type="fixed"/>
+  <connections>
+    <point x="127" y="17" main="yes"/>
+    <point x="132" y="12"/>
+    <point x="122" y="17"/>
+    <point x="132" y="18"/>
+    <point x="122" y="23"/>
+  </connections>
+  <textbox x1="117" y1="24" x2="137" y2="27" align="center" resize="no"/>
+  <svg:svg>
+    <svg:polygon style="fill: #7f7f7f" points="117,22 117,23 127,23 137,13 137,12 127,12 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="117,22 117,23 127,23 137,13 137,12 127,12 "/>
+    <svg:polygon style="fill: #bfbfbf" points="137,12 127,12 117,22 127,22 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="137,12 127,12 117,22 127,22 "/>
+    <svg:polygon style="fill: #000000" points="129,19 127,19 125,21 127,21 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="129,19 127,19 125,21 127,21 "/>
+    <svg:polygon style="fill: #000000" points="127,19 125,19 123,21 125,21 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="127,19 125,19 123,21 125,21 "/>
+    <svg:polygon style="fill: #000000" points="125,19 123,19 121,21 123,21 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="125,19 123,19 121,21 123,21 "/>
+    <svg:polygon style="fill: #000000" points="123,19 121,19 119,21 121,21 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="123,19 121,19 119,21 121,21 "/>
+    <svg:polygon style="fill: #000000" points="131,17 129,17 127,19 129,19 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="131,17 129,17 127,19 129,19 "/>
+    <svg:polygon style="fill: #000000" points="129,17 127,17 125,19 127,19 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="129,17 127,17 125,19 127,19 "/>
+    <svg:polygon style="fill: #000000" points="127,17 125,17 123,19 125,19 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="127,17 125,17 123,19 125,19 "/>
+    <svg:polygon style="fill: #000000" points="125,17 123,17 121,19 123,19 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="125,17 123,17 121,19 123,19 "/>
+    <svg:polygon style="fill: #000000" points="133,15 131,15 129,17 131,17 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="133,15 131,15 129,17 131,17 "/>
+    <svg:polygon style="fill: #000000" points="131,15 129,15 127,17 129,17 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="131,15 129,15 127,17 129,17 "/>
+    <svg:polygon style="fill: #000000" points="129,15 127,15 125,17 127,17 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="129,15 127,15 125,17 127,17 "/>
+    <svg:polygon style="fill: #000000" points="127,15 125,15 123,17 125,17 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="127,15 125,15 123,17 125,17 "/>
+    <svg:polygon style="fill: #000000" points="135,13 133,13 131,15 133,15 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="135,13 133,13 131,15 133,15 "/>
+    <svg:polygon style="fill: #000000" points="133,13 131,13 129,15 131,15 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="133,13 131,13 129,15 131,15 "/>
+    <svg:polygon style="fill: #000000" points="131,13 129,13 127,15 129,15 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="131,13 129,13 127,15 129,15 "/>
+    <svg:polygon style="fill: #000000" points="129,13 127,13 125,15 127,15 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #4d4d4d" points="129,13 127,13 125,15 127,15 "/>
+  </svg:svg>
+</shape>

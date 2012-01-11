@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Renewable Energy - Wind Vane</name>
+  <icon>wind_vane.png</icon>
+  <aspectratio type="fixed"/>
+  <connections>
+    <point x="14.5" y="21"/>
+  </connections>
+  <textbox x1="5" y1="22" x2="24" y2="25" align="center" resize="no"/>
+  <svg:svg>
+    <svg:line style="stroke-width: 1; stroke: #4d4d4d" x1="10" y1="8" x2="17" y2="8"/>
+    <svg:polygon style="fill: #ffffff" points="17,8 19,5 23,5 23,8"/>
+    <svg:polygon style="fill: #ffffff"
+		 points="9,8 10,7.5 12,7.5 13,8 12,8.5 10,8.5"/>
+    <svg:polygon style="fill: #ffffff"
+		 points="14,7 15,7 15,15 17,17 17,21 12,21 12,17 14,15 "/>
+  </svg:svg>
+</shape>

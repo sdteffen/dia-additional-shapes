@@ -10,7 +10,8 @@ AC_CONFIG_FILES([Makefile samples/Makefile shapes/Makefile \
 	shapes/CH-1/Makefile \
 	shapes/Circuit2/Makefile shapes/edpc/Makefile \
 	shapes/electric2/Makefile \
-	shapes/gradient/Makefile shapes/Racks/Makefile	\
+	shapes/gradient/Makefile shapes/Racks/Makefile \
+	shapes/renewable_energy/Makefile  \
 	shapes/value_stream_mapping/Makefile sheets/Makefile \
 	src/Makefile po/Makefile.in])
 AC_OUTPUT

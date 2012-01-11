@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+    xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Renewable Energy - Data Logger</name>
+  <icon>data_logger.png</icon>
+  <aspectratio type="fixed"/>
+  <connections>
+    <point x="4" y="12"/>
+    <point x="7" y="12"/>
+    <point x="10" y="12"/>
+    <point x="13" y="12"/>
+    <point x="16" y="12"/>
+  </connections>
+  <textbox x1="0" y1="13" x2="20" y2="16" align="center" resize="no"/>
+  <svg:svg>
+    <svg:path style="fill: #ffffff" d="
+    	M 0.5 0
+    	L 19.5 0
+    	S 20 0 20 0.5
+    	L 20 11.5
+    	S 20 12 19.5 12
+    	L 0.5 12
+    	S 0 12 0 11.5
+    	L 0 0.5
+    	S 0 0 0.5 0
+    	Z"/>
+
+    <svg:path style="fill: #ff0000; stroke-width: 0;" d="
+    	M 0.5 3
+    	L 19.5 3
+    	L 19.5 9
+    	L 0.5 9
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 4.2 4.5
+    	L 17.8 4.5
+    	S 18 4.5 18 4.7
+        L 18 6.5
+	S 18 6.7 17.8 6.7
+    	L 4.2 6.7
+	S 4 6.7 4 6.5
+    	L 4 4.7
+	S 4 4.5 4.2 4.5
+    	Z"/>
+    <svg:path style="fill: #00ff00; stroke-width: 0;" d="
+    	M 11.2 4.7
+    	L 17.6 4.7
+    	S 17.8 4.7 17.8 4.9
+        L 17.8 6.3
+	S 17.8 6.5 17.6 6.5
+    	L 11.2 6.5
+	S 11 6.5 11 6.3
+    	L 11 4.9
+	S 11 4.7 11.2 4.7
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 0.5 4.5
+    	L 1 4.3
+    	L 1 4.7
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 0.5 6
+    	L 1 5.8
+    	L 1 6.2
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 0.5 7.5
+    	L 1 7.3
+    	L 1 7.7
+    	Z"/>
+
+    <svg:path style="fill: #ff0000; stroke-width: 0;" d="
+    	M 0.5 10
+    	L 19.5 10
+    	L 19.5 11.5
+    	L 0.5 11.5
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 3.8 11
+    	L 4.2 11
+    	L 4 11.5
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 6.8 11
+    	L 7.2 11
+    	L 7 11.5
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 9.8 11
+    	L 10.2 11
+    	L 10 11.5
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 12.8 11
+    	L 13.2 11
+    	L 13 11.5
+    	Z"/>
+    <svg:path style="fill: #ffffff; stroke-width: 0;" d="
+    	M 15.8 11
+    	L 16.2 11
+    	L 16 11.5
+    	Z"/>
+
+    <svg:ellipse style="fill: #ffffff" cx="0.5" cy="0.5" rx="0.5" ry="0.5"/>
+    <svg:line style="stroke-width: 0.5; stroke: #000000"
+	      x1="0" y1="0.5" x2="1" y2="0.5"/>
+    <svg:line style="stroke-width: 0.5; stroke: #000000"
+	      x1="0.5" y1="0" x2="0.5" y2="1"/>
+
+    <svg:ellipse style="fill: #ffffff" cx="19.5" cy="0.5" rx="0.5" ry="0.5"/>
+    <svg:line style="stroke-width: 0.5; stroke: #000000"
+	      x1="19" y1="0.5" x2="20" y2="0.5"/>
+    <svg:line style="stroke-width: 0.5; stroke: #000000"
+	      x1="19.5" y1="0" x2="19.5" y2="1"/>
+
+    <svg:ellipse style="fill: #ffffff" cx="0.5" cy="11.5" rx="0.5" ry="0.5"/>
+    <svg:line style="stroke-width: 0.5; stroke: #000000"
+	      x1="0" y1="11.5" x2="1" y2="11.5"/>
+    <svg:line style="stroke-width: 0.5; stroke: #000000"
+	      x1="0.5" y1="11" x2="0.5" y2="12"/>
+
+    <svg:ellipse style="fill: #ffffff" cx="19.5" cy="11.5" rx="0.5" ry="0.5"/>
+    <svg:line style="stroke-width: 0.5; stroke: #000000"
+	      x1="19" y1="11.5" x2="20" y2="11.5"/>
+    <svg:line style="stroke-width: 0.5; stroke: #000000"
+	      x1="19.5" y1="11" x2="19.5" y2="12"/>
+  </svg:svg>
+</shape>

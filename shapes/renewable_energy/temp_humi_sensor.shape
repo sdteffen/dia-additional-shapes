@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Renewable Energy - Temperature and Humidity Sensor</name>
+  <icon>temp_humi_sensor.png</icon>
+  <aspectratio type="fixed"/>
+  <connections>
+    <point x="14" y="10"/>
+  </connections>
+  <textbox x1="10" y1="11" x2="18" y2="14" align="center" resize="no"/>
+  <svg:svg>
+    <svg:polygon style="fill: #ffffff" points="10,10 18,10 17,9 11,9 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,10 18,10 17,9 11,9 "/>
+    <svg:polygon style="fill: #ffffff" points="10,9 18,9 17,8 11,8 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,9 18,9 17,8 11,8 "/>
+    <svg:polygon style="fill: #ffffff" points="10,8 18,8 17,7 11,7 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,8 18,8 17,7 11,7 "/>
+    <svg:polygon style="fill: #ffffff" points="10,7 18,7 17,6 11,6 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,7 18,7 17,6 11,6 "/>
+    <svg:polygon style="fill: #ffffff" points="10,6 18,6 17,5 11,5 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,6 18,6 17,5 11,5 "/>
+    <svg:polygon style="fill: #ffffff" points="10,5 18,5 17,4 11,4 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,5 18,5 17,4 11,4 "/>
+    <svg:polygon style="fill: #ffffff" points="10,4 18,4 17,3 11,3 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,4 18,4 17,3 11,3 "/>
+    <svg:polygon style="fill: #ffffff" points="10,3 18,3 17,2 11,2 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,3 18,3 17,2 11,2 "/>
+    <svg:polygon style="fill: #ffffff" points="10,2 18,2 17,1 11,1 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,2 18,2 17,1 11,1 "/>
+    <svg:polygon style="fill: #ffffff" points="10,1 18,1 17,0 11,0 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="10,1 18,1 17,0 11,0 "/>
+  </svg:svg>
+</shape>

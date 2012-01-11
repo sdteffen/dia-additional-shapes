@@ -10,6 +10,7 @@ sheet_in_files = \
   edpc.sheet.in \
   electric2.sheet.in \
   gradient.sheet.in \
+  renewable_energy.sheet.in \
   Racks.sheet.in \
   value_stream_mapping.sheet.in
 
