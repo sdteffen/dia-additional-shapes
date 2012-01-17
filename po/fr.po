@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-01 18:55+0100\n"
+"POT-Creation-Date: 2012-01-17 20:50+0100\n"
 "PO-Revision-Date: 2010-01-26 19:21+0000\n"
 "Last-Translator: jojolebestof <Unknown>\n"
 "Language-Team: French <sdteffen@sdteffen.de>\n"
@@ -283,6 +283,144 @@ msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:12
 msgid "Work"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:1
+msgid "30 Degree Bend"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:2
+#, fuzzy
+msgid "Beaker"
+msgstr "Disjoncteur"
+
+#: ../sheets/chemistry_lab.sheet.in.h:3
+msgid "Buechner Funnel"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:4
+msgid "Burette"
+msgstr ""
+
+#. For: ryan
+#: ../sheets/chemistry_lab.sheet.in.h:6
+msgid "Chemistry Lab"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:7
+msgid "Chemistry Lab Apparati"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:8
+msgid "Clamp"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:9
+msgid "Clamp Extra Large"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:10
+msgid "Clamp Front"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:11
+msgid "Clamp Large"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:12
+msgid "Condenser"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:13
+msgid "Condenser Black"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:14
+msgid "Condenser Blue"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:15
+msgid "Condenser Green"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:16
+msgid "Condenser Orange"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:17
+msgid "Condenser Pale Blue"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:18
+msgid "Condenser Red"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:19
+msgid "Erlenmeyer Flask"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:20
+msgid "Gooseneck"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:21
+msgid "Lab Stand Front"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:22
+msgid "Lab Stand Side"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:23
+msgid "Liebig Condenser Vertical"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:24
+msgid "Powder Funnel"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:25
+msgid "Reflux Column"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:26
+msgid "Reflux Column Red"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:27
+msgid "Reflux Column Red-Blue"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:28
+msgid "Ring Front"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:29
+msgid "Ring Side"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:30
+msgid "Separatory Funnel"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:31
+msgid "Separatory Funnel 2 Phases"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:32
+msgid "Separatory Funnel 3 Phases"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:33
+msgid "Stir Bar"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:34
+msgid "Stir Plate Front"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:35
+msgid "Stir Plate Side"
 msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:1
