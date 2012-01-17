@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
+  <dia:diagramdata>
+    <dia:attribute name="background">
+      <dia:color val="#ffffff"/>
+    </dia:attribute>
+    <dia:attribute name="pagebreak">
+      <dia:color val="#000099"/>
+    </dia:attribute>
+    <dia:attribute name="paper">
+      <dia:composite type="paper">
+        <dia:attribute name="name">
+          <dia:string>#Letter#</dia:string>
+        </dia:attribute>
+        <dia:attribute name="tmargin">
+          <dia:real val="2.5399999618530273"/>
+        </dia:attribute>
+        <dia:attribute name="bmargin">
+          <dia:real val="2.5399999618530273"/>
+        </dia:attribute>
+        <dia:attribute name="lmargin">
+          <dia:real val="2.5399999618530273"/>
+        </dia:attribute>
+        <dia:attribute name="rmargin">
+          <dia:real val="2.5399999618530273"/>
+        </dia:attribute>
+        <dia:attribute name="is_portrait">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="scaling">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="fitto">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:composite>
+    </dia:attribute>
+    <dia:attribute name="grid">
+      <dia:composite type="grid">
+        <dia:attribute name="width_x">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="width_y">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="visible_x">
+          <dia:int val="1"/>
+        </dia:attribute>
+        <dia:attribute name="visible_y">
+          <dia:int val="1"/>
+        </dia:attribute>
+        <dia:composite type="color"/>
+      </dia:composite>
+    </dia:attribute>
+    <dia:attribute name="color">
+      <dia:color val="#d8e5e5"/>
+    </dia:attribute>
+    <dia:attribute name="guides">
+      <dia:composite type="guides">
+        <dia:attribute name="hguides"/>
+        <dia:attribute name="vguides"/>
+      </dia:composite>
+    </dia:attribute>
+  </dia:diagramdata>
+  <dia:layer name="Background" visible="true">
+    <dia:group>
+      <dia:object type="Standard - Box" version="0" id="O0">
+        <dia:attribute name="obj_pos">
+          <dia:point val="16,-45"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="15.975,-45.025;51.025,8.025"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="16,-45"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="35"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="53"/>
+        </dia:attribute>
+        <dia:attribute name="border_width">
+          <dia:real val="0.050000000000000003"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="corner_radius">
+          <dia:real val="1.1754943508222875e-38"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Box" version="0" id="O1">
+        <dia:attribute name="obj_pos">
+          <dia:point val="18,-43"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="18,-43;49,6"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="18,-43"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="31"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="49"/>
+        </dia:attribute>
+        <dia:attribute name="border_width">
+          <dia:real val="0"/>
+        </dia:attribute>
+        <dia:attribute name="border_color">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="inner_color">
+          <dia:color val="#add8e6"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="corner_radius">
+          <dia:real val="1.1754943508222875e-38"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Network - Cloud" version="0" id="O2">
+        <dia:attribute name="obj_pos">
+          <dia:point val="17,-44"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="17,-44;38,-30"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="17,-44"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="21"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="14"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="4"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="28.0629,-36.7532"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Beziergon" version="0" id="O3">
+        <dia:attribute name="obj_pos">
+          <dia:point val="43,5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="37.75,1.29289;48.25,5"/>
+        </dia:attribute>
+        <dia:attribute name="bez_points">
+          <dia:point val="43,5"/>
+          <dia:point val="51,5"/>
+          <dia:point val="48,4"/>
+          <dia:point val="46,2"/>
+          <dia:point val="44,0"/>
+          <dia:point val="42,0"/>
+          <dia:point val="40,2"/>
+          <dia:point val="38,4"/>
+          <dia:point val="35,5"/>
+        </dia:attribute>
+        <dia:attribute name="corner_types">
+          <dia:enum val="172206408"/>
+          <dia:enum val="0"/>
+          <dia:enum val="0"/>
+          <dia:enum val="0"/>
+        </dia:attribute>
+        <dia:attribute name="line_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0"/>
+        </dia:attribute>
+        <dia:attribute name="inner_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Beziergon" version="0" id="O4">
+        <dia:attribute name="obj_pos">
+          <dia:point val="24,4"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="18.75,0.292893;29.25,4"/>
+        </dia:attribute>
+        <dia:attribute name="bez_points">
+          <dia:point val="24,4"/>
+          <dia:point val="32,4"/>
+          <dia:point val="29,3"/>
+          <dia:point val="27,1"/>
+          <dia:point val="25,-1"/>
+          <dia:point val="23,-1"/>
+          <dia:point val="21,1"/>
+          <dia:point val="19,3"/>
+          <dia:point val="16,4"/>
+        </dia:attribute>
+        <dia:attribute name="corner_types">
+          <dia:enum val="172206408"/>
+          <dia:enum val="0"/>
+          <dia:enum val="0"/>
+          <dia:enum val="0"/>
+        </dia:attribute>
+        <dia:attribute name="line_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0"/>
+        </dia:attribute>
+        <dia:attribute name="inner_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Beziergon" version="0" id="O5">
+        <dia:attribute name="obj_pos">
+          <dia:point val="30,5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="24.75,1.29289;35.25,5"/>
+        </dia:attribute>
+        <dia:attribute name="bez_points">
+          <dia:point val="30,5"/>
+          <dia:point val="38,5"/>
+          <dia:point val="35,4"/>
+          <dia:point val="33,2"/>
+          <dia:point val="31,0"/>
+          <dia:point val="29,0"/>
+          <dia:point val="27,2"/>
+          <dia:point val="25,4"/>
+          <dia:point val="22,5"/>
+        </dia:attribute>
+        <dia:attribute name="corner_types">
+          <dia:enum val="172206408"/>
+          <dia:enum val="0"/>
+          <dia:enum val="0"/>
+          <dia:enum val="0"/>
+        </dia:attribute>
+        <dia:attribute name="line_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0"/>
+        </dia:attribute>
+        <dia:attribute name="inner_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Beziergon" version="0" id="O6">
+        <dia:attribute name="obj_pos">
+          <dia:point val="37,4"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="31.75,0.292893;42.25,4"/>
+        </dia:attribute>
+        <dia:attribute name="bez_points">
+          <dia:point val="37,4"/>
+          <dia:point val="45,4"/>
+          <dia:point val="42,3"/>
+          <dia:point val="40,1"/>
+          <dia:point val="38,-1"/>
+          <dia:point val="36,-1"/>
+          <dia:point val="34,1"/>
+          <dia:point val="32,3"/>
+          <dia:point val="29,4"/>
+        </dia:attribute>
+        <dia:attribute name="corner_types">
+          <dia:enum val="172206408"/>
+          <dia:enum val="0"/>
+          <dia:enum val="0"/>
+          <dia:enum val="0"/>
+        </dia:attribute>
+        <dia:attribute name="line_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0"/>
+        </dia:attribute>
+        <dia:attribute name="inner_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Box" version="0" id="O7">
+        <dia:attribute name="obj_pos">
+          <dia:point val="18,3"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="18,3;49,6"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="18,3"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="31"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="3"/>
+        </dia:attribute>
+        <dia:attribute name="border_width">
+          <dia:real val="0"/>
+        </dia:attribute>
+        <dia:attribute name="border_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="inner_color">
+          <dia:color val="#a0eea0"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="corner_radius">
+          <dia:real val="1.1754943508222875e-38"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Network - Cloud" version="0" id="O8">
+        <dia:attribute name="obj_pos">
+          <dia:point val="30,-37"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="30,-37;51,-23"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="30,-37"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="21"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="14"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="4"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="41.0629,-29.7532"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:group>
+      <dia:object type="Standard - ZigZagLine" version="1" id="O9">
+        <dia:attribute name="obj_pos">
+          <dia:point val="30.1023,1.825"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="30.0523,1.775;32.6917,4.55"/>
+        </dia:attribute>
+        <dia:attribute name="orth_points">
+          <dia:point val="30.1023,1.825"/>
+          <dia:point val="30.1023,4.5"/>
+          <dia:point val="32.6417,4.5"/>
+          <dia:point val="32.6417,3.1"/>
+        </dia:attribute>
+        <dia:attribute name="orth_orient">
+          <dia:enum val="1"/>
+          <dia:enum val="0"/>
+          <dia:enum val="1"/>
+        </dia:attribute>
+        <dia:attribute name="autorouting">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="line_color">
+          <dia:color val="#4d4d4d"/>
+        </dia:attribute>
+        <dia:connections>
+          <dia:connection handle="0" to="O16" connection="4"/>
+          <dia:connection handle="1" to="O17" connection="1"/>
+        </dia:connections>
+      </dia:object>
+      <dia:object type="Renewable Energy - Wind Measurement Tower" version="0" id="O10">
+        <dia:attribute name="obj_pos">
+          <dia:point val="33.4263,-8.5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="33.4213,-8.5;34.7263,6.95"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="33.4263,-8.5"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1.2500000000000002"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="14.000000000000004"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="34.5513,6.15"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Temperature and Humidity Sensor" version="0" id="O11">
+        <dia:attribute name="obj_pos">
+          <dia:point val="35,0"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="34.8793,-0.05;36.0207,2.4375"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="35,0"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="0.90000000000000002"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1.125"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="35.45,1.6375"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Cup Anemometer" version="0" id="O12">
+        <dia:attribute name="obj_pos">
+          <dia:point val="33,-8"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="32.95,-8.1;34.0833,-5.7375"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="33,-8"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="33.5938,-6.5375"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Wind Vane" version="0" id="O13">
+        <dia:attribute name="obj_pos">
+          <dia:point val="33,-6"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="32.8882,-6.05;33.9875,-3.66161"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="33,-6"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="0.93749999999999434"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1.071428571428565"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="33.3683,-4.46161"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Cup Anemometer" version="0" id="O14">
+        <dia:attribute name="obj_pos">
+          <dia:point val="35,-8.5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="34.95,-8.6;36.0833,-6.2375"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="35,-8.5"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="35.5938,-7.0375"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Cup Anemometer" version="0" id="O15">
+        <dia:attribute name="obj_pos">
+          <dia:point val="33,0"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="32.95,-0.1;34.0833,2.2625"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="33,0"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="33.5938,1.4625"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Solar Module" version="0" id="O16">
+        <dia:attribute name="obj_pos">
+          <dia:point val="29.5,0.5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="29.3793,0.45;32.0298,3.14545"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="29.5,0.5"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="2.4090909090909092"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1.325"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="30.7045,2.34545"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Data Logger" version="0" id="O17">
+        <dia:attribute name="obj_pos">
+          <dia:point val="32,2"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="31.95,1.95;33.8833,4.43167"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="32,2"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1.8333333333333335"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1.1000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="32.9167,3.59167"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:group>
+      <dia:object type="Standard - Line" version="0" id="O18">
+        <dia:attribute name="obj_pos">
+          <dia:point val="19,-31"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="18.95,-31.05;19.05,5.05"/>
+        </dia:attribute>
+        <dia:attribute name="conn_endpoints">
+          <dia:point val="19,-31"/>
+          <dia:point val="19,5"/>
+        </dia:attribute>
+        <dia:attribute name="numcp">
+          <dia:int val="1"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O19">
+        <dia:attribute name="obj_pos">
+          <dia:point val="20,-31"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="20,-31.5425;23.1525,-29.8025"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#80m
+hub height#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="20,-31"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O20">
+        <dia:attribute name="obj_pos">
+          <dia:point val="20,-6"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="20,-6.5425;23.76,-4.8025"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#30m
+anemometer#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="20,-6"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O21">
+        <dia:attribute name="obj_pos">
+          <dia:point val="20,1"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="20,0.4575;23.76,2.1975"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#10m
+anemometer#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="20,1"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O22">
+        <dia:attribute name="obj_pos">
+          <dia:point val="20,5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="20,4.4575;20.9375,5.3975"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#0m#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="20,5"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:object type="Renewable Energy - Wind Turbine" version="0" id="O23">
+      <dia:attribute name="obj_pos">
+        <dia:point val="17.238,-44"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="17.238,-44;40.7827,9.56673"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="17.238,-44"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="23.544632713231245"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="49.454242002781633"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.050000000000000003"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_style">
+        <dia:enum val="0"/>
+        <dia:real val="1"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="27.2283,8.72673"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="1"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:attribute name="flip_horizontal">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="flip_vertical">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:group>
+      <dia:object type="Standard - Box" version="0" id="O24">
+        <dia:attribute name="obj_pos">
+          <dia:point val="27,-25"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="26.95,-25.05;48.05,-9.95"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="27,-25"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="21"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="15"/>
+        </dia:attribute>
+        <dia:attribute name="inner_color">
+          <dia:color val="#ffe060"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="1"/>
+        </dia:attribute>
+        <dia:attribute name="corner_radius">
+          <dia:real val="1.1754943508222875e-38"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Network - WAN Link" version="1" id="O25">
+        <dia:attribute name="obj_pos">
+          <dia:point val="29.0253,-20.2805"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="29.0253,-20.2805;31.0505,-15.5792"/>
+        </dia:attribute>
+        <dia:attribute name="conn_endpoints">
+          <dia:point val="29.0253,-20.2805"/>
+          <dia:point val="31.0505,-15.5792"/>
+        </dia:attribute>
+        <dia:attribute name="width">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="line_color">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_color">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:connections>
+          <dia:connection handle="0" to="O32" connection="8"/>
+          <dia:connection handle="1" to="O31" connection="1"/>
+        </dia:connections>
+      </dia:object>
+      <dia:object type="Standard - ZigZagLine" version="1" id="O26">
+        <dia:attribute name="obj_pos">
+          <dia:point val="37.8,-17"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="35.9833,-17.05;37.85,-11.95"/>
+        </dia:attribute>
+        <dia:attribute name="orth_points">
+          <dia:point val="37.8,-17"/>
+          <dia:point val="37.8,-12"/>
+          <dia:point val="36.0333,-12"/>
+          <dia:point val="36.0333,-14.1"/>
+        </dia:attribute>
+        <dia:attribute name="orth_orient">
+          <dia:enum val="1"/>
+          <dia:enum val="0"/>
+          <dia:enum val="1"/>
+        </dia:attribute>
+        <dia:attribute name="autorouting">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:connections>
+          <dia:connection handle="0" to="O35" connection="0"/>
+          <dia:connection handle="1" to="O33" connection="4"/>
+        </dia:connections>
+      </dia:object>
+      <dia:object type="Standard - ZigZagLine" version="1" id="O27">
+        <dia:attribute name="obj_pos">
+          <dia:point val="39.6875,-19.5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="35.5083,-19.55;39.7375,-11.95"/>
+        </dia:attribute>
+        <dia:attribute name="orth_points">
+          <dia:point val="39.6875,-19.5"/>
+          <dia:point val="39.6875,-12"/>
+          <dia:point val="35.5583,-12"/>
+          <dia:point val="35.5583,-14.1"/>
+        </dia:attribute>
+        <dia:attribute name="orth_orient">
+          <dia:enum val="1"/>
+          <dia:enum val="0"/>
+          <dia:enum val="1"/>
+        </dia:attribute>
+        <dia:attribute name="autorouting">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:connections>
+          <dia:connection handle="0" to="O34" connection="0"/>
+          <dia:connection handle="1" to="O33" connection="3"/>
+        </dia:connections>
+      </dia:object>
+      <dia:object type="Renewable Energy - Cup Anemometer" version="0" id="O28">
+        <dia:attribute name="obj_pos">
+          <dia:point val="41,-24"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="40.95,-24.1;43.0833,-20.675"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="41,-24"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="2"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="2"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="42.1875,-21.475"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - ZigZagLine" version="1" id="O29">
+        <dia:attribute name="obj_pos">
+          <dia:point val="42.1875,-22"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="35.0333,-22.05;42.2375,-11.95"/>
+        </dia:attribute>
+        <dia:attribute name="orth_points">
+          <dia:point val="42.1875,-22"/>
+          <dia:point val="42.1875,-12"/>
+          <dia:point val="35.0833,-12"/>
+          <dia:point val="35.0833,-14.1"/>
+        </dia:attribute>
+        <dia:attribute name="orth_orient">
+          <dia:enum val="1"/>
+          <dia:enum val="0"/>
+          <dia:enum val="1"/>
+        </dia:attribute>
+        <dia:attribute name="autorouting">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:connections>
+          <dia:connection handle="0" to="O28" connection="0"/>
+          <dia:connection handle="1" to="O33" connection="2"/>
+        </dia:connections>
+      </dia:object>
+      <dia:object type="Standard - ZigZagLine" version="1" id="O30">
+        <dia:attribute name="obj_pos">
+          <dia:point val="34.1333,-14.1"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="31.25,-14.27;34.1833,-10.95"/>
+        </dia:attribute>
+        <dia:attribute name="orth_points">
+          <dia:point val="34.1333,-14.1"/>
+          <dia:point val="34.1333,-11"/>
+          <dia:point val="31.3,-11"/>
+          <dia:point val="31.3,-14.22"/>
+        </dia:attribute>
+        <dia:attribute name="orth_orient">
+          <dia:enum val="1"/>
+          <dia:enum val="0"/>
+          <dia:enum val="1"/>
+        </dia:attribute>
+        <dia:attribute name="autorouting">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="line_color">
+          <dia:color val="#4d4d4d"/>
+        </dia:attribute>
+        <dia:connections>
+          <dia:connection handle="0" to="O33" connection="0"/>
+          <dia:connection handle="1" to="O31" connection="0"/>
+        </dia:connections>
+      </dia:object>
+      <dia:object type="Network - Modem" version="0" id="O31">
+        <dia:attribute name="obj_pos">
+          <dia:point val="29.5,-15.5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="29.42,-15.58;33.18,-13.24"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="29.5,-15.5"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="3.6000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#Modem#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="31.3,-13.6375"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Network - Base Station" version="0" id="O32">
+        <dia:attribute name="obj_pos">
+          <dia:point val="28.5,-21.5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="27.975,-23.95;29.025,-18.16"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="28.1,-23.9"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="0.80000000000000004"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="4.7999999999999998"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#GSM#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="monospace" style="0" name="Courier"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="28.5,-18.5575"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="sectors">
+          <dia:int val="3"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Data Logger" version="0" id="O33">
+        <dia:attribute name="obj_pos">
+          <dia:point val="33.5,-16"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="33.45,-16.05;36.7167,-12.7417"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="33.5,-16"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="3.1666666666666665"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1.8999999999999999"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="35.0833,-13.5417"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Wind Vane" version="0" id="O34">
+        <dia:attribute name="obj_pos">
+          <dia:point val="39,-21.5"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="38.8882,-21.55;40.8,-18.175"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="39,-21.5"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1.75"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="2"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="39.6875,-18.975"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Renewable Energy - Temperature and Humidity Sensor" version="0" id="O35">
+        <dia:attribute name="obj_pos">
+          <dia:point val="37,-19"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="36.8793,-19.05;38.7207,-15.6"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="37,-19"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1.6000000000000008"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="2.0000000000000009"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="37.8,-16.4"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - ZigZagLine" version="1" id="O36">
+        <dia:attribute name="obj_pos">
+          <dia:point val="43.9091,-17"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="34.5583,-17.05;43.9591,-10.95"/>
+        </dia:attribute>
+        <dia:attribute name="orth_points">
+          <dia:point val="43.9091,-17"/>
+          <dia:point val="43.9091,-11"/>
+          <dia:point val="34.6083,-11"/>
+          <dia:point val="34.6083,-14.1"/>
+        </dia:attribute>
+        <dia:attribute name="orth_orient">
+          <dia:enum val="1"/>
+          <dia:enum val="0"/>
+          <dia:enum val="1"/>
+        </dia:attribute>
+        <dia:attribute name="autorouting">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:connections>
+          <dia:connection handle="0" to="O37" connection="4"/>
+          <dia:connection handle="1" to="O33" connection="1"/>
+        </dia:connections>
+      </dia:object>
+      <dia:object type="Renewable Energy - Solar Module" version="0" id="O37">
+        <dia:attribute name="obj_pos">
+          <dia:point val="43,-19"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="42.8793,-19.05;46.7571,-15.6182"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="43,-19"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="3.6363636363636385"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="2.0000000000000013"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>##</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="44.8182,-16.4182"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="1"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:object type="Standard - Text" version="1" id="O38">
+      <dia:attribute name="obj_pos">
+        <dia:point val="48,-34"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="32.4425,-39.7334;48.0814,-28.2666"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Measurement
+of
+Wind#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="urw palladio l" style="0" name="Courier"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="3.5"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="48,-37.117"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="2"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:attribute name="valign">
+        <dia:enum val="2"/>
+      </dia:attribute>
+    </dia:object>
+  </dia:layer>
+</dia:diagram>

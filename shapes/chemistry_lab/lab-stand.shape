@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>ryan - lab-stand</name>
+  <icon>lab-stand.png</icon>
+  <connections>
+    <point x="15" y="23"/>
+    <point x="15" y="25"/>
+    <point x="17" y="25"/>
+    <point x="17" y="24"/>
+    <point x="29" y="24"/>
+    <point x="29" y="25"/>
+    <point x="31" y="25"/>
+    <point x="31" y="23"/>
+    <point x="15" y="24"/>
+    <point x="16" y="25"/>
+    <point x="17" y="24.5"/>
+    <point x="23" y="24"/>
+    <point x="29" y="24.5"/>
+    <point x="30" y="25"/>
+    <point x="31" y="24"/>
+    <point x="30" y="23"/>
+    <point x="31" y="23"/>
+    <point x="30" y="23"/>
+    <point x="30.5" y="23"/>
+    <point x="30.5" y="23"/>
+    <point x="30.4" y="-2"/>
+    <point x="30.4" y="23"/>
+    <point x="30" y="23"/>
+    <point x="30" y="-2"/>
+    <point x="30.4" y="10.5"/>
+    <point x="30.2" y="23"/>
+    <point x="30" y="10.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: #ffffff" points="15,23 15,25 17,25 17,24 29,24 29,25 31,25 31,23 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="15,23 15,25 17,25 17,24 29,24 29,25 31,25 31,23 "/>
+    <svg:polygon style="fill: #ffffff" points="30,23 31,23 30,23 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="30,23 31,23 30,23 "/>
+    <svg:polygon style="fill: #ffffff" points="30.4,-2 30.4,23 30,23 30,-2 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="30.4,-2 30.4,23 30,23 30,-2 "/>
+  </svg:svg>
+</shape>

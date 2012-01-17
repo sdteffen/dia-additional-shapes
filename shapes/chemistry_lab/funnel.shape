@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>ryan - funnel</name>
+  <icon>funnel.png</icon>
+  <connections>
+    <point x="29" y="10"/>
+    <point x="24" y="16"/>
+    <point x="23" y="24"/>
+    <point x="22" y="24"/>
+    <point x="21" y="16"/>
+    <point x="16" y="10"/>
+    <point x="26.5" y="13"/>
+    <point x="23.5" y="20"/>
+    <point x="22.5" y="24"/>
+    <point x="21.5" y="20"/>
+    <point x="18.5" y="13"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: #ffffff" points="29,10 24,16 23,24 22,24 21,16 16,10 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="29,10 24,16 23,24 22,24 21,16 16,10 "/>
+  </svg:svg>
+</shape>

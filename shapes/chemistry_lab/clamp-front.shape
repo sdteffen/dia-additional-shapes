@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - clamp-front</name>
+  <icon>clamp-front.png</icon>
+  <connections>
+    <point x="10" y="14"/>
+    <point x="21" y="15"/>
+    <point x="10" y="15"/>
+    <point x="10" y="14.5"/>
+    <point x="21" y="14"/>
+    <point x="21" y="14.5"/>
+    <point x="15.5" y="15"/>
+    <point x="15.5" y="14"/>
+    <point x="10" y="16"/>
+    <point x="21" y="17"/>
+    <point x="10" y="17"/>
+    <point x="10" y="16.5"/>
+    <point x="21" y="16"/>
+    <point x="21" y="16.5"/>
+    <point x="15.5" y="17"/>
+    <point x="15.5" y="16"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #ffffff" x="10" y="14" width="11" height="1"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="10" y="14" width="11" height="1"/>
+    <svg:rect style="fill: #ffffff" x="10" y="16" width="11" height="1"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="10" y="16" width="11" height="1"/>
+  </svg:svg>
+</shape>

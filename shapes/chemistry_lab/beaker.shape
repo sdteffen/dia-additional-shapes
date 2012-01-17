@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>ryan - beaker</name>
+  <icon>beaker.png</icon>
+  <connections>
+    <point x="15.5" y="5"/>
+    <point x="16.025" y="6.025"/>
+    <point x="16" y="24"/>
+    <point x="28.5" y="24"/>
+    <point x="28.525" y="6"/>
+    <point x="29" y="5"/>
+    <point x="15.7625" y="5.5125"/>
+    <point x="16.0125" y="15.0125"/>
+    <point x="22.25" y="24"/>
+    <point x="28.5125" y="15"/>
+    <point x="28.7625" y="5.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="15.5,5 16.025,6.025 16,24 28.5,24 28.525,6 29,5 "/>
+  </svg:svg>
+</shape>

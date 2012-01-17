@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!--Dia-Version: 0.96.1-->
+<!--File: /home/ryan/.dia/sheets/ChemLab.sheet-->
+<!--Date: Thu Feb 12 23:25:46 2009-->
+<!--For: ryan-->
+
+<_name>Chemistry Lab</_name>
+<_description>Chemistry Lab Apparati</_description>
+<contents>
+<!--add shapes here-->
+<object name="Chem-Widgets - 30-degree-bend">
+<_description>30 Degree Bend</_description></object><object name="ryan - beaker">
+<_description>Beaker</_description></object><object name="ryan - buechner-funnel">
+<_description>Buechner Funnel</_description></object><object name="Chem-Widgets - burette">
+<_description>Burette</_description></object><object name="Chem-Widgets - clamp-extra-large">
+<_description>Clamp Extra Large</_description></object><object name="Chem-Widgets - clamp-front">
+<_description>Clamp Front</_description></object><object name="Chem-Widgets - clamp-large">
+<_description>Clamp Large</_description></object><object name="Chem-Widgets - clamp">
+<_description>Clamp</_description></object><object name="Chem-Widgets - column-reflux-red-blue">
+<_description>Reflux Column Red-Blue</_description></object><object name="Chem-Widgets - column-reflux-red">
+<_description>Reflux Column Red</_description></object><object name="Chem-Widgets - column-reflux">
+<_description>Reflux Column</_description></object><object name="Chem-Widgets - condenser-black">
+<_description>Condenser Black</_description></object><object name="Chem-Widgets - condenser-blue">
+<_description>Condenser Blue</_description></object><object name="Chem-Widgets - condenser-green">
+<_description>Condenser Green</_description></object><object name="Chem-Widgets - condenser-liebig-vertical">
+<_description>Liebig Condenser Vertical</_description></object><object name="Chem-Widgets - condenser-orange">
+<_description>Condenser Orange</_description></object><object name="Chem-Widgets - condenser-pale-blue">
+<_description>Condenser Pale Blue</_description></object><object name="Chem-Widgets - condenser-red">
+<_description>Condenser Red</_description></object><object name="Chem-Widgets - condenser">
+<_description>Condenser</_description></object><object name="ryan -Erlenmeyer Flask">
+<_description>Erlenmeyer Flask</_description></object><object name="ryan - funnel">
+<_description>Powder Funnel</_description></object><object name="Chem-Widgets - gooseneck">
+<_description>Gooseneck</_description></object><object name="Chem-Widgets - lab-stand-front">
+<_description>Lab Stand Front</_description></object><object name="ryan - lab-stand">
+<_description>Lab Stand Side</_description></object><object name="Chem-Widgets - ring-front">
+<_description>Ring Front</_description></object><object name="Chem-Widgets - ring">
+<_description>Ring Side</_description></object>
+<object name="Chem-Widgets - sep-funnel-two-phases"><_description>Separatory Funnel 2 Phases</_description></object>
+<object name="Chem-Widgets - sep-funnel-three-phases"><_description>Separatory Funnel 3 Phases</_description></object>
+<object name="Chem-Widgets - sep-funnel">
+<_description>Separatory Funnel</_description></object><object name="Chem-Widgets - stirbar">
+<_description>Stir Bar</_description></object><object name="Chem-Widgets - stirplate">
+<_description>Stir Plate Side</_description></object><object name="Chem-Widgets - stirplate-front">
+<_description>Stir Plate Front</_description></object></contents></sheet>

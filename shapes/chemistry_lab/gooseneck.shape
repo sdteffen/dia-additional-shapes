@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - gooseneck</name>
+  <icon>gooseneck.png</icon>
+  <connections>
+    <point x="11" y="-7"/>
+    <point x="11" y="0"/>
+    <point x="11" y="-3.5"/>
+    <point x="14" y="-7"/>
+    <point x="14" y="0"/>
+    <point x="14" y="-3.5"/>
+    <point x="5" y="-10.5"/>
+    <point x="-3.5" y="-0.5"/>
+    <point x="0.75" y="-5.5"/>
+    <point x="7.5" y="-8.5"/>
+    <point x="-1" y="1.5"/>
+    <point x="3.25" y="-3.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="11" y1="-7" x2="11" y2="0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="14" y1="-7" x2="14" y2="0"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 11,-7 A 1.98874,1.98874 0 0 0 7.5,-8.5"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 14,-7 A 5.03904,5.03904 0 0 0 5,-10.5"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="5" y1="-10.5" x2="-3.5" y2="-0.5"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="7.5" y1="-8.5" x2="-1" y2="1.5"/>
+  </svg:svg>
+</shape>

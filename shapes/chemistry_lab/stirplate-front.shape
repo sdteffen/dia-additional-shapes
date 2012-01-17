@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - stirplate-front</name>
+  <icon>stirplate-front.png</icon>
+  <connections>
+    <point x="15" y="22"/>
+    <point x="24" y="22"/>
+    <point x="24" y="25"/>
+    <point x="15" y="25"/>
+    <point x="19.5" y="22"/>
+    <point x="24" y="23.5"/>
+    <point x="19.5" y="25"/>
+    <point x="15" y="21"/>
+    <point x="24" y="22"/>
+    <point x="15" y="22"/>
+    <point x="15" y="21.5"/>
+    <point x="24" y="21"/>
+    <point x="24" y="21.5"/>
+    <point x="19.5" y="22"/>
+    <point x="19.5" y="21"/>
+    <point x="18" y="23.5"/>
+    <point x="18" y="22.5"/>
+    <point x="17.5" y="23"/>
+    <point x="18.5" y="23"/>
+    <point x="22" y="23.5"/>
+    <point x="22" y="22.5"/>
+    <point x="21.5" y="23"/>
+    <point x="22.5" y="23"/>
+    <point x="22" y="23.23"/>
+    <point x="22" y="22.8"/>
+    <point x="21.8" y="23.015"/>
+    <point x="22.2" y="23.015"/>
+    <point x="18" y="23.23"/>
+    <point x="18" y="22.8"/>
+    <point x="17.8" y="23.015"/>
+    <point x="18.2" y="23.015"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: #1e90ff" points="15,22 24,22 24,25 15,25 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="15,22 24,22 24,25 15,25 "/>
+    <svg:rect style="fill: #ffffff" x="15" y="21" width="9" height="1"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="15" y="21" width="9" height="1"/>
+    <svg:ellipse style="fill: #0000ff" cx="18" cy="23" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="18" cy="23" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #0000ff" cx="22" cy="23" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="22" cy="23" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="22" cy="23.015" rx="0.2" ry="0.215"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="22" cy="23.015" rx="0.2" ry="0.215"/>
+    <svg:ellipse style="fill: #ffffff" cx="18" cy="23.015" rx="0.2" ry="0.215"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="18" cy="23.015" rx="0.2" ry="0.215"/>
+  </svg:svg>
+</shape>

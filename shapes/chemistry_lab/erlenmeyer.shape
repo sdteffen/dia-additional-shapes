@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+<!-- Author: Ryan Stewart, 2009 -->	  
+  <name>ryan -Erlenmeyer Flask</name>
+  <icon>erlenmeyer.png</icon>
+  <connections>
+    <point x="17" y="24"/>
+    <point x="28" y="24"/>
+    <point x="22.5" y="24"/>
+    <point x="15.6" y="21.2"/>
+    <point x="20.5378" y="14.0011"/>
+    <point x="20.5182" y="5.98549"/>
+    <point x="20.2" y="5"/>
+    <point x="18.0689" y="17.6006"/>
+    <point x="20.528" y="9.99331"/>
+    <point x="20.3591" y="5.49275"/>
+    <point x="29.3" y="21"/>
+    <point x="24.0128" y="13.9761"/>
+    <point x="24.0182" y="6.01049"/>
+    <point x="24.4" y="5"/>
+    <point x="26.6564" y="17.4881"/>
+    <point x="24.0155" y="9.99331"/>
+    <point x="24.2091" y="5.50525"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:path style="fill: default; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 15.6,21.2 A 1.725,1.725 0 0 0 17,24"/>
+    <svg:path style="fill: default; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 28,24 A 1.83625,1.83625 0 0 0 29.3,21"/>
+    <svg:line style="fill: default; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="17" y1="24" x2="28" y2="24"/>
+    <svg:polyline style="fill: default; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="15.6,21.2 20.5378,14.0011 20.5182,5.98549 20.2,5 "/>
+    <svg:polyline style="fill: default; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="29.3,21 24.0128,13.9761 24.0182,6.01049 24.4,5 "/>
+  </svg:svg>
+</shape>

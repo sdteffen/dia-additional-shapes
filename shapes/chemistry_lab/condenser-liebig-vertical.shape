@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - condenser-liebig-vertical</name>
+  <icon>condenser-liebig-vertical.png</icon>
+  <connections>
+    <point x="20" y="6"/>
+    <point x="23" y="6"/>
+    <point x="21.5" y="6"/>
+    <point x="20" y="38"/>
+    <point x="23" y="38"/>
+    <point x="21.5" y="38"/>
+    <point x="20" y="6"/>
+    <point x="20" y="38"/>
+    <point x="20" y="22"/>
+    <point x="23" y="6"/>
+    <point x="23" y="38"/>
+    <point x="23" y="22"/>
+    <point x="20" y="-5"/>
+    <point x="23" y="-5"/>
+    <point x="23" y="3"/>
+    <point x="22.075" y="3.87501"/>
+    <point x="22" y="44"/>
+    <point x="21" y="44"/>
+    <point x="21.025" y="4.02501"/>
+    <point x="20" y="3"/>
+    <point x="21.5" y="-5"/>
+    <point x="23" y="-1"/>
+    <point x="22.5375" y="3.4375"/>
+    <point x="22.0375" y="23.9375"/>
+    <point x="21.5" y="44"/>
+    <point x="21.0125" y="24.0125"/>
+    <point x="20.5125" y="3.5125"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #7f7f7f" x1="20" y1="6" x2="23" y2="6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #7f7f7f" x1="20" y1="38" x2="23" y2="38"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #7f7f7f" d="M 20,6 A 1.17549e-38,1.17549e-38 0 0 0 20,6"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #7f7f7f" d="M 23,6 A 1.17549e-38,1.17549e-38 0 0 0 23,6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #7f7f7f" x1="20" y1="6" x2="20" y2="38"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #7f7f7f" x1="23" y1="6" x2="23" y2="38"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #7f7f7f" d="M 20,38 A 1.17549e-38,1.17549e-38 0 0 0 20,38"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #7f7f7f" d="M 23,38 A 1.17549e-38,1.17549e-38 0 0 0 23,38"/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #000000" points="20,-5 23,-5 23,3 22.075,3.87501 22,44 21,44 21.025,4.02501 20,3 "/>
+  </svg:svg>
+</shape>

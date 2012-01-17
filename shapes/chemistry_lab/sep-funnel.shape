@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - sep-funnel</name>
+  <icon>sep-funnel.png</icon>
+  <connections>
+    <point x="16" y="15"/>
+    <point x="22.2" y="33.05"/>
+    <point x="22.1875" y="34.9875"/>
+    <point x="21" y="35"/>
+    <point x="21" y="36"/>
+    <point x="22.2" y="36"/>
+    <point x="22.2" y="40"/>
+    <point x="19.1" y="24.025"/>
+    <point x="22.1938" y="34.0187"/>
+    <point x="21.5938" y="34.9937"/>
+    <point x="21" y="35.5"/>
+    <point x="21.6" y="36"/>
+    <point x="22.2" y="38"/>
+    <point x="29" y="15"/>
+    <point x="22.8" y="33"/>
+    <point x="22.7875" y="34.9875"/>
+    <point x="24" y="35"/>
+    <point x="24" y="36"/>
+    <point x="22.8375" y="36.0125"/>
+    <point x="22.8" y="40"/>
+    <point x="25.9" y="24"/>
+    <point x="22.7938" y="33.9937"/>
+    <point x="23.3938" y="34.9937"/>
+    <point x="24" y="35.5"/>
+    <point x="23.4188" y="36.0063"/>
+    <point x="22.8188" y="38.0063"/>
+    <point x="24.4" y="36"/>
+    <point x="24.6" y="36.4"/>
+    <point x="24.8" y="36.4"/>
+    <point x="25" y="36"/>
+    <point x="25" y="35"/>
+    <point x="24.8" y="34.6"/>
+    <point x="24.6" y="34.6"/>
+    <point x="24.4" y="35"/>
+    <point x="24.4" y="35.4"/>
+    <point x="24" y="35.4"/>
+    <point x="24" y="35.6"/>
+    <point x="24.4" y="35.6"/>
+    <point x="24.5" y="36.2"/>
+    <point x="24.7" y="36.4"/>
+    <point x="24.9" y="36.2"/>
+    <point x="25" y="35.5"/>
+    <point x="24.9" y="34.8"/>
+    <point x="24.7" y="34.6"/>
+    <point x="24.5" y="34.8"/>
+    <point x="24.4" y="35.2"/>
+    <point x="24.2" y="35.4"/>
+    <point x="24" y="35.5"/>
+    <point x="24.2" y="35.6"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 29,15 A 6.64062,6.64062 0 0 0 16,15"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="16,15 22.2,33.05 22.1875,34.9875 21,35 21,36 22.2,36 22.2,40 "/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="29,15 22.8,33 22.7875,34.9875 24,35 24,36 22.8375,36.0125 22.8,40 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="24.4,36 24.6,36.4 24.8,36.4 25,36 25,35 24.8,34.6 24.6,34.6 24.4,35 24.4,35.4 24,35.4 24,35.6 24.4,35.6 "/>
+  </svg:svg>
+</shape>

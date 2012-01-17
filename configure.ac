@@ -1,4 +1,4 @@
-AC_INIT([dia-additional-shapes],[0.0.1],[sdteffen@gmail.com])
+AC_INIT([dia-additional-shapes],[0.9.1],[sdteffen@sdteffen.de])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign dist-bzip2 dist-zip])
 IT_PROG_INTLTOOL([0.35.0])
 GETTEXT_PACKAGE=dia-additional-shapes
@@ -7,7 +7,7 @@ dnl AM_GNU_GETTEXT_VERSION([0.17])
 dnl AM_GNU_GETTEXT([external])
 AC_CONFIG_FILES([Makefile samples/Makefile shapes/Makefile \
 	shapes/building_site/Makefile shapes/central_data_processing/Makefile \
-	shapes/CH-1/Makefile \
+	shapes/CH-1/Makefile chemistry_lab/Makefile \
 	shapes/Circuit2/Makefile shapes/edpc/Makefile \
 	shapes/electric2/Makefile \
 	shapes/gradient/Makefile shapes/Racks/Makefile \

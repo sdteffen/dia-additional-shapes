@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - sep-funnel-two-phases</name>
+  <icon>sep-funnel-two-phases.png</icon>
+  <connections>
+    <point x="12" y="12.9966"/>
+    <point x="20.2138" y="36.9092"/>
+    <point x="20.1972" y="39.476"/>
+    <point x="18.624" y="39.4926"/>
+    <point x="18.624" y="40.8174"/>
+    <point x="20.2138" y="40.8174"/>
+    <point x="20.2138" y="46.1166"/>
+    <point x="16.1069" y="24.9529"/>
+    <point x="20.2055" y="38.1926"/>
+    <point x="19.4106" y="39.4843"/>
+    <point x="18.624" y="40.155"/>
+    <point x="19.4189" y="40.8174"/>
+    <point x="20.2138" y="43.467"/>
+    <point x="29.2224" y="12.9966"/>
+    <point x="21.0086" y="36.843"/>
+    <point x="20.9921" y="39.476"/>
+    <point x="22.5984" y="39.4926"/>
+    <point x="22.5984" y="40.8174"/>
+    <point x="21.0583" y="40.834"/>
+    <point x="21.0086" y="46.1166"/>
+    <point x="25.1155" y="24.9198"/>
+    <point x="21.0004" y="38.1595"/>
+    <point x="21.7952" y="39.4843"/>
+    <point x="22.5984" y="40.155"/>
+    <point x="21.8284" y="40.8257"/>
+    <point x="21.0335" y="43.4753"/>
+    <point x="23.1283" y="40.8174"/>
+    <point x="23.3933" y="41.3473"/>
+    <point x="23.6582" y="41.3473"/>
+    <point x="23.9232" y="40.8174"/>
+    <point x="23.9232" y="39.4926"/>
+    <point x="23.6582" y="38.9627"/>
+    <point x="23.3933" y="38.9627"/>
+    <point x="23.1283" y="39.4926"/>
+    <point x="23.1283" y="40.0225"/>
+    <point x="22.5984" y="40.0225"/>
+    <point x="22.5984" y="40.2875"/>
+    <point x="23.1283" y="40.2875"/>
+    <point x="23.2608" y="41.0824"/>
+    <point x="23.5258" y="41.3473"/>
+    <point x="23.7907" y="41.0824"/>
+    <point x="23.9232" y="40.155"/>
+    <point x="23.7907" y="39.2276"/>
+    <point x="23.5258" y="38.9627"/>
+    <point x="23.2608" y="39.2276"/>
+    <point x="23.1283" y="39.7576"/>
+    <point x="22.8634" y="40.0225"/>
+    <point x="22.5984" y="40.155"/>
+    <point x="22.8634" y="40.2875"/>
+    <point x="15.8" y="24"/>
+    <point x="25.4" y="24"/>
+    <point x="21" y="36.8"/>
+    <point x="21" y="39.4"/>
+    <point x="20.2" y="39.4"/>
+    <point x="20.2" y="36.8"/>
+    <point x="20.6" y="24"/>
+    <point x="23.2" y="30.4"/>
+    <point x="21" y="38.1"/>
+    <point x="20.6" y="39.4"/>
+    <point x="20.2" y="38.1"/>
+    <point x="15.8" y="24"/>
+    <point x="25.4" y="24"/>
+    <point x="29.2" y="13"/>
+    <point x="12" y="13"/>
+    <point x="20.6" y="24"/>
+    <point x="27.3" y="18.5"/>
+    <point x="20.6" y="13"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 29.2224 12.9966 C 28.3699,8.92018 24.7758,6 20.6112,6 C 16.4466,6 12.8525,8.92018 12,12.9966"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="12,12.9966 20.2138,36.9092 20.1972,39.476 18.624,39.4926 18.624,40.8174 20.2138,40.8174 20.2138,46.1166 "/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="29.2224,12.9966 21.0086,36.843 20.9921,39.476 22.5984,39.4926 22.5984,40.8174 21.0583,40.834 21.0086,46.1166 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="23.1283,40.8174 23.3933,41.3473 23.6582,41.3473 23.9232,40.8174 23.9232,39.4926 23.6582,38.9627 23.3933,38.9627 23.1283,39.4926 23.1283,40.0225 22.5984,40.0225 22.5984,40.2875 23.1283,40.2875 "/>
+    <svg:polygon style="fill: #8b6914" points="15.8,24 25.4,24 21,36.8 21,39.4 20.2,39.4 20.2,36.8 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="15.8,24 25.4,24 21,36.8 21,39.4 20.2,39.4 20.2,36.8 "/>
+    <svg:polygon style="fill: #e0ab27" points="15.8,24 25.4,24 29.2,13 12,13 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="15.8,24 25.4,24 29.2,13 12,13 "/>
+  </svg:svg>
+</shape>

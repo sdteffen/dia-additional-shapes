@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - column-reflux</name>
+  <icon>column-reflux.png</icon>
+  <connections>
+    <point x="19.5" y="5"/>
+    <point x="19.5" y="40"/>
+    <point x="19.5" y="22.5"/>
+    <point x="30.5" y="5"/>
+    <point x="30.5" y="40"/>
+    <point x="30.5" y="22.5"/>
+    <point x="24" y="-6"/>
+    <point x="26" y="-6"/>
+    <point x="26.6" y="0.4"/>
+    <point x="23.4" y="0.4"/>
+    <point x="25" y="-6"/>
+    <point x="26.3" y="-2.8"/>
+    <point x="25" y="0.4"/>
+    <point x="23.4" y="44.6"/>
+    <point x="26.6" y="44.6"/>
+    <point x="26" y="51"/>
+    <point x="24" y="51"/>
+    <point x="25" y="44.6"/>
+    <point x="26.3" y="47.8"/>
+    <point x="25" y="51"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #0000ff" d="M 26.6 0.4 C 27,3 24,6 27,8 C 30,10 24,12 27,14 C 30,16 24,18 27,20 C 30,22 24,24 27,26 C 30,28 24,30 27,32 C 30,34 24,36 27.05,38.0505 C 30.1,40.101 26,40 26.6,44.6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #000000" x1="19.5" y1="5" x2="19.5" y2="40"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #000000" x1="30.5" y1="5" x2="30.5" y2="40"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #000000" d="M 30.5,5 A 5.525,5.525 0 0 0 19.5,5"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #000000" d="M 19.5,40 A 5.525,5.525 0 0 0 30.5,40"/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #000000" points="24,-6 26,-6 26.6,0.4 23.4,0.4 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #000000" points="23.4,44.6 26.6,44.6 26,51 24,51 "/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #0000ff" d="M 23.4 0.4 C 23,3 26.6,6 23.8,8 C 21,10 26.6,12 23.8,14 C 21,16 26.6,18 23.8,20 C 21,22 26.6,24 23.8,26 C 21,28 26.6,30 23.8,32 C 21,34 26.7,36.101 23.85,38.0505 C 21,40 24,40 23.4,44.6"/>
+  </svg:svg>
+</shape>

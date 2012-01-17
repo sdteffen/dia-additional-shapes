@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - ring</name>
+  <icon>ring.png</icon>
+  <connections>
+    <point x="26" y="19"/>
+    <point x="32" y="19"/>
+    <point x="29" y="19"/>
+    <point x="26" y="20.2"/>
+    <point x="32" y="20.2"/>
+    <point x="29" y="20.2"/>
+    <point x="26" y="19"/>
+    <point x="26" y="20.2"/>
+    <point x="26" y="19.6"/>
+    <point x="32" y="19"/>
+    <point x="32" y="20.2"/>
+    <point x="32" y="19.6"/>
+    <point x="24" y="19.4"/>
+    <point x="26" y="19.4"/>
+    <point x="25" y="19.4"/>
+    <point x="24" y="19.8"/>
+    <point x="26" y="19.8"/>
+    <point x="25" y="19.8"/>
+    <point x="24" y="19.4"/>
+    <point x="24" y="19.8"/>
+    <point x="24" y="19.6"/>
+    <point x="26" y="19.4"/>
+    <point x="26" y="19.8"/>
+    <point x="26" y="19.6"/>
+    <point x="15.5" y="19.3"/>
+    <point x="24" y="19.9"/>
+    <point x="15.5" y="19.9"/>
+    <point x="15.5" y="19.6"/>
+    <point x="24" y="19.3"/>
+    <point x="24" y="19.6"/>
+    <point x="19.75" y="19.9"/>
+    <point x="19.75" y="19.3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #ffffff" x="26" y="19" width="6" height="1.2"/>
+    <svg:path style="fill: #ffffff" d="M 26,19 A 1.17549e-38,1.17549e-38 0 0 0 26,19 L 26,19 z"/>
+    <svg:path style="fill: #ffffff" d="M 32,19 A 1.17549e-38,1.17549e-38 0 0 0 32,19 L 32,19 z"/>
+    <svg:rect style="fill: #ffffff" x="26" y="19" width="6" height="1.2"/>
+    <svg:path style="fill: #ffffff" d="M 26,20.2 A 1.17549e-38,1.17549e-38 0 0 0 26,20.2 L 26,20.2 z"/>
+    <svg:path style="fill: #ffffff" d="M 32,20.2 A 1.17549e-38,1.17549e-38 0 0 0 32,20.2 L 32,20.2 z"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="26" y1="19" x2="32" y2="19"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="26" y1="20.2" x2="32" y2="20.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 26,19 A 1.17549e-38,1.17549e-38 0 0 0 26,19"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 32,19 A 1.17549e-38,1.17549e-38 0 0 0 32,19"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="26" y1="19" x2="26" y2="20.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="32" y1="19" x2="32" y2="20.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 26,20.2 A 1.17549e-38,1.17549e-38 0 0 0 26,20.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 32,20.2 A 1.17549e-38,1.17549e-38 0 0 0 32,20.2"/>
+    <svg:rect style="fill: #ffffff" x="24" y="19.4" width="2" height="0.4"/>
+    <svg:path style="fill: #ffffff" d="M 24,19.4 A 1.17549e-38,1.17549e-38 0 0 0 24,19.4 L 24,19.4 z"/>
+    <svg:path style="fill: #ffffff" d="M 26,19.4 A 1.17549e-38,1.17549e-38 0 0 0 26,19.4 L 26,19.4 z"/>
+    <svg:rect style="fill: #ffffff" x="24" y="19.4" width="2" height="0.4"/>
+    <svg:path style="fill: #ffffff" d="M 24,19.8 A 1.17549e-38,1.17549e-38 0 0 0 24,19.8 L 24,19.8 z"/>
+    <svg:path style="fill: #ffffff" d="M 26,19.8 A 1.17549e-38,1.17549e-38 0 0 0 26,19.8 L 26,19.8 z"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="24" y1="19.4" x2="26" y2="19.4"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="24" y1="19.8" x2="26" y2="19.8"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 24,19.4 A 1.17549e-38,1.17549e-38 0 0 0 24,19.4"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 26,19.4 A 1.17549e-38,1.17549e-38 0 0 0 26,19.4"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="24" y1="19.4" x2="24" y2="19.8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="26" y1="19.4" x2="26" y2="19.8"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 24,19.8 A 1.17549e-38,1.17549e-38 0 0 0 24,19.8"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 26,19.8 A 1.17549e-38,1.17549e-38 0 0 0 26,19.8"/>
+    <svg:rect style="fill: #ffffff" x="15.5" y="19.3" width="8.5" height="0.6"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="15.5" y="19.3" width="8.5" height="0.6"/>
+  </svg:svg>
+</shape>

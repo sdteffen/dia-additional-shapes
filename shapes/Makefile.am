@@ -1,3 +1,4 @@
-SUBDIRS = building_site central_data_processing CH-1 Circuit2 electric2 edpc \
+SUBDIRS = building_site central_data_processing CH-1 chemistry_lab \
+	Circuit2 electric2 edpc \
 	gradient renewable_energy Racks \
 	value_stream_mapping

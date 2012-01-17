@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - burette</name>
+  <icon>burette.png</icon>
+  <connections>
+    <point x="11" y="-5"/>
+    <point x="11" y="40"/>
+    <point x="11" y="17.5"/>
+    <point x="14" y="-5"/>
+    <point x="14" y="40"/>
+    <point x="14" y="17.5"/>
+    <point x="12" y="42.9"/>
+    <point x="11.9939" y="44.3125"/>
+    <point x="11.2" y="44.3"/>
+    <point x="11.2" y="44.9"/>
+    <point x="12" y="44.9"/>
+    <point x="12" y="46.9"/>
+    <point x="11.997" y="43.6063"/>
+    <point x="11.5969" y="44.3062"/>
+    <point x="11.2" y="44.6"/>
+    <point x="11.6" y="44.9"/>
+    <point x="12" y="45.9"/>
+    <point x="13" y="42.9"/>
+    <point x="13" y="44.3"/>
+    <point x="13.8" y="44.3"/>
+    <point x="13.8" y="44.5"/>
+    <point x="14" y="44.5"/>
+    <point x="14" y="44.7"/>
+    <point x="13.8" y="44.7"/>
+    <point x="13.7939" y="44.8875"/>
+    <point x="13" y="44.9"/>
+    <point x="13" y="46.9"/>
+    <point x="13" y="43.6"/>
+    <point x="13.4" y="44.3"/>
+    <point x="13.8" y="44.4"/>
+    <point x="13.9" y="44.5"/>
+    <point x="14" y="44.6"/>
+    <point x="13.9" y="44.7"/>
+    <point x="13.797" y="44.7938"/>
+    <point x="13.397" y="44.8937"/>
+    <point x="13" y="45.9"/>
+    <point x="14" y="43.2"/>
+    <point x="14.4" y="43.2"/>
+    <point x="14.2" y="43.2"/>
+    <point x="14" y="46.2"/>
+    <point x="14.4" y="46.2"/>
+    <point x="14.2" y="46.2"/>
+    <point x="14" y="43.2"/>
+    <point x="14" y="46.2"/>
+    <point x="14" y="44.7"/>
+    <point x="14.4" y="43.2"/>
+    <point x="14.4" y="46.2"/>
+    <point x="14.4" y="44.7"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="11" y1="-5" x2="11" y2="40"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="14" y1="-5" x2="14" y2="40"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 11,40 A 5.7576,5.7576 0 0 0 12,43"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 13,43 A 5.7576,5.7576 0 0 0 14,40"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="12,42.9 11.9939,44.3125 11.2,44.3 11.2,44.9 12,44.9 12,46.9 "/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="13,42.9 13,44.3 13.8,44.3 13.8,44.5 14,44.5 14,44.7 13.8,44.7 13.7939,44.8875 13,44.9 13,46.9 "/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="14" y1="43.2" x2="14.4" y2="43.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="14" y1="46.2" x2="14.4" y2="46.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 14,43.2 A 1.17549e-38,1.17549e-38 0 0 0 14,43.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 14.4,43.2 A 1.17549e-38,1.17549e-38 0 0 0 14.4,43.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="14" y1="43.2" x2="14" y2="46.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="14.4" y1="43.2" x2="14.4" y2="46.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 14,46.2 A 1.17549e-38,1.17549e-38 0 0 0 14,46.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 14.4,46.2 A 1.17549e-38,1.17549e-38 0 0 0 14.4,46.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 12.7,47.9 A 2.86893,2.86893 0 0 0 13,46.9"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 12,46.9 A 1.81643,1.81643 0 0 0 12.3,47.9"/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chem-Widgets - condenser-black</name>
+  <icon>condenser-black.png</icon>
+  <connections>
+    <point x="19.5" y="5"/>
+    <point x="19.5" y="40"/>
+    <point x="19.5" y="22.5"/>
+    <point x="30.5" y="5"/>
+    <point x="30.5" y="40"/>
+    <point x="30.5" y="22.5"/>
+    <point x="25" y="-6"/>
+    <point x="24.95" y="2"/>
+    <point x="21.5" y="5"/>
+    <point x="25" y="5"/>
+    <point x="28.5" y="5"/>
+    <point x="21.5" y="8"/>
+    <point x="28.5" y="8"/>
+    <point x="21.5" y="11"/>
+    <point x="28.5" y="11"/>
+    <point x="21.5" y="14"/>
+    <point x="28.5" y="14"/>
+    <point x="21.5" y="17"/>
+    <point x="28.5" y="17"/>
+    <point x="21.5" y="20"/>
+    <point x="28.5" y="20"/>
+    <point x="21.5" y="23"/>
+    <point x="28.5" y="23"/>
+    <point x="21.5" y="26"/>
+    <point x="28.5" y="26"/>
+    <point x="21.5" y="29"/>
+    <point x="28.5" y="29"/>
+    <point x="21.5" y="32"/>
+    <point x="28.5" y="32"/>
+    <point x="21.5" y="35"/>
+    <point x="28.5" y="35"/>
+    <point x="21.5" y="38"/>
+    <point x="28.5" y="38"/>
+    <point x="21.5" y="41"/>
+    <point x="25" y="43"/>
+    <point x="25" y="51"/>
+    <point x="24.975" y="-2"/>
+    <point x="23.225" y="3.5"/>
+    <point x="23.25" y="5"/>
+    <point x="26.75" y="5"/>
+    <point x="25" y="6.5"/>
+    <point x="25" y="8"/>
+    <point x="25" y="9.5"/>
+    <point x="25" y="11"/>
+    <point x="25" y="12.5"/>
+    <point x="25" y="14"/>
+    <point x="25" y="15.5"/>
+    <point x="25" y="17"/>
+    <point x="25" y="18.5"/>
+    <point x="25" y="20"/>
+    <point x="25" y="21.5"/>
+    <point x="25" y="23"/>
+    <point x="25" y="24.5"/>
+    <point x="25" y="26"/>
+    <point x="25" y="27.5"/>
+    <point x="25" y="29"/>
+    <point x="25" y="30.5"/>
+    <point x="25" y="32"/>
+    <point x="25" y="33.5"/>
+    <point x="25" y="35"/>
+    <point x="25" y="36.5"/>
+    <point x="25" y="38"/>
+    <point x="25" y="39.5"/>
+    <point x="23.25" y="42"/>
+    <point x="25" y="47"/>
+    <point x="23.4" y="44.6"/>
+    <point x="26.6" y="44.6"/>
+    <point x="26" y="51"/>
+    <point x="24" y="51"/>
+    <point x="25" y="44.6"/>
+    <point x="26.3" y="47.8"/>
+    <point x="25" y="51"/>
+    <point x="24" y="-6"/>
+    <point x="26" y="-6"/>
+    <point x="26.6" y="0.4"/>
+    <point x="23.4" y="0.4"/>
+    <point x="25" y="-6"/>
+    <point x="26.3" y="-2.8"/>
+    <point x="25" y="0.4"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #000000" x1="19.5" y1="5" x2="19.5" y2="40"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #000000" x1="30.5" y1="5" x2="30.5" y2="40"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #000000" d="M 30.5,5 A 5.525,5.525 0 0 0 19.5,5"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.25; stroke: #000000" d="M 19.5,40 A 5.525,5.525 0 0 0 30.5,40"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.35; stroke: #000000" points="25,-6 24.95,2 21.5,5 25,5 28.5,5 21.5,8 28.5,8 21.5,11 28.5,11 21.5,14 28.5,14 21.5,17 28.5,17 21.5,20 28.5,20 21.5,23 28.5,23 21.5,26 28.5,26 21.5,29 28.5,29 21.5,32 28.5,32 21.5,35 28.5,35 21.5,38 28.5,38 21.5,41 25,43 25,51 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #000000" points="23.4,44.6 26.6,44.6 26,51 24,51 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #000000" points="24,-6 26,-6 26.6,0.4 23.4,0.4 "/>
+  </svg:svg>
+</shape>
