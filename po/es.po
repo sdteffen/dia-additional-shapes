@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-17 20:50+0100\n"
+"POT-Creation-Date: 2012-01-24 22:09+0100\n"
 "PO-Revision-Date: 2011-11-27 11:11+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Spanish <es@li.org>\n"
@@ -525,6 +525,47 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Vertical Voltmeter"
+msgstr ""
+
+#. For: jason
+#: ../sheets/CMOS.sheet.in.h:2
+msgid "CMOS"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:3
+msgid "CMOS transistor models"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:4
+msgid "Ground (horizontal)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:5
+msgid "Ground (vertical)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:6
+msgid "NMOS Transistor (horizontal)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:7
+msgid "NMOS Transistor (vertical)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:8
+msgid "PMOS Transistor (horizontal)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:9
+msgid "PMOS Transistor (vertical)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:10
+msgid "Vdd (horizontal)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:11
+msgid "Vdd (vertical)"
 msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:1

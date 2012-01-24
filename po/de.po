@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-17 20:50+0100\n"
+"POT-Creation-Date: 2012-01-24 22:09+0100\n"
 "PO-Revision-Date: 2011-11-26 10:20+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
@@ -527,6 +527,55 @@ msgstr ""
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Vertical Voltmeter"
 msgstr ""
+
+#. For: jason
+#: ../sheets/CMOS.sheet.in.h:2
+msgid "CMOS"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:3
+msgid "CMOS transistor models"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:4
+#, fuzzy
+msgid "Ground (horizontal)"
+msgstr "Straße (horizontal)"
+
+#: ../sheets/CMOS.sheet.in.h:5
+#, fuzzy
+msgid "Ground (vertical)"
+msgstr "Straße (vertikal)"
+
+#: ../sheets/CMOS.sheet.in.h:6
+#, fuzzy
+msgid "NMOS Transistor (horizontal)"
+msgstr "Böschung (horizontal)"
+
+#: ../sheets/CMOS.sheet.in.h:7
+#, fuzzy
+msgid "NMOS Transistor (vertical)"
+msgstr "Böschung (vertikal)"
+
+#: ../sheets/CMOS.sheet.in.h:8
+#, fuzzy
+msgid "PMOS Transistor (horizontal)"
+msgstr "Böschung (horizontal)"
+
+#: ../sheets/CMOS.sheet.in.h:9
+#, fuzzy
+msgid "PMOS Transistor (vertical)"
+msgstr "Böschung (vertikal)"
+
+#: ../sheets/CMOS.sheet.in.h:10
+#, fuzzy
+msgid "Vdd (horizontal)"
+msgstr "Straße (horizontal)"
+
+#: ../sheets/CMOS.sheet.in.h:11
+#, fuzzy
+msgid "Vdd (vertical)"
+msgstr "Straße (vertikal)"
 
 #: ../sheets/edpc.sheet.in.h:1
 msgid "And Operator"

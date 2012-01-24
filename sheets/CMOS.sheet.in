@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!--Dia-Version: 0.96.1-->
+<!--File: /home/jason/.dia/sheets/CMOS.sheet-->
+<!--Date: Thu Jul 19 15:30:37 2007-->
+<!--For: jason-->
+<_name>CMOS</_name>
+<_description>CMOS transistor models</_description>
+<contents>
+  <object name="CMOS - nmos_h">
+	  <_description>NMOS Transistor (horizontal)</_description>
+  </object>
+  <object name="CMOS - nmos_v">
+	  <_description>NMOS Transistor (vertical)</_description>
+  </object>
+  <object name="CMOS - pmos_h">
+	  <_description>PMOS Transistor (horizontal)</_description>
+  </object>
+  <object name="CMOS - pmos_v">
+	  <_description>PMOS Transistor (vertical)</_description>
+  </object>
+  <br/>
+  <object name="CMOS - gnd_h">
+	  <_description>Ground (horizontal)</_description>
+  </object>
+  <object name="CMOS - gnd_v">
+	  <_description>Ground (vertical)</_description>
+  </object>
+  <object name="CMOS - vdd_h">
+	  <_description>Vdd (horizontal)</_description>
+  </object>
+  <object name="CMOS - vdd_v">
+	  <_description>Vdd (vertical)</_description>
+  </object>  
+</contents>
+</sheet>
