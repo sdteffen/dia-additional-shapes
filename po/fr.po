@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-24 22:09+0100\n"
+"POT-Creation-Date: 2012-02-04 20:03+0100\n"
 "PO-Revision-Date: 2010-01-26 19:21+0000\n"
 "Last-Translator: jojolebestof <Unknown>\n"
 "Language-Team: French <sdteffen@sdteffen.de>\n"
@@ -566,6 +566,107 @@ msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:11
 msgid "Vdd (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:1
+msgid "AND (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:2
+msgid "AND (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:3
+msgid "Adder/Subtractor/Multiplier/Divider (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:4
+msgid "Adder/Subtractor/Multiplier/Divider (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:5
+msgid "Buffer (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:6
+msgid "Buffer (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:7
+msgid "Connection Point"
+msgstr ""
+
+#. For: jason
+#: ../sheets/digital.sheet.in.h:9
+msgid "Digital"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:10
+msgid "Digital Logic Gates"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:11
+msgid "Inverter (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:12
+msgid "Inverter (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:13
+msgid "Multiplexer/Demultiplexer (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:14
+msgid "Multiplexer/Demultiplexer (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:15
+msgid "NAND (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:16
+msgid "NAND (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:17
+msgid "NOR (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:18
+msgid "NOR (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:19
+msgid "OR (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:20
+msgid "OR (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:21
+msgid "Register (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:22
+msgid "Register (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:23
+msgid "XNOR (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:24
+msgid "XNOR (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:25
+msgid "XOR (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:26
+msgid "XOR (vertical)"
 msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:1

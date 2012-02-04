@@ -8,7 +8,8 @@ dnl AM_GNU_GETTEXT([external])
 AC_CONFIG_FILES([Makefile samples/Makefile shapes/Makefile \
 	shapes/building_site/Makefile shapes/central_data_processing/Makefile \
 	shapes/CH-1/Makefile shapes/chemistry_lab/Makefile \
-	shapes/Circuit2/Makefile shapes/CMOS/Makefile shapes/edpc/Makefile \
+	shapes/Circuit2/Makefile shapes/CMOS/Makefile shapes/digital/Makefile \
+	shapes/edpc/Makefile \
 	shapes/electric2/Makefile \
 	shapes/gradient/Makefile shapes/Racks/Makefile \
 	shapes/renewable_energy/Makefile  \

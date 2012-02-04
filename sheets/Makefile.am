@@ -9,6 +9,7 @@ sheet_in_files = \
   chemistry_lab.sheet.in \
   Circuit2.sheet.in \
   CMOS.sheet.in \
+  digital.sheet.in \
   edpc.sheet.in \
   electric2.sheet.in \
   gradient.sheet.in \

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-24 22:09+0100\n"
+"POT-Creation-Date: 2012-02-04 20:03+0100\n"
 "PO-Revision-Date: 2011-11-26 10:20+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
@@ -575,6 +575,125 @@ msgstr "Straße (horizontal)"
 #: ../sheets/CMOS.sheet.in.h:11
 #, fuzzy
 msgid "Vdd (vertical)"
+msgstr "Straße (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:1
+#, fuzzy
+msgid "AND (horizontal)"
+msgstr "Straße (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:2
+#, fuzzy
+msgid "AND (vertical)"
+msgstr "Straße (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:3
+msgid "Adder/Subtractor/Multiplier/Divider (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:4
+msgid "Adder/Subtractor/Multiplier/Divider (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:5
+#, fuzzy
+msgid "Buffer (horizontal)"
+msgstr "Zaun (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:6
+#, fuzzy
+msgid "Buffer (vertical)"
+msgstr "Zaun (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:7
+msgid "Connection Point"
+msgstr ""
+
+#. For: jason
+#: ../sheets/digital.sheet.in.h:9
+msgid "Digital"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:10
+msgid "Digital Logic Gates"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:11
+#, fuzzy
+msgid "Inverter (horizontal)"
+msgstr "Zaun (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:12
+#, fuzzy
+msgid "Inverter (vertical)"
+msgstr "Zaun (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:13
+msgid "Multiplexer/Demultiplexer (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:14
+msgid "Multiplexer/Demultiplexer (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:15
+#, fuzzy
+msgid "NAND (horizontal)"
+msgstr "Straße (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:16
+#, fuzzy
+msgid "NAND (vertical)"
+msgstr "Straße (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:17
+#, fuzzy
+msgid "NOR (horizontal)"
+msgstr "Straße (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:18
+#, fuzzy
+msgid "NOR (vertical)"
+msgstr "Straße (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:19
+#, fuzzy
+msgid "OR (horizontal)"
+msgstr "Straße (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:20
+#, fuzzy
+msgid "OR (vertical)"
+msgstr "Straße (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:21
+#, fuzzy
+msgid "Register (horizontal)"
+msgstr "Zaun (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:22
+#, fuzzy
+msgid "Register (vertical)"
+msgstr "Zaun (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:23
+#, fuzzy
+msgid "XNOR (horizontal)"
+msgstr "Straße (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:24
+#, fuzzy
+msgid "XNOR (vertical)"
+msgstr "Straße (vertikal)"
+
+#: ../sheets/digital.sheet.in.h:25
+#, fuzzy
+msgid "XOR (horizontal)"
+msgstr "Straße (horizontal)"
+
+#: ../sheets/digital.sheet.in.h:26
+#, fuzzy
+msgid "XOR (vertical)"
 msgstr "Straße (vertikal)"
 
 #: ../sheets/edpc.sheet.in.h:1

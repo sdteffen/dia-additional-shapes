@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-24 22:09+0100\n"
+"POT-Creation-Date: 2012-02-04 20:03+0100\n"
 "PO-Revision-Date: 2011-05-18 08:26+0000\n"
 "Last-Translator: Guybrush88 <Unknown>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -568,6 +568,125 @@ msgstr "Strada (orizzontale)"
 #: ../sheets/CMOS.sheet.in.h:11
 #, fuzzy
 msgid "Vdd (vertical)"
+msgstr "Strada (verticale)"
+
+#: ../sheets/digital.sheet.in.h:1
+#, fuzzy
+msgid "AND (horizontal)"
+msgstr "Strada (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:2
+#, fuzzy
+msgid "AND (vertical)"
+msgstr "Strada (verticale)"
+
+#: ../sheets/digital.sheet.in.h:3
+msgid "Adder/Subtractor/Multiplier/Divider (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:4
+msgid "Adder/Subtractor/Multiplier/Divider (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:5
+#, fuzzy
+msgid "Buffer (horizontal)"
+msgstr "Steccato (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:6
+#, fuzzy
+msgid "Buffer (vertical)"
+msgstr "Steccato (verticale)"
+
+#: ../sheets/digital.sheet.in.h:7
+msgid "Connection Point"
+msgstr ""
+
+#. For: jason
+#: ../sheets/digital.sheet.in.h:9
+msgid "Digital"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:10
+msgid "Digital Logic Gates"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:11
+#, fuzzy
+msgid "Inverter (horizontal)"
+msgstr "Steccato (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:12
+#, fuzzy
+msgid "Inverter (vertical)"
+msgstr "Steccato (verticale)"
+
+#: ../sheets/digital.sheet.in.h:13
+msgid "Multiplexer/Demultiplexer (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:14
+msgid "Multiplexer/Demultiplexer (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:15
+#, fuzzy
+msgid "NAND (horizontal)"
+msgstr "Strada (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:16
+#, fuzzy
+msgid "NAND (vertical)"
+msgstr "Strada (verticale)"
+
+#: ../sheets/digital.sheet.in.h:17
+#, fuzzy
+msgid "NOR (horizontal)"
+msgstr "Strada (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:18
+#, fuzzy
+msgid "NOR (vertical)"
+msgstr "Strada (verticale)"
+
+#: ../sheets/digital.sheet.in.h:19
+#, fuzzy
+msgid "OR (horizontal)"
+msgstr "Strada (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:20
+#, fuzzy
+msgid "OR (vertical)"
+msgstr "Strada (verticale)"
+
+#: ../sheets/digital.sheet.in.h:21
+#, fuzzy
+msgid "Register (horizontal)"
+msgstr "Steccato (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:22
+#, fuzzy
+msgid "Register (vertical)"
+msgstr "Steccato (verticale)"
+
+#: ../sheets/digital.sheet.in.h:23
+#, fuzzy
+msgid "XNOR (horizontal)"
+msgstr "Strada (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:24
+#, fuzzy
+msgid "XNOR (vertical)"
+msgstr "Strada (verticale)"
+
+#: ../sheets/digital.sheet.in.h:25
+#, fuzzy
+msgid "XOR (horizontal)"
+msgstr "Strada (orizzontale)"
+
+#: ../sheets/digital.sheet.in.h:26
+#, fuzzy
+msgid "XOR (vertical)"
 msgstr "Strada (verticale)"
 
 #: ../sheets/edpc.sheet.in.h:1

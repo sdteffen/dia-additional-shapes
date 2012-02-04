@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!--Dia-Version: 0.96.1-->
+<!--File: /home/jason/.dia/sheets/Digital.sheet-->
+<!--Date: Thu Jul 19 15:30:37 2007-->
+<!--For: jason-->
+<_name>Digital</_name>
+<_description>Digital Logic Gates</_description>
+<contents>
+  <object name="Digital - buff_h">
+	  <_description>Buffer (horizontal)</_description>
+  </object>
+  <object name="Digital - inv_h">
+	  <_description>Inverter (horizontal)</_description>
+  </object>
+  <object name="Digital - and_h">
+	  <_description>AND (horizontal)</_description>
+  </object>
+  <object name="Digital - nand_h">
+	  <_description>NAND (horizontal)</_description>
+  </object>
+  <object name="Digital - or_h">
+	  <_description>OR (horizontal)</_description>
+  </object>
+  <object name="Digital - nor_h">
+	  <_description>NOR (horizontal)</_description>
+  </object>
+  <object name="Digital - xor_h">
+	  <_description>XOR (horizontal)</_description>
+  </object>
+  <object name="Digital - xnor_h">
+	  <_description>XNOR (horizontal)</_description>
+  </object>
+  <object name="Digital - mux_h">
+	  <_description>Multiplexer/Demultiplexer (horizontal)</_description>
+  </object>
+  <object name="Digital - add_h">
+	  <_description>Adder/Subtractor/Multiplier/Divider (horizontal)</_description>
+  </object>
+  <object name="Digital - reg_h">
+	  <_description>Register (horizontal)</_description>
+  </object>
+  <br/>
+  <object name="Digital - buff_v">
+	  <_description>Buffer (vertical)</_description>
+  </object>
+  <object name="Digital - inv_v">
+	  <_description>Inverter (vertical)</_description>
+  </object>
+  <object name="Digital - and_v">
+	  <_description>AND (vertical)</_description>
+  </object>
+  <object name="Digital - nand_v">
+	  <_description>NAND (vertical)</_description>
+  </object>
+  <object name="Digital - or_v">
+	  <_description>OR (vertical)</_description>
+  </object>
+  <object name="Digital - nor_v">
+	  <_description>NOR (vertical)</_description>
+  </object>
+  <object name="Digital - xor_v">
+	  <_description>XOR (vertical)</_description>
+  </object>
+  <object name="Digital - xnor_v">
+	  <_description>XNOR (vertical)</_description>
+  </object>
+  <object name="Digital - mux_v">
+	  <_description>Multiplexer/Demultiplexer (vertical)</_description>
+  </object>
+  <object name="Digital - add_v">
+	  <_description>Adder/Subtractor/Multiplier/Divider (vertical)</_description>
+  </object>
+  <object name="Digital - reg_v">
+	  <_description>Register (vertical)</_description>
+  </object>
+  <br/>
+  <object name="Digital - conn">
+	  <_description>Connection Point</_description>
+  </object>
+</contents>
+</sheet>
