@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Digital - nand_v</name>
+  <icon>nand_v.png</icon>
+  <connections>
+    <point x="1" y="0"/>
+    <point x="2" y="0"/>
+    <point x="3" y="0"/>
+    <point x="2" y="5"/>
+  </connections>
+  <aspectratio type="free"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="0" y1="0" x2="2.2" y2="0"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="2" cy="4.6" rx="0.4" ry="0.4"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="0" y1="0" x2="4" y2="0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="4" y1="0" x2="4" y2="2.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="0" y1="0" x2="0" y2="2.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 0,2.2 A 2,2 0 0 0 4,2.2"/>
+  </svg:svg>
+</shape>

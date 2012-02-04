@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Digital - xnor_h</name>
+  <icon>xnor_h.png</icon>
+  <connections>
+    <point x="0.44" y="1"/>
+    <point x="0.58" y="2"/>
+    <point x="0.44" y="3"/>
+    <point x="5" y="2"/>
+  </connections>
+  <aspectratio type="free"/>
+  <svg:svg>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 4.2,2 A 4.8,4.8 0 0 0 0.2,0"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 0.2,4 A 4.8,4.8 0 0 0 4.2,2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 0,4 A 3.63333,3.63333 0 0 0 0,0"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 0.2,4 A 3.63333,3.63333 0 0 0 0.2,0"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="4.6" cy="2" rx="0.4" ry="0.4"/>
+  </svg:svg>
+</shape>

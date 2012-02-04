@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Digital - nor_v</name>
+  <icon>nor_v.png</icon>
+  <connections>
+    <point x="3" y="0.44"/>
+    <point x="2" y="0.58"/>
+    <point x="1" y="0.44"/>
+    <point x="2" y="5"/>
+  </connections>
+  <aspectratio type="free"/>
+  <svg:svg>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 0,0 A 5,5 0 0 0 2,4.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 2,4.2 A 5,5 0 0 0 4,0"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 0,0 A 3.63333,3.63333 0 0 0 4,0"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="2" cy="4.6" rx="0.4" ry="0.4"/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Digital - inv_h</name>
+  <icon>inv_h.png</icon>
+  <connections>
+    <point x="0" y="1"/>
+    <point x="3" y="1"/>
+  </connections>
+  <aspectratio type="free"/>
+  <svg:svg>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="0,0 2.2,1 0,2 "/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="2.6" cy="1" rx="0.4" ry="0.4"/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Digital - nand_h</name>
+  <icon>nand_h.png</icon>
+  <connections>
+    <point x="0" y="1"/>
+    <point x="0" y="2"/>
+    <point x="0" y="3"/>
+    <point x="5" y="2"/>
+  </connections>
+  <aspectratio type="free"/>
+  <svg:svg>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 2.2,4 A 2,2 0 0 0 2.2,0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="0" y1="0" x2="0" y2="4"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="0" y1="0" x2="2.2" y2="0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="0" y1="4" x2="2.2" y2="4"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="4.6" cy="2" rx="0.4" ry="0.4"/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Digital - mux_h</name>
+  <icon>mux_h.png</icon>
+  <connections>
+    <point x="0" y="1"/>
+    <point x="2" y="2"/>
+    <point x="0" y="3"/>
+    <point x="1" y="0.5"/>
+    <point x="1" y="3.5"/>
+  </connections>
+  <aspectratio type="free"/>
+	<textbox x1="0" x2="2" y1="1" y2="3"/>
+  <svg:svg>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="0,0 2,1 2,3 0,4 "/>
+  </svg:svg>
+</shape>

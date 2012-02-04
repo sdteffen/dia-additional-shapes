@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Digital - buff_v</name>
+  <icon>buff_v.png</icon>
+  <connections>
+    <point x="1" y="0"/>
+    <point x="1" y="3"/>
+    <point x="0.45" y="1"/>
+    <point x="1.55" y="1"/>
+  </connections>
+  <aspectratio type="free"/>
+  <svg:svg>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="0,0 2,0 1,2.2 "/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="1" y1="2.2" x2="1" y2="3"/>
+  </svg:svg>
+</shape>
