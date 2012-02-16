@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - variable_nonlinear_part</name>
+  <icon>variable_nonlinear_part.png</icon>
+  <connections>
+  </connections>
+  <svg:svg>
+    <svg:path d="M 2 9 C 2,5 8,8 8,4"/>
+    <svg:line x1="8" y1="4" x2="10" y2="4"/>
+  </svg:svg>
+</shape>

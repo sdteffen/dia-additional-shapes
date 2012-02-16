@@ -1,0 +1,16 @@
+<?xml version="1.0"?> <!-- -*- xml -*- -->
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - engine</name>
+  <icon>engine.png</icon>
+  <connections>
+    <point x="1" y="4"/>
+    <point x="4" y="2"/>
+    <point x="7" y="4"/>
+    <point x="4" y="6"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: inverse" x="1" y="3" width="6" height="2"/>
+    <svg:ellipse style="fill: default" cx="4.0" cy="4.0" rx="2" ry="2"/>
+  </svg:svg>
+</shape>

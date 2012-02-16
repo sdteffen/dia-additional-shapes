@@ -1,0 +1,16 @@
+<?xml version="1.0"?> <!-- -*- xml -*- -->
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - microphone</name>
+  <icon>microphone.png</icon>
+  <connections>
+    <point x="2" y="4"/>
+    <point x="4" y="2"/>
+    <point x="6" y="4"/>
+    <point x="4" y="6"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default" cx="4.0" cy="4.0" rx="2" ry="2"/>
+    <svg:rect style="fill: inverse" x="5.5" y="2" width="0.5" height="4"/>
+  </svg:svg>
+</shape>

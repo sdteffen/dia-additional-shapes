@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - photo_sensitive_part</name>
+  <icon>photo_sensitive_part.png</icon>
+  <connections>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse cx="6.0" cy="9.0" rx="4" ry="4"/>
+
+    <svg:line x1="9.0" y1="5.0" x2="12.0" y2="2.0"/>
+    <svg:line x1="10.0" y1="6.0" x2="13.0" y2="3.0"/>
+
+    <svg:polygon style="fill: inverse" points="9.7,3.6 9.0,5.0 10.3,4.2 "/>
+    <svg:polygon style="fill: inverse" points="10.7,4.6 10.0,6.0 11.3,5.2 "/>
+  </svg:svg>
+</shape>

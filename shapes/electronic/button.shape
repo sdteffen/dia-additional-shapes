@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - button</name>
+  <icon>button.png</icon>
+  <connections>
+    <point x="2.0" y="6.0"/>
+    <point x="16.0" y="6.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default" cx="6.0" cy="6.0" rx="1" ry="1"/>
+    <svg:ellipse style="fill: default" cx="12.0" cy="6.0" rx="1" ry="1"/>
+    <svg:line x1="5.0" y1="6.0" x2="2.0" y2="6.0"/>
+    <svg:line x1="13.0" y1="6.0" x2="16.0" y2="6.0"/>
+    <svg:line x1="5.0" y1="4.0" x2="13.0" y2="4.0"/>
+    <svg:line x1="9.0" y1="4.0" x2="9.0" y2="2.0"/>
+  </svg:svg>
+</shape>

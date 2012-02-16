@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - source_voltage</name>
+  <icon>source_voltage.png</icon>
+  <connections>
+    <point x="4.0" y="2.0"/>
+    <point x="4.0" y="10.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default" cx="4.0" cy="6.0" rx="2" ry="2"/>
+
+    <svg:line x1="4.0" y1="4.0" x2="4.0" y2="2.0"/>
+    <svg:line x1="4.0" y1="8.0" x2="4.0" y2="10.0"/>
+    <svg:path d="M 3.7 5.0 C 3.5,6.0 3.2,7.0 3.9,7.0 C 4.5,7.0 4.5,6.0 4.7,5.0"/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?> <!-- -*- xml -*- -->
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - contact_pair</name>
+  <icon>contact_pair.png</icon>
+  <connections>
+    <point x="1.0" y="1.0"/>
+    <point x="1.0" y="2.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <!-- bbox -->
+    <svg:rect style="stroke:none" x="0.5" y="1" width="1" height="1" />
+
+    <svg:ellipse style="fill: default" cx="1.0" cy="1.0" rx="0.1" ry="0.1"/>
+    <svg:ellipse style="fill: default" cx="1.0" cy="2.0" rx="0.1" ry="0.1"/>
+  </svg:svg>
+</shape>

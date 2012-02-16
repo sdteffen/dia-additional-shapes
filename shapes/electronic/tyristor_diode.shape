@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - tyristor_diode</name>
+  <icon>tyristor_diode.png</icon>
+  <connections>
+    <point x="4.0" y="2.0"/>
+    <point x="4.0" y="12.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: default" points="4.0,5.0 6.0,9.0 2.0,9.0 "/>
+    <svg:line x1="2.0" y1="5.0" x2="6.0" y2="5.0"/>
+    <svg:line x1="4.0" y1="2.0" x2="4.0" y2="12.0"/>
+    <svg:line x1="2.0" y1="7.0" x2="6.0" y2="7.0"/>
+  </svg:svg>
+</shape>

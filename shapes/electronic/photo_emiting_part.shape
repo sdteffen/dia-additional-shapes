@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - photo_emiting_part</name>
+  <icon>photo_emiting_part.png</icon>
+  <connections>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse cx="6.0" cy="9.0" rx="4" ry="4"/>
+    <svg:line x1="9.0" y1="5.0" x2="12.0" y2="2.0"/>
+    <svg:line x1="10.0" y1="6.0" x2="13.0" y2="3.0"/>
+    <svg:polygon style="fill: inverse" points="11.3,3.3 12.0,2.0 10.7,2.7 "/>
+    <svg:polygon style="fill: inverse" points="12.3,4.3 13.0,3.0 11.7,3.7 "/>
+  </svg:svg>
+</shape>

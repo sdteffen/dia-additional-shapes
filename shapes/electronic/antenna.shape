@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - antenna</name>
+  <icon>antenna.png</icon>
+  <connections>
+    <point x="4.0" y="11.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line x1="4.0" y1="11.0" x2="4.0" y2="5.0"/>
+    <svg:line x1="2.0" y1="2.0" x2="4.0" y2="5.0"/>
+    <svg:line x1="4.0" y1="2.0" x2="4.0" y2="5.0"/>
+    <svg:line x1="6.0" y1="2.0" x2="4.0" y2="5.0"/>
+  </svg:svg>
+</shape>

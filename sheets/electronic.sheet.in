@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="iso-8859-1"?> <!-- -*- xml -*- -->
+
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<_name>Electronic</_name>
+<_description>Electronic</_description>
+<contents>
+<object name="Electronic - antenna">
+<_description>Antenna</_description>
+</object>
+<object name="Electronic - bell">
+<_description>Bell</_description>
+</object>
+<object name="Electronic - button">
+<_description>Button</_description>
+</object>
+<object name="Electronic - capacitor">
+<_description>Capacitor</_description>
+</object>
+<object name="Electronic - capacitor_electrolytic">
+<_description>Electrolytic capacitor</_description>
+</object>
+<object name="Electronic - crystal">
+<_description>Crystal</_description>
+</object>
+<object name="Electronic - di_gate">
+<_description>Di-Gate</_description>
+</object>
+<object name="Electronic - diac">
+<_description>Diac</_description>
+</object>
+<object name="Electronic - engine">
+<_description>Engine</_description>
+</object>
+<object name="Electronic - headphone">
+<_description>Headphone</_description>
+</object>
+<object name="Electronic - diode_inverse">
+<_description>Inverse diode</_description>
+</object>
+<object name="Electronic - diode_schottky">
+<_description>Schottky diode</_description>
+</object>
+<object name="Electronic - diode_tunnel">
+<_description>Tunnel diode</_description>
+</object>
+<object name="Electronic - diode_zenner">
+<_description>Zenner diode</_description>
+</object>
+<object name="Electronic - inductor">
+<_description>Inductor</_description>
+</object>
+<object name="Electronic - led_display">
+<_description>LED display</_description>
+</object>
+<object name="Electronic - microphone">
+<_description>Microphone</_description>
+</object>
+<object name="Electronic - photo_emiting_part">
+<_description>Photo-emiting part</_description>
+</object>
+<object name="Electronic - photo_sensitive_part">
+<_description>Photosensitive part</_description>
+</object>
+<object name="Electronic - potenciometer">
+<_description>Potenciometer</_description>
+</object>
+<object name="Electronic - ground">
+<_description>Ground</_description>
+</object>
+<object name="Electronic - contact">
+<_description>Contact</_description>
+</object>
+<object name="Electronic - contact_pair">
+<_description>Contact Pair</_description>
+</object>
+<object name="Electronic - port_in">
+<_description>IN Port</_description>
+</object>
+<object name="Electronic - port_out">
+<_description>OUT Port</_description>
+</object>
+<object name="Electronic - port_inout">
+<_description>IN/OUT Port</_description>
+</object>
+<object name="Electronic - voltmeter">
+<_description>Voltmeter</_description>
+</object>
+<object name="Electronic - ampermeter">
+<_description>Ampermeter</_description>
+</object>
+<object name="Electronic - source">
+<_description>Source or Meter</_description>
+</object>
+<object name="Electronic - source_current">
+<_description>Current source</_description>
+</object>
+<object name="Electronic - source_substitution">
+<_description>Substitute linearised source</_description>
+</object>
+<object name="Electronic - source_voltage">
+<_description>Voltage source</_description>
+</object>
+<object name="Electronic - source_voltage_alternating">
+<_description>Alternating voltage source</_description>
+</object>
+<object name="Electronic - source_voltage_direct">
+<_description>Direct voltage source</_description>
+</object>
+<object name="Electronic - transistor_bipolar_npn_1">
+<_description>Bipolar transistor NPN</_description>
+</object>
+<object name="Electronic - transistor_bipolar_npn_2">
+<_description>Bipolar transistor NPN</_description>
+</object>
+<object name="Electronic - transistor_bipolar_pnp_1">
+<_description>Bipolar transistor PNP</_description>
+</object>
+<object name="Electronic - transistor_bipolar_pnp_2">
+<_description>Bipolar transistor PNP</_description>
+</object>
+<object name="Electronic - transistor_jfe_n">
+<_description>JFE transitor - N</_description>
+</object>
+<object name="Electronic - transistor_jfe_p">
+<_description>JFE transistor - P</_description>
+</object>
+<object name="Electronic - transistor_misfe_c_n">
+<_description>MISFE conducting transistor - N</_description>
+</object>
+<object name="Electronic - transistor_misfe_c_p">
+<_description>MISFE conducting transistor - P</_description>
+</object>
+<object name="Electronic - transistor_misfe_i_n">
+<_description>MISFE inducting transistor - N</_description>
+</object>
+<object name="Electronic - transistor_misfe_i_p">
+<_description>MISFE inducting transistor - P</_description>
+</object>
+<object name="Electronic - transistor_single_pn">
+<_description>Single ..... transistor</_description>
+</object>
+<object name="Electronic - triac">
+<_description>Triac</_description>
+</object>
+<object name="Electronic - tyristor_diode">
+<_description>Diode tyristor, blocking</_description>
+</object>
+<object name="Electronic - tyristor_triode">
+<_description>Triode tyristor, blocking</_description>
+</object>
+<object name="Electronic - vacuum_diode">
+<_description>Vacuum diode</_description>
+</object>
+<object name="Electronic - vacuum_pentode">
+<_description>Vacuum pentode</_description>
+</object>
+<object name="Electronic - vacuum_triode">
+<_description>Vacuum triode</_description>
+</object>
+<object name="Electronic - variable_linear_part">
+<_description>Linear variable part</_description>
+</object>
+<object name="Electronic - variable_nonlinear_part">
+<_description>Nonlinear variable part</_description>
+</object>
+<object name="Electronic - varicap">
+<_description>Varicap</_description>
+</object>
+</contents>
+</sheet>
+

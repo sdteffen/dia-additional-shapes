@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - crystal</name>
+  <icon>crystal.png</icon>
+  <connections>
+    <point x="2.0" y="5.0"/>
+    <point x="11.0" y="5.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: inverse" x="5.0" y="2.0" width="0.3" height="6"/>
+    <svg:rect style="fill: inverse" x="6.0" y="1.5" width="1" height="7.0"/>
+    <svg:rect style="fill: inverse" x="7.7" y="2.0" width="0.3" height="6"/>
+    <svg:line x1="2.0" y1="5.0" x2="5.0" y2="5.0" />
+    <svg:line x1="8.0" y1="5.0" x2="11.0" y2="5.0"/>
+  </svg:svg>
+</shape>

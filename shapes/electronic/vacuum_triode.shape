@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - vacuum_triode</name>
+  <icon>vacuum_triode.png</icon>
+  <connections>
+    <point x="5.5" y="2.0"/>
+    <point x="2.5" y="7.0"/>
+    <point x="2.5" y="9.6"/>
+    <point x="5.0" y="12.0"/>
+    <point x="6.0" y="12.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:path style="fill: default" d="M 5.5 3.0 C 7.5,3.0 7.5,5.0 7.5,7.0 C 7.5,9.0 7.5,11.0 5.5,11.0 C 3.5,11.0 3.5,9.0 3.5,7.0 C 3.5,5.0 3.5,3.0 5.5,3.0z"/>
+
+    <svg:rect style="fill: inverse" x="4.5" y="4.0" width="2" height="0.3"/>
+
+    <svg:rect style="fill: inverse" x="4.1" y="6.9" width="0.7" height="0.2"/>
+    <svg:rect style="fill: inverse" x="5.15" y="6.9" width="0.7" height="0.2"/>
+    <svg:rect style="fill: inverse" x="6.2" y="6.9" width="0.7" height="0.2"/>
+
+    <svg:path style="fill: inverse" d="M 5.5 9.0 C 6.1,9.0   6.4,9.3 6.6,9.6 C 6.5,9.7    6.5,9.7 6.4,9.8 C 6.1,9.5    6.0,9.3 5.5,9.3 C 5.0,9.3    4.9,9.5 4.6,9.8 C 4.5,9.7    4.5,9.7 4.4,9.6 C 4.6,9.3    4.9,9.0 5.5,9.0z"/>
+
+    <svg:path d="M 5.0 12.0 C 5.0,10.5   4.9,9.6 5.5,9.6 C 6.1,9.6   6.0,10.5 6.0,12.0"/>
+
+    <svg:line x1="5.5" y1="2.0" x2="5.5" y2="4.0"/>
+
+    <svg:line x1="2.5" y1="7.0" x2="4.1" y2="7.0"/>
+    <svg:line x1="2.5" y1="9.6" x2="4.4" y2="9.6"/>
+  </svg:svg>
+</shape>

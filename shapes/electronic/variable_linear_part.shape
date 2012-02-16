@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - variable_linear_part</name>
+  <icon>variable_linear_part.png</icon>
+  <connections>
+  </connections>
+  <svg:svg>
+    <svg:polyline points="2,9 8,4 10,4" />
+    <textbox x1="8" y1="2" x2="10" y2="3" text="aaa"/>
+  </svg:svg>
+</shape>

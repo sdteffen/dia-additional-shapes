@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - potenciometer</name>
+  <icon>potenciometer.png</icon>
+  <connections>
+    <point x="2.0" y="5.05"/>
+    <point x="14.0" y="5.05"/>
+    <point x="2.0" y="2.05"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: default" x="4.0" y="4.0" width="8" height="2"/>
+    <svg:line x1="4.0" y1="5.0" x2="2.0" y2="5.0"/>
+    <svg:line x1="12.0" y1="5.0" x2="14.0" y2="5.0"/>
+    <svg:polyline points="2.0,2.0 8.0,2.0 8.0,4.0 "/>
+    <svg:polygon style="fill: inverse" points="7.6,2.6 8.0,4.0 8.4,2.6 "/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - inductor</name>
+  <icon>inductor.png</icon>
+  <connections>
+    <point x="3" y="3"/>
+    <point x="8" y="3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:path d="M 4 3 C 4,2   5,2 5,3 C 5,2   6,2 6,3 C 6,2   7,2 7,3"/>
+
+    <svg:line x1="3" y1="3" x2="4" y2="3"/>
+    <svg:line x1="7" y1="3" x2="8" y2="3"/>
+  </svg:svg>
+</shape>

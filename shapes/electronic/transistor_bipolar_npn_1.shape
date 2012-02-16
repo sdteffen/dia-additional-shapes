@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - transistor_bipolar_npn_1</name>
+  <icon>transistor_bipolar_npn_1.png</icon>
+  <connections>
+    <point x="10.0" y="1.5"/>
+    <point x="10.0" y="8.5"/>
+    <point x="3.0" y="5.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: inverse" x="5.0" y="3.0" width="0.5" height="4"/>
+    <svg:line x1="5.0" y1="5.0" x2="3.0" y2="5.0"/>
+    <svg:line x1="5.5" y1="5.0" x2="10.0" y2="1.5"/>
+    <svg:line x1="5.5" y1="5.0" x2="10.0" y2="8.5"/>
+
+    <svg:polygon style="fill: inverse" points="8.9,8.1 10.0,8.5 9.3,7.5 "/>
+  </svg:svg>
+</shape>

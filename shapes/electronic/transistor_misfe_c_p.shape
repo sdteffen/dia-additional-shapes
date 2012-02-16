@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - transistor_misfe_c_p</name>
+  <icon>transistor_misfe_c_p.png</icon>
+  <connections>
+    <point x="2.5" y="8.5"/>
+    <point x="12.0" y="2.0"/>
+    <point x="14.0" y="6.0"/>
+    <point x="12.0" y="10.0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default" cx="8.5" cy="6.0" rx="4" ry="4"/>
+    <svg:rect style="fill: inverse" x="7.5" y="3.0" width="0.5" height="6"/>
+
+    <svg:polyline points="2.5,8.5 7.0,8.5 7.0,3.5"/>
+
+    <svg:polyline points="8.0,4.0 12.0,4.0 12.0,2.0"/>
+    <svg:line x1="8.0" y1="6.0" x2="14.0" y2="6.0"/>
+    <svg:polyline points="8.0,8.0 12.0,8.0 12.0,10.0"/>
+
+    <svg:polygon style="fill: inverse" points="9.0,5.6 11.0,6.0 9.0,6.4 "/>
+  </svg:svg>
+</shape>

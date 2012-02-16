@@ -1,0 +1,24 @@
+<?xml version="1.0"?>  <!-- -*- xml -*- -->
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Electronic - vacuum_diode</name>
+  <icon>vacuum_diode.png</icon>
+  <connections>
+    <point x="5.5" y="2.0"/>
+    <point x="2.5" y="6.1"/>
+    <point x="5.0" y="8.5"/>
+    <point x="6.0" y="8.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default" cx="5.5" cy="5.0" rx="2" ry="2"/>
+
+    <svg:rect style="fill: inverse" x="4.5" y="4.0" width="2" height="0.3"/>
+
+    <svg:path style="fill: inverse" d="M 5.5 5.5 C 6.1,5.5   6.4,5.8 6.6,6.1 C 6.5,6.2    6.5,6.2 6.4,6.3 C 6.1,6.0    6.0,5.8 5.5,5.8 C 5.0,5.8    4.9,6.0 4.6,6.3 C 4.5,6.2    4.5,6.2 4.4,6.1 C 4.6,5.8    4.9,5.5 5.5,5.5z"/>
+
+    <svg:path d="M 5.0 8.5 C 5.0,7.0   4.9,6.1 5.5,6.1 C 6.1,6.1   6.0,7.0 6.0,8.5"/>
+
+    <svg:line x1="5.5" y1="2.0" x2="5.5" y2="4.0"/>
+    <svg:line x1="2.5" y1="6.1" x2="4.4" y2="6.1"/>
+  </svg:svg>
+</shape>
