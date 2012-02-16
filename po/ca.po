@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-04 20:03+0100\n"
+"POT-Creation-Date: 2012-02-16 20:48+0100\n"
 "PO-Revision-Date: 2010-11-28 02:08+0000\n"
 "Last-Translator: el_libre - http://www.catmidia.cat  "
 "XDDDDDDDDDDDDDDDDDDDDDDDDDDD <el.libre@gmail.com>\n"
@@ -726,6 +726,219 @@ msgstr "Isolador"
 #: ../sheets/electric2.sheet.in.h:6
 msgid "Transformer"
 msgstr "Transformador"
+
+#: ../sheets/electronic.sheet.in.h:1
+msgid "Alternating voltage source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:2
+msgid "Ampermeter"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:3
+msgid "Antenna"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:4
+msgid "Bell"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:5
+msgid "Bipolar transistor NPN"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:6
+msgid "Bipolar transistor PNP"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:7
+msgid "Button"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:8
+msgid "Capacitor"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:9
+msgid "Contact"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:10
+msgid "Contact Pair"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:11
+msgid "Crystal"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:12
+msgid "Current source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:13
+msgid "Di-Gate"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:14
+msgid "Diac"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:15
+msgid "Diode tyristor, blocking"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:16
+msgid "Direct voltage source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:17
+msgid "Electrolytic capacitor"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:18
+#, fuzzy
+msgid "Electronic"
+msgstr "Elèctric 2"
+
+#: ../sheets/electronic.sheet.in.h:19
+msgid "Engine"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:20
+msgid "Ground"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:21
+msgid "Headphone"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:22
+msgid "IN Port"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:23
+msgid "IN/OUT Port"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:24
+msgid "Inductor"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:25
+msgid "Inverse diode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:26
+msgid "JFE transistor - P"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:27
+msgid "JFE transitor - N"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:28
+msgid "LED display"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:29
+msgid "Linear variable part"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:30
+msgid "MISFE conducting transistor - N"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:31
+msgid "MISFE conducting transistor - P"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:32
+msgid "MISFE inducting transistor - N"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:33
+msgid "MISFE inducting transistor - P"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:34
+msgid "Microphone"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:35
+msgid "Nonlinear variable part"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:36
+msgid "OUT Port"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:37
+msgid "Photo-emiting part"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:38
+msgid "Photosensitive part"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:39
+msgid "Potenciometer"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:40
+msgid "Schottky diode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:41
+msgid "Single ..... transistor"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:42
+msgid "Source or Meter"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:43
+msgid "Substitute linearised source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:44
+msgid "Triac"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:45
+msgid "Triode tyristor, blocking"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:46
+msgid "Tunnel diode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:47
+msgid "Vacuum diode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:48
+msgid "Vacuum pentode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:49
+msgid "Vacuum triode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:50
+msgid "Varicap"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:51
+msgid "Voltage source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:52
+msgid "Voltmeter"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:53
+msgid "Zenner diode"
+msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:1
 msgid "Basic gradients, semitransparent"
