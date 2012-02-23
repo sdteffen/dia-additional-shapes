@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Ingestor</name>
+  <icon>ingestor_subsystem.png</icon>
+  <connections>
+    <point x="20.25" y="14.5"/>
+    <point x="20.25" y="10"/>
+    <point x="18" y="12.25"/>
+    <point x="22.5" y="12.25"/>
+    <point x="20.25" y="14.5"/>
+    <point x="20.25" y="10"/>
+    <point x="18" y="12.25"/>
+    <point x="22.5" y="12.25"/>
+    <point x="20.25" y="13.5"/>
+    <point x="20.25" y="11"/>
+    <point x="19" y="12.25"/>
+    <point x="21.5" y="12.25"/>
+    <point x="20.25" y="13.5"/>
+    <point x="20.25" y="11"/>
+    <point x="19" y="12.25"/>
+    <point x="21.5" y="12.25"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #000000" cx="20.25" cy="12.25" rx="2.25" ry="2.25"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="20.25" cy="12.25" rx="2.25" ry="2.25"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="20.25" cy="12.25" rx="2.25" ry="2.25"/>
+    <svg:ellipse style="fill: #ffffff" cx="20.25" cy="12.25" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="20.25" cy="12.25" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="20.25" cy="12.25" rx="1.25" ry="1.25"/>
+  </svg:svg>
+</shape>

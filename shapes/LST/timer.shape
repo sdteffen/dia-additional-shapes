@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Timer</name>
+  <icon>timer.png</icon>
+  <connections>
+    <point x="2.55" y="5.2"/>
+    <point x="2.55" y="0"/>
+    <point x="0" y="2.6"/>
+    <point x="5.1" y="2.6"/>
+    <point x="2.55" y="2.6"/>
+    <point x="3.125" y="3.65"/>
+    <point x="2.8375" y="3.125"/>
+    <point x="2.55" y="2.6"/>
+    <point x="2.525" y="0.925"/>
+    <point x="2.5375" y="1.7625"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #ffffff" cx="2.55" cy="2.6" rx="2.55" ry="2.6"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="2.55" cy="2.6" rx="2.55" ry="2.6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="2.55" y1="2.6" x2="3.125" y2="3.65"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="2.55" y1="2.6" x2="2.525" y2="0.925"/>
+  </svg:svg>
+</shape>

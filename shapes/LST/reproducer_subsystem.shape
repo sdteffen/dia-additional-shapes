@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Reproducer</name>
+  <icon>reproducer_subsystem.png</icon>
+  <connections>
+    <point x="35.5" y="14"/>
+    <point x="35.5" y="11"/>
+    <point x="34" y="12.5"/>
+    <point x="37" y="12.5"/>
+    <point x="35.5" y="14"/>
+    <point x="35.5" y="11"/>
+    <point x="34" y="12.5"/>
+    <point x="37" y="12.5"/>
+    <point x="34" y="15"/>
+    <point x="34" y="13"/>
+    <point x="33" y="14"/>
+    <point x="35" y="14"/>
+    <point x="34" y="15"/>
+    <point x="34" y="13"/>
+    <point x="33" y="14"/>
+    <point x="35" y="14"/>
+    <point x="37" y="15"/>
+    <point x="37" y="13"/>
+    <point x="36" y="14"/>
+    <point x="38" y="14"/>
+    <point x="37" y="15"/>
+    <point x="37" y="13"/>
+    <point x="36" y="14"/>
+    <point x="38" y="14"/>
+    <point x="35.5" y="11.7"/>
+    <point x="35.5" y="9.7"/>
+    <point x="34.5" y="10.7"/>
+    <point x="36.5" y="10.7"/>
+    <point x="35.5" y="11.7"/>
+    <point x="35.5" y="9.7"/>
+    <point x="34.5" y="10.7"/>
+    <point x="36.5" y="10.7"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #000000" cx="35.5" cy="12.5" rx="1.5" ry="1.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="35.5" cy="12.5" rx="1.5" ry="1.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="35.5" cy="12.5" rx="1.5" ry="1.5"/>
+    <svg:ellipse style="fill: #000000" cx="34" cy="14" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="34" cy="14" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="34" cy="14" rx="1" ry="1"/>
+    <svg:ellipse style="fill: #000000" cx="37" cy="14" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="37" cy="14" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="37" cy="14" rx="1" ry="1"/>
+    <svg:ellipse style="fill: #000000" cx="35.5" cy="10.7" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="35.5" cy="10.7" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="35.5" cy="10.7" rx="1" ry="1"/>
+  </svg:svg>
+</shape>

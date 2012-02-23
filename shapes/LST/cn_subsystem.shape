@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Channel Network</name>
+  <icon>cn_subsystem.png</icon>
+  <connections>
+    <point x="10" y="1"/>
+    <point x="15" y="1"/>
+    <point x="12.5" y="1"/>
+    <point x="10" y="3"/>
+    <point x="15" y="3"/>
+    <point x="12.5" y="3"/>
+    <point x="12.5" y="0"/>
+    <point x="12.5" y="4"/>
+    <point x="12.5" y="2"/>
+    <point x="11.25" y="0"/>
+    <point x="11.25" y="4"/>
+    <point x="11.25" y="2"/>
+    <point x="13.75" y="0"/>
+    <point x="13.75" y="4"/>
+    <point x="13.75" y="2"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="10" y1="1" x2="15" y2="1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="10" y1="3" x2="15" y2="3"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="12.5" y1="0" x2="12.5" y2="4"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="11.25" y1="0" x2="11.25" y2="4"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="13.75" y1="0" x2="13.75" y2="4"/>
+  </svg:svg>
+</shape>

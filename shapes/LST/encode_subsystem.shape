@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Encode Subsystem</name>
+  <icon>encode_subsystem.png</icon>
+  <connections>
+    <point x="24" y="9"/>
+    <point x="25" y="11"/>
+    <point x="23" y="11"/>
+    <point x="24.5" y="10"/>
+    <point x="24" y="11"/>
+    <point x="24" y="9"/>
+    <point x="25" y="11"/>
+    <point x="23" y="11"/>
+    <point x="24.5" y="10"/>
+    <point x="24" y="11"/>
+    <point x="23" y="14"/>
+    <point x="23" y="12"/>
+    <point x="24" y="12"/>
+    <point x="24" y="10"/>
+    <point x="23" y="13"/>
+    <point x="23.5" y="12"/>
+    <point x="24" y="11"/>
+    <point x="24" y="10"/>
+    <point x="24.25" y="10.5"/>
+    <point x="24" y="10.375"/>
+    <point x="23.75" y="10.5"/>
+    <point x="24.125" y="10.25"/>
+    <point x="24.125" y="10.4375"/>
+    <point x="23.875" y="10.4375"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: #000000" points="24,9 25,11 23,11 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="24,9 25,11 23,11 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="24,9 25,11 23,11 "/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="23,14 23,12 24,12 24,10 "/>
+    <svg:polygon style="fill: #000000" points="24,10 24.25,10.5 24,10.375 23.75,10.5 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="24,10 24.25,10.5 24,10.375 23.75,10.5 "/>
+  </svg:svg>
+</shape>

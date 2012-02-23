@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Producer</name>
+  <icon>producer.png</icon>
+  <connections>
+    <point x="0.925" y="3.9"/>
+    <point x="0.925" y="2.9"/>
+    <point x="0.425" y="3.4"/>
+    <point x="1.425" y="3.4"/>
+    <point x="2" y="5.5"/>
+    <point x="2" y="4.5"/>
+    <point x="1.5" y="5"/>
+    <point x="2.5" y="5"/>
+    <point x="3" y="5.5"/>
+    <point x="3" y="4.5"/>
+    <point x="2.5" y="5"/>
+    <point x="3.5" y="5"/>
+    <point x="4" y="5.5"/>
+    <point x="4" y="4.5"/>
+    <point x="3.5" y="5"/>
+    <point x="4.5" y="5"/>
+    <point x="2.475" y="4.6"/>
+    <point x="2.475" y="3.6"/>
+    <point x="1.975" y="4.1"/>
+    <point x="2.975" y="4.1"/>
+    <point x="3.525" y="4.6"/>
+    <point x="3.525" y="3.6"/>
+    <point x="3.025" y="4.1"/>
+    <point x="4.025" y="4.1"/>
+    <point x="0.525" y="3.5"/>
+    <point x="0.525" y="2.5"/>
+    <point x="0.025" y="3"/>
+    <point x="1.025" y="3"/>
+    <point x="0.875" y="4.45"/>
+    <point x="0.875" y="3.45"/>
+    <point x="0.375" y="3.95"/>
+    <point x="1.375" y="3.95"/>
+    <point x="0.525" y="4.05"/>
+    <point x="0.525" y="3.05"/>
+    <point x="0.025" y="3.55"/>
+    <point x="1.025" y="3.55"/>
+    <point x="0.525" y="4.6"/>
+    <point x="0.525" y="3.6"/>
+    <point x="0.025" y="4.1"/>
+    <point x="1.025" y="4.1"/>
+    <point x="2.975" y="3.7"/>
+    <point x="2.975" y="2.7"/>
+    <point x="2.475" y="3.2"/>
+    <point x="3.475" y="3.2"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #ffffff" cx="0.925" cy="3.4" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="0.925" cy="3.4" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="2" cy="5" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="2" cy="5" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="3" cy="5" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="3" cy="5" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="4" cy="5" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="4" cy="5" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="2.475" cy="4.1" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="2.475" cy="4.1" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="3.525" cy="4.1" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="3.525" cy="4.1" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="0.525" cy="3" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="0.525" cy="3" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="0.875" cy="3.95" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="0.875" cy="3.95" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="0.525" cy="3.55" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="0.525" cy="3.55" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="0.525" cy="4.1" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="0.525" cy="4.1" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: #ffffff" cx="2.975" cy="3.2" rx="0.5" ry="0.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="2.975" cy="3.2" rx="0.5" ry="0.5"/>
+  </svg:svg>
+</shape>

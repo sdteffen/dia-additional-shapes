@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Internal Transducer</name>
+  <icon>internal_subsystem.png</icon>
+  <connections>
+    <point x="22" y="10"/>
+    <point x="27.075" y="14.95"/>
+    <point x="22" y="14.95"/>
+    <point x="22" y="12.475"/>
+    <point x="27.075" y="10"/>
+    <point x="27.075" y="12.475"/>
+    <point x="24.5375" y="14.95"/>
+    <point x="24.5375" y="10"/>
+    <point x="23" y="12"/>
+    <point x="26" y="12"/>
+    <point x="24.5" y="12"/>
+    <point x="23" y="12"/>
+    <point x="26" y="12"/>
+    <point x="24.5" y="12"/>
+    <point x="23" y="13"/>
+    <point x="26" y="13"/>
+    <point x="24.5" y="13"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #ffffff" x="22" y="10" width="5.075" height="4.95"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="22" y="10" width="5.075" height="4.95"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="23" y1="12" x2="26" y2="12"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="23" y1="12" x2="26" y2="12"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="23" y1="13" x2="26" y2="13"/>
+  </svg:svg>
+</shape>

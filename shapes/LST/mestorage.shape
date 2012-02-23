@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - ME Storage</name>
+  <icon>mestorage.png</icon>
+  <connections>
+    <point x="1.25" y="5"/>
+    <point x="1.25" y="2.5"/>
+    <point x="0" y="3.75"/>
+    <point x="2.5" y="3.75"/>
+    <point x="1.25" y="2.5"/>
+    <point x="1.25" y="0"/>
+    <point x="0" y="1.25"/>
+    <point x="2.5" y="1.25"/>
+    <point x="3.75" y="5"/>
+    <point x="3.75" y="2.5"/>
+    <point x="2.5" y="3.75"/>
+    <point x="5" y="3.75"/>
+    <point x="3.75" y="2.5"/>
+    <point x="3.75" y="0"/>
+    <point x="2.5" y="1.25"/>
+    <point x="5" y="1.25"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #ffffff" cx="1.25" cy="3.75" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="1.25" cy="3.75" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: #ffffff" cx="1.25" cy="1.25" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="1.25" cy="1.25" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: #ffffff" cx="3.75" cy="3.75" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="3.75" cy="3.75" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: #ffffff" cx="3.75" cy="1.25" rx="1.25" ry="1.25"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="3.75" cy="1.25" rx="1.25" ry="1.25"/>
+  </svg:svg>
+</shape>

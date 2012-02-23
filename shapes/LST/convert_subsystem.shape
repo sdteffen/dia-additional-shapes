@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Converter</name>
+  <icon>convert_subsystem.png</icon>
+  <connections>
+    <point x="20" y="13"/>
+    <point x="21.871" y="14.9333"/>
+    <point x="20" y="14.9333"/>
+    <point x="20" y="13.9667"/>
+    <point x="21.871" y="13"/>
+    <point x="21.871" y="13.9667"/>
+    <point x="20.9355" y="14.9333"/>
+    <point x="20.9355" y="13"/>
+    <point x="20" y="13"/>
+    <point x="21.871" y="14.9333"/>
+    <point x="20" y="14.9333"/>
+    <point x="20" y="13.9667"/>
+    <point x="21.871" y="13"/>
+    <point x="21.871" y="13.9667"/>
+    <point x="20.9355" y="14.9333"/>
+    <point x="20.9355" y="13"/>
+    <point x="21" y="15"/>
+    <point x="22" y="16"/>
+    <point x="20" y="16"/>
+    <point x="21.5" y="15.5"/>
+    <point x="21" y="16"/>
+    <point x="21" y="15"/>
+    <point x="22" y="16"/>
+    <point x="20" y="16"/>
+    <point x="21.5" y="15.5"/>
+    <point x="21" y="16"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #000000" x="20" y="13" width="1.87097" height="1.93333"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="20" y="13" width="1.87097" height="1.93333"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="20" y="13" width="1.87097" height="1.93333"/>
+    <svg:polygon style="fill: #000000" points="21,15 22,16 20,16 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="21,15 22,16 20,16 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="21,15 22,16 20,16 "/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Motor</name>
+  <icon>motor.png</icon>
+  <connections>
+    <point x="21.2" y="8.2"/>
+    <point x="21.2" y="6.2"/>
+    <point x="20.2" y="7.2"/>
+    <point x="22.2" y="7.2"/>
+    <point x="21.2" y="8.2"/>
+    <point x="21.2" y="6.2"/>
+    <point x="20.2" y="7.2"/>
+    <point x="22.2" y="7.2"/>
+    <point x="24.2" y="8.2"/>
+    <point x="24.2" y="6.2"/>
+    <point x="23.2" y="7.2"/>
+    <point x="25.2" y="7.2"/>
+    <point x="24.2" y="8.2"/>
+    <point x="24.2" y="6.2"/>
+    <point x="23.2" y="7.2"/>
+    <point x="25.2" y="7.2"/>
+    <point x="22.2" y="7.2"/>
+    <point x="23.2" y="7.2"/>
+    <point x="22.7" y="7.2"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #ffffff" cx="21.2" cy="7.2" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" cx="21.2" cy="7.2" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.005; stroke: #000000" cx="21.2" cy="7.2" rx="1" ry="1"/>
+    <svg:ellipse style="fill: #ffffff" cx="24.2" cy="7.2" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" cx="24.2" cy="7.2" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.005; stroke: #000000" cx="24.2" cy="7.2" rx="1" ry="1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" x1="22.2" y1="7.2" x2="23.2" y2="7.2"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" d="M 21.2 6.2 C 21.1291,4.55327 23.9012,6.2 24.2,6.2"/>
+  </svg:svg>
+</shape>

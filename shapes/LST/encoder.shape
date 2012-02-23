@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Encoder</name>
+  <icon>encoder.png</icon>
+  <connections>
+    <point x="11" y="14"/>
+    <point x="11.5" y="12"/>
+    <point x="12" y="14"/>
+    <point x="12.5" y="12"/>
+    <point x="13" y="14"/>
+    <point x="13.5" y="12"/>
+    <point x="14" y="14"/>
+    <point x="14.5" y="12"/>
+    <point x="14.7" y="13"/>
+    <point x="11.25" y="13"/>
+    <point x="11.75" y="13"/>
+    <point x="12.25" y="13"/>
+    <point x="12.75" y="13"/>
+    <point x="13.25" y="13"/>
+    <point x="13.75" y="13"/>
+    <point x="14.25" y="13"/>
+    <point x="14.6" y="12.5"/>
+    <point x="16" y="12"/>
+    <point x="14.7" y="13"/>
+    <point x="16" y="14"/>
+    <point x="15.35" y="12.5"/>
+    <point x="15.35" y="13.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" points="11,14 11.5,12 12,14 12.5,12 13,14 13.5,12 14,14 14.5,12 14.7,13 "/>
+    <svg:polygon style="fill: #ffffff" points="16,12 14.7,13 16,14 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" points="16,12 14.7,13 16,14 "/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Input Transducer</name>
+  <icon>it_subsystem.png</icon>
+  <connections>
+    <point x="19" y="9"/>
+    <point x="23" y="9"/>
+    <point x="23" y="11"/>
+    <point x="24" y="11"/>
+    <point x="24" y="12"/>
+    <point x="23" y="12"/>
+    <point x="23" y="14"/>
+    <point x="19" y="14"/>
+    <point x="21" y="9"/>
+    <point x="23" y="10"/>
+    <point x="23.5" y="11"/>
+    <point x="24" y="11.5"/>
+    <point x="23.5" y="12"/>
+    <point x="23" y="13"/>
+    <point x="21" y="14"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: #ffffff" points="19,9 23,9 23,11 24,11 24,12 23,12 23,14 19,14 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="19,9 23,9 23,11 24,11 24,12 23,12 23,14 19,14 "/>
+  </svg:svg>
+</shape>

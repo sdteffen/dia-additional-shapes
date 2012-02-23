@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Supporter</name>
+  <icon>supporter_subsystem.png</icon>
+  <connections>
+    <point x="20.0023" y="12"/>
+    <point x="21.9377" y="14"/>
+    <point x="20.0023" y="14"/>
+    <point x="20.0023" y="13"/>
+    <point x="21.9377" y="12"/>
+    <point x="21.9377" y="13"/>
+    <point x="20.97" y="14"/>
+    <point x="20.97" y="12"/>
+    <point x="20.0023" y="12"/>
+    <point x="21.9377" y="14"/>
+    <point x="20.0023" y="14"/>
+    <point x="20.0023" y="13"/>
+    <point x="21.9377" y="12"/>
+    <point x="21.9377" y="13"/>
+    <point x="20.97" y="14"/>
+    <point x="20.97" y="12"/>
+    <point x="21" y="13"/>
+    <point x="21" y="11"/>
+    <point x="20" y="12"/>
+    <point x="22" y="12"/>
+    <point x="21" y="13"/>
+    <point x="21" y="11"/>
+    <point x="20" y="12"/>
+    <point x="22" y="12"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #000000" x="20.0023" y="12" width="1.93548" height="2"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="20.0023" y="12" width="1.93548" height="2"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="20.0023" y="12" width="1.93548" height="2"/>
+    <svg:ellipse style="fill: #ffffff" cx="21" cy="12" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="21" cy="12" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="21" cy="12" rx="1" ry="1"/>
+  </svg:svg>
+</shape>

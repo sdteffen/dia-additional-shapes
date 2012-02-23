@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>LST - Decider</name>
+  <icon>decider_subsystem.png</icon>
+  <connections>
+    <point x="20" y="3"/>
+    <point x="22.9516" y="6.05"/>
+    <point x="20" y="6.05"/>
+    <point x="20" y="4.525"/>
+    <point x="22.9516" y="3"/>
+    <point x="22.9516" y="4.525"/>
+    <point x="21.4758" y="6.05"/>
+    <point x="21.4758" y="3"/>
+    <point x="20" y="3"/>
+    <point x="22.9516" y="6.05"/>
+    <point x="20" y="6.05"/>
+    <point x="20" y="4.525"/>
+    <point x="22.9516" y="3"/>
+    <point x="22.9516" y="4.525"/>
+    <point x="21.4758" y="6.05"/>
+    <point x="21.4758" y="3"/>
+    <point x="19" y="2"/>
+    <point x="24" y="7"/>
+    <point x="21.5" y="4.5"/>
+    <point x="24" y="2"/>
+    <point x="19" y="7"/>
+    <point x="21.5" y="4.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #ffffff" x="20" y="3" width="2.95161" height="3.05"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="20" y="3" width="2.95161" height="3.05"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="20" y="3" width="2.95161" height="3.05"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" x1="19" y1="2" x2="24" y2="7"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.05; stroke: #000000" x1="24" y1="2" x2="19" y2="7"/>
+  </svg:svg>
+</shape>
