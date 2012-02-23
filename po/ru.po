@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-16 20:48+0100\n"
+"POT-Creation-Date: 2012-02-23 21:48+0100\n"
 "PO-Revision-Date: 2011-07-03 12:20+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -983,6 +983,94 @@ msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:10
 msgid "Light-dark vertical gradient box"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:1
+msgid "Associator Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:2
+msgid "Channel Network Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:3
+msgid "Converter Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:4
+msgid "Decider Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:5
+msgid "Decoder"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:6
+msgid "Distributor Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:7
+msgid "Encoder"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:8
+msgid "Encoder Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:9
+msgid "Extruder Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:10
+msgid "Ingestor Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:11
+msgid "Input Transducer Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:12
+msgid "Internal Transducer Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:13
+msgid "LST"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:14
+msgid "Living Systems Theory"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:15
+msgid "ME Storage Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:16
+msgid "Memory Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:17
+msgid "Motor Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:18
+msgid "Output Transducer Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:19
+msgid "Producer Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:20
+msgid "Reproducer Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:21
+msgid "Supporter Subsystem"
+msgstr ""
+
+#: ../sheets/LST.sheet.in.h:22
+msgid "Timer"
 msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:1
