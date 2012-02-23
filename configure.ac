@@ -11,7 +11,7 @@ AC_CONFIG_FILES([Makefile samples/Makefile shapes/Makefile \
 	shapes/Circuit2/Makefile shapes/CMOS/Makefile shapes/digital/Makefile \
 	shapes/edpc/Makefile \
 	shapes/electric2/Makefile shapes/electronic/Makefile \
-	shapes/gradient/Makefile shapes/Racks/Makefile \
+	shapes/gradient/Makefile shapes/LST/Makefile shapes/Racks/Makefile \
 	shapes/renewable_energy/Makefile  \
 	shapes/value_stream_mapping/Makefile sheets/Makefile \
 	src/Makefile po/Makefile.in])
