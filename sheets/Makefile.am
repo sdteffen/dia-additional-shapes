@@ -15,6 +15,7 @@ sheet_in_files = \
   electronic.sheet.in \
   gradient.sheet.in \
   LST.sheet.in \
+  Optics.sheet.in \
   renewable_energy.sheet.in \
   Racks.sheet.in \
   value_stream_mapping.sheet.in

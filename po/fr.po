@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-23 21:48+0100\n"
+"POT-Creation-Date: 2012-03-02 19:35+0100\n"
 "PO-Revision-Date: 2010-01-26 19:21+0000\n"
 "Last-Translator: jojolebestof <Unknown>\n"
 "Language-Team: French <sdteffen@sdteffen.de>\n"
@@ -495,11 +495,11 @@ msgstr ""
 msgid "Relay"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:19
+#: ../sheets/Circuit2.sheet.in.h:19 ../sheets/Optics.sheet.in.h:17
 msgid "Sine Wave Source"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:20
+#: ../sheets/Circuit2.sheet.in.h:20 ../sheets/Optics.sheet.in.h:19
 msgid "Square Wave Source"
 msgstr ""
 
@@ -1072,6 +1072,86 @@ msgstr ""
 msgid "Timer"
 msgstr ""
 
+#: ../sheets/Optics.sheet.in.h:1
+msgid "Circulator"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:2
+msgid "DFB Laser"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:3
+msgid "Detector"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:4
+msgid "Directional Coupler"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:5
+msgid "EDFA"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:6
+msgid "Light Beam"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:7
+msgid "Long Fibre"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:8
+msgid "Long Period Grating"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:9
+#, fuzzy
+msgid "MZ Modulator"
+msgstr "Interrupteur"
+
+#: ../sheets/Optics.sheet.in.h:10
+msgid "Optical Fibre Systems"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:11
+#, fuzzy
+msgid "Optical Isolator"
+msgstr "Interrupteur"
+
+#. For: jkellerman
+#: ../sheets/Optics.sheet.in.h:13
+msgid "Optics"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:14
+msgid "Osilloscope"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:15
+#, fuzzy
+msgid "Phase Modulator"
+msgstr "Interrupteur"
+
+#: ../sheets/Optics.sheet.in.h:16
+msgid "Polarisation Controller"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:18
+msgid "Spectrum Analyser"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:20
+msgid "Tuneable Coupler"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:21
+msgid "Variable Attenuator"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:22
+msgid "Wave"
+msgstr ""
+
 #: ../sheets/Racks.sheet.in.h:1
 msgid "Generic 10U Equipment"
 msgstr "Equipement générique 10U"
@@ -1164,6 +1244,42 @@ msgstr "Racks"
 #: ../sheets/Racks.sheet.in.h:24
 msgid "Standard 19 inch racks and equipment"
 msgstr "Racks et équipements standarts de 19 pouces"
+
+#: ../sheets/renewable_energy.sheet.in.h:1
+msgid "Cup Anemometer"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:2
+msgid "Data Logger"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:3
+msgid "Objects related to renewable energy"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:4
+msgid "Renewable Energy"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:5
+msgid "Solar Module"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:6
+msgid "Temperature and Humidity Sensor"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:7
+msgid "Wind Measurement Tower"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:8
+msgid "Wind Turbine"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:9
+msgid "Wind Vane"
+msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:1
 msgid "Analyze the flow of materials and information"
