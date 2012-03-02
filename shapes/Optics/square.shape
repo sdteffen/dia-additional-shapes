@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Optics - Square Wave</name>
+  <icon>square.png</icon>
+  <connections>
+    <point x="1" y="0"/>
+    <point x="1" y="2"/>
+    <point x="0" y="1"/>
+    <point x="2" y="1"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default" cx="1" cy="1" rx="1" ry="1"/>
+    <svg:polyline style="fill: none; stroke-width: 0.1" points="0.51,0.9 0.51,0.55 1,0.55 1,1.45 1.49,1.45 1.49,1.1"/>
+  </svg:svg>
+</shape>

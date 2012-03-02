@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Optics - Polarisation Control (vertical)</name>
+  <icon>polarisation_control_vert.png</icon>
+  <connections>
+    <point x="0.5" y="0.4"/>
+    <point x="0.5" y="2.1"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line x1="0.5" y1="0.4" x2="0.5" y2="2.1"/>
+    <svg:ellipse style="fill: none; stroke-width: 0.1" cx="0.25" cy="0.75" rx="0.25" ry="0.25"/>
+		<svg:ellipse style="fill: none; stroke-width: 0.1" cx="0.25" cy="1.25" rx="0.25" ry="0.25"/>
+    <svg:ellipse style="fill: none; stroke-width: 0.1" cx="0.25" cy="1.75" rx="0.25" ry="0.25"/>
+  </svg:svg>
+</shape>

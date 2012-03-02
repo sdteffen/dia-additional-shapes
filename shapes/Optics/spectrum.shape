@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Optics - Spectrum</name>
+  <icon>spectrum.png</icon>
+  <connections>
+    <point x="5.25" y="7"/>
+    <point x="10.5" y="7"/>
+    <point x="8" y="8.25"/>
+    <point x="8" y="5.75"/>
+    <point x="10.125" y="6.125"/>
+    <point x="10.125" y="6.7"/>
+    <point x="10.125" y="7.3"/>
+		<point x="10.125" y="7.875"/>
+  </connections>
+  <textbox x1="2.25" y1="0" x2="13.5" y2="5.35" font-size="0.6"/>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: default" x="5.25" y="5.75" width="5.25" height="2.5"/>
+    <svg:rect style="stroke-width:0.1" x="5.5" y="6.0" width="4.25" height="2"/>
+    <svg:ellipse style="stroke-width:0.1" cx="10.125" cy="6.125" rx="0.125" ry="0.125"/>
+    <svg:ellipse style="stroke-width:0.1" cx="10.125" cy="6.7" rx="0.125" ry="0.125"/>
+    <svg:ellipse style="stroke-width:0.1" cx="10.125" cy="7.3" rx="0.125" ry="0.125"/>
+		<svg:ellipse style="stroke-width:0.1" cx="10.125" cy="7.875" rx="0.125" ry="0.125"/>
+		
+    <svg:line style="fill: none; stroke-width: 0.08" x1="5.75" y1="8" x2="5.75" y2="7.58"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="6" y1="8" x2="6" y2="7.6"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="6.25" y1="8" x2="6.25" y2="7.625"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="6.5" y1="8" x2="6.5" y2="7.5"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="6.75" y1="8" x2="6.75" y2="7.45"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="7" y1="8" x2="7" y2="7"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="7.25" y1="8" x2="7.25" y2="6.85"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="7.5" y1="8" x2="7.5" y2="6.55"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="7.75" y1="8" x2="7.75" y2="6.9"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="8" y1="8" x2="8" y2="7"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="8.25" y1="8" x2="8.25" y2="7.18451"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="8.5" y1="8" x2="8.5" y2="7.5"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="8.75" y1="8" x2="8.75" y2="7.65884"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="9" y1="8" x2="9" y2="7.65"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="9.25" y1="8" x2="9.25" y2="7.73352"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="9.5" y1="8" x2="9.5" y2="7.73352"/>
+  </svg:svg>
+</shape>

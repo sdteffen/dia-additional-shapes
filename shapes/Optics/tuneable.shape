@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Optics - Tuneable Coupler</name>
+  <icon>tuneable.png</icon>
+  <connections>
+    <point x="0" y="0.5"/>
+    <point x="3" y="0.5"/>
+    <point x="0" y="1.5"/>
+    <point x="3" y="1.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: default" x="0" y="0" width="3" height="2"/>
+    <svg:path style="fill: none; stroke-width: 0.1" d="M 0 0.5 C 1.5,0.5 0.5,0.9 1.5,0.9 C 2.5,0.9 1.5,0.5 3,0.5"/>
+		<svg:path style="fill: none; stroke-width: 0.1" d="M 0 1.5 C 1.5,1.5 0.5,1.1 1.5,1.1 C 2.5,1.1 1.5,1.5 3,1.5"/>
+    <svg:line style="fill: none; stroke-width: 0.3" x1="0.3501" y1="2.4" x2="2.66417" y2="-0.622455"/>
+    <svg:polyline style="fill: none; stroke-width: 0.3" points="2.62668,-0.162247 2.73213,-0.711227 2.22968,-0.466202 "/>
+  </svg:svg>
+</shape>

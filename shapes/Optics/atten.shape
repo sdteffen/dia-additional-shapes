@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Optics - Variable Attenuator</name>
+  <icon>atten.png</icon>
+  <connections>
+    <point x="0.5" y="0"/>
+    <point x="0.5" y="1"/>
+    <point x="1" y="0.5"/>
+    <point x="0" y="0.5"/>
+  </connections>
+  <textbox x1="-5" y1="-5" x2="6" y2="-0.2" font-size="0.6"/>
+  <aspectratio type="fixed"/>
+  <svg:svg> <!-- x - 10 y 4 -->
+    <svg:ellipse style="fill: #ffffff" cx="0.5" cy="0.5" rx="0.5" ry="0.5"/>
+    <svg:line style="fill: none; stroke-width: 0.08" x1="-0.1" y1="1.1" x2="1.15" y2="-0.15"/>
+    <svg:polyline style="fill: none; stroke-width: 0.08" points="0.8,0 1.15,-.15 1,0.2"/>
+  </svg:svg>
+</shape>

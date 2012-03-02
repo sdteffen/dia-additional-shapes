@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Optics - Sine Wave</name>
+  <icon>sine.png</icon>
+  <connections>
+    <point x="1" y="0"/>
+    <point x="1" y="2"/>
+    <point x="0" y="1"/>
+    <point x="2" y="1"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: background" cx="1" cy="1" rx="1" ry="1"/>
+    <svg:path style="fill: none; stroke-width: 0.1" d="M 0.2875 1 C 1,-0.725 1,2.45 1.6125,1"/>
+  </svg:svg>
+</shape>

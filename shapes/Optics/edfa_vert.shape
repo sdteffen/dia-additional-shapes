@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Optics - EDFA (vertical)</name>
+  <icon>edfa_vert.png</icon>
+  <connections>
+    <point x="1.1" y="2"/>
+    <point x="1.1" y="0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: default" points="0,0 1.1,2 2.2,0"/>
+		<!--    <svg:text style="fill: #000000; text-anchor:start; font-size: 0.6; font-family: sans; font-style: normal; font-weight: normal" x="0.25" y="1.35">EDFA</svg:text>
+		-->
+  </svg:svg>
+</shape>

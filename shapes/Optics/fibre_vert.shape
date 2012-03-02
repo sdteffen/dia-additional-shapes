@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Optics - Fibre (vertical)</name>
+  <icon>fibre_vert.png</icon>
+  <connections>
+    <point x="3" y="0"/>
+    <point x="3" y="4"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse cx="1.5" cy="1.5" rx="1.5" ry="1"/>
+    <svg:ellipse cx="1.5" cy="2.5" rx="1.5" ry="1"/>
+    <svg:ellipse cx="1.5" cy="2" rx="1.5" ry="1"/>
+    <svg:line x1="3" y1="0" x2="3" y2="4"/>
+  </svg:svg>
+</shape>
