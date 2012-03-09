@@ -13,7 +13,7 @@ AC_CONFIG_FILES([Makefile samples/Makefile shapes/Makefile \
 	shapes/electric2/Makefile shapes/electronic/Makefile \
 	shapes/gradient/Makefile shapes/LST/Makefile shapes/Optics/Makefile \
 	shapes/Racks/Makefile \
-	shapes/renewable_energy/Makefile  \
+	shapes/renewable_energy/Makefile  shapes/scenegraph/Makefile \
 	shapes/value_stream_mapping/Makefile sheets/Makefile \
 	src/Makefile po/Makefile.in])
 AC_OUTPUT

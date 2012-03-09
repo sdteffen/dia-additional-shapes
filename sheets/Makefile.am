@@ -18,6 +18,7 @@ sheet_in_files = \
   Optics.sheet.in \
   renewable_energy.sheet.in \
   Racks.sheet.in \
+  scenegraph.sheet.in \
   value_stream_mapping.sheet.in
 
 SHEETS = $(sheet_in_files:.sheet.in=.sheet)
