@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>scene graph - switch</name>
+  <icon>switch.png</icon>
+  <connections>
+    <point x="10" y="20"/>
+    <point x="10" y="0"/>
+    <point x="0" y="10"/>
+    <point x="20" y="10"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <textbox x1="10" y1="22" x2="12" y2="28" align="center" resize="no"/>
+  <svg:svg>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 1.0; stroke: #000000" cx="10" cy="10" rx="10" ry="10"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 1.0; stroke: #000000" x1="12" y1="7" x2="7.12181" y2="13.9688"/>
+    <svg:path style="fill: #000000" d="M 12 7 C 12.2867,7.20071 12.3728,7.68815 12.172,7.97489 C 11.9713,8.26162 11.4839,8.34764 11.1972,8.14692 C 10.9104,7.94621 10.8244,7.45877 11.0251,7.17204 C 11.2258,6.88531 11.7133,6.79929 12,7z"/>
+    <svg:polygon style="fill: #000000" points="5.89296,13.1086 5.11469,16.8362 8.35066,14.829 "/>
+  </svg:svg>
+</shape>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>scene graph - component</name>
+  <icon>component.png</icon>
+  <connections>
+    <point x="10" y="20"/>
+    <point x="10" y="0"/>
+    <point x="0" y="10"/>
+    <point x="20" y="10"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <textbox x1="10" y1="22" x2="12" y2="28" align="center" resize="no"/>
+  <svg:svg>
+    <svg:rect style="fill: #bfbfbf; stroke-width: 0.1" x="2" y="3" width="18" height="16"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="0" y1="3" x2="2" y2="3"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="0" y1="19" x2="2" y2="19"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="2" y1="3" x2="2" y2="0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="4" y1="3" x2="4" y2="0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="15" y1="3" x2="15" y2="0"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="17" y1="3" x2="17" y2="0"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 1.0; stroke: #000000" x="0" y="0" width="20" height="20"/>
+  </svg:svg>
+</shape>

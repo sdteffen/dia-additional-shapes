@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>scene graph - subgraph</name>
+  <icon>subgraph.png</icon>
+  <connections>
+    <point x="10" y="0"/>
+    <point x="21" y="20"/>
+    <point x="10" y="0"/>
+    <point x="10" y="20"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <textbox x1="10" y1="22" x2="12" y2="28" align="center" resize="no"/>
+  <svg:svg>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke-dasharray: 0.2; stroke: #000000" points="10,0 21,20 -1,20 10,0 "/>
+  </svg:svg>
+</shape>

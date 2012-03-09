@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>scene graph - metric</name>
+  <icon>metric.png</icon>
+  <connections>
+    <point x="10" y="20"/>
+    <point x="10" y="0"/>
+    <point x="0" y="10"/>
+    <point x="20" y="10"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <textbox x1="10" y1="22" x2="12" y2="28" align="center" resize="no"/>
+  <svg:svg>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="10" cy="10" rx="10" ry="10"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="10" y1="0" x2="10" y2="20"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="20" y1="10" x2="0" y2="10"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18" y1="4" x2="2" y2="4"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18" y1="16" x2="2" y2="16"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="4" y1="2" x2="4" y2="18"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="16" y1="2" x2="16" y2="18"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.3; stroke: #000000" points="4,10 10,4 16,10 16,16 "/>
+    <svg:ellipse style="fill: #000000" cx="3.9" cy="9.9" rx="0.9" ry="0.9"/>
+    <svg:ellipse style="fill: #000000" cx="15.9" cy="15.9" rx="0.9" ry="0.9"/>
+    <svg:ellipse style="fill: #000000" cx="15.9" cy="9.9" rx="0.9" ry="0.9"/>
+    <svg:ellipse style="fill: #000000" cx="9.9" cy="3.9" rx="0.9" ry="0.9"/>
+  </svg:svg>
+</shape>

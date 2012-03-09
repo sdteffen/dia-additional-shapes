@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>scene graph - manipulator</name>
+  <icon>manipulator.png</icon>
+  <connections>
+    <point x="10" y="20"/>
+    <point x="10" y="0"/>
+    <point x="0" y="10"/>
+    <point x="20" y="10"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <textbox x1="10" y1="22" x2="12" y2="28" align="center" resize="no"/>
+  <svg:svg>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 1.0; stroke: #000000" cx="10" cy="10" rx="10" ry="10"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" d="M 5.58464 18.9 C 6.58065,14.6 1.9,10.35 3.58464,8.4 C 5.26928,6.45 5.38464,13.2 6.78464,11.6 C 8.18464,10 7.5,4.45 9.08464,4.2 C 10.6693,3.95 9,9.55 9.5,9.75 C 10,9.95 10.1,2.55 11.8846,2.6 C 13.6692,2.65 11.4,9.85 11.7,9.95 C 12,10.05 13.1,4.15 14.5,4.45 C 15.9,4.75 13,10.25 13.4,10.55 C 13.8,10.85 14.6692,6.45 15.9846,7 C 17.3,7.55 14.9,11.05 14.9,12.25 C 14.9,13.45 10.9,17.65 14.2846,19"/>
+  </svg:svg>
+</shape>

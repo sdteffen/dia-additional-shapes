@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>scene graph - appearance</name>
+  <icon>appearance.png</icon>
+  <connections>
+    <point x="10" y="20"/>
+    <point x="10" y="0"/>
+    <point x="0" y="10"/>
+    <point x="20" y="10"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <textbox x1="10" y1="22" x2="12" y2="28" align="center" resize="no"/>
+  <svg:svg>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="10" cy="10" rx="10" ry="10"/>
+    <svg:ellipse style="fill: #000000" cx="10" cy="3.5" rx="4" ry="2.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="10" cy="3.5" rx="4" ry="2.5"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="10.1" cy="8" rx="9.1" ry="8"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="9.9" cy="5.5" rx="7.9" ry="5.5"/>
+  </svg:svg>
+</shape>
