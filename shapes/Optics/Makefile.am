@@ -18,7 +18,6 @@ SHAPES = \
 	detector.shape \
 	detector_vert.png \
 	detector_vert.shape \
-	dfb_laser_big.png \
 	dfb_laser.png \
 	dfb_laser.shape \
 	dfb_laser_vert.png \

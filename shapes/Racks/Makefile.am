@@ -8,7 +8,9 @@ SHAPES = \
 	equipment_10u.shape \
 	equipment_11u.png \
 	equipment_11u.shape \
+	equipment_12u.png \
 	equipment_12u.shape \
+	equipment_1u.png \
 	equipment_1u.shape \
 	equipment_2u.png \
 	equipment_2u.shape \
@@ -16,7 +18,7 @@ SHAPES = \
 	equipment_3u.shape \
 	equipment_4u.png \
 	equipment_4u.shape \
-	equipment_5u.png
+	equipment_5u.png \
 	equipment_5u.shape \
 	equipment_6u.png \
 	equipment_6u.shape \
