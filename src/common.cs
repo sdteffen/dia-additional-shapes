@@ -4,7 +4,7 @@
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007, 2009 - 2011 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009 - 2012 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -113,10 +113,38 @@ class DiaIconFinder
 				try
 				{
 					string objectname = links.Current.GetAttribute("name", "");					
-					string iconpath = DiaIconFinder.GetPathFromNode(sheet, objectname, nav); 
-					objecticons.Add(objectname, iconpath);
+					string iconpath = DiaIconFinder.GetPathFromNode(sheet, objectname, nav);
+					if("" != iconpath)
+						objecticons.Add(objectname, iconpath);
 					objectsheets.Add(objectname, sheet);
 				} catch {}
+			}
+		}
+		System.IO.DirectoryInfo sdir = new System.IO.DirectoryInfo("shapes");
+		foreach (System.IO.DirectoryInfo idir in sdir.GetDirectories())
+		{
+			foreach (System.IO.FileInfo f in idir.GetFiles("*.shape"))
+			{
+			    XmlDocument shape = new XmlDocument();
+			    shape.Load(f.FullName);
+			    XmlNamespaceManager nsmgr = new XmlNamespaceManager(shape.NameTable);
+			    nsmgr.AddNamespace("", "http://www.daa.com.au/~james/dia-shape-ns");
+			    XmlNodeList nodeList;
+			    nodeList = shape.GetElementsByTagName("name", "http://www.daa.com.au/~james/dia-shape-ns");
+			    foreach (XmlNode name in nodeList)
+			    {
+				string dummy;
+			        if ((name.ParentNode.Name == "shape") && !(objecticons.TryGetValue(name.InnerText, out dummy)))
+			        {
+			            XmlNodeList iconList;
+			            iconList = shape.GetElementsByTagName("icon", "http://www.daa.com.au/~james/dia-shape-ns");
+			            foreach (XmlNode icon in iconList)
+			            {
+			                objecticons.Add(name.InnerText, icon.InnerText);
+			            }
+			        }
+			    }
+			    
 			}
 		}
 	}
@@ -183,6 +211,7 @@ class DiaIconFinder
 			    {
 			        if (name.ParentNode.Name == "shape" && name.InnerText == objectname)
 			        {
+
 			            XmlNodeList iconList;
 			            iconList = shape.GetElementsByTagName("icon", "http://www.daa.com.au/~james/dia-shape-ns");
 			            foreach (XmlNode icon in iconList)

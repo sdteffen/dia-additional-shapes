@@ -4,7 +4,7 @@
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007, 2009 - 2011 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009 - 2012 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -47,8 +47,8 @@ public class Sheet2Html
 
         if ("-v" == args[0] || "--version" == args[0])
         {
-            Console.Error.WriteLine("sheet2html 0.2.2");
-            Console.Error.WriteLine("Copyright (c) 2007, 2009 - 2011 Steffen Macke");
+            Console.Error.WriteLine("sheet2html 0.9.2");
+            Console.Error.WriteLine("Copyright (c) 2007, 2009 - 2012 Steffen Macke");
             return;
         }
 
@@ -86,7 +86,7 @@ public class Sheet2Html
 		noads = " noads=1 ";
         }
 
-		DiaIconFinder iconfinder = new DiaIconFinder();
+	DiaIconFinder iconfinder = new DiaIconFinder();
 		
         XPathDocument document = new XPathDocument("sheets/" + args[args.Length-1] + ".sheet");
         XPathNavigator nav = document.CreateNavigator();
