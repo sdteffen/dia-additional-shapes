@@ -60,13 +60,14 @@
  <object name="CPD - Modem">
   <_description>Modem</_description></object>
  <object name="CPD - VoicePainel50P">
-  <_description>Voice painel 50p</_description></object>
+  <_description>Voice panel 50p</_description></object>
  <object name="CPD - VoicePainel20P">
-  <_description>Voice painel 20p</_description></object>
+  <_description>Voice panel 20p</_description></object>
  <object name="CPD - PatchPainel24P">
-  <_description>Patch painel 24p</_description></object>
+  <_description>Patch panel 24p</_description></object>
  <object name="CPD - Litter">
   <_description>Litter</_description></object>
  <object name="CPD - TelephoneExchange">
   <_description>Telephone exchange - Rack</_description></object>
-</contents></sheet>
+</contents>
+</sheet>

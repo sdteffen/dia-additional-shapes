@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-02 19:35+0100\n"
+"POT-Creation-Date: 2012-05-16 18:52+0200\n"
 "PO-Revision-Date: 2011-11-27 11:11+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Spanish <es@li.org>\n"
@@ -27,214 +27,214 @@ msgid "Building Site Equipment"
 msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:3
-msgid "Circle, Diagonal Quarters Filled"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:4
-msgid "Concrete Mixer"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:5
-msgid "Fence (horizontal)"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:6
-msgid "Fence (vertical)"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:7
-msgid "Pre-Silo"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:8
-msgid "Proportioning Batcher"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:9
-msgid "Road (crossroads)"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:10
 msgid "Road (horizontal)"
 msgstr ""
 
-#: ../sheets/building_site.sheet.in.h:11
-msgid "Road (rotated tee)"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:12
-msgid "Road (tee)"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:13
-msgid "Road (turn)"
-msgstr ""
-
-#: ../sheets/building_site.sheet.in.h:14
+#: ../sheets/building_site.sheet.in.h:4
 msgid "Road (vertical)"
 msgstr ""
 
-#: ../sheets/building_site.sheet.in.h:15
+#: ../sheets/building_site.sheet.in.h:5
+msgid "Road (turn)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:6
+msgid "Road (tee)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:7
+msgid "Road (rotated tee)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:8
+msgid "Road (crossroads)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:9
+msgid "Fence (horizontal)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:10
+msgid "Fence (vertical)"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:11
 msgid "Slope (horizontal)"
 msgstr ""
 
-#: ../sheets/building_site.sheet.in.h:16
+#: ../sheets/building_site.sheet.in.h:12
 msgid "Slope (vertical)"
 msgstr ""
 
-#: ../sheets/building_site.sheet.in.h:17
+#: ../sheets/building_site.sheet.in.h:13
 msgid "Wall (horizontal)"
 msgstr ""
 
-#: ../sheets/building_site.sheet.in.h:18
+#: ../sheets/building_site.sheet.in.h:14
 msgid "Wall (vertical)"
 msgstr ""
 
+#: ../sheets/building_site.sheet.in.h:15
+msgid "Pre-Silo"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:16
+msgid "Proportioning Batcher"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:17
+msgid "Concrete Mixer"
+msgstr ""
+
+#: ../sheets/building_site.sheet.in.h:18
+msgid "Circle, Diagonal Quarters Filled"
+msgstr ""
+
 #: ../sheets/central_data_processing.sheet.in.h:1
-msgid "Cable organizer 1U"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:2
-msgid "Cable organizer 2U's"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:3
 msgid "Central Data Processing"
 msgstr ""
 
-#: ../sheets/central_data_processing.sheet.in.h:4
+#: ../sheets/central_data_processing.sheet.in.h:2
 msgid "Central data processing (server rack)"
 msgstr ""
 
-#: ../sheets/central_data_processing.sheet.in.h:5
-msgid "DAS Storage 15un 3U's"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:6
-msgid "DAS Storage 16un 3U's - SAN - ISCSI"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:7
-msgid "Litter"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:8
-msgid "Modem"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:9
-msgid "Patch painel 24p"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:10
-#, fuzzy
-msgid "Rack 15U's"
-msgstr "Estante 38U"
-
-#: ../sheets/central_data_processing.sheet.in.h:11
-#, fuzzy
-msgid "Rack 32U's"
-msgstr "Estante 38U"
-
-#: ../sheets/central_data_processing.sheet.in.h:12
-#, fuzzy
-msgid "Rack 36U's"
-msgstr "Estante 38U"
-
-#: ../sheets/central_data_processing.sheet.in.h:13
-#, fuzzy
-msgid "Rack 42U's"
-msgstr "Estante 42U"
-
-#: ../sheets/central_data_processing.sheet.in.h:14
-#, fuzzy
-msgid "Rack 44U's"
-msgstr "Estante 42U"
-
-#: ../sheets/central_data_processing.sheet.in.h:15
+#: ../sheets/central_data_processing.sheet.in.h:3
 #, fuzzy
 msgid "Rack 5U's"
 msgstr "Estante"
 
-#: ../sheets/central_data_processing.sheet.in.h:16
+#: ../sheets/central_data_processing.sheet.in.h:4
 #, fuzzy
 msgid "Rack 7U's"
 msgstr "Estante"
 
-#: ../sheets/central_data_processing.sheet.in.h:17
-msgid "Router"
-msgstr ""
+#: ../sheets/central_data_processing.sheet.in.h:5
+#, fuzzy
+msgid "Rack 15U's"
+msgstr "Estante 38U"
 
-#: ../sheets/central_data_processing.sheet.in.h:18
+#: ../sheets/central_data_processing.sheet.in.h:6
+#, fuzzy
+msgid "Rack 32U's"
+msgstr "Estante 38U"
+
+#: ../sheets/central_data_processing.sheet.in.h:7
+#, fuzzy
+msgid "Rack 36U's"
+msgstr "Estante 38U"
+
+#: ../sheets/central_data_processing.sheet.in.h:8
+#, fuzzy
+msgid "Rack 42U's"
+msgstr "Estante 42U"
+
+#: ../sheets/central_data_processing.sheet.in.h:9
+#, fuzzy
+msgid "Rack 44U's"
+msgstr "Estante 42U"
+
+#: ../sheets/central_data_processing.sheet.in.h:10
 msgid "Server 1U"
 msgstr ""
 
-#: ../sheets/central_data_processing.sheet.in.h:19
+#: ../sheets/central_data_processing.sheet.in.h:11
 msgid "Server 2U's"
 msgstr ""
 
-#: ../sheets/central_data_processing.sheet.in.h:20
-msgid "Server 3U's"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:21
-msgid "Server 3U's slow density"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:22
-msgid "Server 4U's"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:23
-msgid "Server 4U's Slow Capacity"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:24
-msgid "Server 4U's right capacity"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:25
-msgid "Server 4U's very right capacity"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:26
-msgid "Server 5U's"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:27
-msgid "Server 5U's right density"
-msgstr ""
-
-#: ../sheets/central_data_processing.sheet.in.h:28
+#: ../sheets/central_data_processing.sheet.in.h:12
 msgid "Server Rack 2U's Slow density"
 msgstr ""
 
-#: ../sheets/central_data_processing.sheet.in.h:29
+#: ../sheets/central_data_processing.sheet.in.h:13
 msgid "Server Rack 2U's very Slow density"
 msgstr ""
 
-#: ../sheets/central_data_processing.sheet.in.h:30
+#: ../sheets/central_data_processing.sheet.in.h:14
+msgid "Server 3U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:15
+msgid "Server 3U's slow density"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:16
+msgid "Server 4U's Slow Capacity"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:17
+msgid "Server 4U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:18
+msgid "Server 4U's right capacity"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:19
+msgid "Server 4U's very right capacity"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:20
+msgid "Server 5U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:21
+msgid "Server 5U's right density"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:22
+msgid "DAS Storage 15un 3U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:23
+msgid "DAS Storage 16un 3U's - SAN - ISCSI"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:24
+msgid "Cable organizer 1U"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:25
+msgid "Cable organizer 2U's"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:26
 msgid "Switch 16p + 2 SFP"
 msgstr ""
 
-#: ../sheets/central_data_processing.sheet.in.h:31
+#: ../sheets/central_data_processing.sheet.in.h:27
 msgid "Switch 24p + 2 SFP"
 msgstr ""
 
-#: ../sheets/central_data_processing.sheet.in.h:32
+#: ../sheets/central_data_processing.sheet.in.h:28
 msgid "Switch 48p + 2 SFP"
 msgstr ""
 
+#: ../sheets/central_data_processing.sheet.in.h:29
+msgid "Router"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:30
+msgid "Modem"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:31
+msgid "Voice panel 50p"
+msgstr ""
+
+#: ../sheets/central_data_processing.sheet.in.h:32
+msgid "Voice panel 20p"
+msgstr ""
+
 #: ../sheets/central_data_processing.sheet.in.h:33
-msgid "Telephone exchange - Rack"
+msgid "Patch panel 24p"
 msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:34
-msgid "Voice painel 20p"
+msgid "Litter"
 msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:35
-msgid "Voice painel 50p"
+msgid "Telephone exchange - Rack"
 msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:1
@@ -242,137 +242,137 @@ msgid "CH-1 notation"
 msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:2
-msgid "Condition"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:3
-msgid "Delay"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:4
-msgid "Department"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:5
-msgid "Device"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:6
-msgid "Employee"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:7 ../sheets/edpc.sheet.in.h:3
-msgid "Event"
-msgstr "Evento"
-
-#: ../sheets/CH-1.sheet.in.h:8
-msgid "Junction (AND, OR, XOR)"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:9
-msgid "Note"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:10
-msgid "Outside participant"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:11 ../sheets/value_stream_mapping.sheet.in.h:7
-msgid "Storage"
-msgstr ""
-
-#: ../sheets/CH-1.sheet.in.h:12
 msgid "Work"
 msgstr ""
 
-#: ../sheets/chemistry_lab.sheet.in.h:1
+#: ../sheets/CH-1.sheet.in.h:3 ../sheets/edpc.sheet.in.h:4
+msgid "Event"
+msgstr "Evento"
+
+#: ../sheets/CH-1.sheet.in.h:4 ../sheets/value_stream_mapping.sheet.in.h:6
+msgid "Storage"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:5
+msgid "Employee"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:6
+msgid "Department"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:7
+msgid "Outside participant"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:8
+msgid "Device"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:9
+msgid "Condition"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:10
+msgid "Junction (AND, OR, XOR)"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:11
+msgid "Note"
+msgstr ""
+
+#: ../sheets/CH-1.sheet.in.h:12
+msgid "Delay"
+msgstr ""
+
+#. For: ryan
+#: ../sheets/chemistry_lab.sheet.in.h:2
+msgid "Chemistry Lab"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:3
+msgid "Chemistry Lab Apparati"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:4
 msgid "30 Degree Bend"
 msgstr ""
 
-#: ../sheets/chemistry_lab.sheet.in.h:2
+#: ../sheets/chemistry_lab.sheet.in.h:5
 #, fuzzy
 msgid "Beaker"
 msgstr "Disyuntor CKT"
 
-#: ../sheets/chemistry_lab.sheet.in.h:3
+#: ../sheets/chemistry_lab.sheet.in.h:6
 msgid "Buechner Funnel"
 msgstr ""
 
-#: ../sheets/chemistry_lab.sheet.in.h:4
+#: ../sheets/chemistry_lab.sheet.in.h:7
 msgid "Burette"
 msgstr ""
 
-#. For: ryan
-#: ../sheets/chemistry_lab.sheet.in.h:6
-msgid "Chemistry Lab"
-msgstr ""
-
-#: ../sheets/chemistry_lab.sheet.in.h:7
-msgid "Chemistry Lab Apparati"
-msgstr ""
-
 #: ../sheets/chemistry_lab.sheet.in.h:8
-msgid "Clamp"
-msgstr ""
-
-#: ../sheets/chemistry_lab.sheet.in.h:9
 msgid "Clamp Extra Large"
 msgstr ""
 
-#: ../sheets/chemistry_lab.sheet.in.h:10
+#: ../sheets/chemistry_lab.sheet.in.h:9
 msgid "Clamp Front"
 msgstr ""
 
-#: ../sheets/chemistry_lab.sheet.in.h:11
+#: ../sheets/chemistry_lab.sheet.in.h:10
 msgid "Clamp Large"
 msgstr ""
 
+#: ../sheets/chemistry_lab.sheet.in.h:11
+msgid "Clamp"
+msgstr ""
+
 #: ../sheets/chemistry_lab.sheet.in.h:12
-msgid "Condenser"
+msgid "Reflux Column Red-Blue"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:13
-msgid "Condenser Black"
+msgid "Reflux Column Red"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:14
-msgid "Condenser Blue"
+msgid "Reflux Column"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:15
-msgid "Condenser Green"
+msgid "Condenser Black"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:16
-msgid "Condenser Orange"
+msgid "Condenser Blue"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:17
-msgid "Condenser Pale Blue"
+msgid "Condenser Green"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:18
-msgid "Condenser Red"
+msgid "Liebig Condenser Vertical"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:19
-msgid "Erlenmeyer Flask"
+msgid "Condenser Orange"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:20
-msgid "Gooseneck"
+msgid "Condenser Pale Blue"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:21
-msgid "Lab Stand Front"
+msgid "Condenser Red"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:22
-msgid "Lab Stand Side"
+msgid "Condenser"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:23
-msgid "Liebig Condenser Vertical"
+msgid "Erlenmeyer Flask"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:24
@@ -380,15 +380,15 @@ msgid "Powder Funnel"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:25
-msgid "Reflux Column"
+msgid "Gooseneck"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:26
-msgid "Reflux Column Red"
+msgid "Lab Stand Front"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:27
-msgid "Reflux Column Red-Blue"
+msgid "Lab Stand Side"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:28
@@ -400,15 +400,15 @@ msgid "Ring Side"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:30
-msgid "Separatory Funnel"
-msgstr ""
-
-#: ../sheets/chemistry_lab.sheet.in.h:31
 msgid "Separatory Funnel 2 Phases"
 msgstr ""
 
-#: ../sheets/chemistry_lab.sheet.in.h:32
+#: ../sheets/chemistry_lab.sheet.in.h:31
 msgid "Separatory Funnel 3 Phases"
+msgstr ""
+
+#: ../sheets/chemistry_lab.sheet.in.h:32
+msgid "Separatory Funnel"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:33
@@ -416,11 +416,11 @@ msgid "Stir Bar"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:34
-msgid "Stir Plate Front"
+msgid "Stir Plate Side"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:35
-msgid "Stir Plate Side"
+msgid "Stir Plate Front"
 msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:1
@@ -432,83 +432,83 @@ msgid "Diagonal and other components for circuit diagrams"
 msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:3
-msgid "Diagonally aligned LED"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:4
-msgid "Diagonally aligned capacitor"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:5
-msgid "Diagonally aligned diode"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:6
-msgid "Diagonally aligned inductor"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:7
-msgid "Diagonally aligned inductor (European)"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:8
-msgid "Diagonally aligned polarized capacitor"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:9
 msgid "Diagonally aligned resistor"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:10
+#: ../sheets/Circuit2.sheet.in.h:4
+msgid "Diagonally aligned inductor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:5
 msgid "Diagonally aligned resistor (European)"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:11
-msgid "Diagonally aligned zener diode"
+#: ../sheets/Circuit2.sheet.in.h:6
+msgid "Diagonally aligned inductor (European)"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:12
-msgid "Horizontal Ammeter"
+#: ../sheets/Circuit2.sheet.in.h:7
+msgid "Diagonally aligned capacitor"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:13
-msgid "Horizontal LED"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:14
+#: ../sheets/Circuit2.sheet.in.h:8
 msgid "Horizontal Polarized Capacitor"
 msgstr ""
 
+#: ../sheets/Circuit2.sheet.in.h:9
+msgid "Vertical Polarized Capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:10
+msgid "Diagonally aligned polarized capacitor"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:11
+msgid "Diagonally aligned diode"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:12
+msgid "Diagonally aligned zener diode"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:13
+msgid "Diagonally aligned LED"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:14
+msgid "Horizontal LED"
+msgstr ""
+
 #: ../sheets/Circuit2.sheet.in.h:15
-msgid "Horizontal Voltmeter"
+msgid "Vertical LED"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:16
-msgid "Optoisolator"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:17
-msgid "Ramp Wave Source"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:18
-msgid "Relay"
-msgstr ""
-
-#: ../sheets/Circuit2.sheet.in.h:19 ../sheets/Optics.sheet.in.h:17
+#: ../sheets/Circuit2.sheet.in.h:16 ../sheets/Optics.sheet.in.h:18
 msgid "Sine Wave Source"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:20 ../sheets/Optics.sheet.in.h:19
+#: ../sheets/Circuit2.sheet.in.h:17 ../sheets/Optics.sheet.in.h:19
 msgid "Square Wave Source"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:21
+#: ../sheets/Circuit2.sheet.in.h:18
 msgid "TRIAC"
 msgstr ""
 
-#: ../sheets/Circuit2.sheet.in.h:22
+#: ../sheets/Circuit2.sheet.in.h:19
+msgid "Optoisolator"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:20
+msgid "Relay"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:21
 msgid "Triangle Wave Source"
+msgstr ""
+
+#: ../sheets/Circuit2.sheet.in.h:22
+msgid "Ramp Wave Source"
 msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:23
@@ -516,15 +516,15 @@ msgid "Vertical Ammeter"
 msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:24
-msgid "Vertical LED"
+msgid "Vertical Voltmeter"
 msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:25
-msgid "Vertical Polarized Capacitor"
+msgid "Horizontal Ammeter"
 msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:26
-msgid "Vertical Voltmeter"
+msgid "Horizontal Voltmeter"
 msgstr ""
 
 #. For: jason
@@ -537,27 +537,27 @@ msgid "CMOS transistor models"
 msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:4
-msgid "Ground (horizontal)"
-msgstr ""
-
-#: ../sheets/CMOS.sheet.in.h:5
-msgid "Ground (vertical)"
-msgstr ""
-
-#: ../sheets/CMOS.sheet.in.h:6
 msgid "NMOS Transistor (horizontal)"
 msgstr ""
 
-#: ../sheets/CMOS.sheet.in.h:7
+#: ../sheets/CMOS.sheet.in.h:5
 msgid "NMOS Transistor (vertical)"
 msgstr ""
 
-#: ../sheets/CMOS.sheet.in.h:8
+#: ../sheets/CMOS.sheet.in.h:6
 msgid "PMOS Transistor (horizontal)"
 msgstr ""
 
-#: ../sheets/CMOS.sheet.in.h:9
+#: ../sheets/CMOS.sheet.in.h:7
 msgid "PMOS Transistor (vertical)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:8
+msgid "Ground (horizontal)"
+msgstr ""
+
+#: ../sheets/CMOS.sheet.in.h:9
+msgid "Ground (vertical)"
 msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:10
@@ -568,154 +568,154 @@ msgstr ""
 msgid "Vdd (vertical)"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:1
-msgid "AND (horizontal)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:2
-msgid "AND (vertical)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:3
-msgid "Adder/Subtractor/Multiplier/Divider (horizontal)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:4
-msgid "Adder/Subtractor/Multiplier/Divider (vertical)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:5
-msgid "Buffer (horizontal)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:6
-msgid "Buffer (vertical)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:7
-msgid "Connection Point"
-msgstr ""
-
 #. For: jason
-#: ../sheets/digital.sheet.in.h:9
+#: ../sheets/digital.sheet.in.h:2
 msgid "Digital"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:10
+#: ../sheets/digital.sheet.in.h:3
 msgid "Digital Logic Gates"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:11
+#: ../sheets/digital.sheet.in.h:4
+msgid "Buffer (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:5
 msgid "Inverter (horizontal)"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:12
-msgid "Inverter (vertical)"
+#: ../sheets/digital.sheet.in.h:6
+msgid "AND (horizontal)"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:13
-msgid "Multiplexer/Demultiplexer (horizontal)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:14
-msgid "Multiplexer/Demultiplexer (vertical)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:15
+#: ../sheets/digital.sheet.in.h:7
 msgid "NAND (horizontal)"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:16
-msgid "NAND (vertical)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:17
-msgid "NOR (horizontal)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:18
-msgid "NOR (vertical)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:19
+#: ../sheets/digital.sheet.in.h:8
 msgid "OR (horizontal)"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:20
-msgid "OR (vertical)"
+#: ../sheets/digital.sheet.in.h:9
+msgid "NOR (horizontal)"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:21
-msgid "Register (horizontal)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:22
-msgid "Register (vertical)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:23
-msgid "XNOR (horizontal)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:24
-msgid "XNOR (vertical)"
-msgstr ""
-
-#: ../sheets/digital.sheet.in.h:25
+#: ../sheets/digital.sheet.in.h:10
 msgid "XOR (horizontal)"
 msgstr ""
 
-#: ../sheets/digital.sheet.in.h:26
+#: ../sheets/digital.sheet.in.h:11
+msgid "XNOR (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:12
+msgid "Multiplexer/Demultiplexer (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:13
+msgid "Adder/Subtractor/Multiplier/Divider (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:14
+msgid "Register (horizontal)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:15
+msgid "Buffer (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:16
+msgid "Inverter (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:17
+msgid "AND (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:18
+msgid "NAND (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:19
+msgid "OR (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:20
+msgid "NOR (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:21
 msgid "XOR (vertical)"
 msgstr ""
 
+#: ../sheets/digital.sheet.in.h:22
+msgid "XNOR (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:23
+msgid "Multiplexer/Demultiplexer (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:24
+msgid "Adder/Subtractor/Multiplier/Divider (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:25
+msgid "Register (vertical)"
+msgstr ""
+
+#: ../sheets/digital.sheet.in.h:26
+msgid "Connection Point"
+msgstr ""
+
 #: ../sheets/edpc.sheet.in.h:1
-msgid "And Operator"
-msgstr "Operator AND"
-
-#: ../sheets/edpc.sheet.in.h:2
-msgid "Document"
-msgstr "Documento"
-
-#: ../sheets/edpc.sheet.in.h:4
 msgid "Event-driven process chain"
 msgstr "Cadena de procesos dirigida por eventos"
 
-#: ../sheets/edpc.sheet.in.h:5
-msgid "Function"
-msgstr "Función"
+#: ../sheets/edpc.sheet.in.h:2
+msgid "Objects to draw event-driven process chains"
+msgstr "Formas para dibujar cadena de procesos condicionados por eventos"
 
-#: ../sheets/edpc.sheet.in.h:6
+#: ../sheets/edpc.sheet.in.h:3
+msgid "Document"
+msgstr "Documento"
+
+#: ../sheets/edpc.sheet.in.h:5
 msgid "Information Object"
 msgstr "Objeto de información"
 
+#: ../sheets/edpc.sheet.in.h:6
+msgid "Organisation Unit"
+msgstr "Unidad organizativa"
+
 #: ../sheets/edpc.sheet.in.h:7
-msgid "Objects to draw event-driven process chains"
-msgstr "Formas para dibujar cadena de procesos condicionados por eventos"
+msgid "Function"
+msgstr "Función"
 
 #: ../sheets/edpc.sheet.in.h:8
 msgid "Or Operator"
 msgstr "Operador OR"
 
 #: ../sheets/edpc.sheet.in.h:9
-msgid "Organisation Unit"
-msgstr "Unidad organizativa"
+msgid "And Operator"
+msgstr "Operator AND"
 
 #: ../sheets/edpc.sheet.in.h:10
 msgid "XOR Operator"
 msgstr "Operador XOR"
 
 #: ../sheets/electric2.sheet.in.h:1
+msgid "Electric 2"
+msgstr "Eléctrico 2"
+
+#: ../sheets/electric2.sheet.in.h:2
 msgid "Additional Electric Symbols"
 msgstr "Símbolos electricos adicionales"
 
-#: ../sheets/electric2.sheet.in.h:2
+#: ../sheets/electric2.sheet.in.h:3
 msgid "CKT Breaker"
 msgstr "Disyuntor CKT"
-
-#: ../sheets/electric2.sheet.in.h:3
-msgid "Electric 2"
-msgstr "Eléctrico 2"
 
 #: ../sheets/electric2.sheet.in.h:4
 msgid "Generator"
@@ -730,240 +730,240 @@ msgid "Transformer"
 msgstr "Transformador"
 
 #: ../sheets/electronic.sheet.in.h:1
-msgid "Alternating voltage source"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:2
-msgid "Ampermeter"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:3
-msgid "Antenna"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:4
-msgid "Bell"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:5
-msgid "Bipolar transistor NPN"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:6
-msgid "Bipolar transistor PNP"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:7
-msgid "Button"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:8
-msgid "Capacitor"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:9
-msgid "Contact"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:10
-msgid "Contact Pair"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:11
-msgid "Crystal"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:12
-msgid "Current source"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:13
-msgid "Di-Gate"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:14
-msgid "Diac"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:15
-msgid "Diode tyristor, blocking"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:16
-msgid "Direct voltage source"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:17
-msgid "Electrolytic capacitor"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:18
 #, fuzzy
 msgid "Electronic"
 msgstr "Eléctrico 2"
 
-#: ../sheets/electronic.sheet.in.h:19
+#: ../sheets/electronic.sheet.in.h:2
+msgid "Antenna"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:3
+msgid "Bell"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:4
+msgid "Button"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:5
+msgid "Capacitor"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:6
+msgid "Electrolytic capacitor"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:7
+msgid "Crystal"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:8
+msgid "Di-Gate"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:9
+msgid "Diac"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:10 ../sheets/scenegraph.sheet.in.h:9
 msgid "Engine"
 msgstr ""
 
-#: ../sheets/electronic.sheet.in.h:20
-msgid "Ground"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:21
+#: ../sheets/electronic.sheet.in.h:11
 msgid "Headphone"
 msgstr ""
 
-#: ../sheets/electronic.sheet.in.h:22
-msgid "IN Port"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:23
-msgid "IN/OUT Port"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:24
-msgid "Inductor"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:25
+#: ../sheets/electronic.sheet.in.h:12
 msgid "Inverse diode"
 msgstr ""
 
-#: ../sheets/electronic.sheet.in.h:26
-msgid "JFE transistor - P"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:27
-msgid "JFE transitor - N"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:28
-msgid "LED display"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:29
-msgid "Linear variable part"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:30
-msgid "MISFE conducting transistor - N"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:31
-msgid "MISFE conducting transistor - P"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:32
-msgid "MISFE inducting transistor - N"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:33
-msgid "MISFE inducting transistor - P"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:34
-msgid "Microphone"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:35
-msgid "Nonlinear variable part"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:36
-msgid "OUT Port"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:37
-msgid "Photo-emiting part"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:38
-msgid "Photosensitive part"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:39
-msgid "Potenciometer"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:40
+#: ../sheets/electronic.sheet.in.h:13
 msgid "Schottky diode"
 msgstr ""
 
-#: ../sheets/electronic.sheet.in.h:41
-msgid "Single ..... transistor"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:42
-msgid "Source or Meter"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:43
-msgid "Substitute linearised source"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:44
-msgid "Triac"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:45
-msgid "Triode tyristor, blocking"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:46
+#: ../sheets/electronic.sheet.in.h:14
 msgid "Tunnel diode"
 msgstr ""
 
-#: ../sheets/electronic.sheet.in.h:47
-msgid "Vacuum diode"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:48
-msgid "Vacuum pentode"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:49
-msgid "Vacuum triode"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:50
-msgid "Varicap"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:51
-msgid "Voltage source"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:52
-msgid "Voltmeter"
-msgstr ""
-
-#: ../sheets/electronic.sheet.in.h:53
+#: ../sheets/electronic.sheet.in.h:15
 msgid "Zenner diode"
 msgstr ""
 
+#: ../sheets/electronic.sheet.in.h:16
+msgid "Inductor"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:17
+msgid "LED display"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:18
+msgid "Microphone"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:19
+msgid "Photo-emiting part"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:20
+msgid "Photosensitive part"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:21
+msgid "Potenciometer"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:22
+msgid "Ground"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:23
+msgid "Contact"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:24
+msgid "Contact Pair"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:25
+msgid "IN Port"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:26
+msgid "OUT Port"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:27
+msgid "IN/OUT Port"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:28
+msgid "Voltmeter"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:29
+msgid "Ampermeter"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:30
+msgid "Source or Meter"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:31
+msgid "Current source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:32
+msgid "Substitute linearised source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:33
+msgid "Voltage source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:34
+msgid "Alternating voltage source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:35
+msgid "Direct voltage source"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:36
+msgid "Bipolar transistor NPN"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:37
+msgid "Bipolar transistor PNP"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:38
+msgid "JFE transitor - N"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:39
+msgid "JFE transistor - P"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:40
+msgid "MISFE conducting transistor - N"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:41
+msgid "MISFE conducting transistor - P"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:42
+msgid "MISFE inducting transistor - N"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:43
+msgid "MISFE inducting transistor - P"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:44
+msgid "Single ..... transistor"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:45
+msgid "Triac"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:46
+msgid "Diode tyristor, blocking"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:47
+msgid "Triode tyristor, blocking"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:48
+msgid "Vacuum diode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:49
+msgid "Vacuum pentode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:50
+msgid "Vacuum triode"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:51
+msgid "Linear variable part"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:52
+msgid "Nonlinear variable part"
+msgstr ""
+
+#: ../sheets/electronic.sheet.in.h:53
+msgid "Varicap"
+msgstr ""
+
 #: ../sheets/gradient.sheet.in.h:1
-msgid "Basic gradients, semitransparent"
+msgid "Gradient"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:2
-msgid "Dark-light horizontal gradient"
+msgid "Basic gradients, semitransparent"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:3
-msgid "Dark-light horizontal gradient box"
+msgid "Light-dark horizontal gradient box"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:4
-msgid "Dark-light vertical gradient"
+msgid "Dark-light horizontal gradient box"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:5
-msgid "Dark-light vertical gradient box"
+msgid "Light-dark vertical gradient box"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:6
-msgid "Gradient"
+msgid "Dark-light vertical gradient box"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:7
@@ -971,7 +971,7 @@ msgid "Light-dark horizontal gradient"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:8
-msgid "Light-dark horizontal gradient box"
+msgid "Dark-light horizontal gradient"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:9
@@ -979,51 +979,51 @@ msgid "Light-dark vertical gradient"
 msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:10
-msgid "Light-dark vertical gradient box"
+msgid "Dark-light vertical gradient"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:1
-msgid "Associator Subsystem"
+msgid "LST"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:2
-msgid "Channel Network Subsystem"
+msgid "Living Systems Theory"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:3
-msgid "Converter Subsystem"
+msgid "Associator Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:4
-msgid "Decider Subsystem"
+msgid "Channel Network Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:5
-msgid "Decoder"
+msgid "Converter Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:6
-msgid "Distributor Subsystem"
+msgid "Supporter Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:7
-msgid "Encoder"
+msgid "Decider Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:8
-msgid "Encoder Subsystem"
+msgid "Decoder"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:9
-msgid "Extruder Subsystem"
+msgid "Distributor Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:10
-msgid "Ingestor Subsystem"
+msgid "Extruder Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:11
-msgid "Input Transducer Subsystem"
+msgid "Ingestor Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:12
@@ -1031,11 +1031,11 @@ msgid "Internal Transducer Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:13
-msgid "LST"
+msgid "Input Transducer Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:14
-msgid "Living Systems Theory"
+msgid "Memory Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:15
@@ -1043,248 +1043,333 @@ msgid "ME Storage Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:16
-msgid "Memory Subsystem"
-msgstr ""
-
-#: ../sheets/LST.sheet.in.h:17
 msgid "Motor Subsystem"
 msgstr ""
 
-#: ../sheets/LST.sheet.in.h:18
+#: ../sheets/LST.sheet.in.h:17
 msgid "Output Transducer Subsystem"
 msgstr ""
 
-#: ../sheets/LST.sheet.in.h:19
+#: ../sheets/LST.sheet.in.h:18
 msgid "Producer Subsystem"
 msgstr ""
 
-#: ../sheets/LST.sheet.in.h:20
+#: ../sheets/LST.sheet.in.h:19
 msgid "Reproducer Subsystem"
 msgstr ""
 
+#: ../sheets/LST.sheet.in.h:20
+msgid "Encoder"
+msgstr ""
+
 #: ../sheets/LST.sheet.in.h:21
-msgid "Supporter Subsystem"
+msgid "Encoder Subsystem"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:22
 msgid "Timer"
 msgstr ""
 
-#: ../sheets/Optics.sheet.in.h:1
-msgid "Circulator"
-msgstr ""
-
+#. For: jkellerman
 #: ../sheets/Optics.sheet.in.h:2
-msgid "DFB Laser"
+msgid "Optics"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:3
-msgid "Detector"
-msgstr ""
-
-#: ../sheets/Optics.sheet.in.h:4
-msgid "Directional Coupler"
-msgstr ""
-
-#: ../sheets/Optics.sheet.in.h:5
-msgid "EDFA"
-msgstr ""
-
-#: ../sheets/Optics.sheet.in.h:6
-msgid "Light Beam"
-msgstr ""
-
-#: ../sheets/Optics.sheet.in.h:7
-msgid "Long Fibre"
-msgstr ""
-
-#: ../sheets/Optics.sheet.in.h:8
-msgid "Long Period Grating"
-msgstr ""
-
-#: ../sheets/Optics.sheet.in.h:9
-#, fuzzy
-msgid "MZ Modulator"
-msgstr "Aislador"
-
-#: ../sheets/Optics.sheet.in.h:10
 msgid "Optical Fibre Systems"
 msgstr ""
 
+#: ../sheets/Optics.sheet.in.h:4
+msgid "Circulator"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:5
+msgid "Polarisation Controller"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:6
+msgid "Directional Coupler"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:7
+msgid "Tuneable Coupler"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:8
+msgid "DFB Laser"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:9
+msgid "Long Fibre"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:10
+msgid "Detector"
+msgstr ""
+
 #: ../sheets/Optics.sheet.in.h:11
+msgid "Osilloscope"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:12
+msgid "Spectrum Analyser"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:13
 #, fuzzy
 msgid "Optical Isolator"
 msgstr "Aislador"
 
-#. For: jkellerman
-#: ../sheets/Optics.sheet.in.h:13
-msgid "Optics"
-msgstr ""
-
 #: ../sheets/Optics.sheet.in.h:14
-msgid "Osilloscope"
+msgid "EDFA"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:15
+msgid "Variable Attenuator"
+msgstr ""
+
+#: ../sheets/Optics.sheet.in.h:16
+#, fuzzy
+msgid "MZ Modulator"
+msgstr "Aislador"
+
+#: ../sheets/Optics.sheet.in.h:17
 #, fuzzy
 msgid "Phase Modulator"
 msgstr "Aislador"
 
-#: ../sheets/Optics.sheet.in.h:16
-msgid "Polarisation Controller"
-msgstr ""
-
-#: ../sheets/Optics.sheet.in.h:18
-msgid "Spectrum Analyser"
-msgstr ""
-
 #: ../sheets/Optics.sheet.in.h:20
-msgid "Tuneable Coupler"
+msgid "Long Period Grating"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:21
-msgid "Variable Attenuator"
+msgid "Light Beam"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:22
 msgid "Wave"
 msgstr ""
 
-#: ../sheets/Racks.sheet.in.h:1
-msgid "Generic 10U Equipment"
-msgstr "Equipo genérico 10U"
-
-#: ../sheets/Racks.sheet.in.h:2
-msgid "Generic 11U Equipment"
-msgstr "Equipo genérico 11U"
-
-#: ../sheets/Racks.sheet.in.h:3
-msgid "Generic 12U Equipment"
-msgstr "Equipo genérico 12U"
-
-#: ../sheets/Racks.sheet.in.h:4
-msgid "Generic 1U Equipment"
-msgstr "Equipo genérico 1U"
-
-#: ../sheets/Racks.sheet.in.h:5
-msgid "Generic 2U Equipment"
-msgstr "Equipo genérico 2U"
-
-#: ../sheets/Racks.sheet.in.h:6
-msgid "Generic 3U Equipment"
-msgstr "Equipo genérico 3U"
-
-#: ../sheets/Racks.sheet.in.h:7
-msgid "Generic 4U Equipment"
-msgstr "Equipo genérico 4U"
-
-#: ../sheets/Racks.sheet.in.h:8
-msgid "Generic 5U Equipment"
-msgstr "Equipo genérico 5U"
-
-#: ../sheets/Racks.sheet.in.h:9
-msgid "Generic 6U Equipment"
-msgstr "Equipo genérico 6U"
-
-#: ../sheets/Racks.sheet.in.h:10
-msgid "Generic 7U Equipment"
-msgstr "Equipo genérico 7U"
-
-#: ../sheets/Racks.sheet.in.h:11
-msgid "Generic 8U Equipment"
-msgstr "Equipo genérico 8U"
-
-#: ../sheets/Racks.sheet.in.h:12
-msgid "Generic 9U Equipment"
-msgstr "Equipo genérico 9U"
-
-#: ../sheets/Racks.sheet.in.h:13
-msgid "Half-Rack 12U"
-msgstr "Medio estante 12U"
-
-#: ../sheets/Racks.sheet.in.h:14
-msgid "Half-Rack 16U"
-msgstr "Medio estante 16U"
-
-#: ../sheets/Racks.sheet.in.h:15
-msgid "Half-Rack 20U"
-msgstr "Medio estante 20U"
-
-#: ../sheets/Racks.sheet.in.h:16
-msgid "Label Anchors, 42U"
-msgstr "Etiquetas anclas, 42U"
-
-#: ../sheets/Racks.sheet.in.h:17
-msgid "Power Strip - British Standard, 7 sockets"
-msgstr "Contácto múltiple - Estandar británico, 7 enchufes"
-
-#: ../sheets/Racks.sheet.in.h:18
-msgid "Power Strip - Schuko, 8 sockets"
-msgstr "Contácto múltiple - Schuko, 8 enchufes"
-
-#: ../sheets/Racks.sheet.in.h:19
-msgid "Power Strip - UTE, 8 sockets"
-msgstr "Contácto múltiple - UTE, 8 enchufes"
-
-#: ../sheets/Racks.sheet.in.h:20
-msgid "Rack 38U"
-msgstr "Estante 38U"
-
-#: ../sheets/Racks.sheet.in.h:21
-msgid "Rack 42U"
-msgstr "Estante 42U"
-
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
-#: ../sheets/Racks.sheet.in.h:23
+#: ../sheets/Racks.sheet.in.h:2
 msgid "Racks"
 msgstr "Estante"
 
-#: ../sheets/Racks.sheet.in.h:24
+#: ../sheets/Racks.sheet.in.h:3
 msgid "Standard 19 inch racks and equipment"
 msgstr "Estante y equipo estándar de 19 pulgadas"
 
+#: ../sheets/Racks.sheet.in.h:4
+msgid "Rack 42U"
+msgstr "Estante 42U"
+
+#: ../sheets/Racks.sheet.in.h:5
+msgid "Rack 38U"
+msgstr "Estante 38U"
+
+#: ../sheets/Racks.sheet.in.h:6
+msgid "Half-Rack 20U"
+msgstr "Medio estante 20U"
+
+#: ../sheets/Racks.sheet.in.h:7
+msgid "Half-Rack 16U"
+msgstr "Medio estante 16U"
+
+#: ../sheets/Racks.sheet.in.h:8
+msgid "Half-Rack 12U"
+msgstr "Medio estante 12U"
+
+#: ../sheets/Racks.sheet.in.h:9
+msgid "Label Anchors, 42U"
+msgstr "Etiquetas anclas, 42U"
+
+#: ../sheets/Racks.sheet.in.h:10
+msgid "Power Strip - UTE, 8 sockets"
+msgstr "Contácto múltiple - UTE, 8 enchufes"
+
+#: ../sheets/Racks.sheet.in.h:11
+msgid "Power Strip - Schuko, 8 sockets"
+msgstr "Contácto múltiple - Schuko, 8 enchufes"
+
+#: ../sheets/Racks.sheet.in.h:12
+msgid "Power Strip - British Standard, 7 sockets"
+msgstr "Contácto múltiple - Estandar británico, 7 enchufes"
+
+#: ../sheets/Racks.sheet.in.h:13
+msgid "Generic 1U Equipment"
+msgstr "Equipo genérico 1U"
+
+#: ../sheets/Racks.sheet.in.h:14
+msgid "Generic 2U Equipment"
+msgstr "Equipo genérico 2U"
+
+#: ../sheets/Racks.sheet.in.h:15
+msgid "Generic 3U Equipment"
+msgstr "Equipo genérico 3U"
+
+#: ../sheets/Racks.sheet.in.h:16
+msgid "Generic 4U Equipment"
+msgstr "Equipo genérico 4U"
+
+#: ../sheets/Racks.sheet.in.h:17
+msgid "Generic 5U Equipment"
+msgstr "Equipo genérico 5U"
+
+#: ../sheets/Racks.sheet.in.h:18
+msgid "Generic 6U Equipment"
+msgstr "Equipo genérico 6U"
+
+#: ../sheets/Racks.sheet.in.h:19
+msgid "Generic 7U Equipment"
+msgstr "Equipo genérico 7U"
+
+#: ../sheets/Racks.sheet.in.h:20
+msgid "Generic 8U Equipment"
+msgstr "Equipo genérico 8U"
+
+#: ../sheets/Racks.sheet.in.h:21
+msgid "Generic 9U Equipment"
+msgstr "Equipo genérico 9U"
+
+#: ../sheets/Racks.sheet.in.h:22
+msgid "Generic 10U Equipment"
+msgstr "Equipo genérico 10U"
+
+#: ../sheets/Racks.sheet.in.h:23
+msgid "Generic 11U Equipment"
+msgstr "Equipo genérico 11U"
+
+#: ../sheets/Racks.sheet.in.h:24
+msgid "Generic 12U Equipment"
+msgstr "Equipo genérico 12U"
+
 #: ../sheets/renewable_energy.sheet.in.h:1
-msgid "Cup Anemometer"
-msgstr ""
-
-#: ../sheets/renewable_energy.sheet.in.h:2
-msgid "Data Logger"
-msgstr ""
-
-#: ../sheets/renewable_energy.sheet.in.h:3
-msgid "Objects related to renewable energy"
-msgstr ""
-
-#: ../sheets/renewable_energy.sheet.in.h:4
 msgid "Renewable Energy"
 msgstr ""
 
-#: ../sheets/renewable_energy.sheet.in.h:5
-msgid "Solar Module"
+#: ../sheets/renewable_energy.sheet.in.h:2
+msgid "Objects related to renewable energy"
 msgstr ""
 
-#: ../sheets/renewable_energy.sheet.in.h:6
-msgid "Temperature and Humidity Sensor"
-msgstr ""
-
-#: ../sheets/renewable_energy.sheet.in.h:7
-msgid "Wind Measurement Tower"
-msgstr ""
-
-#: ../sheets/renewable_energy.sheet.in.h:8
+#: ../sheets/renewable_energy.sheet.in.h:3
 msgid "Wind Turbine"
 msgstr ""
 
-#: ../sheets/renewable_energy.sheet.in.h:9
+#: ../sheets/renewable_energy.sheet.in.h:4
+msgid "Solar Module"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:5
+msgid "Wind Measurement Tower"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:6
+msgid "Cup Anemometer"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:7
 msgid "Wind Vane"
 msgstr ""
 
+#: ../sheets/renewable_energy.sheet.in.h:8
+msgid "Data Logger"
+msgstr ""
+
+#: ../sheets/renewable_energy.sheet.in.h:9
+msgid "Temperature and Humidity Sensor"
+msgstr ""
+
+#. Dia-Version: 0.94
+#: ../sheets/scenegraph.sheet.in.h:2
+msgid "Scene graph"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:3
+msgid "Scene graph symbols"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:4
+#, fuzzy
+msgid "Transform"
+msgstr "Transformador"
+
+#: ../sheets/scenegraph.sheet.in.h:5
+msgid "Group node"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:6
+msgid "Appearance"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:7
+#, fuzzy
+msgid "Separator"
+msgstr "Generador"
+
+#: ../sheets/scenegraph.sheet.in.h:8
+msgid "Shape"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:10
+msgid "Light"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:11
+#, fuzzy
+msgid "Manipulator"
+msgstr "Aislador"
+
+#: ../sheets/scenegraph.sheet.in.h:12
+#, fuzzy
+msgid "Metric"
+msgstr "Eléctrico 2"
+
+#: ../sheets/scenegraph.sheet.in.h:13
+msgid "Camera"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:14
+msgid "Switch"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:15
+msgid "Node Kit"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:16
+msgid "Subgraph"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:17
+msgid "SoSelection"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:18
+msgid "Callback"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:19
+msgid "Component"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:20
+msgid "Field"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:21
+msgid "Property"
+msgstr ""
+
+#: ../sheets/scenegraph.sheet.in.h:22
+msgid "Real time global field"
+msgstr ""
+
 #: ../sheets/value_stream_mapping.sheet.in.h:1
-msgid "Analyze the flow of materials and information"
+msgid "Value Stream Mapping"
 msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:2
-msgid "Control Box"
+msgid "Analyze the flow of materials and information"
 msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:3
@@ -1299,12 +1384,12 @@ msgstr ""
 msgid "MRP / ERP"
 msgstr ""
 
-#: ../sheets/value_stream_mapping.sheet.in.h:6
-msgid "Sequenced Pull"
+#: ../sheets/value_stream_mapping.sheet.in.h:7
+msgid "Control Box"
 msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:8
-msgid "Value Stream Mapping"
+msgid "Sequenced Pull"
 msgstr ""
 
 #~ msgid "Půlrack 12U"
