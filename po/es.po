@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-16 18:52+0200\n"
-"PO-Revision-Date: 2011-11-27 11:11+0100\n"
+"POT-Creation-Date: 2012-05-16 22:59+0000\n"
+"PO-Revision-Date: 2012-05-17 01:13+0000\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Spanish <es@li.org>\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-03 09:20+0000\n"
-"X-Generator: Launchpad (build 13333)\n"
+"X-Launchpad-Export-Date: 2012-05-19 09:40+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"Language: es\n"
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
@@ -99,39 +99,32 @@ msgid "Central data processing (server rack)"
 msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:3
-#, fuzzy
 msgid "Rack 5U's"
-msgstr "Estante"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:4
-#, fuzzy
 msgid "Rack 7U's"
-msgstr "Estante"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:5
-#, fuzzy
 msgid "Rack 15U's"
-msgstr "Estante 38U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:6
-#, fuzzy
 msgid "Rack 32U's"
-msgstr "Estante 38U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:7
-#, fuzzy
 msgid "Rack 36U's"
-msgstr "Estante 38U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:8
-#, fuzzy
 msgid "Rack 42U's"
-msgstr "Estante 42U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:9
-#, fuzzy
 msgid "Rack 44U's"
-msgstr "Estante 42U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:10
 msgid "Server 1U"
@@ -299,9 +292,8 @@ msgid "30 Degree Bend"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:5
-#, fuzzy
 msgid "Beaker"
-msgstr "Disyuntor CKT"
+msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:6
 msgid "Buechner Funnel"
@@ -730,9 +722,8 @@ msgid "Transformer"
 msgstr "Transformador"
 
 #: ../sheets/electronic.sheet.in.h:1
-#, fuzzy
 msgid "Electronic"
-msgstr "Eléctrico 2"
+msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:2
 msgid "Antenna"
@@ -1116,9 +1107,8 @@ msgid "Spectrum Analyser"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:13
-#, fuzzy
 msgid "Optical Isolator"
-msgstr "Aislador"
+msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:14
 msgid "EDFA"
@@ -1129,14 +1119,12 @@ msgid "Variable Attenuator"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:16
-#, fuzzy
 msgid "MZ Modulator"
-msgstr "Aislador"
+msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:17
-#, fuzzy
 msgid "Phase Modulator"
-msgstr "Aislador"
+msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:20
 msgid "Long Period Grating"
@@ -1289,9 +1277,8 @@ msgid "Scene graph symbols"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:4
-#, fuzzy
 msgid "Transform"
-msgstr "Transformador"
+msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:5
 msgid "Group node"
@@ -1302,9 +1289,8 @@ msgid "Appearance"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:7
-#, fuzzy
 msgid "Separator"
-msgstr "Generador"
+msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:8
 msgid "Shape"
@@ -1315,14 +1301,12 @@ msgid "Light"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:11
-#, fuzzy
 msgid "Manipulator"
-msgstr "Aislador"
+msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:12
-#, fuzzy
 msgid "Metric"
-msgstr "Eléctrico 2"
+msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:13
 msgid "Camera"
@@ -1391,18 +1375,3 @@ msgstr ""
 #: ../sheets/value_stream_mapping.sheet.in.h:8
 msgid "Sequenced Pull"
 msgstr ""
-
-#~ msgid "Půlrack 12U"
-#~ msgstr "Medio estante 12U"
-
-#~ msgid "Půlrack 16U"
-#~ msgstr "Medio estante 16U"
-
-#~ msgid "Půlrack 20U"
-#~ msgstr "Medio estante 20U"
-
-#~ msgid "Racky"
-#~ msgstr "Estante"
-
-#~ msgid "Standardní 19-palcové racky a vybavení"
-#~ msgstr "Estante y equipo estándar de 19 pulgadas"

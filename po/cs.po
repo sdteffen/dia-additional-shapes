@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-16 18:52+0200\n"
+"POT-Creation-Date: 2012-05-16 22:59+0000\n"
 "PO-Revision-Date: 2009-11-26 21:48+0000\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-03 09:20+0000\n"
-"X-Generator: Launchpad (build 13333)\n"
+"X-Launchpad-Export-Date: 2012-05-19 09:40+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"Language: \n"
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
@@ -99,39 +99,32 @@ msgid "Central data processing (server rack)"
 msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:3
-#, fuzzy
 msgid "Rack 5U's"
-msgstr "Racky"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:4
-#, fuzzy
 msgid "Rack 7U's"
-msgstr "Racky"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:5
-#, fuzzy
 msgid "Rack 15U's"
-msgstr "Rack 38U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:6
-#, fuzzy
 msgid "Rack 32U's"
-msgstr "Rack 38U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:7
-#, fuzzy
 msgid "Rack 36U's"
-msgstr "Rack 38U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:8
-#, fuzzy
 msgid "Rack 42U's"
-msgstr "Rack 42U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:9
-#, fuzzy
 msgid "Rack 44U's"
-msgstr "Rack 42U"
+msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:10
 msgid "Server 1U"
@@ -693,14 +686,12 @@ msgid "Function"
 msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:8
-#, fuzzy
 msgid "Or Operator"
-msgstr "Generátor"
+msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:9
-#, fuzzy
 msgid "And Operator"
-msgstr "Generátor"
+msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:10
 msgid "XOR Operator"
@@ -1298,9 +1289,8 @@ msgid "Appearance"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:7
-#, fuzzy
 msgid "Separator"
-msgstr "Generátor"
+msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:8
 msgid "Shape"

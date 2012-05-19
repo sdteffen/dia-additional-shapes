@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-16 18:52+0200\n"
+"POT-Creation-Date: 2012-05-16 22:59+0000\n"
 "PO-Revision-Date: 2011-05-18 08:26+0000\n"
 "Last-Translator: Guybrush88 <Unknown>\n"
 "Language-Team: Italian <it@li.org>\n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-03 09:20+0000\n"
-"X-Generator: Launchpad (build 13333)\n"
+"X-Launchpad-Export-Date: 2012-05-19 09:40+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"Language: it\n"
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
@@ -275,9 +275,8 @@ msgid "Note"
 msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:12
-#, fuzzy
 msgid "Delay"
-msgstr "Ripetizione"
+msgstr ""
 
 #. For: ryan
 #: ../sheets/chemistry_lab.sheet.in.h:2
@@ -389,9 +388,8 @@ msgid "Ring Front"
 msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:29
-#, fuzzy
 msgid "Ring Side"
-msgstr "Cantiere"
+msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:30
 msgid "Separatory Funnel 2 Phases"
@@ -531,44 +529,36 @@ msgid "CMOS transistor models"
 msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:4
-#, fuzzy
 msgid "NMOS Transistor (horizontal)"
-msgstr "Discesa (orizzontale)"
+msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:5
-#, fuzzy
 msgid "NMOS Transistor (vertical)"
-msgstr "Discesa (verticale)"
+msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:6
-#, fuzzy
 msgid "PMOS Transistor (horizontal)"
-msgstr "Discesa (orizzontale)"
+msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:7
-#, fuzzy
 msgid "PMOS Transistor (vertical)"
-msgstr "Discesa (verticale)"
+msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:8
-#, fuzzy
 msgid "Ground (horizontal)"
-msgstr "Strada (orizzontale)"
+msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:9
-#, fuzzy
 msgid "Ground (vertical)"
-msgstr "Strada (verticale)"
+msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:10
-#, fuzzy
 msgid "Vdd (horizontal)"
-msgstr "Strada (orizzontale)"
+msgstr ""
 
 #: ../sheets/CMOS.sheet.in.h:11
-#, fuzzy
 msgid "Vdd (vertical)"
-msgstr "Strada (verticale)"
+msgstr ""
 
 #. For: jason
 #: ../sheets/digital.sheet.in.h:2
@@ -580,44 +570,36 @@ msgid "Digital Logic Gates"
 msgstr ""
 
 #: ../sheets/digital.sheet.in.h:4
-#, fuzzy
 msgid "Buffer (horizontal)"
-msgstr "Steccato (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:5
-#, fuzzy
 msgid "Inverter (horizontal)"
-msgstr "Steccato (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:6
-#, fuzzy
 msgid "AND (horizontal)"
-msgstr "Strada (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:7
-#, fuzzy
 msgid "NAND (horizontal)"
-msgstr "Strada (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:8
-#, fuzzy
 msgid "OR (horizontal)"
-msgstr "Strada (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:9
-#, fuzzy
 msgid "NOR (horizontal)"
-msgstr "Strada (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:10
-#, fuzzy
 msgid "XOR (horizontal)"
-msgstr "Strada (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:11
-#, fuzzy
 msgid "XNOR (horizontal)"
-msgstr "Strada (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:12
 msgid "Multiplexer/Demultiplexer (horizontal)"
@@ -628,49 +610,40 @@ msgid "Adder/Subtractor/Multiplier/Divider (horizontal)"
 msgstr ""
 
 #: ../sheets/digital.sheet.in.h:14
-#, fuzzy
 msgid "Register (horizontal)"
-msgstr "Steccato (orizzontale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:15
-#, fuzzy
 msgid "Buffer (vertical)"
-msgstr "Steccato (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:16
-#, fuzzy
 msgid "Inverter (vertical)"
-msgstr "Steccato (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:17
-#, fuzzy
 msgid "AND (vertical)"
-msgstr "Strada (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:18
-#, fuzzy
 msgid "NAND (vertical)"
-msgstr "Strada (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:19
-#, fuzzy
 msgid "OR (vertical)"
-msgstr "Strada (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:20
-#, fuzzy
 msgid "NOR (vertical)"
-msgstr "Strada (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:21
-#, fuzzy
 msgid "XOR (vertical)"
-msgstr "Strada (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:22
-#, fuzzy
 msgid "XNOR (vertical)"
-msgstr "Strada (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:23
 msgid "Multiplexer/Demultiplexer (vertical)"
@@ -681,9 +654,8 @@ msgid "Adder/Subtractor/Multiplier/Divider (vertical)"
 msgstr ""
 
 #: ../sheets/digital.sheet.in.h:25
-#, fuzzy
 msgid "Register (vertical)"
-msgstr "Steccato (verticale)"
+msgstr ""
 
 #: ../sheets/digital.sheet.in.h:26
 msgid "Connection Point"
@@ -714,14 +686,12 @@ msgid "Function"
 msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:8
-#, fuzzy
 msgid "Or Operator"
-msgstr "Generatore"
+msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:9
-#, fuzzy
 msgid "And Operator"
-msgstr "Generatore"
+msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:10
 msgid "XOR Operator"
@@ -860,9 +830,8 @@ msgid "IN/OUT Port"
 msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:28
-#, fuzzy
 msgid "Voltmeter"
-msgstr "Voltometro verticale"
+msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:29
 msgid "Ampermeter"
@@ -1102,9 +1071,8 @@ msgid "Optical Fibre Systems"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:4
-#, fuzzy
 msgid "Circulator"
-msgstr "Circuito2"
+msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:5
 msgid "Polarisation Controller"
@@ -1139,9 +1107,8 @@ msgid "Spectrum Analyser"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:13
-#, fuzzy
 msgid "Optical Isolator"
-msgstr "Isolatore"
+msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:14
 msgid "EDFA"
@@ -1152,14 +1119,12 @@ msgid "Variable Attenuator"
 msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:16
-#, fuzzy
 msgid "MZ Modulator"
-msgstr "Isolatore"
+msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:17
-#, fuzzy
 msgid "Phase Modulator"
-msgstr "Isolatore"
+msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:20
 msgid "Long Period Grating"
@@ -1312,9 +1277,8 @@ msgid "Scene graph symbols"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:4
-#, fuzzy
 msgid "Transform"
-msgstr "Trasformatore"
+msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:5
 msgid "Group node"
@@ -1325,9 +1289,8 @@ msgid "Appearance"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:7
-#, fuzzy
 msgid "Separator"
-msgstr "Generatore"
+msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:8
 msgid "Shape"
@@ -1338,9 +1301,8 @@ msgid "Light"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:11
-#, fuzzy
 msgid "Manipulator"
-msgstr "Circuito2"
+msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:12
 msgid "Metric"

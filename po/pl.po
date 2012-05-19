@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Steffen Macke <sdteffen@sdteffen.de>, 2011.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: diashapes 0.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-16 18:52+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2012-05-16 22:59+0000\n"
+"PO-Revision-Date: 2012-01-01 23:31+0000\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Polish <sdteffen@sdteffen.de>\n"
-"Language: Polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-19 09:40+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"Language: Polish\n"
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"

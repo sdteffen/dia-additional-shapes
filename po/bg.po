@@ -1,22 +1,21 @@
-# Additional objects for Dia
-# Copyright (C) 2009 Steffen Macke
-# This file is distributed under the same license as the Dia package
-# Steffen Macke <sdteffen@sdteffen.de>, 2009.
+# Bulgarian translation for dia-additional-shapes
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the dia-additional-shapes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.0.1\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: dia-additional-shapes\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-05-16 22:59+0000\n"
-"PO-Revision-Date: 2012-05-17 01:13+0000\n"
-"Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
-"Language-Team: French <sdteffen@sdteffen.de>\n"
+"PO-Revision-Date: 2012-05-16 09:28+0000\n"
+"Last-Translator: vladi <vzaimov@yahoo.com>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2012-05-19 09:40+0000\n"
 "X-Generator: Launchpad (build 15259)\n"
-"Language: fr\n"
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
@@ -28,15 +27,15 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:3
 msgid "Road (horizontal)"
-msgstr "Route (horizontale)"
+msgstr "Път (хоризонтален)"
 
 #: ../sheets/building_site.sheet.in.h:4
 msgid "Road (vertical)"
-msgstr ""
+msgstr "Път (вертикален)"
 
 #: ../sheets/building_site.sheet.in.h:5
 msgid "Road (turn)"
-msgstr ""
+msgstr "Път (завой)"
 
 #: ../sheets/building_site.sheet.in.h:6
 msgid "Road (tee)"
@@ -48,15 +47,15 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:8
 msgid "Road (crossroads)"
-msgstr ""
+msgstr "Път (кръстовище)"
 
 #: ../sheets/building_site.sheet.in.h:9
 msgid "Fence (horizontal)"
-msgstr ""
+msgstr "Ограда (хоризонтална)"
 
 #: ../sheets/building_site.sheet.in.h:10
 msgid "Fence (vertical)"
-msgstr ""
+msgstr "Ограда (вертикална)"
 
 #: ../sheets/building_site.sheet.in.h:11
 msgid "Slope (horizontal)"
@@ -68,11 +67,11 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:13
 msgid "Wall (horizontal)"
-msgstr "Mur (horizontal)"
+msgstr "Стена (хоризонтлна)"
 
 #: ../sheets/building_site.sheet.in.h:14
 msgid "Wall (vertical)"
-msgstr "Mur (vertical)"
+msgstr "Стена (вертикална)"
 
 #: ../sheets/building_site.sheet.in.h:15
 msgid "Pre-Silo"
@@ -84,7 +83,7 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:17
 msgid "Concrete Mixer"
-msgstr ""
+msgstr "Бетонобъркачка"
 
 #: ../sheets/building_site.sheet.in.h:18
 msgid "Circle, Diagonal Quarters Filled"
@@ -204,11 +203,11 @@ msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:29
 msgid "Router"
-msgstr ""
+msgstr "Рутер"
 
 #: ../sheets/central_data_processing.sheet.in.h:30
 msgid "Modem"
-msgstr ""
+msgstr "Модем"
 
 #: ../sheets/central_data_processing.sheet.in.h:31
 msgid "Voice panel 50p"
@@ -240,31 +239,31 @@ msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:3 ../sheets/edpc.sheet.in.h:4
 msgid "Event"
-msgstr "Évènement"
+msgstr "Събитие"
 
 #: ../sheets/CH-1.sheet.in.h:4 ../sheets/value_stream_mapping.sheet.in.h:6
 msgid "Storage"
-msgstr "Stockage"
+msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:5
 msgid "Employee"
-msgstr "Employé"
+msgstr "Служител"
 
 #: ../sheets/CH-1.sheet.in.h:6
 msgid "Department"
-msgstr ""
+msgstr "Отдел"
 
 #: ../sheets/CH-1.sheet.in.h:7
 msgid "Outside participant"
-msgstr ""
+msgstr "Външен участник"
 
 #: ../sheets/CH-1.sheet.in.h:8
 msgid "Device"
-msgstr ""
+msgstr "Устройство"
 
 #: ../sheets/CH-1.sheet.in.h:9
 msgid "Condition"
-msgstr ""
+msgstr "Условие"
 
 #: ../sheets/CH-1.sheet.in.h:10
 msgid "Junction (AND, OR, XOR)"
@@ -272,16 +271,16 @@ msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:11
 msgid "Note"
-msgstr ""
+msgstr "Бележка"
 
 #: ../sheets/CH-1.sheet.in.h:12
 msgid "Delay"
-msgstr ""
+msgstr "Закъснение"
 
 #. For: ryan
 #: ../sheets/chemistry_lab.sheet.in.h:2
 msgid "Chemistry Lab"
-msgstr ""
+msgstr "Химическа лаборатория"
 
 #: ../sheets/chemistry_lab.sheet.in.h:3
 msgid "Chemistry Lab Apparati"
@@ -289,11 +288,11 @@ msgstr ""
 
 #: ../sheets/chemistry_lab.sheet.in.h:4
 msgid "30 Degree Bend"
-msgstr ""
+msgstr "Наклон 30 градуса"
 
 #: ../sheets/chemistry_lab.sheet.in.h:5
 msgid "Beaker"
-msgstr ""
+msgstr "Стъкленица"
 
 #: ../sheets/chemistry_lab.sheet.in.h:6
 msgid "Buechner Funnel"
@@ -469,15 +468,15 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:14
 msgid "Horizontal LED"
-msgstr ""
+msgstr "Хоризонтален LED"
 
 #: ../sheets/Circuit2.sheet.in.h:15
 msgid "Vertical LED"
-msgstr ""
+msgstr "Вертикален LED"
 
 #: ../sheets/Circuit2.sheet.in.h:16 ../sheets/Optics.sheet.in.h:18
 msgid "Sine Wave Source"
-msgstr ""
+msgstr "Източник на синусоида"
 
 #: ../sheets/Circuit2.sheet.in.h:17 ../sheets/Optics.sheet.in.h:19
 msgid "Square Wave Source"
@@ -509,7 +508,7 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:24
 msgid "Vertical Voltmeter"
-msgstr ""
+msgstr "Вертикален волтметър"
 
 #: ../sheets/Circuit2.sheet.in.h:25
 msgid "Horizontal Ammeter"
@@ -517,7 +516,7 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Horizontal Voltmeter"
-msgstr ""
+msgstr "Хоризонтален волтметър"
 
 #. For: jason
 #: ../sheets/CMOS.sheet.in.h:2
@@ -563,7 +562,7 @@ msgstr ""
 #. For: jason
 #: ../sheets/digital.sheet.in.h:2
 msgid "Digital"
-msgstr ""
+msgstr "Цифров"
 
 #: ../sheets/digital.sheet.in.h:3
 msgid "Digital Logic Gates"
@@ -671,7 +670,7 @@ msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:3
 msgid "Document"
-msgstr ""
+msgstr "Документ"
 
 #: ../sheets/edpc.sheet.in.h:5
 msgid "Information Object"
@@ -679,11 +678,11 @@ msgstr ""
 
 #: ../sheets/edpc.sheet.in.h:6
 msgid "Organisation Unit"
-msgstr ""
+msgstr "Организационна единица"
 
 #: ../sheets/edpc.sheet.in.h:7
 msgid "Function"
-msgstr ""
+msgstr "Функция"
 
 #: ../sheets/edpc.sheet.in.h:8
 msgid "Or Operator"
@@ -699,27 +698,27 @@ msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:1
 msgid "Electric 2"
-msgstr "Électrique 2"
+msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:2
 msgid "Additional Electric Symbols"
-msgstr "Symboles électriques additionnels"
+msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:3
 msgid "CKT Breaker"
-msgstr "Disjoncteur"
+msgstr ""
 
 #: ../sheets/electric2.sheet.in.h:4
 msgid "Generator"
-msgstr "Générateur électrique"
+msgstr "Генератор"
 
 #: ../sheets/electric2.sheet.in.h:5
 msgid "Isolator"
-msgstr "Interrupteur"
+msgstr "Изолатор"
 
 #: ../sheets/electric2.sheet.in.h:6
 msgid "Transformer"
-msgstr "Transformateur électrique"
+msgstr "Трансформатор"
 
 #: ../sheets/electronic.sheet.in.h:1
 msgid "Electronic"
@@ -727,27 +726,27 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:2
 msgid "Antenna"
-msgstr ""
+msgstr "Антена"
 
 #: ../sheets/electronic.sheet.in.h:3
 msgid "Bell"
-msgstr ""
+msgstr "Звънец"
 
 #: ../sheets/electronic.sheet.in.h:4
 msgid "Button"
-msgstr ""
+msgstr "Бутон"
 
 #: ../sheets/electronic.sheet.in.h:5
 msgid "Capacitor"
-msgstr ""
+msgstr "Кондензатор"
 
 #: ../sheets/electronic.sheet.in.h:6
 msgid "Electrolytic capacitor"
-msgstr ""
+msgstr "Електролитен кондензатор"
 
 #: ../sheets/electronic.sheet.in.h:7
 msgid "Crystal"
-msgstr ""
+msgstr "Кристал"
 
 #: ../sheets/electronic.sheet.in.h:8
 msgid "Di-Gate"
@@ -759,11 +758,11 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:10 ../sheets/scenegraph.sheet.in.h:9
 msgid "Engine"
-msgstr ""
+msgstr "Двигател"
 
 #: ../sheets/electronic.sheet.in.h:11
 msgid "Headphone"
-msgstr ""
+msgstr "Слушалки"
 
 #: ../sheets/electronic.sheet.in.h:12
 msgid "Inverse diode"
@@ -771,27 +770,27 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:13
 msgid "Schottky diode"
-msgstr ""
+msgstr "Шотки диод"
 
 #: ../sheets/electronic.sheet.in.h:14
 msgid "Tunnel diode"
-msgstr ""
+msgstr "Тунелен диод"
 
 #: ../sheets/electronic.sheet.in.h:15
 msgid "Zenner diode"
-msgstr ""
+msgstr "Ценеров диод"
 
 #: ../sheets/electronic.sheet.in.h:16
 msgid "Inductor"
-msgstr ""
+msgstr "Бобина"
 
 #: ../sheets/electronic.sheet.in.h:17
 msgid "LED display"
-msgstr ""
+msgstr "LED дисплей"
 
 #: ../sheets/electronic.sheet.in.h:18
 msgid "Microphone"
-msgstr ""
+msgstr "Микрофон"
 
 #: ../sheets/electronic.sheet.in.h:19
 msgid "Photo-emiting part"
@@ -803,15 +802,15 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:21
 msgid "Potenciometer"
-msgstr ""
+msgstr "Потенциометър"
 
 #: ../sheets/electronic.sheet.in.h:22
 msgid "Ground"
-msgstr ""
+msgstr "Земя"
 
 #: ../sheets/electronic.sheet.in.h:23
 msgid "Contact"
-msgstr ""
+msgstr "Връзка"
 
 #: ../sheets/electronic.sheet.in.h:24
 msgid "Contact Pair"
@@ -831,11 +830,11 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:28
 msgid "Voltmeter"
-msgstr ""
+msgstr "Волтметър"
 
 #: ../sheets/electronic.sheet.in.h:29
 msgid "Ampermeter"
-msgstr ""
+msgstr "Амперметър"
 
 #: ../sheets/electronic.sheet.in.h:30
 msgid "Source or Meter"
@@ -843,7 +842,7 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:31
 msgid "Current source"
-msgstr ""
+msgstr "Източник на ток"
 
 #: ../sheets/electronic.sheet.in.h:32
 msgid "Substitute linearised source"
@@ -851,15 +850,15 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:33
 msgid "Voltage source"
-msgstr ""
+msgstr "Източник на напрежение"
 
 #: ../sheets/electronic.sheet.in.h:34
 msgid "Alternating voltage source"
-msgstr ""
+msgstr "Източник на променливо напрежение"
 
 #: ../sheets/electronic.sheet.in.h:35
 msgid "Direct voltage source"
-msgstr ""
+msgstr "Източник на право напрежение"
 
 #: ../sheets/electronic.sheet.in.h:36
 msgid "Bipolar transistor NPN"
@@ -935,11 +934,11 @@ msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:1
 msgid "Gradient"
-msgstr ""
+msgstr "Градиент"
 
 #: ../sheets/gradient.sheet.in.h:2
 msgid "Basic gradients, semitransparent"
-msgstr ""
+msgstr "Базови гадиенти, полупрозрачни"
 
 #: ../sheets/gradient.sheet.in.h:3
 msgid "Light-dark horizontal gradient box"
@@ -1003,7 +1002,7 @@ msgstr ""
 
 #: ../sheets/LST.sheet.in.h:8
 msgid "Decoder"
-msgstr ""
+msgstr "Декодер"
 
 #: ../sheets/LST.sheet.in.h:9
 msgid "Distributor Subsystem"
@@ -1051,7 +1050,7 @@ msgstr ""
 
 #: ../sheets/LST.sheet.in.h:20
 msgid "Encoder"
-msgstr ""
+msgstr "Енкодер"
 
 #: ../sheets/LST.sheet.in.h:21
 msgid "Encoder Subsystem"
@@ -1059,12 +1058,12 @@ msgstr ""
 
 #: ../sheets/LST.sheet.in.h:22
 msgid "Timer"
-msgstr ""
+msgstr "Таймер"
 
 #. For: jkellerman
 #: ../sheets/Optics.sheet.in.h:2
 msgid "Optics"
-msgstr ""
+msgstr "Оптика"
 
 #: ../sheets/Optics.sheet.in.h:3
 msgid "Optical Fibre Systems"
@@ -1092,19 +1091,19 @@ msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:9
 msgid "Long Fibre"
-msgstr ""
+msgstr "Дълго влакно"
 
 #: ../sheets/Optics.sheet.in.h:10
 msgid "Detector"
-msgstr ""
+msgstr "Детектор"
 
 #: ../sheets/Optics.sheet.in.h:11
 msgid "Osilloscope"
-msgstr ""
+msgstr "Осцилоскоп"
 
 #: ../sheets/Optics.sheet.in.h:12
 msgid "Spectrum Analyser"
-msgstr ""
+msgstr "Спектрален анализатор"
 
 #: ../sheets/Optics.sheet.in.h:13
 msgid "Optical Isolator"
@@ -1116,7 +1115,7 @@ msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:15
 msgid "Variable Attenuator"
-msgstr ""
+msgstr "Променлив затихвател"
 
 #: ../sheets/Optics.sheet.in.h:16
 msgid "MZ Modulator"
@@ -1132,120 +1131,120 @@ msgstr ""
 
 #: ../sheets/Optics.sheet.in.h:21
 msgid "Light Beam"
-msgstr ""
+msgstr "Светлинен сноп"
 
 #: ../sheets/Optics.sheet.in.h:22
 msgid "Wave"
-msgstr ""
+msgstr "Вълна"
 
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
 #: ../sheets/Racks.sheet.in.h:2
 msgid "Racks"
-msgstr "Racks"
+msgstr "Ракове"
 
 #: ../sheets/Racks.sheet.in.h:3
 msgid "Standard 19 inch racks and equipment"
-msgstr "Racks et équipements standarts de 19 pouces"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:4
 msgid "Rack 42U"
-msgstr "Rack 42U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:5
 msgid "Rack 38U"
-msgstr "Rack 38U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:6
 msgid "Half-Rack 20U"
-msgstr "Demi rack 20U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:7
 msgid "Half-Rack 16U"
-msgstr "Demi rack 16U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:8
 msgid "Half-Rack 12U"
-msgstr "Demi rack 12U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:9
 msgid "Label Anchors, 42U"
-msgstr "Ancres étiquette 42U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:10
 msgid "Power Strip - UTE, 8 sockets"
-msgstr "Multiprise UTE, 8 sorties"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:11
 msgid "Power Strip - Schuko, 8 sockets"
-msgstr "Multiprise Schuko, 8 sorties"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:12
 msgid "Power Strip - British Standard, 7 sockets"
-msgstr "Multiprise, standard britannique, 7 sorties"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:13
 msgid "Generic 1U Equipment"
-msgstr "Equipement générique 1U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:14
 msgid "Generic 2U Equipment"
-msgstr "Equipement générique 2U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:15
 msgid "Generic 3U Equipment"
-msgstr "Equipement générique 3U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:16
 msgid "Generic 4U Equipment"
-msgstr "Equipement générique 4U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:17
 msgid "Generic 5U Equipment"
-msgstr "Equipement générique 3U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:18
 msgid "Generic 6U Equipment"
-msgstr "Equipement générique 5U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:19
 msgid "Generic 7U Equipment"
-msgstr "Equipement générique 7U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:20
 msgid "Generic 8U Equipment"
-msgstr "Equipement générique 8U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:21
 msgid "Generic 9U Equipment"
-msgstr "Equipement générique 9U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:22
 msgid "Generic 10U Equipment"
-msgstr "Equipement générique 10U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:23
 msgid "Generic 11U Equipment"
-msgstr "Equipements génériques 11U"
+msgstr ""
 
 #: ../sheets/Racks.sheet.in.h:24
 msgid "Generic 12U Equipment"
-msgstr "Equipement générique 12U"
+msgstr ""
 
 #: ../sheets/renewable_energy.sheet.in.h:1
 msgid "Renewable Energy"
-msgstr ""
+msgstr "Възобновяема енергия"
 
 #: ../sheets/renewable_energy.sheet.in.h:2
 msgid "Objects related to renewable energy"
-msgstr ""
+msgstr "Обекти свързани с възобновяемата енергия"
 
 #: ../sheets/renewable_energy.sheet.in.h:3
 msgid "Wind Turbine"
-msgstr ""
+msgstr "Вятърна турбина"
 
 #: ../sheets/renewable_energy.sheet.in.h:4
 msgid "Solar Module"
-msgstr ""
+msgstr "Соларен модул"
 
 #: ../sheets/renewable_energy.sheet.in.h:5
 msgid "Wind Measurement Tower"
@@ -1265,7 +1264,7 @@ msgstr ""
 
 #: ../sheets/renewable_energy.sheet.in.h:9
 msgid "Temperature and Humidity Sensor"
-msgstr ""
+msgstr "Сензор за температура и влажност"
 
 #. Dia-Version: 0.94
 #: ../sheets/scenegraph.sheet.in.h:2
@@ -1278,7 +1277,7 @@ msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:4
 msgid "Transform"
-msgstr ""
+msgstr "Преобразуване"
 
 #: ../sheets/scenegraph.sheet.in.h:5
 msgid "Group node"
@@ -1286,19 +1285,19 @@ msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:6
 msgid "Appearance"
-msgstr ""
+msgstr "Външен вид"
 
 #: ../sheets/scenegraph.sheet.in.h:7
 msgid "Separator"
-msgstr ""
+msgstr "Разделител"
 
 #: ../sheets/scenegraph.sheet.in.h:8
 msgid "Shape"
-msgstr ""
+msgstr "Форма"
 
 #: ../sheets/scenegraph.sheet.in.h:10
 msgid "Light"
-msgstr ""
+msgstr "Светлина"
 
 #: ../sheets/scenegraph.sheet.in.h:11
 msgid "Manipulator"
@@ -1306,11 +1305,11 @@ msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:12
 msgid "Metric"
-msgstr ""
+msgstr "Метрична"
 
 #: ../sheets/scenegraph.sheet.in.h:13
 msgid "Camera"
-msgstr ""
+msgstr "Камера"
 
 #: ../sheets/scenegraph.sheet.in.h:14
 msgid "Switch"
@@ -1330,15 +1329,15 @@ msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:18
 msgid "Callback"
-msgstr ""
+msgstr "Обратно повикване"
 
 #: ../sheets/scenegraph.sheet.in.h:19
 msgid "Component"
-msgstr ""
+msgstr "Компонент"
 
 #: ../sheets/scenegraph.sheet.in.h:20
 msgid "Field"
-msgstr ""
+msgstr "Поле"
 
 #: ../sheets/scenegraph.sheet.in.h:21
 msgid "Property"
@@ -1358,7 +1357,7 @@ msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:3
 msgid "Happy Face"
-msgstr ""
+msgstr "Усмихнато лице"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:4
 msgid "Harvey Balls 0"
