@@ -1,5 +1,5 @@
-AC_INIT([dia-additional-shapes],[0.9.3],[sdteffen@sdteffen.de])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign dist-bzip2 dist-zip])
+AC_INIT([dia-shapes],[0.2.0],[sdteffen@sdteffen.de])
+AM_INIT_AUTOMAKE([-Wall -Werror foreign dist-xz])
 IT_PROG_INTLTOOL([0.35.0])
 GETTEXT_PACKAGE=dia-additional-shapes
 AC_SUBST(GETTEXT_PACKAGE)
