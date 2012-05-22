@@ -5,6 +5,7 @@ Makefile.in
 *.bz2
 *.zip
 *.gz
+*.xz
 m4
 config.*
 aclocal.m4
@@ -16,3 +17,5 @@ intltool-extract.in
 intltool-update.in
 website
 po/*~
+src/*.exe
+src/*.txt
