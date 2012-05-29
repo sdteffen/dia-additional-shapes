@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Start State</name>
+  <icon>sstate.png</icon>
+  <connections>
+    <point x="5" y="5"/>
+    <point x="5" y="0"/>
+    <point x="2.5" y="2.5"/>
+    <point x="7.5" y="2.5"/>
+    <point x="5" y="2.5" main="yes"/>
+    <point x="3.232" y="0.732"/>
+    <point x="3.232" y="4.268"/>
+    <point x="6.768" y="0.732"/>
+    <point x="6.768" y="4.268"/>
+  </connections>
+  <textbox x1="3" y1="0" x2="7" y2="5"/>
+  <aspectratio type="fixed"/>
+  <svg:svg width="7.5" height="5.0">
+    <svg:circle style="fill:default" cx="5" cy="2.5" r="2.5"/>
+    <svg:polyline points="0,2.5 2.5,2.5"/>
+    <svg:polygon style="fill: fg" points="1.8,2.2 2.5,2.5 1.8,2.75 "/>
+  </svg:svg>
+</shape>
