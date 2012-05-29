@@ -3,6 +3,7 @@
 # sed 's!<description!<_description!;s!</description!</_description!;s!<name!<_name!;s!</name!</_name!;' 
 
 sheet_in_files = \
+  Automata.sheet.in \
   building_site.sheet.in \
   central_data_processing.sheet.in \
   CH-1.sheet.in \

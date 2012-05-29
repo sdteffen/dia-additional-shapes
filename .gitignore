@@ -6,6 +6,7 @@ Makefile.in
 *.zip
 *.gz
 *.xz
+*~
 m4
 config.*
 aclocal.m4
