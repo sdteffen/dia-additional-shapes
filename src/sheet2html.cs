@@ -174,8 +174,11 @@ else
             output.WriteElementString("h1", sheetname);
             output.WriteStartElement("div");
             output.WriteString(sheetdescription);
-            output.WriteString(". ");            
-            output.WriteString("{t}These objects can be added to your Dia toolbox.{/t}");
+            output.WriteString(". ");
+	    if (comes_with_dia)
+            	output.WriteString("{t}These objects are part of the standard Dia toolbox.{/t}");
+	    else
+            	output.WriteString("{t}These objects can be added to your Dia toolbox.{/t}");
             output.WriteEndElement(); // div
             string example = "{t}Example{/t}";            
             output.WriteElementString("h2", example);
@@ -186,27 +189,30 @@ else
             output.WriteEndElement(); // img
 
             output.WriteElementString("h2", "{t}Download{/t}");
-            output.WriteStartElement("ul");
-            output.WriteStartElement("li");
-            output.WriteStartElement("a");
-            output.WriteAttributeString("href", args[args.Length - 1] + ".zip");
-            output.WriteAttributeString("class", "track");
-            output.WriteString(args[args.Length - 1] + ".zip");
-            output.WriteEndElement(); // a
-            output.WriteString(" ");            
-            output.WriteString("{t}sheet and objects, zipped{/t}");
-            output.WriteEndElement(); // li
-            output.WriteStartElement("li");
-            output.WriteStartElement("a");
-            output.WriteAttributeString("href", args[args.Length - 1] + ".dia");
-            output.WriteAttributeString("class", "track");
-            output.WriteString(args[args.Length - 1] + ".dia");
-            output.WriteEndElement(); // a
+	    output.WriteStartElement("ul");
+            if (!comes_with_dia)
+            {
+		    output.WriteStartElement("li");
+		    output.WriteStartElement("a");
+		    output.WriteAttributeString("href", args[args.Length - 1] + ".zip");
+		    output.WriteAttributeString("class", "track");
+		    output.WriteString(args[args.Length - 1] + ".zip");
+		    output.WriteEndElement(); // a
+		    output.WriteString(" ");            
+		    output.WriteString("{t}sheet and objects, zipped{/t}");
+		    output.WriteEndElement(); // li
+            }
+	    output.WriteStartElement("li");
+	    output.WriteStartElement("a");
+	    output.WriteAttributeString("href", args[args.Length - 1] + ".dia");
+	    output.WriteAttributeString("class", "track");
+	    output.WriteString(args[args.Length - 1] + ".dia");
+	    output.WriteEndElement(); // a
             output.WriteString(" ");
             output.WriteString("{t}example diagram in Dia format{/t}");
             output.WriteEndElement(); // li
-
-		    output.WriteStartElement("li");
+	    
+            output.WriteStartElement("li");
             output.WriteStartElement("a");
             output.WriteAttributeString("href", "images/" + args[args.Length - 1] + ".svg");
             output.WriteAttributeString("class", "track");
@@ -219,6 +225,19 @@ else
             output.WriteEndElement(); // ul   	
 
             output.WriteElementString("h2", "{t}Installation{/t}");
+	    if (comes_with_dia)
+            {
+		output.WriteStartElement("p");
+		output.WriteString("{t}These objects are part of the standard Dia toolbox.{/t}" + " ");
+		output.WriteString("{t}To use them simply install Dia:{/t}" + " ");
+		output.WriteStartElement("a");
+		    output.WriteAttributeString("href", "../../index.html");
+		    output.WriteString("{t}Dia{/t}");
+		    output.WriteEndElement(); // a
+  		output.WriteEndElement(); // p
+            }
+            else
+            {
             output.WriteStartElement("ul");
             output.WriteStartElement("li");
             output.WriteString("{t}Automated, wizard-based installation:{/t}");
@@ -232,6 +251,7 @@ else
             output.WriteString("{t}Manual installation: extract the files to your .dia folder and restart Dia.{/t}");
             output.WriteEndElement(); // li
             output.WriteEndElement(); // ul
+	    }
 
             if ("" != author && !comes_with_dia)
             {
@@ -343,39 +363,6 @@ else{
                 result = iterator.Current.Value;
         }
         return result;
-    }
-
-    // Loop through the shapes and find the icon image name
-    // @todo support icons from Dia itself
-    public static string GetObjectIcon(string sheet, string objectname)
-    {
-		try
-		{
-	        System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo("shapes/" + sheet);
-	        foreach (System.IO.FileInfo f in dir.GetFiles("*.shape"))
-	        {
-	            XmlDocument shape = new XmlDocument();
-	            shape.Load(f.FullName);
-	
-	            XmlNamespaceManager nsmgr = new XmlNamespaceManager(shape.NameTable);
-	            nsmgr.AddNamespace("", "http://www.daa.com.au/~james/dia-shape-ns");
-	            XmlNodeList nodeList;
-	            nodeList = shape.GetElementsByTagName("name", "http://www.daa.com.au/~james/dia-shape-ns");
-	            foreach (XmlNode name in nodeList)
-	            {
-	                if (name.ParentNode.Name == "shape" && name.InnerText == objectname)
-	                {
-	                    XmlNodeList iconList;
-	                    iconList = shape.GetElementsByTagName("icon", "http://www.daa.com.au/~james/dia-shape-ns");
-	                    foreach (XmlNode icon in iconList)
-	                    {
-	                        return icon.InnerText;
-	                    }
-	                }
-	            }
-	        }
-		} catch {}
-        return "";
     }
 
 }

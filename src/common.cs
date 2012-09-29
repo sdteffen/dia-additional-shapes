@@ -152,25 +152,37 @@ class DiaIconFinder
 	// For a given Dia object, return the matching CSS class
 	public string GetClassForObjectName(string name)
 	{
-		string cssclass = "";
+		string cssclass = name;
 		string path = "";
 		string sheet = "";
-	
-		if(objecticons.TryGetValue(name, out cssclass))
+
+		switch (name)
 		{
-			if(icons.icons.TryGetValue(cssclass, out path))
-			{
-				if(DiaIcons.SHEET_SPECIFIC == path)
+			case "UML - Class":
+				cssclass = "dumlclass";
+			break;
+			case "UML - Note":
+				cssclass = "dc2sheetnote";
+			break;
+			default:
+				if(objecticons.TryGetValue(name, out cssclass))
 				{
-					if(objectsheets.TryGetValue(name, out sheet))
+					if(icons.icons.TryGetValue(cssclass, out path))
 					{
-						cssclass = "d"+sheet+DiaCss.CanonicalizePath(cssclass).Replace(".png", "");
+						if(DiaIcons.SHEET_SPECIFIC == path)
+						{
+							if(objectsheets.TryGetValue(name, out sheet))
+							{
+								cssclass = "d"+sheet+DiaCss.CanonicalizePath(cssclass).Replace(".png", "");
+							}
+						}
+						else 
+							cssclass = "d"+DiaCss.CanonicalizePath(cssclass).Replace(".png", "");
 					}
 				}
-				else 
-					cssclass = "d"+DiaCss.CanonicalizePath(cssclass).Replace(".png", "");
-			}
+			break;
 		}
+	
 		return cssclass;
 	}
 	
