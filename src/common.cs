@@ -164,6 +164,75 @@ class DiaIconFinder
 			case "UML - Note":
 				cssclass = "dc2sheetnote";
 			break;
+			case "UML - Dependency":
+				cssclass ="dc2sheetdependency";
+		     break;
+   case "UML - Realizes":
+      cssclass = "drealizes";
+    break;
+   case "UML - Generalization":
+      cssclass = "dgeneralization";
+    break;
+   case "UML - Association":
+      cssclass = "dassociation";
+    break;
+   case "UML - Implements":
+      cssclass = "dimplements";
+    break;
+   case "UML - Constraint":
+      cssclass = "dconstraint";
+    break;
+   case "UML - SmallPackage":
+      cssclass = "dsmallpackage";
+    break;
+   case "UML - LargePackage":
+      cssclass = "dlargepackage";
+    break;
+   case "UML - Actor":
+      cssclass = "dactor";
+    break;
+   case "UML - Usecase":
+      cssclass = "dcase";
+    break;
+   case "UML - Lifeline":
+      cssclass = "dlifeline";
+    break;
+   case "UML - Object":
+      cssclass = "dobject";
+    break;
+   case "UML - Message":
+      cssclass = "dmessage";
+    break;
+   case "UML - Component":
+      cssclass = "dc2sheetcomponent";
+    break;
+   case "UML - Component Feature":
+      cssclass = "dfacet";
+    break;
+   case "UML - Node":
+      cssclass = "dnode";
+    break;
+   case "UML - Classicon":
+      cssclass = "dclassicon";
+    break;
+   case "UML - State Term":
+      cssclass = "dstate_term";
+    break;
+   case "UML - State":
+      cssclass = "dstate";
+    break;
+   case "UML - Activity":
+       cssclass = "dactivity";
+    break;
+   case "UML - Branch":
+      cssclass = "dbranch";
+    break;
+   case "UML - Fork":
+      cssclass = "dfork";
+    break;
+   case "UML - Transition":
+	cssclass = "dtransition";
+	break;
 			default:
 				if(objecticons.TryGetValue(name, out cssclass))
 				{
