@@ -234,7 +234,7 @@ class DiaIconFinder
 	cssclass = "dstate_term";
 	break;
       case "UML - State":
-	cssclass = "dstate";
+	cssclass = "dc2sheetstate";
 	break;
       case "UML - Activity":
 	cssclass = "dactivity";

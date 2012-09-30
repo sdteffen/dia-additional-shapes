@@ -24,6 +24,7 @@ using System;
 using System.Xml.XPath;
 using System.Xml;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Sheet2Html
 {
@@ -34,24 +35,30 @@ public class Sheet2Html
       {
 	Console.Error.WriteLine ("USAGE: sheet2html [options] [sheetname]");
 	Console.Error.WriteLine ("Options:");
-	Console.Error.
-	  WriteLine ("--author=AUTHOR            Specify sheet creator");
-	Console.Error.
-	  WriteLine
+	Console.
+	  Error.WriteLine
+	  ("--author=AUTHOR            Specify sheet creator");
+	Console.
+	  Error.WriteLine
 	  ("--comes-with-dia           Sheet is part of the Dia distribution");
-	Console.Error.
-	  WriteLine
+	Console.
+	  Error.WriteLine
 	  ("--datadir=datadir			Path where sheets and shapes reside");
-	Console.Error.
-	  WriteLine ("-h, --help                 Display help and exit");
-	Console.Error.
-	  WriteLine ("--output-directory=DIR     Specify output directory");
-	Console.Error.
-	  WriteLine ("--noads                    Add noads tags to template");
-	Console.Error.
-	  WriteLine ("--tpl                      Create Smarty Template");
-	Console.Error.
-	  WriteLine ("-v, --version              Display version and exit");
+	Console.
+	  Error.WriteLine
+	  ("-h, --help                 Display help and exit");
+	Console.
+	  Error.WriteLine
+	  ("--output-directory=DIR     Specify output directory");
+	Console.
+	  Error.WriteLine
+	  ("--noads                    Add noads tags to template");
+	Console.
+	  Error.WriteLine
+	  ("--tpl                      Create Smarty Template");
+	Console.
+	  Error.WriteLine
+	  ("-v, --version              Display version and exit");
 
 	return;
       }
@@ -59,8 +66,8 @@ public class Sheet2Html
     if ("-v" == args[0] || "--version" == args[0])
       {
 	Console.Error.WriteLine ("sheet2html 0.9.2");
-	Console.Error.
-	  WriteLine ("Copyright (c) 2007, 2009 - 2012 Steffen Macke");
+	Console.
+	  Error.WriteLine ("Copyright (c) 2007, 2009 - 2012 Steffen Macke");
 	return;
       }
 
@@ -187,8 +194,7 @@ public class Sheet2Html
       output.WriteEndElement ();	// style
       if (output_tpl)
 	{
-	  output.
-	    WriteRaw
+	  output.WriteRaw
 	    ("{include file='body.tpl' folder='/shapes' page='/shapes/" +
 	     args[args.Length - 1] + "/index.html' page_title='" + sheetname +
 	     "' language='" + language + "'" + noads + "}");
@@ -204,12 +210,10 @@ public class Sheet2Html
       output.WriteString (sheetdescription);
       output.WriteString (". ");
       if (comes_with_dia)
-	output.
-	  WriteString
+	output.WriteString
 	  ("{t}These objects are part of the standard Dia toolbox.{/t}");
       else
-	output.
-	  WriteString
+	output.WriteString
 	  ("{t}These objects can be added to your Dia toolbox.{/t}");
       output.WriteEndElement ();	// div
       string example = "{t}Example{/t}";
@@ -265,8 +269,7 @@ public class Sheet2Html
       if (comes_with_dia)
 	{
 	  output.WriteStartElement ("p");
-	  output.
-	    WriteString
+	  output.WriteString
 	    ("{t}These objects are part of the standard Dia toolbox.{/t}" +
 	     " ");
 	  output.WriteString ("{t}To use them simply install Dia:{/t}" + " ");
@@ -289,8 +292,7 @@ public class Sheet2Html
 	  output.WriteEndElement ();	// a
 	  output.WriteEndElement ();	// li
 	  output.WriteStartElement ("li");
-	  output.
-	    WriteString
+	  output.WriteString
 	    ("{t}Manual installation: extract the files to your .dia folder and restart Dia.{/t}");
 	  output.WriteEndElement ();	// li
 	  output.WriteEndElement ();	// ul
@@ -352,9 +354,13 @@ public class Sheet2Html
       XPathNodeIterator links = nav.Select (query);
       links = nav.Select (query);
 
+      List < string > objectnames = new List < string > ();
       while (links.MoveNext ())
 	{
 	  string objectname = links.Current.GetAttribute ("name", "");
+	  if (objectnames.Contains (objectname))
+	    continue;
+	  objectnames.Add (objectname);
 	  output.WriteStartElement ("tr");
 	  XPathExpression descquery =
 	    nav.Compile ("/dia:sheet/dia:contents/dia:object[@name='" +
@@ -367,8 +373,8 @@ public class Sheet2Html
 	  output.WriteStartElement ("div");
 	  output.WriteAttributeString ("class",
 				       "icon " +
-				       iconfinder.
-				       GetClassForObjectName (objectname));
+				       iconfinder.GetClassForObjectName
+				       (objectname));
 	  output.WriteString (" ");
 	  output.WriteEndElement ();	// div 
 	  output.WriteEndElement ();	// td
@@ -380,8 +386,7 @@ public class Sheet2Html
       if (output_tpl)
 	{
 	  output.WriteRaw ("{/capture}");
-	  output.
-	    WriteRaw
+	  output.WriteRaw
 	    ("{include file='footer.tpl' url='dia-installer.de/shapes/" +
 	     sheet_path_fragment + "/index.html." + language +
 	     "' language='" + language + "'" + noads + "}");
