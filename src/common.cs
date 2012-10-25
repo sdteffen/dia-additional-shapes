@@ -173,6 +173,42 @@ class DiaIconFinder
 
     switch (name)
       {
+case "AADL - Box":  
+	cssclass = "daadlprocess";
+	break;
+    case "AADL - Process":
+      cssclass = "daadlprocess";
+	    break;
+    case "AADL - Thread":
+      cssclass = "daadlthread";
+	break;
+    case "AADL - Data":
+      cssclass = "daadldata";
+	break;
+    case "AADL - Processor":
+      cssclass = "daadlprocessor";
+	break;
+    case "AADL - Memory":
+      cssclass = "daadlmemory";
+	break;
+    case "AADL - Bus":
+      cssclass = "daadlbus";
+	break;
+    case "AADL - System":
+      cssclass = "daadlsystem";
+	break;
+    case "AADL - Subprogram":
+      cssclass = "daadlsubprogram";
+	break;
+    case "AADL - Thread Group":
+      cssclass = "daadlthreadgroup";
+	break;
+    case "AADL - Device":
+      cssclass = "daadldevice";
+	break;
+    case "AADL - Package":
+	cssclass = "daadlpackage";
+	break;
       case "UML - Class":
 	cssclass = "dumlclass";
 	break;
