@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Pictures - rail transport</name>
+  <icon>rail transport.png</icon>
+  <connections>
+    <point x="17.1115" y="7.00743"/>
+    <point x="17.1115" y="8.00743"/>
+    <point x="17.1115" y="7.50743"/>
+    <point x="17.0669" y="8"/>
+    <point x="17.6669" y="8"/>
+    <point x="17.3669" y="8"/>
+    <point x="18.348" y="8"/>
+    <point x="18.548" y="8"/>
+    <point x="18.448" y="8"/>
+    <point x="19.2142" y="8"/>
+    <point x="20.9" y="8"/>
+    <point x="20.0571" y="8"/>
+    <point x="21.5622" y="8"/>
+    <point x="21.7622" y="8"/>
+    <point x="21.6622" y="8"/>
+    <point x="22.9831" y="7.00743"/>
+    <point x="22.9831" y="8.00743"/>
+    <point x="22.9831" y="7.50743"/>
+    <point x="22.4351" y="8"/>
+    <point x="23.0351" y="8"/>
+    <point x="22.7351" y="8"/>
+    <point x="17.1074" y="7.02973"/>
+    <point x="17.7074" y="6.02973"/>
+    <point x="17.4074" y="6.52973"/>
+    <point x="17.6727" y="6.05866"/>
+    <point x="22.4127" y="6.05866"/>
+    <point x="20.0427" y="6.05866"/>
+    <point x="22.9926" y="7.02973"/>
+    <point x="22.3926" y="6.02973"/>
+    <point x="22.6926" y="6.52973"/>
+    <point x="18" y="8.5"/>
+    <point x="18" y="7.9"/>
+    <point x="17.7" y="8.2"/>
+    <point x="18.3" y="8.2"/>
+    <point x="18.8885" y="8.5"/>
+    <point x="18.8885" y="7.9"/>
+    <point x="18.5885" y="8.2"/>
+    <point x="19.1885" y="8.2"/>
+    <point x="21.2291" y="8.5"/>
+    <point x="21.2291" y="7.9"/>
+    <point x="20.9291" y="8.2"/>
+    <point x="21.5291" y="8.2"/>
+    <point x="22.1027" y="8.5"/>
+    <point x="22.1027" y="7.9"/>
+    <point x="21.8027" y="8.2"/>
+    <point x="22.4027" y="8.2"/>
+    <point x="17.1" y="7"/>
+    <point x="18" y="7"/>
+    <point x="17.55" y="7"/>
+    <point x="17.9484" y="7"/>
+    <point x="17.9484" y="6.1"/>
+    <point x="17.9484" y="6.55"/>
+    <point x="22.1" y="7"/>
+    <point x="22.1" y="6.1"/>
+    <point x="22.1" y="6.55"/>
+    <point x="22.0542" y="6.98281"/>
+    <point x="22.9542" y="6.98281"/>
+    <point x="22.5042" y="6.98281"/>
+    <point x="18.1" y="5.6"/>
+    <point x="18.8" y="6"/>
+    <point x="18.45" y="5.8"/>
+    <point x="18.8" y="5.3"/>
+    <point x="18.1" y="5.6"/>
+    <point x="18.45" y="5.45"/>
+    <point x="19.5" y="5.6"/>
+    <point x="18.8" y="6"/>
+    <point x="19.15" y="5.8"/>
+    <point x="19.5" y="5.6"/>
+    <point x="18.8" y="5.3"/>
+    <point x="19.15" y="5.45"/>
+    <point x="16.5795" y="8.54419"/>
+    <point x="23.1795" y="8.54419"/>
+    <point x="19.8795" y="8.54419"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="17.1115" y1="7.00743" x2="17.1115" y2="8.00743"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="17.0669" y1="8" x2="17.6669" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18.348" y1="8" x2="18.548" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="19.2142" y1="8" x2="20.9" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="21.5622" y1="8" x2="21.7622" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="22.9831" y1="7.00743" x2="22.9831" y2="8.00743"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="22.4351" y1="8" x2="23.0351" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="17.1074" y1="7.02973" x2="17.7074" y2="6.02973"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="17.6727" y1="6.05866" x2="22.4127" y2="6.05866"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="22.9926" y1="7.02973" x2="22.3926" y2="6.02973"/>
+    <svg:ellipse style="fill: #ffffff" cx="18" cy="8.2" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="18" cy="8.2" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: #ffffff" cx="18.8885" cy="8.2" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="18.8885" cy="8.2" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: #ffffff" cx="21.2291" cy="8.2" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="21.2291" cy="8.2" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: #ffffff" cx="22.1027" cy="8.2" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="22.1027" cy="8.2" rx="0.3" ry="0.3"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="17.1" y1="7" x2="18" y2="7"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="17.9484" y1="7" x2="17.9484" y2="6.1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="22.1" y1="7" x2="22.1" y2="6.1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="22.0542" y1="6.98281" x2="22.9542" y2="6.98281"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18.1" y1="5.6" x2="18.8" y2="6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18.8" y1="5.3" x2="18.1" y2="5.6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="19.5" y1="5.6" x2="18.8" y2="6"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="19.5" y1="5.6" x2="18.8" y2="5.3"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="16.5795" y1="8.54419" x2="23.1795" y2="8.54419"/>
+  </svg:svg>
+</shape>

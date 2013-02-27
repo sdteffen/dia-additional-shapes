@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Pictures - Supplier or customer</name>
+  <icon>Supplier or customer.png</icon>
+  <connections>
+    <point x="-45.5" y="-2.5"/>
+    <point x="-45.5" y="1"/>
+    <point x="-45.5" y="-0.75"/>
+    <point x="-45.5" y="1"/>
+    <point x="-42.5" y="1"/>
+    <point x="-44" y="1"/>
+    <point x="-42.5" y="-3.5"/>
+    <point x="-42.5" y="1"/>
+    <point x="-42.5" y="-1.25"/>
+    <point x="-42.5" y="-3.5"/>
+    <point x="-43.5" y="-2.5"/>
+    <point x="-43" y="-3"/>
+    <point x="-43.5" y="-2.5"/>
+    <point x="-43.5" y="-3.5"/>
+    <point x="-43.5" y="-3"/>
+    <point x="-43.5" y="-3.5"/>
+    <point x="-44.5" y="-2.5"/>
+    <point x="-44" y="-3"/>
+    <point x="-44.5" y="-2.5"/>
+    <point x="-44.5" y="-3.5"/>
+    <point x="-44.5" y="-3"/>
+    <point x="-44.5" y="-3.5"/>
+    <point x="-45.5" y="-2.5"/>
+    <point x="-45" y="-3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-45.5" y1="-2.5" x2="-45.5" y2="1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-45.5" y1="1" x2="-42.5" y2="1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-42.5" y1="-3.5" x2="-42.5" y2="1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-42.5" y1="-3.5" x2="-43.5" y2="-2.5"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-43.5" y1="-2.5" x2="-43.5" y2="-3.5"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-43.5" y1="-3.5" x2="-44.5" y2="-2.5"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-44.5" y1="-2.5" x2="-44.5" y2="-3.5"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-44.5" y1="-3.5" x2="-45.5" y2="-2.5"/>
+  </svg:svg>
+</shape>

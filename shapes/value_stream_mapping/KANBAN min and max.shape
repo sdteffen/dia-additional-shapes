@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Pictures - KANBAN min and max</name>
+  <icon>KANBAN min and max.png</icon>
+  <connections>
+    <point x="-41.6" y="-0.8"/>
+    <point x="-42.2" y="0.8"/>
+    <point x="-42.8" y="-0.8"/>
+    <point x="-41.9" y="0"/>
+    <point x="-42.5" y="5.55112e-017"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: #bfbfbf" points="-41.6,-0.8 -42.2,0.8 -42.8,-0.8 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="-41.6,-0.8 -42.2,0.8 -42.8,-0.8 "/>
+  </svg:svg>
+</shape>

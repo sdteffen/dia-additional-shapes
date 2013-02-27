@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Pictures - working cell unit</name>
+  <icon>working cell unit.png</icon>
+  <connections>
+    <point x="18" y="12"/>
+    <point x="18" y="8"/>
+    <point x="18" y="10"/>
+    <point x="27" y="12"/>
+    <point x="27" y="8"/>
+    <point x="27" y="10"/>
+    <point x="18" y="8"/>
+    <point x="20" y="8"/>
+    <point x="19" y="8"/>
+    <point x="27" y="8"/>
+    <point x="25" y="8"/>
+    <point x="26" y="8"/>
+    <point x="20" y="8"/>
+    <point x="20" y="12"/>
+    <point x="20" y="10"/>
+    <point x="25" y="8"/>
+    <point x="25" y="12"/>
+    <point x="25" y="10"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 18,12 A 4.525,4.525 0 1 0 27,12"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18" y1="12" x2="18" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="27" y1="12" x2="27" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18" y1="8" x2="20" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="27" y1="8" x2="25" y2="8"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="20" y1="8" x2="20" y2="12"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="25" y1="8" x2="25" y2="12"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 20,12 A 2.54167,2.54167 0 1 0 25,12"/>
+  </svg:svg>
+</shape>
