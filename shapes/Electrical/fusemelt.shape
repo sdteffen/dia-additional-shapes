@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-	<name>Electricity - Overview - Light</name>
-	<icon>light.png</icon>
+	<name>Electrical - Fuse Melt</name>
+	<icon>fusemelt.png</icon>
 	<connections>
-		<point x="0"     y="0" main="yes"/>
+		<point x="0"     y="0.5"/>
+		<point x="0"     y="-0.5"/>
 	</connections>
 	<aspectratio type="fixed"/>
 	<default-width>1cm</default-width>
 	<default-height>1cm</default-height>
-	<textbox x1="0.4" y1="0.4" x2="0.5" y2="0.1" align="left" resize="no"/>
+	<textbox x1="0.2" y1="0.15" x2="0.3" y2="-0.15" align="left" resize="no"/>
 	<svg:svg>
-		<svg:line   style="stroke-linecap: round" x1="-0.25"  y1="-0.25" x2="0.25"  y2="0.25" />
-		<svg:line   style="stroke-linecap: round" x1="-0.25"  y1="0.25" x2="0.25"  y2="-0.25" />
+		<svg:polygon style="stroke-linejoin: bevel; fill:default"
+			points="0.15,0.25 0.15,-0.25 -0.15,-0.25 -0.15,0.25"
+		/>
+		<svg:line style="stroke-linecap: round" y1="-0.5" y2="0.5" x1="0" x2="0"/>
 
 		<!-- Filler to keep snapping sane and consistent -->
 		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>

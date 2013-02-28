@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+
+<name>Electrical</name>
+<description>Electricity symbols for floor plans (based on Belgium regulations)</description>
+<contents>
+	<object name="Electrical - Sx1p"><description>4 Way Switch - 1 Pole</description></object>
+	<object name="Electrical - Sx2p"><description>4 Way Switch - 2 Pole</description></object>
+	<object name="Electrical - Sx4p"><description>4 Way Switch - 4 Pole</description></object>
+	<object name="Electrical - Socket"><description>Socket</description></object>
+	<object name="Electrical - SocketGround"><description>Socket Grounded</description></object>
+	<object name="Electrical - Light"><description>Light</description></object>
+	<object name="Electrical - Fuse Melt"><description>Fuse Melt</description></object>
+	<object name="Electrical - Fuse Auto"><description>Fuse Auto</description></object>
+	<object name="Electrical - Device"><description>Fixed Generic Device</description></object>
+	<object name="Electrical - Device Furnace"><description>Fixed Furnace</description></object>
+</contents>
+</sheet>

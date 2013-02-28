@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-	<name>Electricity - Overview - SocketGround</name>
-	<icon>socketground.png</icon>
+	<name>Electrical - Fuse Auto</name>
+	<icon>fuseauto.png</icon>
 	<connections>
-		<point x="-0.1"     y="0" main="yes"/>
+		<point x="0"     y="0.5"/>
+		<point x="0"     y="-0.5"/>
 	</connections>
 	<aspectratio type="fixed"/>
 	<default-width>1cm</default-width>
 	<default-height>1cm</default-height>
-	<textbox x1="0.4" y1="0.4" x2="0.5" y2="0.1" align="left" resize="no"/>
+	<textbox x1="0.6" y1="0.6" x2="0.7" y2="0.3" align="left" resize="no"/>
 	<svg:svg>
-		<svg:line   style="stroke-linecap: round" x1="-0.1"  y1="0" x2="0"  y2="0" />
-		<svg:line   style="stroke-linecap: round" x1="0"  y1="0.3" x2="0"  y2="-0.3" />
-		<svg:line   style="stroke-linecap: round" x1="0.3"  y1="-0.3" x2="0.3"  y2="-0.4" />
-		<svg:line   style="stroke-linecap: round" x1="0.3"  y1="0.3"  x2="0.3"  y2="0.4" />
-		<svg:path style="stroke-linecap: round" d="M 0.3,-0.3   A 0.3 0.3 1 0 0 0.3,0.3"/>
+		<svg:line style="stroke-linecap: round" y1="0.3" y2="0.5" x1="0" x2="0"/>
+		<svg:line style="stroke-linecap: round" y1="-0.3" y2="-0.5" x1="0" x2="0"/>
+		<svg:line style="stroke-linecap: round" y1="0.3" y2="-0.3" x1="0" x2="-0.2"/>
+		<svg:polygon style="stroke-linejoin: bevel; fill:black"
+			points="-0.2,-0.3 -0.15,-0.15 -0.3,-0.1 -0.35,-0.25"
+		/>		
 		<!-- Filler to keep snapping sane and consistent -->
 		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
 		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
