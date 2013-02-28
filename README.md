@@ -7,6 +7,7 @@ I needed it and didn't want to pay for Visio (or anything else).
 Content
 -------
 I could explain, or just show and image of the symbols so far:
+
 ![Symbols so far](https://raw.github.com/qantourisc/Dia---Electrical/master/screenshot.png)
 
 Installation
