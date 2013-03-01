@@ -13,6 +13,7 @@ sheet_in_files = \
   digital.sheet.in \
   edpc.sheet.in \
   electric2.sheet.in \
+  Electrical.sheet.in \
   electronic.sheet.in \
   gradient.sheet.in \
   LST.sheet.in \
