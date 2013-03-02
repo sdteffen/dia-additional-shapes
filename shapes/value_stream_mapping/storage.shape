@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-  <name>Pictures - storage</name>
+  <name>Value Stream Mapping - Storage</name>
   <icon>storage.png</icon>
   <connections>
     <point x="-28" y="1"/>

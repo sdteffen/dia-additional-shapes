@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-  <name>Pictures - material pull</name>
-  <icon>material pull.png</icon>
+  <name>Value Stream Mapping - Material Pull</name>
+  <icon>material_pull.png</icon>
   <connections>
     <point x="18.5955" y="14.0528"/>
     <point x="18.6007" y="13.3457"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-  <name>Pictures - Electronic information right</name>
-  <icon>Electronic information right.png</icon>
+  <name>Value Stream Mapping - Electronic Information Right</name>
+  <icon>electronic_information_right.png</icon>
   <connections>
     <point x="3" y="7"/>
     <point x="7.5" y="7"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-  <name>Pictures - air transport</name>
-  <icon>air transport.png</icon>
+  <name>Value Stream Mapping - Air Transport</name>
+  <icon>air_transport.png</icon>
   <connections>
     <point x="8.00131" y="1.99759"/>
     <point x="8.00131" y="3.59759"/>

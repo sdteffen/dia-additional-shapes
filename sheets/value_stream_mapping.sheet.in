@@ -21,5 +21,47 @@
     <object name="BPMN - Intermediate-Event">
       <_description>Sequenced Pull</_description>
     </object>
+    <object name="Value Stream Mapping - Inventory">
+      <_description>Inventory</_description>
+    </object>
+    <object name="Value Stream Mapping - Push">
+      <_description>Push</_description>
+    </object>
+    <object name="Value Stream Mapping - Air Transport">
+      <_description>Air Transport</_description>
+    </object>
+    <object name="Value Stream Mapping - Electronic Information Right">
+      <_description>Electronic Information Right</_description>
+    </object>
+    <object name="Value Stream Mapping - Glasses">
+      <_description>Glasses</_description>
+    </object>
+    <object name="Value Stream Mapping - Kanban Minimum and Maximum">
+       <_description>Kanban Minimum and Maximum</_description>
+    </object>
+    <object name="Value Stream Mapping - Kanban Post">
+      <_description>Kanban Post</_description>
+    </object>
+    <object name="Value Stream Mapping - Kanban Production">
+      <_description>Kanban Production</_description>
+    </object>
+    <object name="Value Stream Mapping - Kanban Withdrawal">
+      <_description>Kanban Withdrawal</_description>
+    </object>
+    <object name="Value Stream Mapping - Material Pull">
+      <_description>Material Pull</_description>
+    </object>
+    <object name="Value Stream Mapping - Rail Transport">
+      <_description>Rail Transport</_description>
+    </object>
+    <object name="Value Stream Mapping - Storage">
+      <_description>Storage</_description>
+    </object>
+    <object name="Value Stream Mapping - Supplier or Customer">
+      <_description>Supplier or Customer</_description>
+    </object>
+    <object name="Value Stream Mapping - Working Cell Unit">
+      <_description>Working Cell Unit</_description>
+    </object>
   </contents>
 </sheet>

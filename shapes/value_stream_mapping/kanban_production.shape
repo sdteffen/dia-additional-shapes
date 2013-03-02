@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
-  <name>Pictures - production KANBAN</name>
-  <icon>production KANBAN.png</icon>
+  <name>Value Stream Mapping - Kanban Production</name>
+  <icon>kanban_production.png</icon>
   <connections>
     <point x="-29.3" y="0.4"/>
     <point x="-30.6" y="1.1"/>
