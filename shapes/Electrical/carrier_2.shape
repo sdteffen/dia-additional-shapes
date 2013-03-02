@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+	<name>Electrical - 2 carriers</name>
+	<icon>carrier_2.png</icon>
+	<aspectratio type="fixed"/>
+	<default-width>1cm</default-width>
+	<default-height>1cm</default-height>
+	<svg:svg>
+		<svg:line style="stroke-linecap: round" x1="-0.075" x2="-0.075" y1="0.25" y2="-0.25" />
+		<svg:line style="stroke-linecap: round" x1="0.075" x2="0.075" y1="0.25" y2="-0.25" />
+		<!-- filler to keep snapping sane and consistent -->
+		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
+		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
+		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="-0.5" x2="0.5"  y2="-0.5"/>
+		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="0.5"  x2="-0.5" y2="0.5" />
+	</svg:svg>
+</shape>
