@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-29 20:44+0200\n"
+"POT-Creation-Date: 2013-03-03 17:16+0100\n"
 "PO-Revision-Date: 2012-05-17 01:13+0000\n"
 "Last-Translator: el_libre - http://www.catmidia.cat  "
 "XDDDDDDDDDDDDDDDDDDDDDDDDDDD <el.libre@gmail.com>\n"
@@ -741,6 +741,55 @@ msgstr "Isolador"
 msgid "Transformer"
 msgstr "Transformador"
 
+#: ../sheets/Electrical.sheet.in.h:1
+#, fuzzy
+msgid "Electrical"
+msgstr "Elèctric 2"
+
+#: ../sheets/Electrical.sheet.in.h:2
+msgid "Electricity symbols for floor plans (based on Belgium regulations)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:3
+msgid "4 Way Switch - 1 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:4
+msgid "4 Way Switch - 2 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:5
+msgid "4 Way Switch - 4 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:6
+msgid "Socket"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:7
+msgid "Socket Grounded"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:8 ../sheets/scenegraph.sheet.in.h:10
+msgid "Light"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:9
+msgid "Fuse Melt"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:10
+msgid "Fuse Auto"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:11
+msgid "Fixed Generic Device"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:12
+msgid "Fixed Furnace"
+msgstr ""
+
 #: ../sheets/electronic.sheet.in.h:1
 msgid "Electronic"
 msgstr ""
@@ -1316,10 +1365,6 @@ msgstr ""
 msgid "Shape"
 msgstr ""
 
-#: ../sheets/scenegraph.sheet.in.h:10
-msgid "Light"
-msgstr ""
-
 #: ../sheets/scenegraph.sheet.in.h:11
 msgid "Manipulator"
 msgstr ""
@@ -1394,4 +1439,56 @@ msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:8
 msgid "Sequenced Pull"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:9
+msgid "Inventory"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:10
+msgid "Push"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:11
+msgid "Air Transport"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:12
+msgid "Electronic Information Right"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:13
+msgid "Glasses"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:14
+msgid "Kanban Minimum and Maximum"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:15
+msgid "Kanban Post"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:16
+msgid "Kanban Production"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:17
+msgid "Kanban Withdrawal"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:18
+msgid "Material Pull"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:19
+msgid "Rail Transport"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:20
+msgid "Supplier or Customer"
+msgstr ""
+
+#: ../sheets/value_stream_mapping.sheet.in.h:21
+msgid "Working Cell Unit"
 msgstr ""
