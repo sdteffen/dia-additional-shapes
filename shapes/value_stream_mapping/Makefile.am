@@ -4,6 +4,8 @@ shapedir = $(datadir)/dia/shapes
 value_stream_mappingdir = $(shapedir)/value_stream_mapping
 
 SHAPES = \
+	air_transport.png \
+	air_transport.shape \
 	happy_face.png \
 	happy_face.shape 
 

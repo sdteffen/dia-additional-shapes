@@ -10,7 +10,7 @@ AC_CONFIG_FILES([Makefile samples/Makefile shapes/Makefile \
 	shapes/building_site/Makefile shapes/central_data_processing/Makefile \
 	shapes/CH-1/Makefile shapes/chemistry_lab/Makefile \
 	shapes/Circuit2/Makefile shapes/CMOS/Makefile shapes/digital/Makefile \
-	shapes/edpc/Makefile shapes\Electrical/Makefile \
+	shapes/edpc/Makefile shapes/Electrical/Makefile \
 	shapes/electric2/Makefile shapes/electronic/Makefile \
 	shapes/gradient/Makefile shapes/LST/Makefile shapes/Optics/Makefile \
 	shapes/Racks/Makefile \
