@@ -9,7 +9,6 @@
     <point x="8.87637" y="0.5"/>
     <point x="8.87637" y="4.5553" main="yes"/>
   </connections>
-  <aspectratio type="fixed"/>
   <svg:svg>
     <svg:line x1="8.00131" y1="1.99759" x2="8.00131" y2="3.59759"/>
     <svg:line x1="9.59869" y1="3.59759" x2="9.59869" y2="1.99759"/>

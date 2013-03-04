@@ -3,28 +3,14 @@
   <name>Value Stream Mapping - Electronic Information Right</name>
   <icon>electronic_information_right.png</icon>
   <connections>
-    <point x="3" y="7"/>
-    <point x="7.5" y="7"/>
-    <point x="5.25" y="7"/>
-    <point x="7.5" y="7"/>
-    <point x="5.5" y="6.5"/>
-    <point x="6.5" y="6.75"/>
-    <point x="5.5" y="6.5"/>
-    <point x="10.5" y="6.5"/>
-    <point x="8" y="6.5"/>
-    <point x="10.5" y="6.50312"/>
-    <point x="9.7" y="6.12"/>
-    <point x="10.1" y="6.31156"/>
-    <point x="10.5" y="6.49375"/>
-    <point x="9.7" y="6.89375"/>
-    <point x="10.1" y="6.69375"/>
+   <point x="3" y="7"/>
+   <point x="10.5" y="6.5" main="yes"/>
   </connections>
-  <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="3" y1="7" x2="7.5" y2="7"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="7.5" y1="7" x2="5.5" y2="6.5"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="5.5" y1="6.5" x2="10.5" y2="6.5"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="10.5" y1="6.50312" x2="9.7" y2="6.12"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="10.5" y1="6.49375" x2="9.7" y2="6.89375"/>
+    <svg:line x1="3" y1="7" x2="7.5" y2="7"/>
+    <svg:line x1="7.5" y1="7" x2="5.5" y2="6.5"/>
+    <svg:line x1="5.5" y1="6.5" x2="10.5" y2="6.5"/>
+    <svg:line x1="10.5" y1="6.5" x2="9.7" y2="6.12"/>
+    <svg:line x1="10.5" y1="6.5" x2="9.7" y2="6.89375"/>
   </svg:svg>
 </shape>
