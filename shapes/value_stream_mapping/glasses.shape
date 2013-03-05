@@ -3,34 +3,17 @@
   <name>Value Stream Mapping - Glasses</name>
   <icon>glasses.png</icon>
   <connections>
-    <point x="-44" y="2.7"/>
-    <point x="-43" y="1.8"/>
-    <point x="-43.5" y="2.25"/>
-    <point x="-43.7" y="3"/>
-    <point x="-43.7" y="2.4"/>
-    <point x="-44" y="2.7"/>
-    <point x="-43.4" y="2.7"/>
-    <point x="-42.5" y="3"/>
-    <point x="-42.5" y="2.4"/>
-    <point x="-42.8" y="2.7"/>
-    <point x="-42.2" y="2.7"/>
-    <point x="-43.4" y="2.6"/>
-    <point x="-42.8" y="2.6"/>
-    <point x="-43.1" y="2.6"/>
-    <point x="-42.2" y="2.7"/>
-    <point x="-41.5" y="1.9"/>
-    <point x="-41.85" y="2.3"/>
+     <point x="-43.1" y="2.6" nain="yes"/>
   </connections>
-  <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-44" y1="2.7" x2="-43" y2="1.8"/>
-    <svg:ellipse style="fill: #ffffff" cx="-43.7" cy="2.7" rx="0.3" ry="0.3"/>
-    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="-43.7" cy="2.7" rx="0.3" ry="0.3"/>
-    <svg:ellipse style="fill: #ffffff" cx="-42.5" cy="2.7" rx="0.3" ry="0.3"/>
-    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="-42.5" cy="2.7" rx="0.3" ry="0.3"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-43.4" y1="2.6" x2="-42.8" y2="2.6"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-42.2" y1="2.7" x2="-41.5" y2="1.9"/>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M -42.4,2 A 0.35,0.35 0 0 0 -43,1.8"/>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M -40.9,2.1 A 0.35,0.35 0 0 0 -41.5,1.9"/>
+    <svg:line x1="-44" y1="2.7" x2="-43" y2="1.8"/>
+    <svg:ellipse style="fill: background;" cx="-43.7" cy="2.7" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: background;" cx="-43.7" cy="2.7" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: background" cx="-42.5" cy="2.7" rx="0.3" ry="0.3"/>
+    <svg:ellipse style="fill: background" cx="-42.5" cy="2.7" rx="0.3" ry="0.3"/>
+    <svg:line x1="-43.4" y1="2.6" x2="-42.8" y2="2.6"/>
+    <svg:line x1="-42.2" y1="2.7" x2="-41.5" y2="1.9"/>
+    <svg:path d="M -42.4,2 A 0.35,0.35 0 0 0 -43,1.8"/>
+    <svg:path d="M -40.9,2.1 A 0.35,0.35 0 0 0 -41.5,1.9"/>
   </svg:svg>
 </shape>

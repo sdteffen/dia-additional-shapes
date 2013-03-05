@@ -8,14 +8,11 @@
     <point x="-40" y="3"/>
     <point x="-40" y="4.5"/>
     <point x="-39.5" y="3.75"/>
-    <point x="-40" y="4.2"/>
     <point x="-40" y="3.6"/>
-    <point x="-40" y="3.9"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:polygon style="fill: #ffffff" points="-41,4.5 -39,4.5 -40,3 "/>
-    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="-41,4.5 -39,4.5 -40,3 "/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-40" y1="4.2" x2="-40" y2="3.6"/>
+    <svg:polygon style="fill: background" points="-41,4.5 -39,4.5 -40,3 "/>
+    <svg:line x1="-40" y1="4.2" x2="-40" y2="3.6"/>
   </svg:svg>
 </shape>

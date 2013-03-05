@@ -24,3 +24,7 @@ value_stream_mapping-zip: $(SHAPES) ../../sheets/value_stream_mapping.sheet
 	website/value_stream_mapping/images )
 
 all: value_stream_mapping-zip
+
+test:
+	mkdir -p ~/.dia/shapes/value_stream_mapping
+	cp * ~/.dia/shapes/value_stream_mapping 
