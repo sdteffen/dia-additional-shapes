@@ -4,14 +4,12 @@
   <icon>kanban_min_max.png</icon>
   <connections>
     <point x="-41.6" y="-0.8"/>
-    <point x="-42.2" y="0.8"/>
+    <point x="-42.2" y="0" main="yes"/>
     <point x="-42.8" y="-0.8"/>
-    <point x="-41.9" y="0"/>
-    <point x="-42.5" y="5.55112e-017"/>
+    <point x="-42.2" y="0.8"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:polygon style="fill: #bfbfbf" points="-41.6,-0.8 -42.2,0.8 -42.8,-0.8 "/>
-    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="-41.6,-0.8 -42.2,0.8 -42.8,-0.8 "/>
+    <svg:polygon style="fill: default" points="-41.6,-0.8 -42.2,0.8 -42.8,-0.8 "/>
   </svg:svg>
 </shape>
