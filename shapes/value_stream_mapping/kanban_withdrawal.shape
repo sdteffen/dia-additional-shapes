@@ -3,43 +3,16 @@
   <name>Value Stream Mapping - Kanban Withdrawal</name>
   <icon>kanban_withdrawal.png</icon>
   <connections>
-    <point x="-28.6" y="0.8"/>
-    <point x="-29.9" y="1.5"/>
-    <point x="-29.9" y="2.3"/>
-    <point x="-27.2" y="2.3"/>
-    <point x="-27.2" y="0.8"/>
-    <point x="-29.25" y="1.15"/>
-    <point x="-29.9" y="1.9"/>
-    <point x="-28.55" y="2.3"/>
-    <point x="-27.2" y="1.55"/>
-    <point x="-29.2" y="1.1"/>
-    <point x="-29.2" y="2.3"/>
-    <point x="-29.2" y="1.7"/>
-    <point x="-28.8" y="0.9"/>
-    <point x="-28.8" y="2.3"/>
-    <point x="-28.8" y="1.6"/>
-    <point x="-28.4" y="0.8"/>
-    <point x="-28.4" y="2.3"/>
-    <point x="-28.4" y="1.55"/>
-    <point x="-28" y="0.8"/>
-    <point x="-28" y="2.3"/>
-    <point x="-28" y="1.55"/>
-    <point x="-27.6" y="0.8"/>
-    <point x="-27.6" y="2.3"/>
-    <point x="-27.6" y="1.55"/>
-    <point x="-29.6" y="1.35"/>
-    <point x="-29.6" y="2.3"/>
-    <point x="-29.6" y="1.825"/>
+    <point x="-28.55" y="1.55" main="yes"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:polygon style="fill: #bfbfbf" points="-28.6,0.8 -29.9,1.5 -29.9,2.3 -27.2,2.3 -27.2,0.8 "/>
-    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="-28.6,0.8 -29.9,1.5 -29.9,2.3 -27.2,2.3 -27.2,0.8 "/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-29.2" y1="1.1" x2="-29.2" y2="2.3"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-28.8" y1="0.9" x2="-28.8" y2="2.3"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-28.4" y1="0.8" x2="-28.4" y2="2.3"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-28" y1="0.8" x2="-28" y2="2.3"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-27.6" y1="0.8" x2="-27.6" y2="2.3"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-29.6" y1="1.35" x2="-29.6" y2="2.3"/>
+    <svg:polygon style="fill: default" points="-28.6,0.8 -29.9,1.5 -29.9,2.3 -27.2,2.3 -27.2,0.8 "/>
+    <svg:line x1="-29.2" y1="1.1" x2="-29.2" y2="2.3"/>
+    <svg:line x1="-28.8" y1="0.9" x2="-28.8" y2="2.3"/>
+    <svg:line x1="-28.4" y1="0.8" x2="-28.4" y2="2.3"/>
+    <svg:line x1="-28" y1="0.8" x2="-28" y2="2.3"/>
+    <svg:line x1="-27.6" y1="0.8" x2="-27.6" y2="2.3"/>
+    <svg:line x1="-29.6" y1="1.35" x2="-29.6" y2="2.3"/>
   </svg:svg>
 </shape>

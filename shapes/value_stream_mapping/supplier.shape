@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
   <name>Value Stream Mapping - Supplier or Customer</name>
-  <icon>customer.png</icon>
+  <icon>supplier.png</icon>
   <connections>
     <point x="-45.5" y="-2.5"/>
     <point x="-45.5" y="1"/>

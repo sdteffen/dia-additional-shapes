@@ -3,19 +3,10 @@
   <name>Value Stream Mapping - Kanban Production</name>
   <icon>kanban_production.png</icon>
   <connections>
-    <point x="-29.3" y="0.4"/>
-    <point x="-30.6" y="1.1"/>
-    <point x="-30.6" y="1.9"/>
-    <point x="-27.9" y="1.9"/>
-    <point x="-27.9" y="0.4"/>
-    <point x="-29.95" y="0.75"/>
-    <point x="-30.6" y="1.5"/>
-    <point x="-29.25" y="1.9"/>
-    <point x="-27.9" y="1.15"/>
+    <point x="-29.3" y="1.1" main="yes"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:polygon style="fill: #ffffff" points="-29.3,0.4 -30.6,1.1 -30.6,1.9 -27.9,1.9 -27.9,0.4 "/>
-    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="-29.3,0.4 -30.6,1.1 -30.6,1.9 -27.9,1.9 -27.9,0.4 "/>
+    <svg:polygon style="fill:default" points="-29.3,0.4 -30.6,1.1 -30.6,1.9 -27.9,1.9 -27.9,0.4 "/>
   </svg:svg>
 </shape>
