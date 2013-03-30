@@ -6,10 +6,36 @@ value_stream_mappingdir = $(shapedir)/value_stream_mapping
 SHAPES = \
 	air_transport.png \
 	air_transport.shape \
+	electronic_information_right.png \
+	electronic_information_right.shape \
+	glasses.png \
+	glasses.shape \
 	happy_face.png \
-	happy_face.shape 
+	happy_face.shape \
+	Inventory.png \
+	Inventory.shape \
+	kanban_min_max.png \
+	kanban_min_max.shape \
+	kanban_post.png \
+	kanban_post.shape \
+	kanban_production.png \
+	kanban_production.shape \
+	kanban_withdrawal.png \
+	kanban_withdrawal.shape \
+	material_pull.png \
+	material_pull.shape \
+	Push.png \
+	Push.shape \
+	rail_transport.png \
+	rail_transport.shape \
+	storage.png \
+	storage.shape \
+	supplier.png \
+	supplier.shape \
+	working_cell_unit.png \
+	working_cell_unit.shape
 
-EXTRA_DIST = $(SHAPES)
+EXTRA_DIST = $(SHAPES) rail_transport.dia
 
 value_stream_mapping_DATA = $(SHAPES)
 

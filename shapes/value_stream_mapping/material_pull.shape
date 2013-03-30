@@ -3,16 +3,11 @@
   <name>Value Stream Mapping - Material Pull</name>
   <icon>material_pull.png</icon>
   <connections>
-    <point x="18.5955" y="14.0528"/>
-    <point x="18.6007" y="13.3457"/>
-    <point x="17.8936" y="13.3405"/>
-    <point x="18.5981" y="13.6992"/>
-    <point x="18.2472" y="13.3431"/>
+    <point x="18.6007" y="13.3457" main="yes"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.7; stroke: #000000" d="M 19,10.5 A 1.94163,1.94163 0 1 0 18.181,13.5305"/>
-    <svg:polygon style="fill: #000000" points="18.5955,14.0528 18.6007,13.3457 17.8936,13.3405 "/>
-    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.7; stroke: #000000" points="18.5955,14.0528 18.6007,13.3457 17.8936,13.3405 "/>
+    <svg:path d="M 19,10.5 A 1.94163,1.94163 0 1 0 18.181,13.5305"/>
+    <svg:polygon style="fill: foreground" points="18.5955,14.0528 18.6007,13.3457 17.8936,13.3405 "/>
   </svg:svg>
 </shape>
