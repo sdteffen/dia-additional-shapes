@@ -35,7 +35,11 @@ SHAPES = \
 	working_cell_unit.png \
 	working_cell_unit.shape
 
-EXTRA_DIST = $(SHAPES) rail_transport.dia
+DIAGRAMS = 
+	rail_transport.dia \
+	storage.dia	   
+
+EXTRA_DIST = $(SHAPES) $(DIAGRAMS)
 
 value_stream_mapping_DATA = $(SHAPES)
 
