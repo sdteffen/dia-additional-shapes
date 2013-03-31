@@ -2,67 +2,14 @@
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
   <name>Value Stream Mapping - Push</name>
   <icon>Push.png</icon>
-  <connections>
-    <point x="-41" y="3"/>
-    <point x="-37" y="3"/>
-    <point x="-39" y="3"/>
-    <point x="-41" y="4"/>
-    <point x="-37" y="4"/>
-    <point x="-39" y="4"/>
-    <point x="-41" y="3"/>
-    <point x="-41" y="4"/>
-    <point x="-41" y="3.5"/>
-    <point x="-37" y="3"/>
-    <point x="-37" y="2.6"/>
-    <point x="-37" y="2.8"/>
-    <point x="-37" y="4"/>
-    <point x="-37" y="4.4"/>
-    <point x="-37" y="4.2"/>
-    <point x="-37" y="2.6"/>
-    <point x="-35.5" y="3.5"/>
-    <point x="-36.25" y="3.05"/>
-    <point x="-37" y="4.4"/>
-    <point x="-35.5" y="3.5"/>
-    <point x="-36.25" y="3.95"/>
-    <point x="-40.4" y="3"/>
-    <point x="-39.9" y="4"/>
-    <point x="-40.4" y="4"/>
-    <point x="-40.4" y="3.5"/>
-    <point x="-39.9" y="3"/>
-    <point x="-39.9" y="3.5"/>
-    <point x="-40.15" y="4"/>
-    <point x="-40.15" y="3"/>
-    <point x="-39.2" y="3"/>
-    <point x="-38.7" y="4"/>
-    <point x="-39.2" y="4"/>
-    <point x="-39.2" y="3.5"/>
-    <point x="-38.7" y="3"/>
-    <point x="-38.7" y="3.5"/>
-    <point x="-38.95" y="4"/>
-    <point x="-38.95" y="3"/>
-    <point x="-38" y="3"/>
-    <point x="-37.5" y="4"/>
-    <point x="-38" y="4"/>
-    <point x="-38" y="3.5"/>
-    <point x="-37.5" y="3"/>
-    <point x="-37.5" y="3.5"/>
-    <point x="-37.75" y="4"/>
-    <point x="-37.75" y="3"/>
-  </connections>
-  <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-41" y1="3" x2="-37" y2="3"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-41" y1="4" x2="-37" y2="4"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-41" y1="3" x2="-41" y2="4"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-37" y1="3" x2="-37" y2="2.6"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-37" y1="4" x2="-37" y2="4.4"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-37" y1="2.6" x2="-35.5" y2="3.5"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="-37" y1="4.4" x2="-35.5" y2="3.5"/>
-    <svg:rect style="fill: #000000" x="-40.4" y="3" width="0.5" height="1"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="-40.4" y="3" width="0.5" height="1"/>
-    <svg:rect style="fill: #000000" x="-39.2" y="3" width="0.5" height="1"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="-39.2" y="3" width="0.5" height="1"/>
-    <svg:rect style="fill: #000000" x="-38" y="3" width="0.5" height="1"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="-38" y="3" width="0.5" height="1"/>
+    <svg:polygon style="fill: default" points="-41,3 -37,3 -37,2.5 -35.5,3.5 -37,4.5 -37,4 -41,4 "/>
+    <svg:rect style="fill: foreground" x="-40.4" y="3" width="0.5" height="1"/>
+    <svg:rect style="fill: foreground" x="-39.2" y="3" width="0.5" height="1"/>
+    <svg:rect style="fill: foreground" x="-38" y="3" width="0.5" height="1"/>
   </svg:svg>
+  <connections>
+    <point x="-41" y="3.5"/>
+    <point x="-35.5" y="3.5" main="yes"/>
+  </connections>
 </shape>
