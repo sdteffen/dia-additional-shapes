@@ -2,35 +2,14 @@
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
   <name>Value Stream Mapping - Working Cell Unit</name>
   <icon>working_cell_unit.png</icon>
-  <connections>
-    <point x="18" y="12"/>
-    <point x="18" y="8"/>
-    <point x="18" y="10"/>
-    <point x="27" y="12"/>
-    <point x="27" y="8"/>
-    <point x="27" y="10"/>
-    <point x="18" y="8"/>
-    <point x="20" y="8"/>
-    <point x="19" y="8"/>
-    <point x="27" y="8"/>
-    <point x="25" y="8"/>
-    <point x="26" y="8"/>
-    <point x="20" y="8"/>
-    <point x="20" y="12"/>
-    <point x="20" y="10"/>
-    <point x="25" y="8"/>
-    <point x="25" y="12"/>
-    <point x="25" y="10"/>
-  </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 18,12 A 4.525,4.525 0 1 0 27,12"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18" y1="12" x2="18" y2="8"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="27" y1="12" x2="27" y2="8"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="18" y1="8" x2="20" y2="8"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="27" y1="8" x2="25" y2="8"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="20" y1="8" x2="20" y2="12"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="25" y1="8" x2="25" y2="12"/>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" d="M 20,12 A 2.54167,2.54167 0 1 0 25,12"/>
+    <svg:path style="fill: default" d="M 39 24 C 41,24 45.5,24 46,24 C 46,27 46,37 46,38 C 46,39 48,46 55,46 C 62,46 63,39 63,38 C 63,36 63,28 63,24 C 67.5,24 69,24 70,24 C 70,26 70,35 70,39 C 70,48 63,53 55,53 C 47,53 39,48 39,39 C 39,37 39,27 39,24z"/>
   </svg:svg>
+  <connections>
+    <point x="54.9318" y="49.2399" main="yes"/>
+    <point x="42.5687" y="24.0245"/>
+    <point x="66.575" y="23.9892"/>
+    <point x="54.9431" y="52.9805"/>
+  </connections>
 </shape>

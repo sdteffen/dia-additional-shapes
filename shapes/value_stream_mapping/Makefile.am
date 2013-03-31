@@ -37,7 +37,8 @@ SHAPES = \
 
 DIAGRAMS = 
 	rail_transport.dia \
-	storage.dia	   
+	storage.dia \
+	working_cell_unit.dia   
 
 EXTRA_DIST = $(SHAPES) $(DIAGRAMS)
 
