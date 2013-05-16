@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-03 17:16+0100\n"
+"POT-Creation-Date: 2013-05-16 18:03+0200\n"
 "PO-Revision-Date: 2012-05-16 09:28+0000\n"
 "Last-Translator: vladi <vzaimov@yahoo.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
@@ -755,43 +755,346 @@ msgid "Electricity symbols for floor plans (based on Belgium regulations)"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:3
-msgid "4 Way Switch - 1 Pole"
+msgid "Switch - 1 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:4
-msgid "4 Way Switch - 2 Pole"
+msgid "Schakelaar - Eenpolig"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:5
-msgid "4 Way Switch - 4 Pole"
+msgid "Switch - 2 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:6
-msgid "Socket"
+msgid "Switch - 3 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:7
-msgid "Socket Grounded"
+msgid "Switch - 4 Pole"
 msgstr ""
 
-#: ../sheets/Electrical.sheet.in.h:8 ../sheets/scenegraph.sheet.in.h:10
-msgid "Light"
-msgstr "Светлина"
+#: ../sheets/Electrical.sheet.in.h:8
+msgid "Dual Switch - 1 Pole"
+msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:9
-msgid "Fuse Melt"
+msgid "Dual Switch - 2 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:10
-msgid "Fuse Auto"
+msgid "Dual Switch - 3 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:11
-msgid "Fixed Generic Device"
+msgid "Dual Switch - 4 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:12
+msgid "2 Way Switch - 1 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:13
+msgid "2 Way Switch - 2 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:14
+msgid "2 Way Switch - 3 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:15
+msgid "2 Way Switch - 4 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:16
+msgid "4 Way Switch - 1 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:17
+msgid "4 Way Switch - 2 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:18
+msgid "4 Way Switch - 4 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:19
+msgid "Switch - Light"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:20
+msgid "Socket (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:21
+msgid "Socket (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:22
+#, fuzzy
+msgid "Socket (Vertical)"
+msgstr "Ограда (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:23
+msgid "Socket grounded (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:24
+msgid "Socket grounded (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:25
+#, fuzzy
+msgid "Socket grounded (Vertical)"
+msgstr "Ограда (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:26
+msgid "Socket child-proof (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:27
+msgid "Socket child-proof (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:28
+msgid "Socket child-proof (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:29
+msgid "Socket grounded child-proof (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:30
+msgid "Socket grounded child-proof (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:31
+msgid "Socket grounded child-proof (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:32 ../sheets/scenegraph.sheet.in.h:10
+msgid "Light"
+msgstr "Светлина"
+
+#: ../sheets/Electrical.sheet.in.h:33
+msgid "Bel (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:34
+msgid "Bel (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:35
+#, fuzzy
+msgid "Bel (Vertical)"
+msgstr "Стена (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:36
+msgid "Buzzer (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:37
+msgid "Buzzer (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:38
+#, fuzzy
+msgid "Buzzer (Vertical)"
+msgstr "Ограда (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:39
+#, fuzzy
+msgid "Fuse Melt (Vertical)"
+msgstr "Ограда (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:40
+#, fuzzy
+msgid "Fuse Melt (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/Electrical.sheet.in.h:41
+#, fuzzy
+msgid "Fuse Auto (Vertical)"
+msgstr "Ограда (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:42
+#, fuzzy
+msgid "Fuse Auto (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/Electrical.sheet.in.h:43
+msgid "Fixed Generic Device"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:44
 msgid "Fixed Furnace"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:45
+msgid "Grounding Strip (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:46
+msgid "Dispatch Box"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:47
+#, fuzzy
+msgid "Dispatch Panel (Horizontal)"
+msgstr "Стена (хоризонтлна)"
+
+#: ../sheets/Electrical.sheet.in.h:48
+#, fuzzy
+msgid "Grounding ↓"
+msgstr "Земя"
+
+#: ../sheets/Electrical.sheet.in.h:49
+#, fuzzy
+msgid "Direct Current (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/Electrical.sheet.in.h:50
+#, fuzzy
+msgid "Alternating Current (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/Electrical.sheet.in.h:51
+msgid "Alternating Current - 3 Phase (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:52
+msgid "Alternating Current - 1 Phase (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:53
+#, fuzzy
+msgid "Direct Current (Vertical)"
+msgstr "Ограда (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:54
+msgid "Alternating Current (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:55
+msgid "Alternating Current - 1 Phase (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:56
+msgid "Alternating Current - 3 Phase (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:57
+#, fuzzy
+msgid "Carrier underground (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/Electrical.sheet.in.h:58
+#, fuzzy
+msgid "Carrier in wall (Horizontal)"
+msgstr "Стена (хоризонтлна)"
+
+#: ../sheets/Electrical.sheet.in.h:59
+#, fuzzy
+msgid "Carrier on wall (Horizontal)"
+msgstr "Стена (хоризонтлна)"
+
+#: ../sheets/Electrical.sheet.in.h:60
+#, fuzzy
+msgid "Carrier in tube (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/Electrical.sheet.in.h:61
+msgid "Carrier in air"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:62
+msgid "Carrier underground (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:63
+#, fuzzy
+msgid "Carrier on wall (Vertical)"
+msgstr "Стена (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:64
+#, fuzzy
+msgid "Carrier in wall (Vertical)"
+msgstr "Стена (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:65
+#, fuzzy
+msgid "Carrier in tube (Vertical)"
+msgstr "Ограда (вертикална)"
+
+#: ../sheets/Electrical.sheet.in.h:66
+#, fuzzy
+msgid "Carrier: 1 wire (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/Electrical.sheet.in.h:67
+msgid "Carrier: 2 wires (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:68
+msgid "Carrier: 3 wires (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:69
+msgid "Carrier: n wires (set font to 12pt - Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:70
+msgid "Carrier: 1 wire (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:71
+msgid "Carrier: 2 wires (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:72
+msgid "Carrier: 3 wires (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:73
+msgid "Carrier: n wires (set font to 12pt- Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:74
+#, fuzzy
+msgid "Carriers 1 (Horizontal)"
+msgstr "Път (хоризонтален)"
+
+#: ../sheets/Electrical.sheet.in.h:75
+#, fuzzy
+msgid "Carriers 2 (Horizontal)"
+msgstr "Път (хоризонтален)"
+
+#: ../sheets/Electrical.sheet.in.h:76
+#, fuzzy
+msgid "Carriers 3 (Horizontal)"
+msgstr "Път (хоризонтален)"
+
+#: ../sheets/Electrical.sheet.in.h:77
+msgid "Carriers n (set font to 12pt - Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:78
+#, fuzzy
+msgid "Carriers 1 (Vertical)"
+msgstr "Път (вертикален)"
+
+#: ../sheets/Electrical.sheet.in.h:79
+#, fuzzy
+msgid "Carriers 2 (Vertical)"
+msgstr "Път (вертикален)"
+
+#: ../sheets/Electrical.sheet.in.h:80
+#, fuzzy
+msgid "Carriers 3 (Vertical)"
+msgstr "Път (вертикален)"
+
+#: ../sheets/Electrical.sheet.in.h:81
+msgid "Carriers n (set font to 12pt- Vertical)"
 msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:1

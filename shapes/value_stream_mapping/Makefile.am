@@ -36,7 +36,7 @@ SHAPES = \
 	working_cell_unit.shape
 
 DIAGRAMS = \
-	Push.dia \ 
+	Push.dia \
 	rail_transport.dia \
 	storage.dia \
 	working_cell_unit.dia   

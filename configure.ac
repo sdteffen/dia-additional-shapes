@@ -1,4 +1,4 @@
-AC_INIT([dia-shapes],[0.3.0],[sdteffen@sdteffen.de])
+AC_INIT([dia-shapes],[0.4.0],[sdteffen@sdteffen.de])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign dist-xz])
 IT_PROG_INTLTOOL([0.35.0])
 GETTEXT_PACKAGE=dia-shapes
