@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+	<name>Electrical - SocketGround v</name>
+	<icon>socketground_v.png</icon>
+	<connections>
+		<point y="0.1"     x="0" main="yes"/>
+	</connections>
+	<aspectratio type="fixed"/>
+	<default-width>1cm</default-width>
+	<default-height>1cm</default-height>
+	<textbox x1="0.3" y1="-0.15" x2="0.3" y2="-0.15" align="left" resize="no"/>
+	<svg:svg>
+		<svg:g style="stroke-linecap: round">
+			<svg:line y1="0.1" x1="0"   y2="0"  x2="0" />
+			<svg:line y1="0"    x1="0.3" y2="0"  x2="-0.3" />
+			<svg:path d="M -0.3,-0.3   A 0.3 0.3 1 0 0 0.3,-0.3"/>
+		</svg:g>
+		<!-- Filler to keep snapping sane and consistent -->
+		<svg:g style="stroke: none; fill: none">
+			<svg:line x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
+			<svg:line x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
+		</svg:g>
+	</svg:svg>
+</shape>

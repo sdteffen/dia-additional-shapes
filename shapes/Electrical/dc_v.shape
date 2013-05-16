@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+	<name>Electrical - DC v</name>
+	<icon>dc_v.png</icon>
+	<aspectratio type="fixed"/>
+	<default-width>0.5cm</default-width>
+	<default-height>1cm</default-height>
+	<svg:svg>
+		<svg:polygon style="stroke-linecap: round; fill:default; stroke-linejoin: round" points="0.01,-0.3 0.01,0.3 -0.01,0.3 -0.01,-0.3"/>
+		<!-- Filler to keep snapping sane and consistent -->
+		<svg:g style="stroke: none; fill: none">
+			<svg:line style="stroke: none; fill: none" x1="-0.25" y1="-0.5" x2="-0.25" y2="-0.5"/>
+			<svg:line style="stroke: none; fill: none" x1="0.25"  y1="0.5"  x2="0.25"  y2="0.5" />
+		</svg:g>
+	</svg:svg>
+</shape>
+

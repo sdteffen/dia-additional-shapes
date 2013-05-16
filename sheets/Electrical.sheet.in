@@ -4,15 +4,102 @@
 <_name>Electrical</_name>
 <_description>Electricity symbols for floor plans (based on Belgium regulations)</_description>
 <contents>
+	<object name="Electrical - S1p">
+		<_description>Switch - 1 Pole</_description>
+		<_description xml:lang="nl">Schakelaar - Eenpolig</_description>
+	</object>
+	<object name="Electrical - S2p"><_description>Switch - 2 Pole</_description></object>
+	<object name="Electrical - S3p"><_description>Switch - 3 Pole</_description></object>
+	<object name="Electrical - S4p"><_description>Switch - 4 Pole</_description></object>
+
+	<object name="Electrical - Sd1p"><_description>Dual Switch - 1 Pole</_description></object>
+	<object name="Electrical - Sd2p"><_description>Dual Switch - 2 Pole</_description></object>
+	<object name="Electrical - Sd3p"><_description>Dual Switch - 3 Pole</_description></object>
+	<object name="Electrical - Sd4p"><_description>Dual Switch - 4 Pole</_description></object>
+
+	<object name="Electrical - Sy1p"><_description>2 Way Switch - 1 Pole</_description></object>
+	<object name="Electrical - Sy2p"><_description>2 Way Switch - 2 Pole</_description></object>
+	<object name="Electrical - Sy3p"><_description>2 Way Switch - 3 Pole</_description></object>
+	<object name="Electrical - Sy4p"><_description>2 Way Switch - 4 Pole</_description></object>
+
 	<object name="Electrical - Sx1p"><_description>4 Way Switch - 1 Pole</_description></object>
 	<object name="Electrical - Sx2p"><_description>4 Way Switch - 2 Pole</_description></object>
 	<object name="Electrical - Sx4p"><_description>4 Way Switch - 4 Pole</_description></object>
-	<object name="Electrical - Socket"><_description>Socket</_description></object>
-	<object name="Electrical - SocketGround"><_description>Socket Grounded</_description></object>
+	<object name="Electrical - Switch Light"><_description>Switch - Light</_description></object>
+
+	<object name="Electrical - Socket r"><_description>Socket (Right facing)</_description></object>
+	<object name="Electrical - Socket l"><_description>Socket (Left facing)</_description></object>
+	<object name="Electrical - Socket v"><_description>Socket (Vertical)</_description></object>
+	<object name="Electrical - SocketGround r"><_description>Socket grounded (Right facing)</_description></object>
+	<object name="Electrical - SocketGround l"><_description>Socket grounded (Left facing)</_description></object>
+	<object name="Electrical - SocketGround v"><_description>Socket grounded (Vertical)</_description></object>
+	<object name="Electrical - SocketChild r"><_description>Socket child-proof (Right facing)</_description></object>
+	<object name="Electrical - SocketChild l"><_description>Socket child-proof (Left facing)</_description></object>
+	<object name="Electrical - SocketChild v"><_description>Socket child-proof (Vertical)</_description></object>
+	<object name="Electrical - SocketGroundChild r"><_description>Socket grounded child-proof (Right facing)</_description></object>
+	<object name="Electrical - SocketGroundChild l"><_description>Socket grounded child-proof (Left facing)</_description></object>
+	<object name="Electrical - SocketGroundChild v"><_description>Socket grounded child-proof (Vertical)</_description></object>
+
 	<object name="Electrical - Light"><_description>Light</_description></object>
-	<object name="Electrical - Fuse Melt"><_description>Fuse Melt</_description></object>
-	<object name="Electrical - Fuse Auto"><_description>Fuse Auto</_description></object>
+	<object name="Electrical - Bel r"><_description>Bel (Right facing)</_description></object>
+	<object name="Electrical - Bel l"><_description>Bel (Left facing)</_description></object>
+	<object name="Electrical - Bel v"><_description>Bel (Vertical)</_description></object>
+	<object name="Electrical - Buzzer r"><_description>Buzzer (Right facing)</_description></object>
+	<object name="Electrical - Buzzer l"><_description>Buzzer (Left facing)</_description></object>
+	<object name="Electrical - Buzzer v"><_description>Buzzer (Vertical)</_description></object>
+
+	<object name="Electrical - Fuse Melt v"><_description>Fuse Melt (Vertical)</_description></object>
+	<object name="Electrical - Fuse Melt h"><_description>Fuse Melt (Horizontal)</_description></object>
+	<object name="Electrical - Fuse Auto v"><_description>Fuse Auto (Vertical)</_description></object>
+	<object name="Electrical - Fuse Auto h"><_description>Fuse Auto (Horizontal)</_description></object>
+
 	<object name="Electrical - Device"><_description>Fixed Generic Device</_description></object>
 	<object name="Electrical - Device Furnace"><_description>Fixed Furnace</_description></object>
+
+	<object name="Electrical - Grounding Strip v"><_description>Grounding Strip (Vertical)</_description></object>
+	<object name="Electrical - Dispatch Box"><_description>Dispatch Box</_description></object>
+	<object name="Electrical - Dispatch Panel h"><_description>Dispatch Panel (Horizontal)</_description></object>
+
+	<object name="Electrical - Grounding d"><_description>Grounding ↓</_description></object>
+	<object name="Electrical - DC h"><_description>Direct Current (Horizontal)</_description></object>
+	<object name="Electrical - AC h"><_description>Alternating Current (Horizontal)</_description></object>
+	<object name="Electrical - AC3 h"><_description>Alternating Current - 3 Phase (Horizontal)</_description></object>
+	<object name="Electrical - AC1 h"><_description>Alternating Current - 1 Phase (Horizontal)</_description></object>
+	<object name="Electrical - DC v"><_description>Direct Current (Vertical)</_description></object>
+	<object name="Electrical - AC v"><_description>Alternating Current (Vertical)</_description></object>
+	<object name="Electrical - AC1 v"><_description>Alternating Current - 1 Phase (Vertical)</_description></object>
+	<object name="Electrical - AC3 v"><_description>Alternating Current - 3 Phase (Vertical)</_description></object>
+
+	<object name="Electrical - In ground h"><_description>Carrier underground (Horizontal)</_description></object>
+	<object name="Electrical - In wall h"><_description>Carrier in wall (Horizontal)</_description></object>
+	<object name="Electrical - On wall h"><_description>Carrier on wall (Horizontal)</_description></object>
+	<object name="Electrical - In tube h"><_description>Carrier in tube (Horizontal)</_description></object>
+
+	<object name="Electrical - In air"><_description>Carrier in air</_description></object>
+
+	<object name="Electrical - In ground v"><_description>Carrier underground (Vertical)</_description></object>
+	<object name="Electrical - On wall v"><_description>Carrier on wall (Vertical)</_description></object>
+	<object name="Electrical - In wall v"><_description>Carrier in wall (Vertical)</_description></object>
+	<object name="Electrical - In tube v"><_description>Carrier in tube (Vertical)</_description></object>
+
+	<object name="Electrical - 1 wire h"><_description>Carrier: 1 wire (Horizontal)</_description></object>
+	<object name="Electrical - 2 wire h"><_description>Carrier: 2 wires (Horizontal)</_description></object>
+	<object name="Electrical - 3 wire h"><_description>Carrier: 3 wires (Horizontal)</_description></object>
+	<object name="Electrical - n wire h"><_description>Carrier: n wires (set font to 12pt - Horizontal)</_description></object>
+
+	<object name="Electrical - 1 wire v"><_description>Carrier: 1 wire (Vertical)</_description></object>
+	<object name="Electrical - 2 wire v"><_description>Carrier: 2 wires (Vertical)</_description></object>
+	<object name="Electrical - 3 wire v"><_description>Carrier: 3 wires (Vertical)</_description></object>
+	<object name="Electrical - n wire v"><_description>Carrier: n wires (set font to 12pt- Vertical)</_description></object>
+
+	<object name="Electrical - 1 carrier h"><_description>Carriers 1 (Horizontal)</_description></object>
+	<object name="Electrical - 2 carriers h"><_description>Carriers 2 (Horizontal)</_description></object>
+	<object name="Electrical - 3 carriers h"><_description>Carriers 3 (Horizontal)</_description></object>
+	<object name="Electrical - n carriers h"><_description>Carriers n (set font to 12pt - Horizontal)</_description></object>
+
+	<object name="Electrical - 1 carrier v"><_description>Carriers 1 (Vertical)</_description></object>
+	<object name="Electrical - 2 carriers v"><_description>Carriers 2 (Vertical)</_description></object>
+	<object name="Electrical - 3 carriers v"><_description>Carriers 3 (Vertical)</_description></object>
+	<object name="Electrical - n carriers v"><_description>Carriers n (set font to 12pt- Vertical)</_description></object>
 </contents>
 </sheet>

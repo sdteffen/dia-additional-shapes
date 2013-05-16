@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+	<name>Electrical - 3 wire v</name>
+	<icon>carrier_3wire_v.png</icon>
+	<aspectratio type="fixed"/>
+	<default-width>1cm</default-width>
+	<default-height>1cm</default-height>
+	<svg:svg>
+		<svg:g style="stroke-linecap: round">
+			<svg:line y1="-0.15"  y2="0.15"  x1="0.25" x2="-0.25" />
+			<svg:line y1="-0.30"  y2="0.00"  x1="0.25" x2="-0.25" />
+			<svg:line y1="0.00"   y2="0.30"  x1="0.25" x2="-0.25" />
+		</svg:g>
+		<!-- filler to keep snapping sane and consistent -->
+		<svg:g style="stroke: none; fill: none">
+			<svg:line x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
+			<svg:line x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
+		</svg:g>
+	</svg:svg>
+</shape>

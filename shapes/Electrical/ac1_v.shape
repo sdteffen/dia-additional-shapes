@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+	<name>Electrical - AC1 v</name>
+	<icon>ac1_v.png</icon>
+	<aspectratio type="fixed"/>
+	<default-width>0.5cm</default-width>
+	<default-height>1cm</default-height>
+	<svg:svg>
+		<svg:path style="stroke-linecap: round" d="M 0,-0.3 C 0.15,-0.20 0.15,-0.10 S -0.15,.20 0,0.3"/>
+		<svg:text style="font-size: 0.4" y="-0.3" x="0.1">1</svg:text>
+		<!-- Filler to keep snapping sane and consistent -->
+		<svg:g style="stroke: none; fill: none">
+			<svg:line x1="-0.25" y1="-0.5" x2="-0.25" y2="-0.5"/>
+			<svg:line x1="0.25"  y1="0.5"  x2="0.25"  y2="0.5" />
+		</svg:g>
+	</svg:svg>
+</shape>
+

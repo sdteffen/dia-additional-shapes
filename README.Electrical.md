@@ -1,5 +1,9 @@
 Dia symbols for electricity in BE (and EU ?)
 ============================================
+Please be noted: These can't be used yet in Dia:
+Place them on a sheet export to SVG, and use them in another program.
+Currently it's impossible to rotate text or shapes, as a result, you cannot create a correct electrical drawing.
+
 Why?
 ----
 I needed it and didn't want to pay for Visio (or anything else).
@@ -16,8 +20,8 @@ Installation
 Place sheets/\* in ~/.dia/sheets.
 Place shapes/electrical\_be in ~/.dia/shapes/.
 ###Windows
-Similar, but don't know the locations.
-(Feel free to tell me where.)
+Place sheets/\* in %HOMEPATH%/.dia/sheets.
+Place shapes/electrical\_be in %HOMEPATH%/.dia/shapes/.
 
 FAQ
 ---
