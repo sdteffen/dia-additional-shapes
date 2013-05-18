@@ -33,8 +33,6 @@ SHAPES = \
 	buzzer_v.shape \
 	carrier_1_h.png \
 	carrier_1_h.shape \
-	carrier_1.png \
-	carrier_1.shape \
 	carrier_1_v.png \
 	carrier_1_v.shape \
 	carrier_1wire_h.png \
@@ -43,18 +41,12 @@ SHAPES = \
 	carrier_1wire_v.shape \
 	carrier_2_h.png \
 	carrier_2_h.shape \
-	carrier_2.png \
-	carrier_2.shape \
 	carrier_2_v.png \
 	carrier_2_v.shape \
 	carrier_2wire_h.png \
 	carrier_2wire_h.shape \
 	carrier_2wire_v.png \
 	carrier_2wire_v.shape \
-	carrier_3_h.png \
-	carrier_3_h.shape \
-	carrier_3.png \
-	carrier_3.shape \
 	carrier_3_v.png \
 	carrier_3_v.shape \
 	carrier_3wire_h.png \
@@ -77,8 +69,6 @@ SHAPES = \
 	carrier_inwall_v.shape \
 	carrier_n_h.png \
 	carrier_n_h.shape \
-	carrier_n.png \
-	carrier_n.shape \
 	carrier_n_v.png \
 	carrier_n_v.shape \
 	carrier_nwire_h.png \
@@ -101,20 +91,14 @@ SHAPES = \
 	dispatch_box.shape \
 	fuseauto_h.png \
 	fuseauto_h.shape \
-	fuseauto.png \
-	fuseauto.shape \
 	fuseauto_v.png \
 	fuseauto_v.shape \
 	fusemelt_h.png \
 	fusemelt_h.shape \
-	fusemelt.png \
-	fusemelt.shape \
 	fusemelt_v.png \
 	fusemelt_v.shape \
 	grounding_d.png \
 	grounding_d.shape \
-	groundingstrip.png \
-	groundingstrip.shape \
 	groundingstrip_v.png \
 	groundingstrip_v.shape \
 	light.png \
@@ -151,17 +135,14 @@ SHAPES = \
 	socketgroundchild_v.shape \
 	socketground_l.png \
 	socketground_l.shape \
-	socketground.png \
 	socketground_r.png \
 	socketground_r.shape \
 	socketground_v.png \
 	socketground_v.shape \
 	socket_l.png \
 	socket_l.shape \
-	socket.png \
 	socket_r.png \
 	socket_r.shape \
-	socket.shape \
 	socket_v.png \
 	socket_v.shape \
 	sx1p.png \
