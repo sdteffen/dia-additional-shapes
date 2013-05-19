@@ -88,6 +88,17 @@ Files: shapes/Automata/startstate.shape, shapes/Automata/istate.png
 Only the nodes in the Transition graph are provided. Use standard Dia arrows to create the transition edges.
 Hint: For best results attach the transition symbol to the corresponding connection arrow.
 
-Created by Faraz Shahbazker (faraz shahbazker gmail com)
+Created by Faconvert sy4p.24.png -alpha on -channel RGBA -fuzz 8% -fill none -draw 'color 0,0 floodfill' sy4p.t.png
+raz Shahbazker (faraz shahbazker gmail com)
 Edited by Minh, Le Ngoc (ngocminh.oss@gmail.com)
+
+Shape processing
+****************
+
+To turn all white pixels in a PNG icon transparent, use ImageMagick:
+
+convert -alpha on -channel RGBA -fuzz 8% -fill none -opaque "#ffffff" \
+	+repage foo.png foo.png 
+
+src/floodfillicon.sh can be used to To floodfill all white areas from the outside.
 

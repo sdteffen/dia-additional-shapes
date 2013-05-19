@@ -47,6 +47,8 @@ SHAPES = \
 	carrier_2wire_h.shape \
 	carrier_2wire_v.png \
 	carrier_2wire_v.shape \
+	carrier_3_h.png \
+	carrier_3_h.shape \
 	carrier_3_v.png \
 	carrier_3_v.shape \
 	carrier_3wire_h.png \
