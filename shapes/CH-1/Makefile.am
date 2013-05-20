@@ -1,4 +1,4 @@
-
+SHEET = CH-1
 shapedir = $(datadir)/dia/shapes
 
 ch1dir = $(shapedir)/CH-1
@@ -39,3 +39,6 @@ ch1-zip: $(SHAPES) ../../sheets/CH-1.sheet
 	cp shapes/CH-1/*.png website/CH-1/images )
 
 all: ch1-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

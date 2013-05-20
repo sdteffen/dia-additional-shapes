@@ -1,3 +1,4 @@
+SHEET = central_data_processing
 
 shapedir = $(datadir)/dia/shapes
 
@@ -90,3 +91,7 @@ central_data_processing-zip: $(SHAPES) ../../sheets/central_data_processing.shee
 	cp shapes/central_data_processing/*.png website/central_data_processing/images )
 
 all: central_data_processing-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip
+
