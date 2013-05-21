@@ -169,7 +169,8 @@ Electrical_DATA = $(SHAPES)
 Electrical-zip: $(SHAPES) ../../sheets/Electrical.sheet
 	-(cd ../.. && \
 	mkdir -p website/Electrical/images && \
-	zip website/Electrical/Electrical.zip COPYING README.Electrical.mdsheets/Electrical.sheet \
+	zip website/Electrical/Electrical.zip COPYING README.Electrical.md \
+	sheets/Electrical.sheet \
 	shapes/Electrical/*.png shapes/Electrical/*.shape && \
 	cp shapes/Electrical/*.png website/Electrical/images )
 
