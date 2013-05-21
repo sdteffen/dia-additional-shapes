@@ -1,3 +1,4 @@
+SHEET = CMOS
 
 shapedir = $(datadir)/dia/shapes
 
@@ -34,3 +35,6 @@ CMOS-zip: $(SHAPES) ../../sheets/CMOS.sheet
 	cp shapes/CMOS/*.png website/CMOS/images )
 
 all: CMOS-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

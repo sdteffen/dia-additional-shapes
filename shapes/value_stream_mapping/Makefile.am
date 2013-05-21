@@ -1,3 +1,4 @@
+SHEET = value_stream_mapping
 
 shapedir = $(datadir)/dia/shapes
 
@@ -59,4 +60,7 @@ all: value_stream_mapping-zip
 
 test:
 	mkdir -p ~/.dia/shapes/value_stream_mapping
-	cp * ~/.dia/shapes/value_stream_mapping 
+	cp * ~/.dia/shapes/value_stream_mapping
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

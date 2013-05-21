@@ -1,3 +1,4 @@
+SHEET = electric2
 
 shapedir = $(datadir)/dia/shapes
 
@@ -25,3 +26,6 @@ electric2-zip: $(SHAPES) ../../sheets/electric2.sheet
 	cp shapes/electric2/*.png website/electric2/images )
 
 all: electric2-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

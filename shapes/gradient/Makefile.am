@@ -1,3 +1,4 @@
+SHEET = gradient
 
 shapedir = $(datadir)/dia/shapes
 
@@ -42,3 +43,6 @@ gradient-zip: $(SHAPES) ../../sheets/gradient.sheet
 	cp shapes/gradient/*.png website/gradient/images )
 
 all: gradient-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

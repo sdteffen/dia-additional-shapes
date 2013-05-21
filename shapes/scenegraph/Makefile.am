@@ -1,3 +1,4 @@
+SHEET = scenegraph
 
 shapedir = $(datadir)/dia/shapes
 
@@ -55,3 +56,6 @@ scenegraph-zip: $(SHAPES) ../../sheets/scenegraph.sheet
 	cp shapes/scenegraph/*.png website/scenegraph/images )
 
 all: scenegraph-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

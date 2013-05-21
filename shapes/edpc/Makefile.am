@@ -1,4 +1,4 @@
-
+SHEET = edpc
 shapedir = $(datadir)/dia/shapes
 
 edpcdir = $(shapedir)/edpc
@@ -27,3 +27,6 @@ edpc-zip: $(SHAPES) ../../sheets/edpc.sheet
 	cp shapes/edpc/*.png website/edpc/images )
 
 all: edpc-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

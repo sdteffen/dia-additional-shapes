@@ -1,3 +1,4 @@
+SHEET = Racks
 
 shapedir = $(datadir)/dia/shapes
 
@@ -59,3 +60,6 @@ Racks-zip: $(SHAPES) ../../sheets/Racks.sheet
 	cp shapes/Racks/*.png website/Racks/images )
 
 all: Racks-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

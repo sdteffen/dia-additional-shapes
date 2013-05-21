@@ -1,3 +1,4 @@
+SHEET = renewable_energy
 
 shapedir = $(datadir)/dia/shapes
 
@@ -31,3 +32,6 @@ renewable_energy-zip: $(SHAPES) ../../sheets/renewable_energy.sheet
 	cp shapes/renewable_energy/*.png website/renewable_energy/images )
 
 all: renewable_energy-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

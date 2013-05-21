@@ -1,3 +1,4 @@
+SHEET = Circuit2
 
 shapedir = $(datadir)/dia/shapes
 
@@ -66,3 +67,6 @@ Circuit2-zip: $(SHAPES) ../../sheets/Circuit2.sheet
 	cp shapes/Circuit2/*.png website/Circuit2/images )
 
 all: Circuit2-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

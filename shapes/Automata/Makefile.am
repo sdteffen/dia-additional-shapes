@@ -1,3 +1,4 @@
+SHEET = Automata
 
 shapedir = $(datadir)/dia/shapes
 
@@ -25,3 +26,6 @@ Automata-zip: $(SHAPES) ../../sheets/Automata.sheet
 	cp shapes/Automata/*.png website/Automata/images )
 
 all: Automata-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

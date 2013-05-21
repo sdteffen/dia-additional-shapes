@@ -1,3 +1,4 @@
+SHEET = Optics
 
 shapedir = $(datadir)/dia/shapes
 
@@ -75,3 +76,6 @@ Optics-zip: $(SHAPES) ../../sheets/Optics.sheet
 	cp shapes/Optics/*.png website/Optics/images )
 
 all: Optics-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

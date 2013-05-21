@@ -1,3 +1,4 @@
+SHEET = building_site
 
 shapedir = $(datadir)/dia/shapes
 
@@ -49,3 +50,6 @@ building_site-zip: $(SHAPES) ../../sheets/building_site.sheet
 	cp shapes/building_site/*.png website/building_site/images )
 
 all: building_site-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

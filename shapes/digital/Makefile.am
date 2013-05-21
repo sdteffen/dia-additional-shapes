@@ -1,3 +1,4 @@
+SHEET = digital
 
 shapedir = $(datadir)/dia/shapes
 
@@ -63,3 +64,6 @@ digital-zip: $(SHAPES) ../../sheets/digital.sheet
 	cp shapes/digital/*.png website/digital/images )
 
 all: digital-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip

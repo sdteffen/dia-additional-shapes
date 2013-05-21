@@ -1,3 +1,4 @@
+SHEET = chemistry_lab
 
 shapedir = $(datadir)/dia/shapes
 
@@ -81,3 +82,6 @@ chemistry_lab-zip: $(SHAPES) ../../sheets/chemistry_lab.sheet
 	cp shapes/chemistry_lab/*.png website/chemistry_lab/images )
 
 all: chemistry_lab-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip
