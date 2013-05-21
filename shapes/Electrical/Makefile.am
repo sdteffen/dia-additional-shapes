@@ -1,8 +1,8 @@
+SHEET = Electrical
 
 shapedir = $(datadir)/dia/shapes
 
 Electricaldir = $(shapedir)/Electrical
-
 
 # ls -1 *.png *.shape | sed 's/^/\t/;s/$/ \\/'
 
@@ -175,3 +175,6 @@ Electrical-zip: $(SHAPES) ../../sheets/Electrical.sheet
 	cp shapes/Electrical/*.png website/Electrical/images )
 
 all: Electrical-zip
+
+clean-local:
+	-rm ../../website/$(SHEET)/$(SHEET).zip
