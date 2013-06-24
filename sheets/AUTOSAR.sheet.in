@@ -5,7 +5,7 @@
         Source: https://github.com/erebos42/dia_sheets
     -->
     <_name>AUTOSAR</_name>
-    <_description>AUTOSAR</_description>
+    <_description>AUTomotive Open System ARchitecture</_description>
     <contents>
         <object name="AS_Component">
             <_description>Component</_description>
