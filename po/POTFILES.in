@@ -1,5 +1,6 @@
 # List of source files which contain translatable strings
 sheets/Automata.sheet.in
+sheets/AUTOSAR.sheet.in
 sheets/building_site.sheet.in
 sheets/central_data_processing.sheet.in
 sheets/CH-1.sheet.in

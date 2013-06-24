@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-16 18:03+0200\n"
+"POT-Creation-Date: 2013-06-24 12:20+0200\n"
 "PO-Revision-Date: 2012-05-16 09:28+0000\n"
 "Last-Translator: vladi <vzaimov@yahoo.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
@@ -41,6 +41,92 @@ msgstr ""
 #: ../sheets/Automata.sheet.in.h:6
 msgid "Start/Final State"
 msgstr ""
+
+#.
+#. Author: Martin Wichmann
+#. Source: https://github.com/erebos42/dia_sheets
+#.
+#: ../sheets/AUTOSAR.sheet.in.h:5
+msgid "AUTOSAR"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:6 ../sheets/scenegraph.sheet.in.h:19
+msgid "Component"
+msgstr "Компонент"
+
+#: ../sheets/AUTOSAR.sheet.in.h:7
+msgid "Atomic Software Component"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:8
+#, fuzzy
+msgid "Composition"
+msgstr "Условие"
+
+#: ../sheets/AUTOSAR.sheet.in.h:9
+msgid "Sensor-Actuator Software Component"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:10
+msgid "Runnable"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:11
+msgid "Interrunnable Variables"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:12
+#, fuzzy
+msgid "Calibration Port (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/AUTOSAR.sheet.in.h:13
+#, fuzzy
+msgid "Calibration Port (Vertical)"
+msgstr "Ограда (вертикална)"
+
+#: ../sheets/AUTOSAR.sheet.in.h:14
+msgid "Client/Server Port (Provides)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:15
+msgid "Client/Server Port (Requires/Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:16
+msgid "Client/Server Port (Requires/Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:17
+msgid "Service Client/Server Port (Provides)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:18
+msgid "Service Client/Server Port (Requires/Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:19
+msgid "Service Client/Server Port (Requires/Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:20
+#, fuzzy
+msgid "Service Sender/Receiver Port (Horizontal)"
+msgstr "Ограда (хоризонтална)"
+
+#: ../sheets/AUTOSAR.sheet.in.h:21
+msgid "Service Sender/Receiver Port (Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:22
+#, fuzzy
+msgid "Sender/Receiver Port (Horizontal)"
+msgstr "Път (хоризонтален)"
+
+#: ../sheets/AUTOSAR.sheet.in.h:23
+#, fuzzy
+msgid "Sender/Receiver Port (Vertical)"
+msgstr "Ограда (вертикална)"
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
@@ -1703,10 +1789,6 @@ msgstr ""
 #: ../sheets/scenegraph.sheet.in.h:18
 msgid "Callback"
 msgstr "Обратно повикване"
-
-#: ../sheets/scenegraph.sheet.in.h:19
-msgid "Component"
-msgstr "Компонент"
 
 #: ../sheets/scenegraph.sheet.in.h:20
 msgid "Field"

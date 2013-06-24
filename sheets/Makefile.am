@@ -4,6 +4,7 @@
 
 sheet_in_files = \
   Automata.sheet.in \
+  AUTOSAR.sheet.in \
   building_site.sheet.in \
   central_data_processing.sheet.in \
   CH-1.sheet.in \

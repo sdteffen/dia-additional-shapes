@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-16 18:03+0200\n"
+"POT-Creation-Date: 2013-06-24 12:20+0200\n"
 "PO-Revision-Date: 2011-05-18 08:26+0000\n"
 "Last-Translator: Guybrush88 <Unknown>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -41,6 +41,91 @@ msgstr ""
 #: ../sheets/Automata.sheet.in.h:6
 msgid "Start/Final State"
 msgstr ""
+
+#.
+#. Author: Martin Wichmann
+#. Source: https://github.com/erebos42/dia_sheets
+#.
+#: ../sheets/AUTOSAR.sheet.in.h:5
+msgid "AUTOSAR"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:6 ../sheets/scenegraph.sheet.in.h:19
+msgid "Component"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:7
+msgid "Atomic Software Component"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:8
+msgid "Composition"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:9
+msgid "Sensor-Actuator Software Component"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:10
+msgid "Runnable"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:11
+msgid "Interrunnable Variables"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:12
+#, fuzzy
+msgid "Calibration Port (Horizontal)"
+msgstr "Steccato (orizzontale)"
+
+#: ../sheets/AUTOSAR.sheet.in.h:13
+#, fuzzy
+msgid "Calibration Port (Vertical)"
+msgstr "Steccato (verticale)"
+
+#: ../sheets/AUTOSAR.sheet.in.h:14
+msgid "Client/Server Port (Provides)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:15
+msgid "Client/Server Port (Requires/Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:16
+msgid "Client/Server Port (Requires/Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:17
+msgid "Service Client/Server Port (Provides)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:18
+msgid "Service Client/Server Port (Requires/Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:19
+msgid "Service Client/Server Port (Requires/Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:20
+#, fuzzy
+msgid "Service Sender/Receiver Port (Horizontal)"
+msgstr "Steccato (orizzontale)"
+
+#: ../sheets/AUTOSAR.sheet.in.h:21
+msgid "Service Sender/Receiver Port (Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:22
+#, fuzzy
+msgid "Sender/Receiver Port (Horizontal)"
+msgstr "Strada (orizzontale)"
+
+#: ../sheets/AUTOSAR.sheet.in.h:23
+#, fuzzy
+msgid "Sender/Receiver Port (Vertical)"
+msgstr "Discesa (verticale)"
 
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
@@ -1700,10 +1785,6 @@ msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:18
 msgid "Callback"
-msgstr ""
-
-#: ../sheets/scenegraph.sheet.in.h:19
-msgid "Component"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:20

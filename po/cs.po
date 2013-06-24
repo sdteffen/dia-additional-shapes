@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-03 17:16+0100\n"
+"POT-Creation-Date: 2013-06-24 12:20+0200\n"
 "PO-Revision-Date: 2009-11-26 21:48+0000\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,86 @@ msgstr ""
 
 #: ../sheets/Automata.sheet.in.h:6
 msgid "Start/Final State"
+msgstr ""
+
+#.
+#. Author: Martin Wichmann
+#. Source: https://github.com/erebos42/dia_sheets
+#.
+#: ../sheets/AUTOSAR.sheet.in.h:5
+msgid "AUTOSAR"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:6 ../sheets/scenegraph.sheet.in.h:19
+msgid "Component"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:7
+msgid "Atomic Software Component"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:8
+msgid "Composition"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:9
+msgid "Sensor-Actuator Software Component"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:10
+msgid "Runnable"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:11
+msgid "Interrunnable Variables"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:12
+msgid "Calibration Port (Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:13
+msgid "Calibration Port (Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:14
+msgid "Client/Server Port (Provides)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:15
+msgid "Client/Server Port (Requires/Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:16
+msgid "Client/Server Port (Requires/Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:17
+msgid "Service Client/Server Port (Provides)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:18
+msgid "Service Client/Server Port (Requires/Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:19
+msgid "Service Client/Server Port (Requires/Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:20
+msgid "Service Sender/Receiver Port (Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:21
+msgid "Service Sender/Receiver Port (Vertical)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:22
+msgid "Sender/Receiver Port (Horizontal)"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:23
+msgid "Sender/Receiver Port (Vertical)"
 msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:1
@@ -754,43 +834,319 @@ msgid "Electricity symbols for floor plans (based on Belgium regulations)"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:3
-msgid "4 Way Switch - 1 Pole"
+msgid "Switch - 1 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:4
-msgid "4 Way Switch - 2 Pole"
+msgid "Schakelaar - Eenpolig"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:5
-msgid "4 Way Switch - 4 Pole"
+msgid "Switch - 2 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:6
-msgid "Socket"
+msgid "Switch - 3 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:7
-msgid "Socket Grounded"
+msgid "Switch - 4 Pole"
 msgstr ""
 
-#: ../sheets/Electrical.sheet.in.h:8 ../sheets/scenegraph.sheet.in.h:10
-msgid "Light"
+#: ../sheets/Electrical.sheet.in.h:8
+msgid "Dual Switch - 1 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:9
-msgid "Fuse Melt"
+msgid "Dual Switch - 2 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:10
-msgid "Fuse Auto"
+msgid "Dual Switch - 3 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:11
-msgid "Fixed Generic Device"
+msgid "Dual Switch - 4 Pole"
 msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:12
+msgid "2 Way Switch - 1 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:13
+msgid "2 Way Switch - 2 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:14
+msgid "2 Way Switch - 3 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:15
+msgid "2 Way Switch - 4 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:16
+msgid "4 Way Switch - 1 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:17
+msgid "4 Way Switch - 2 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:18
+msgid "4 Way Switch - 4 Pole"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:19
+msgid "Switch - Light"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:20
+msgid "Socket (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:21
+msgid "Socket (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:22
+msgid "Socket (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:23
+msgid "Socket grounded (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:24
+msgid "Socket grounded (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:25
+msgid "Socket grounded (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:26
+msgid "Socket child-proof (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:27
+msgid "Socket child-proof (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:28
+msgid "Socket child-proof (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:29
+msgid "Socket grounded child-proof (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:30
+msgid "Socket grounded child-proof (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:31
+msgid "Socket grounded child-proof (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:32 ../sheets/scenegraph.sheet.in.h:10
+msgid "Light"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:33
+msgid "Bel (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:34
+msgid "Bel (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:35
+msgid "Bel (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:36
+msgid "Buzzer (Right facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:37
+msgid "Buzzer (Left facing)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:38
+msgid "Buzzer (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:39
+msgid "Fuse Melt (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:40
+msgid "Fuse Melt (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:41
+msgid "Fuse Auto (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:42
+msgid "Fuse Auto (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:43
+msgid "Fixed Generic Device"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:44
 msgid "Fixed Furnace"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:45
+msgid "Grounding Strip (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:46
+msgid "Dispatch Box"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:47
+msgid "Dispatch Panel (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:48
+msgid "Grounding ↓"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:49
+msgid "Direct Current (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:50
+msgid "Alternating Current (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:51
+msgid "Alternating Current - 3 Phase (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:52
+msgid "Alternating Current - 1 Phase (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:53
+msgid "Direct Current (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:54
+msgid "Alternating Current (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:55
+msgid "Alternating Current - 1 Phase (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:56
+msgid "Alternating Current - 3 Phase (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:57
+msgid "Carrier underground (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:58
+msgid "Carrier in wall (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:59
+msgid "Carrier on wall (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:60
+msgid "Carrier in tube (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:61
+msgid "Carrier in air"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:62
+msgid "Carrier underground (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:63
+msgid "Carrier on wall (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:64
+msgid "Carrier in wall (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:65
+msgid "Carrier in tube (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:66
+msgid "Carrier: 1 wire (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:67
+msgid "Carrier: 2 wires (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:68
+msgid "Carrier: 3 wires (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:69
+msgid "Carrier: n wires (set font to 12pt - Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:70
+msgid "Carrier: 1 wire (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:71
+msgid "Carrier: 2 wires (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:72
+msgid "Carrier: 3 wires (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:73
+msgid "Carrier: n wires (set font to 12pt- Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:74
+msgid "Carriers 1 (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:75
+msgid "Carriers 2 (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:76
+msgid "Carriers 3 (Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:77
+msgid "Carriers n (set font to 12pt - Horizontal)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:78
+msgid "Carriers 1 (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:79
+msgid "Carriers 2 (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:80
+msgid "Carriers 3 (Vertical)"
+msgstr ""
+
+#: ../sheets/Electrical.sheet.in.h:81
+msgid "Carriers n (set font to 12pt- Vertical)"
 msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:1
@@ -1398,10 +1754,6 @@ msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:18
 msgid "Callback"
-msgstr ""
-
-#: ../sheets/scenegraph.sheet.in.h:19
-msgid "Component"
 msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:20

@@ -58,5 +58,14 @@ $(SHEET)-zip: $(SHAPES) ../../sheets/$(SHEET).sheet
 
 all: $(SHEET)-zip
 
+test:
+	mkdir -p ~/.dia/shapes/$(SHEET)
+	cp * ~/.dia/shapes/$(SHEET)
+	cp ../../sheets/$(SHEET).sheet ~/.dia/sheets
+
+clean-test:
+	-rm ~/.dia/sheets/$(SHEET).sheet
+	-rm -Rf ~/.dia/shapes/$(SHEET)
+
 clean-local:
 	-rm ../../website/$(SHEET)/$(SHEET).zip
