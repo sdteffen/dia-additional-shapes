@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+
+    <name>AS_Service_CS_requires_H</name>
+    <icon>AS_Service_CS_requires_H.png</icon>
+
+    <connections>
+        <point x="0" y="0" />
+        <point x="0" y="5" />
+        <point x="0" y="10" />
+        <point x="5" y="0" />
+        <point x="5" y="10" />
+        <point x="10" y="0" />
+        <point x="10" y="5" />
+        <point x="10" y="10" />
+        <point x="5" y="5" main="yes" />
+    </connections>
+
+    <aspectratio type="fixed"/>
+
+    <svg:svg width="10" height="10">
+        <svg:rect width="10" height="10" style="fill: foreground" /> 
+        <svg:path d="M 2 7 C 2 1 8 1 8 7 Z" style="fill: background"/>
+    </svg:svg>
+
+</shape>

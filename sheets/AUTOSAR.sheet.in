@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+
+    <!--
+        Author: Martin Wichmann
+        Source: https://github.com/erebos42/dia_sheets
+    -->
+
+    <_name>Autosar</_name>
+    <_description>Autosar</_description>
+    <contents>
+
+        <object name="AS_Component">
+            <_description>Component</_description>
+        </object>
+        <object name="AS_SWC">
+            <_description>Atomic Software Component</_description>
+        </object>
+        <object name="AS_Composition">
+            <_description>Composition</_description>
+        </object>
+        <object name="AS_SA_SWC">
+            <_description>Sensor-Actuator Software Component</_description>
+        </object>
+        <object name="AS_Runnable">
+            <_description>Runnable</_description>
+        </object>
+        <object name="AS_IRV">
+            <_description>Interrunnable Variables</_description>
+        </object>
+
+        <!-- Interfaces -->
+        <object name="AS_Cal_H">
+            <_description>Calibration Port (Horizontal)</_description>
+        </object>
+        <object name="AS_Cal_V">
+            <_description>Calibration Port (Vertical)</_description>
+        </object>
+        <object name="AS_CS_provides">
+            <_description>Client/Server Port (Provides)</_description>
+        </object>
+        <object name="AS_CS_requires_H">
+            <_description>Client/Server Port (Requires/Horizontal)</_description>
+        </object>
+        <object name="AS_CS_requires_V">
+            <_description>Client/Server Port (Requires/Vertical)</_description>
+        </object>
+        <object name="AS_Service_CS_provides">
+            <_description>Service Client/Server Port (Provides)</_description>
+        </object>
+        <object name="AS_Service_CS_requires_H">
+            <_description>Service Client/Server Port (Requires/Horizontal)</_description>
+        </object>
+        <object name="AS_Service_CS_requires_V">
+            <_description>Service Client/Server Port (Requires/Vertical)</_description>
+        </object>
+        <object name="AS_Service_SR_H">
+            <_description>Service Sender/Receiver Port (Horizontal)</_description>
+        </object>
+        <object name="AS_Service_SR_V">
+            <_description>Service Sender/Receiver Port (Vertical)</_description>
+        </object>
+        <object name="AS_SR_H">
+            <_description>Sender/Receiver Port (Horizontal)</_description>
+        </object>
+        <object name="AS_SR_V">
+            <_description>Sender/Receiver Port (Vertical)</_description>
+        </object>
+
+
+
+
+
+
+
+    </contents>
+
+</sheet>
