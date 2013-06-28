@@ -209,6 +209,12 @@ case "AADL - Box":
     case "AADL - Package":
 	cssclass = "daadlpackage";
 	break;
+    case "chronogram - reference":
+	cssclass = "dchronoref";
+	break;
+   case "chronogram - line":
+	cssclass = "dchronoline";
+	break;
       case "UML - Class":
 	cssclass = "dumlclass";
 	break;

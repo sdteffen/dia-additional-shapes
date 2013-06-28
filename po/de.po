@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-24 12:20+0200\n"
-"PO-Revision-Date: 2012-05-17 01:13+0000\n"
+"POT-Creation-Date: 2013-06-28 10:39+0200\n"
+"PO-Revision-Date: 2013-06-28 11:46+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2012-05-19 09:40+0000\n"
-"X-Generator: Launchpad (build 15259)\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../sheets/Automata.sheet.in.h:1
 msgid "Automata"
@@ -28,19 +28,19 @@ msgstr ""
 
 #: ../sheets/Automata.sheet.in.h:3
 msgid "Start State"
-msgstr ""
+msgstr "Anfangszustand"
 
 #: ../sheets/Automata.sheet.in.h:4
 msgid "Intermediate State"
-msgstr ""
+msgstr "Zwischenzustand"
 
 #: ../sheets/Automata.sheet.in.h:5
 msgid "Final State"
-msgstr ""
+msgstr "Endzustand"
 
 #: ../sheets/Automata.sheet.in.h:6
 msgid "Start/Final State"
-msgstr ""
+msgstr "Start/Endzustand"
 
 #.
 #. Author: Martin Wichmann
@@ -48,82 +48,86 @@ msgstr ""
 #.
 #: ../sheets/AUTOSAR.sheet.in.h:5
 msgid "AUTOSAR"
-msgstr ""
+msgstr "AUTOSAR"
 
-#: ../sheets/AUTOSAR.sheet.in.h:6 ../sheets/scenegraph.sheet.in.h:19
+#: ../sheets/AUTOSAR.sheet.in.h:6
+msgid "AUTomotive Open System ARchitecture"
+msgstr "AUTomotive Open System ARchitecture"
+
+#: ../sheets/AUTOSAR.sheet.in.h:7 ../sheets/scenegraph.sheet.in.h:19
 msgid "Component"
-msgstr ""
-
-#: ../sheets/AUTOSAR.sheet.in.h:7
-msgid "Atomic Software Component"
-msgstr ""
+msgstr "Komponente"
 
 #: ../sheets/AUTOSAR.sheet.in.h:8
+msgid "Atomic Software Component"
+msgstr "atomare Softwarekomponente"
+
+#: ../sheets/AUTOSAR.sheet.in.h:9
 #, fuzzy
 msgid "Composition"
 msgstr "Bedingung"
 
-#: ../sheets/AUTOSAR.sheet.in.h:9
+#: ../sheets/AUTOSAR.sheet.in.h:10
 msgid "Sensor-Actuator Software Component"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:10
-msgid "Runnable"
-msgstr ""
-
 #: ../sheets/AUTOSAR.sheet.in.h:11
+msgid "Runnable"
+msgstr "lauffähig"
+
+#: ../sheets/AUTOSAR.sheet.in.h:12
 msgid "Interrunnable Variables"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:12
+#: ../sheets/AUTOSAR.sheet.in.h:13
 #, fuzzy
 msgid "Calibration Port (Horizontal)"
 msgstr "Zaun (horizontal)"
 
-#: ../sheets/AUTOSAR.sheet.in.h:13
+#: ../sheets/AUTOSAR.sheet.in.h:14
 #, fuzzy
 msgid "Calibration Port (Vertical)"
 msgstr "Zaun (vertikal)"
 
-#: ../sheets/AUTOSAR.sheet.in.h:14
+#: ../sheets/AUTOSAR.sheet.in.h:15
 msgid "Client/Server Port (Provides)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:15
+#: ../sheets/AUTOSAR.sheet.in.h:16
 msgid "Client/Server Port (Requires/Horizontal)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:16
+#: ../sheets/AUTOSAR.sheet.in.h:17
 msgid "Client/Server Port (Requires/Vertical)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:17
+#: ../sheets/AUTOSAR.sheet.in.h:18
 msgid "Service Client/Server Port (Provides)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:18
+#: ../sheets/AUTOSAR.sheet.in.h:19
 msgid "Service Client/Server Port (Requires/Horizontal)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:19
+#: ../sheets/AUTOSAR.sheet.in.h:20
 msgid "Service Client/Server Port (Requires/Vertical)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:20
+#: ../sheets/AUTOSAR.sheet.in.h:21
 #, fuzzy
 msgid "Service Sender/Receiver Port (Horizontal)"
 msgstr "Zaun (horizontal)"
 
-#: ../sheets/AUTOSAR.sheet.in.h:21
+#: ../sheets/AUTOSAR.sheet.in.h:22
 msgid "Service Sender/Receiver Port (Vertical)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:22
+#: ../sheets/AUTOSAR.sheet.in.h:23
 #, fuzzy
 msgid "Sender/Receiver Port (Horizontal)"
 msgstr "Straße (horizontal)"
 
-#: ../sheets/AUTOSAR.sheet.in.h:23
+#: ../sheets/AUTOSAR.sheet.in.h:24
 #, fuzzy
 msgid "Sender/Receiver Port (Vertical)"
 msgstr "Böschung (vertikal)"
@@ -314,11 +318,11 @@ msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:29
 msgid "Router"
-msgstr ""
+msgstr "Router"
 
 #: ../sheets/central_data_processing.sheet.in.h:30
 msgid "Modem"
-msgstr ""
+msgstr "Modem"
 
 #: ../sheets/central_data_processing.sheet.in.h:31
 msgid "Voice panel 50p"
@@ -391,11 +395,11 @@ msgstr "Verzögerung"
 #. For: ryan
 #: ../sheets/chemistry_lab.sheet.in.h:2
 msgid "Chemistry Lab"
-msgstr ""
+msgstr "Chemielabor"
 
 #: ../sheets/chemistry_lab.sheet.in.h:3
 msgid "Chemistry Lab Apparati"
-msgstr ""
+msgstr "Apparate im Chemielabor"
 
 #: ../sheets/chemistry_lab.sheet.in.h:4
 msgid "30 Degree Bend"
@@ -575,27 +579,27 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:13
 msgid "Diagonally aligned LED"
-msgstr ""
+msgstr "diagonal ausgerichtete LED"
 
 #: ../sheets/Circuit2.sheet.in.h:14
 msgid "Horizontal LED"
-msgstr ""
+msgstr "horizontale LED"
 
 #: ../sheets/Circuit2.sheet.in.h:15
 msgid "Vertical LED"
-msgstr ""
+msgstr "vertikale LED"
 
 #: ../sheets/Circuit2.sheet.in.h:16 ../sheets/Optics.sheet.in.h:18
 msgid "Sine Wave Source"
-msgstr ""
+msgstr "Sinuswellengenerator"
 
 #: ../sheets/Circuit2.sheet.in.h:17 ../sheets/Optics.sheet.in.h:19
 msgid "Square Wave Source"
-msgstr ""
+msgstr "Rechteckwellengenerator"
 
 #: ../sheets/Circuit2.sheet.in.h:18
 msgid "TRIAC"
-msgstr ""
+msgstr "TRIAC"
 
 #: ../sheets/Circuit2.sheet.in.h:19
 msgid "Optoisolator"
@@ -603,36 +607,36 @@ msgstr "Isolationsschalter"
 
 #: ../sheets/Circuit2.sheet.in.h:20
 msgid "Relay"
-msgstr ""
+msgstr "Relais"
 
 #: ../sheets/Circuit2.sheet.in.h:21
 msgid "Triangle Wave Source"
-msgstr ""
+msgstr "Dreieckswellengenerator"
 
 #: ../sheets/Circuit2.sheet.in.h:22
 msgid "Ramp Wave Source"
-msgstr ""
+msgstr "Rampenwellengenerator"
 
 #: ../sheets/Circuit2.sheet.in.h:23
 msgid "Vertical Ammeter"
-msgstr ""
+msgstr "Strommessgerät (vertikal)"
 
 #: ../sheets/Circuit2.sheet.in.h:24
 msgid "Vertical Voltmeter"
-msgstr ""
+msgstr "Spannungsmessgerät (vertikal)"
 
 #: ../sheets/Circuit2.sheet.in.h:25
 msgid "Horizontal Ammeter"
-msgstr ""
+msgstr "Strommessgerät (horizontal)"
 
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Horizontal Voltmeter"
-msgstr ""
+msgstr "Spannungsmessgerät (horizontal)"
 
 #. For: jason
 #: ../sheets/CMOS.sheet.in.h:2
 msgid "CMOS"
-msgstr ""
+msgstr "CMOS"
 
 #: ../sheets/CMOS.sheet.in.h:3
 msgid "CMOS transistor models"
@@ -769,7 +773,7 @@ msgstr ""
 
 #: ../sheets/digital.sheet.in.h:26
 msgid "Connection Point"
-msgstr ""
+msgstr "Verbindungspunkt"
 
 #: ../sheets/edpc.sheet.in.h:1
 msgid "Event-driven process chain"
@@ -781,7 +785,7 @@ msgstr "Objekte zum Zeichnen von ereignisgesteuerten Prozessketten"
 
 #: ../sheets/edpc.sheet.in.h:3
 msgid "Document"
-msgstr ""
+msgstr "Dokument"
 
 #: ../sheets/edpc.sheet.in.h:5
 msgid "Information Object"
@@ -906,7 +910,7 @@ msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:19
 msgid "Switch - Light"
-msgstr ""
+msgstr "Schalter - Licht"
 
 #: ../sheets/Electrical.sheet.in.h:20
 msgid "Socket (Right facing)"
@@ -960,7 +964,7 @@ msgstr ""
 
 #: ../sheets/Electrical.sheet.in.h:32 ../sheets/scenegraph.sheet.in.h:10
 msgid "Light"
-msgstr ""
+msgstr "Licht"
 
 #: ../sheets/Electrical.sheet.in.h:33
 msgid "Bel (Right facing)"
@@ -1184,31 +1188,31 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:1
 msgid "Electronic"
-msgstr ""
+msgstr "Elektronik"
 
 #: ../sheets/electronic.sheet.in.h:2
 msgid "Antenna"
-msgstr ""
+msgstr "Antenne"
 
 #: ../sheets/electronic.sheet.in.h:3
 msgid "Bell"
-msgstr ""
+msgstr "Klingel"
 
 #: ../sheets/electronic.sheet.in.h:4
 msgid "Button"
-msgstr ""
+msgstr "Knopf"
 
 #: ../sheets/electronic.sheet.in.h:5
 msgid "Capacitor"
-msgstr ""
+msgstr "Kondensator"
 
 #: ../sheets/electronic.sheet.in.h:6
 msgid "Electrolytic capacitor"
-msgstr ""
+msgstr "Elektrolytkondensator"
 
 #: ../sheets/electronic.sheet.in.h:7
 msgid "Crystal"
-msgstr ""
+msgstr "Kristall"
 
 #: ../sheets/electronic.sheet.in.h:8
 msgid "Di-Gate"
@@ -1216,15 +1220,15 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:9
 msgid "Diac"
-msgstr ""
+msgstr "Diac"
 
 #: ../sheets/electronic.sheet.in.h:10 ../sheets/scenegraph.sheet.in.h:9
 msgid "Engine"
-msgstr ""
+msgstr "Motor"
 
 #: ../sheets/electronic.sheet.in.h:11
 msgid "Headphone"
-msgstr ""
+msgstr "Kopfhörer"
 
 #: ../sheets/electronic.sheet.in.h:12
 msgid "Inverse diode"
@@ -1244,15 +1248,15 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:16
 msgid "Inductor"
-msgstr ""
+msgstr "Spule"
 
 #: ../sheets/electronic.sheet.in.h:17
 msgid "LED display"
-msgstr ""
+msgstr "LED-Anzeige"
 
 #: ../sheets/electronic.sheet.in.h:18
 msgid "Microphone"
-msgstr ""
+msgstr "Mikrophon"
 
 #: ../sheets/electronic.sheet.in.h:19
 msgid "Photo-emiting part"
@@ -1292,11 +1296,11 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:28
 msgid "Voltmeter"
-msgstr ""
+msgstr "Spannungsmessgerät"
 
 #: ../sheets/electronic.sheet.in.h:29
 msgid "Ampermeter"
-msgstr ""
+msgstr "Strommessgerät"
 
 #: ../sheets/electronic.sheet.in.h:30
 msgid "Source or Meter"
@@ -1312,7 +1316,7 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:33
 msgid "Voltage source"
-msgstr ""
+msgstr "Spannungsquelle"
 
 #: ../sheets/electronic.sheet.in.h:34
 msgid "Alternating voltage source"
@@ -1360,7 +1364,7 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:45
 msgid "Triac"
-msgstr ""
+msgstr "TRIAC"
 
 #: ../sheets/electronic.sheet.in.h:46
 msgid "Diode tyristor, blocking"
@@ -1396,11 +1400,11 @@ msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:1
 msgid "Gradient"
-msgstr ""
+msgstr "Farbverlauf"
 
 #: ../sheets/gradient.sheet.in.h:2
 msgid "Basic gradients, semitransparent"
-msgstr ""
+msgstr "Einfache Farbverläufe, halbtransparent"
 
 #: ../sheets/gradient.sheet.in.h:3
 msgid "Light-dark horizontal gradient box"
@@ -1520,7 +1524,7 @@ msgstr ""
 
 #: ../sheets/LST.sheet.in.h:22
 msgid "Timer"
-msgstr ""
+msgstr "Zeitschaltuhr"
 
 #. For: jkellerman
 #: ../sheets/Optics.sheet.in.h:2
@@ -1529,23 +1533,23 @@ msgstr "Optik"
 
 #: ../sheets/Optics.sheet.in.h:3
 msgid "Optical Fibre Systems"
-msgstr ""
+msgstr "Lichtwellenleitersysteme"
 
 #: ../sheets/Optics.sheet.in.h:4
 msgid "Circulator"
-msgstr ""
+msgstr "Zirkulator"
 
 #: ../sheets/Optics.sheet.in.h:5
 msgid "Polarisation Controller"
-msgstr ""
+msgstr "Polarisationssteuerung"
 
 #: ../sheets/Optics.sheet.in.h:6
 msgid "Directional Coupler"
-msgstr ""
+msgstr "Richtkoppler"
 
 #: ../sheets/Optics.sheet.in.h:7
 msgid "Tuneable Coupler"
-msgstr ""
+msgstr "Spektrumanalysator"
 
 #: ../sheets/Optics.sheet.in.h:8
 msgid "DFB Laser"
@@ -1553,7 +1557,7 @@ msgstr "DFB-Laser"
 
 #: ../sheets/Optics.sheet.in.h:9
 msgid "Long Fibre"
-msgstr ""
+msgstr "Lange Faser"
 
 #: ../sheets/Optics.sheet.in.h:10
 msgid "Detector"
@@ -1565,7 +1569,7 @@ msgstr "Oszilloskop"
 
 #: ../sheets/Optics.sheet.in.h:12
 msgid "Spectrum Analyser"
-msgstr ""
+msgstr "Spektrumanalysator"
 
 #: ../sheets/Optics.sheet.in.h:13
 msgid "Optical Isolator"
@@ -1577,7 +1581,7 @@ msgstr "EDFA"
 
 #: ../sheets/Optics.sheet.in.h:15
 msgid "Variable Attenuator"
-msgstr ""
+msgstr "Variables Dämpfungsglied"
 
 #: ../sheets/Optics.sheet.in.h:16
 msgid "MZ Modulator"
@@ -1589,15 +1593,15 @@ msgstr "Phasen-Modulator"
 
 #: ../sheets/Optics.sheet.in.h:20
 msgid "Long Period Grating"
-msgstr ""
+msgstr "Lanperiodisches Gitter"
 
 #: ../sheets/Optics.sheet.in.h:21
 msgid "Light Beam"
-msgstr ""
+msgstr "Lichtstrahl"
 
 #: ../sheets/Optics.sheet.in.h:22
 msgid "Wave"
-msgstr ""
+msgstr "Welle"
 
 #. Copyright (c) 2007 by Jaroslav Benkovsky, edheldil001 (at) eowyn (dot) cz. Licensed under GPL v2.0 or higher
 #: ../sheets/Racks.sheet.in.h:2
@@ -1714,11 +1718,11 @@ msgstr "Windmessturm"
 
 #: ../sheets/renewable_energy.sheet.in.h:6
 msgid "Cup Anemometer"
-msgstr ""
+msgstr "Schalenkreuzanemometer"
 
 #: ../sheets/renewable_energy.sheet.in.h:7
 msgid "Wind Vane"
-msgstr ""
+msgstr "Windfahne"
 
 #: ../sheets/renewable_energy.sheet.in.h:8
 msgid "Data Logger"
@@ -1767,11 +1771,11 @@ msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:13
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: ../sheets/scenegraph.sheet.in.h:14
 msgid "Switch"
-msgstr ""
+msgstr "Schalter"
 
 #: ../sheets/scenegraph.sheet.in.h:15
 msgid "Node Kit"
@@ -1787,15 +1791,15 @@ msgstr ""
 
 #: ../sheets/scenegraph.sheet.in.h:18
 msgid "Callback"
-msgstr ""
+msgstr "Rückruf"
 
 #: ../sheets/scenegraph.sheet.in.h:20
 msgid "Field"
-msgstr ""
+msgstr "Feld"
 
 #: ../sheets/scenegraph.sheet.in.h:21
 msgid "Property"
-msgstr ""
+msgstr "Eigenschaft"
 
 #: ../sheets/scenegraph.sheet.in.h:22
 msgid "Real time global field"
@@ -1811,7 +1815,7 @@ msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:3
 msgid "Happy Face"
-msgstr ""
+msgstr "glückliches Gesicht"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:4
 msgid "Harvey Balls 0"
@@ -1839,7 +1843,7 @@ msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:11
 msgid "Air Transport"
-msgstr ""
+msgstr "Lufttransport"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:12
 msgid "Electronic Information Right"
@@ -1847,7 +1851,7 @@ msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:13
 msgid "Glasses"
-msgstr ""
+msgstr "Brile"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:14
 msgid "Kanban Minimum and Maximum"
@@ -1871,11 +1875,11 @@ msgstr ""
 
 #: ../sheets/value_stream_mapping.sheet.in.h:19
 msgid "Rail Transport"
-msgstr ""
+msgstr "Bahntransport"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:20
 msgid "Supplier or Customer"
-msgstr ""
+msgstr "Lieferant oder Kunde"
 
 #: ../sheets/value_stream_mapping.sheet.in.h:21
 msgid "Working Cell Unit"
