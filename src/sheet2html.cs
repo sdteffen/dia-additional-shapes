@@ -222,7 +222,7 @@ public class Sheet2Html
       output.WriteStartElement ("img");
       output.WriteAttributeString ("alt", sheetname);
       output.WriteAttributeString ("src",
-				   "images/" + args[args.Length - 1] +
+				   "/shapes/" + args[args.Length - 1] + "/images/" + args[args.Length - 1] +
 				   ".png");
       output.WriteEndElement ();	// img
 
@@ -233,7 +233,7 @@ public class Sheet2Html
 	  output.WriteStartElement ("li");
 	  output.WriteStartElement ("a");
 	  output.WriteAttributeString ("href",
-				       args[args.Length - 1] + ".zip");
+				       "/shapes/" + args[args.Length - 1] + "/" + args[args.Length - 1] + ".zip");
 	  output.WriteAttributeString ("class", "track");
 	  output.WriteString (args[args.Length - 1] + ".zip");
 	  output.WriteEndElement ();	// a
@@ -243,7 +243,7 @@ public class Sheet2Html
 	}
       output.WriteStartElement ("li");
       output.WriteStartElement ("a");
-      output.WriteAttributeString ("href", args[args.Length - 1] + ".dia");
+      output.WriteAttributeString ("href", "/shapes/" + args[args.Length - 1] + "/" + args[args.Length - 1] + ".dia");
       output.WriteAttributeString ("class", "track");
       output.WriteString (args[args.Length - 1] + ".dia");
       output.WriteEndElement ();	// a
@@ -254,7 +254,7 @@ public class Sheet2Html
       output.WriteStartElement ("li");
       output.WriteStartElement ("a");
       output.WriteAttributeString ("href",
-				   "images/" + args[args.Length - 1] +
+				   "/shapes/" + args[args.Length - 1] + "/images/" + args[args.Length - 1] +
 				   ".svg");
       output.WriteAttributeString ("class", "track");
       output.WriteString (args[args.Length - 1] + ".svg");
