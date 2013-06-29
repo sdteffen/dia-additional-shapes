@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-24 12:20+0200\n"
-"PO-Revision-Date: 2012-05-17 01:13+0000\n"
+"PO-Revision-Date: 2013-06-29 13:23+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: French <sdteffen@sdteffen.de>\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2012-05-19 09:40+0000\n"
-"X-Generator: Launchpad (build 15259)\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../sheets/Automata.sheet.in.h:1
 msgid "Automata"
@@ -48,7 +48,7 @@ msgstr ""
 #.
 #: ../sheets/AUTOSAR.sheet.in.h:5
 msgid "AUTOSAR"
-msgstr ""
+msgstr "AUTOSAR"
 
 #: ../sheets/AUTOSAR.sheet.in.h:6 ../sheets/scenegraph.sheet.in.h:19
 msgid "Component"
@@ -525,63 +525,63 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:1
 msgid "Circuit2"
-msgstr ""
+msgstr "Circuit2"
 
 #: ../sheets/Circuit2.sheet.in.h:2
 msgid "Diagonal and other components for circuit diagrams"
-msgstr ""
+msgstr "Diagonal et autres composants pour des schémas de circuit"
 
 #: ../sheets/Circuit2.sheet.in.h:3
 msgid "Diagonally aligned resistor"
-msgstr ""
+msgstr "Résistance alignée diagonalement"
 
 #: ../sheets/Circuit2.sheet.in.h:4
 msgid "Diagonally aligned inductor"
-msgstr ""
+msgstr "Bobine d'induction alignée diagonalement"
 
 #: ../sheets/Circuit2.sheet.in.h:5
 msgid "Diagonally aligned resistor (European)"
-msgstr ""
+msgstr "Résistance alignée diagonalement (européenne)"
 
 #: ../sheets/Circuit2.sheet.in.h:6
 msgid "Diagonally aligned inductor (European)"
-msgstr ""
+msgstr "Bobine d'induction alignée diagonalement (européenne)"
 
 #: ../sheets/Circuit2.sheet.in.h:7
 msgid "Diagonally aligned capacitor"
-msgstr ""
+msgstr "Condensateur aligné diagonalement"
 
 #: ../sheets/Circuit2.sheet.in.h:8
 msgid "Horizontal Polarized Capacitor"
-msgstr ""
+msgstr "Condensateur polarisé alignée horizontalement"
 
 #: ../sheets/Circuit2.sheet.in.h:9
 msgid "Vertical Polarized Capacitor"
-msgstr ""
+msgstr "Condensateur polarisé aligné verticalement "
 
 #: ../sheets/Circuit2.sheet.in.h:10
 msgid "Diagonally aligned polarized capacitor"
-msgstr ""
+msgstr "Condensateur polarisé aligné diagonalement"
 
 #: ../sheets/Circuit2.sheet.in.h:11
 msgid "Diagonally aligned diode"
-msgstr ""
+msgstr "Diode alignée diagonalement"
 
 #: ../sheets/Circuit2.sheet.in.h:12
 msgid "Diagonally aligned zener diode"
-msgstr ""
+msgstr "Diode Zener alignée diagonalement"
 
 #: ../sheets/Circuit2.sheet.in.h:13
 msgid "Diagonally aligned LED"
-msgstr ""
+msgstr "DEL aligné diagonalement"
 
 #: ../sheets/Circuit2.sheet.in.h:14
 msgid "Horizontal LED"
-msgstr ""
+msgstr "DEL aligné horizontalement"
 
 #: ../sheets/Circuit2.sheet.in.h:15
 msgid "Vertical LED"
-msgstr ""
+msgstr "DEL aligné verticalement"
 
 #: ../sheets/Circuit2.sheet.in.h:16 ../sheets/Optics.sheet.in.h:18
 msgid "Sine Wave Source"
@@ -593,7 +593,7 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:18
 msgid "TRIAC"
-msgstr ""
+msgstr "TRIAC"
 
 #: ../sheets/Circuit2.sheet.in.h:19
 msgid "Optoisolator"
@@ -601,7 +601,7 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:20
 msgid "Relay"
-msgstr ""
+msgstr "Relais"
 
 #: ../sheets/Circuit2.sheet.in.h:21
 msgid "Triangle Wave Source"
@@ -613,19 +613,19 @@ msgstr ""
 
 #: ../sheets/Circuit2.sheet.in.h:23
 msgid "Vertical Ammeter"
-msgstr ""
+msgstr "Ampéremétre aligné verticalement"
 
 #: ../sheets/Circuit2.sheet.in.h:24
 msgid "Vertical Voltmeter"
-msgstr ""
+msgstr "Voltmétre aligné verticalement"
 
 #: ../sheets/Circuit2.sheet.in.h:25
 msgid "Horizontal Ammeter"
-msgstr ""
+msgstr "Ampéremétre aligné horizontalement"
 
 #: ../sheets/Circuit2.sheet.in.h:26
 msgid "Horizontal Voltmeter"
-msgstr ""
+msgstr "Voltmétre aligné horizontalement"
 
 #. For: jason
 #: ../sheets/CMOS.sheet.in.h:2
@@ -1189,7 +1189,7 @@ msgstr ""
 
 #: ../sheets/electronic.sheet.in.h:5
 msgid "Capacitor"
-msgstr ""
+msgstr "Condensateur"
 
 #: ../sheets/electronic.sheet.in.h:6
 msgid "Electrolytic capacitor"
