@@ -299,8 +299,20 @@ case "AADL - Box":
 		  {
 		    if (objectsheets.TryGetValue (name, out sheet))
 		      {
+			// Some shape directories are split into several sheets
+			string shape4sheet = sheet;
+			switch(sheet)
+			{
+				case "ciscocomputer":
+				case "ciscohub":
+				case "ciscomisc":
+				case "cisconetwork":
+				case "ciscotelephony":
+					shape4sheet = "Cisco";
+					break;
+			}
 			cssclass =
-			  "d" + sheet +
+			  "d" + shape4sheet +
 			  DiaCss.CanonicalizePath (cssclass).Replace (".png",
 								      "");
 		      }
