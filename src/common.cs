@@ -4,7 +4,7 @@
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007, 2009 - 2012 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009 - 2013 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -173,47 +173,59 @@ class DiaIconFinder
 
     switch (name)
       {
-case "AADL - Box":  
+      case "AADL - Box":
 	cssclass = "daadlprocess";
 	break;
-    case "AADL - Process":
-      cssclass = "daadlprocess";
-	    break;
-    case "AADL - Thread":
-      cssclass = "daadlthread";
+      case "AADL - Process":
+	cssclass = "daadlprocess";
 	break;
-    case "AADL - Data":
-      cssclass = "daadldata";
+      case "AADL - Thread":
+	cssclass = "daadlthread";
 	break;
-    case "AADL - Processor":
-      cssclass = "daadlprocessor";
+      case "AADL - Data":
+	cssclass = "daadldata";
 	break;
-    case "AADL - Memory":
-      cssclass = "daadlmemory";
+      case "AADL - Processor":
+	cssclass = "daadlprocessor";
 	break;
-    case "AADL - Bus":
-      cssclass = "daadlbus";
+      case "AADL - Memory":
+	cssclass = "daadlmemory";
 	break;
-    case "AADL - System":
-      cssclass = "daadlsystem";
+      case "AADL - Bus":
+	cssclass = "daadlbus";
 	break;
-    case "AADL - Subprogram":
-      cssclass = "daadlsubprogram";
+      case "AADL - System":
+	cssclass = "daadlsystem";
 	break;
-    case "AADL - Thread Group":
-      cssclass = "daadlthreadgroup";
+      case "AADL - Subprogram":
+	cssclass = "daadlsubprogram";
 	break;
-    case "AADL - Device":
-      cssclass = "daadldevice";
+      case "AADL - Thread Group":
+	cssclass = "daadlthreadgroup";
 	break;
-    case "AADL - Package":
+      case "AADL - Device":
+	cssclass = "daadldevice";
+	break;
+      case "AADL - Package":
 	cssclass = "daadlpackage";
 	break;
-    case "chronogram - reference":
+      case "chronogram - reference":
 	cssclass = "dchronoref";
 	break;
-   case "chronogram - line":
+      case "chronogram - line":
 	cssclass = "dchronoline";
+	break;
+      case "ER - Entity":
+	cssclass = "dc2sheetentity";
+	break;
+      case "ER - Relationship":
+	cssclass = "drelationship";
+	break;
+      case "ER - Attribute":
+	cssclass = "dattribute";
+	break;
+      case "ER - Participation":
+	cssclass = "dparticipation";
 	break;
       case "UML - Class":
 	cssclass = "dumlclass";
@@ -301,16 +313,16 @@ case "AADL - Box":
 		      {
 			// Some shape directories are split into several sheets
 			string shape4sheet = sheet;
-			switch(sheet)
-			{
-				case "ciscocomputer":
-				case "ciscohub":
-				case "ciscomisc":
-				case "cisconetwork":
-				case "ciscotelephony":
-					shape4sheet = "Cisco";
-					break;
-			}
+			switch (sheet)
+			  {
+			  case "ciscocomputer":
+			  case "ciscohub":
+			  case "ciscomisc":
+			  case "cisconetwork":
+			  case "ciscotelephony":
+			    shape4sheet = "Cisco";
+			    break;
+			  }
 			cssclass =
 			  "d" + shape4sheet +
 			  DiaCss.CanonicalizePath (cssclass).Replace (".png",
