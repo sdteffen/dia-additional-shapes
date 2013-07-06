@@ -227,6 +227,24 @@ class DiaIconFinder
       case "ER - Participation":
 	cssclass = "dparticipation";
 	break;
+      case "GRAFCET - Step":
+	cssclass = "detape";
+	break;
+      case "GRAFCET - Action":
+	cssclass = "daction";
+	break;
+      case "GRAFCET - Condition":
+	cssclass = "dc2sheetcondition";
+	break;
+      case "GRAFCET - Transition":
+	cssclass = "dtransition";
+	break;
+      case "GRAFCET - Vergent":
+	cssclass = "dvergent";
+	break;
+      case "GRAFCET - Arc":
+	cssclass = "dvector";
+	break;
       case "UML - Class":
 	cssclass = "dumlclass";
 	break;
