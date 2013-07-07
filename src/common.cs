@@ -245,6 +245,18 @@ class DiaIconFinder
       case "GRAFCET - Arc":
 	cssclass = "dvector";
 	break;
+      case "Istar - goal":
+	cssclass = "dc2sheetgoal";
+	break;
+      case "Istar - other":
+	cssclass = "dresource";
+	break;
+      case "Istar - actor":
+	cssclass = "dactor";
+	break;
+      case "Istar - link":
+	cssclass = "dlink";
+	break;
       case "UML - Class":
 	cssclass = "dumlclass";
 	break;
