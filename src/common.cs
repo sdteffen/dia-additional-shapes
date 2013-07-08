@@ -257,6 +257,15 @@ class DiaIconFinder
       case "Istar - link":
 	cssclass = "dlink";
 	break;
+      case "Jackson - domain":
+	cssclass = "dgiven_domain";
+	break;
+      case "Jackson - requirement":
+	cssclass = "dc2sheetrequirement";
+	break;
+      case "Jackson - phenomenon":
+	cssclass = "dshared_phen";
+	break;
       case "UML - Class":
 	cssclass = "dumlclass";
 	break;
