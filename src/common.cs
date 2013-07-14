@@ -257,6 +257,18 @@ class DiaIconFinder
       case "Istar - link":
 	cssclass = "dlink";
 	break;
+      case "KAOS - other":
+	cssclass = "dc2sheetagent";
+	break;
+      case "KAOS - goal":
+	cssclass = "dKAOSsoftgoal";
+	break;
+      case "KAOS - maor":
+	cssclass = "dand-ref";
+	break;
+      case "KAOS - mbr":
+	cssclass = "dobstructs";
+	break;
       case "Jackson - domain":
 	cssclass = "dgiven_domain";
 	break;
