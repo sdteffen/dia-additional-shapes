@@ -278,6 +278,15 @@ class DiaIconFinder
       case "Jackson - phenomenon":
 	cssclass = "dshared_phen";
 	break;
+      case "SADT - arrow":
+	cssclass = "darrow";
+	break;
+      case "SADT - box":
+	cssclass = "dsadtbox";
+	break;
+      case "SADT - annotation":
+	cssclass = "dannotation";
+	break;
       case "UML - Class":
 	cssclass = "dumlclass";
 	break;
