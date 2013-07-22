@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-28 10:39+0200\n"
-"PO-Revision-Date: 2013-06-28 11:46+0100\n"
+"PO-Revision-Date: 2013-07-22 11:07+0100\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: German <sdteffen@sdteffen.de>\n"
 "Language: de\n"
@@ -677,11 +677,11 @@ msgstr ""
 #. For: jason
 #: ../sheets/digital.sheet.in.h:2
 msgid "Digital"
-msgstr ""
+msgstr "Digital"
 
 #: ../sheets/digital.sheet.in.h:3
 msgid "Digital Logic Gates"
-msgstr ""
+msgstr "Digitale Logikgatter"
 
 #: ../sheets/digital.sheet.in.h:4
 msgid "Buffer (horizontal)"
@@ -693,27 +693,27 @@ msgstr ""
 
 #: ../sheets/digital.sheet.in.h:6
 msgid "AND (horizontal)"
-msgstr ""
+msgstr "UND (horizontal)"
 
 #: ../sheets/digital.sheet.in.h:7
 msgid "NAND (horizontal)"
-msgstr ""
+msgstr "NAND (horizontal)"
 
 #: ../sheets/digital.sheet.in.h:8
 msgid "OR (horizontal)"
-msgstr ""
+msgstr "ODER (horizontal)"
 
 #: ../sheets/digital.sheet.in.h:9
 msgid "NOR (horizontal)"
-msgstr ""
+msgstr "NOR (horizontal)"
 
 #: ../sheets/digital.sheet.in.h:10
 msgid "XOR (horizontal)"
-msgstr ""
+msgstr "Exklusiv-ODER (horizontal)"
 
 #: ../sheets/digital.sheet.in.h:11
 msgid "XNOR (horizontal)"
-msgstr ""
+msgstr "Nicht-Exklusiv-ODER (horizontal)"
 
 #: ../sheets/digital.sheet.in.h:12
 msgid "Multiplexer/Demultiplexer (horizontal)"
@@ -1735,19 +1735,19 @@ msgstr "Temperatur- und Feuchtigkeitssensor"
 #. Dia-Version: 0.94
 #: ../sheets/scenegraph.sheet.in.h:2
 msgid "Scene graph"
-msgstr ""
+msgstr "Szenengraph"
 
 #: ../sheets/scenegraph.sheet.in.h:3
 msgid "Scene graph symbols"
-msgstr ""
+msgstr "Szenengraphsymbole"
 
 #: ../sheets/scenegraph.sheet.in.h:4
 msgid "Transform"
-msgstr ""
+msgstr "Transformation"
 
 #: ../sheets/scenegraph.sheet.in.h:5
 msgid "Group node"
-msgstr ""
+msgstr "Gruppenknoten"
 
 #: ../sheets/scenegraph.sheet.in.h:6
 msgid "Appearance"
