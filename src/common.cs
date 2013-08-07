@@ -215,6 +215,15 @@ class DiaIconFinder
       case "chronogram - line":
 	cssclass = "dchronoline";
 	break;
+      case "Database - Table":
+	cssclass = "dtable";
+	break;
+      case "Database - Reference":
+	cssclass = "dreference";
+	break;
+      case "Database - Compound":
+	cssclass = "dcompound";
+	break;
       case "ER - Entity":
 	cssclass = "dc2sheetentity";
 	break;

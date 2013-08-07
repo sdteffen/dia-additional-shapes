@@ -35,35 +35,25 @@ public class Sheet2Html
       {
 	Console.Error.WriteLine ("USAGE: sheet2html [options] [sheetname]");
 	Console.Error.WriteLine ("Options:");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("--author=AUTHOR            Specify sheet creator");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("--comes-with-dia           Sheet is part of the Dia distribution");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("--datadir=datadir          Path where sheets and shapes reside");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("--example-author=AUTHOR     Specify example author");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("-h, --help                 Display help and exit");
-        Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("--original-example=URL     Link to the original example file");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("--output-directory=DIR     Specify output directory");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("--noads                    Add noads tags to template");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("--tpl                      Create Smarty Template");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("-v, --version              Display version and exit");
 
 	return;
@@ -72,8 +62,8 @@ public class Sheet2Html
     if ("-v" == args[0] || "--version" == args[0])
       {
 	Console.Error.WriteLine ("sheet2html 0.9.3");
-	Console.
-	  Error.WriteLine ("Copyright (c) 2007, 2009 - 2013 Steffen Macke");
+	Console.Error.
+	  WriteLine ("Copyright (c) 2007, 2009 - 2013 Steffen Macke");
 	return;
       }
 
@@ -101,12 +91,14 @@ public class Sheet2Html
 	if (10 < args[i].Length && "--datadir=" == args[i].Substring (0, 10))
 	  System.IO.Directory.SetCurrentDirectory (args[i].Substring (10));
 
-	if (17 < args[i].Length && "--example-author=" == args[i].Substring (0, 17))
-	   exampleauthor = args[i].Substring (17);
-        
-        if (19 < args[i].Length && "--original-example=" == args[i].Substring (0, 19))
-	    originalexample = args[i].Substring (19); 
- 
+	if (17 < args[i].Length
+	    && "--example-author=" == args[i].Substring (0, 17))
+	  exampleauthor = args[i].Substring (17);
+
+	if (19 < args[i].Length
+	    && "--original-example=" == args[i].Substring (0, 19))
+	  originalexample = args[i].Substring (19);
+
 	if ("--tpl" == args[i])
 	  {
 	    output_tpl = true;
@@ -236,7 +228,8 @@ public class Sheet2Html
       output.WriteStartElement ("img");
       output.WriteAttributeString ("alt", sheetname);
       output.WriteAttributeString ("src",
-				   "/shapes/" + args[args.Length - 1] + "/images/" + args[args.Length - 1] +
+				   "/shapes/" + args[args.Length - 1] +
+				   "/images/" + args[args.Length - 1] +
 				   ".png");
       output.WriteEndElement ();	// img
 
@@ -247,7 +240,8 @@ public class Sheet2Html
 	  output.WriteStartElement ("li");
 	  output.WriteStartElement ("a");
 	  output.WriteAttributeString ("href",
-				       "/shapes/" + args[args.Length - 1] + "/" + args[args.Length - 1] + ".zip");
+				       "/shapes/" + args[args.Length - 1] +
+				       "/" + args[args.Length - 1] + ".zip");
 	  output.WriteAttributeString ("class", "track");
 	  output.WriteString (args[args.Length - 1] + ".zip");
 	  output.WriteEndElement ();	// a
@@ -257,32 +251,41 @@ public class Sheet2Html
 	}
       output.WriteStartElement ("li");
       output.WriteStartElement ("a");
-      output.WriteAttributeString ("href", "/shapes/" + args[args.Length - 1] + "/" + args[args.Length - 1] + ".dia");
+      output.WriteAttributeString ("href",
+				   "/shapes/" + args[args.Length - 1] + "/" +
+				   args[args.Length - 1] + ".dia");
       output.WriteAttributeString ("class", "track");
       output.WriteString (args[args.Length - 1] + ".dia");
       output.WriteEndElement ();	// a
       output.WriteString (" ");
       output.WriteString ("{t}example diagram in Dia format{/t}");
-      if ( "" != exampleauthor )
-      {
-	output.WriteString (". {t 1='"+exampleauthor+"'}Example created by %1{/t}");
-      }
-      if ( "" != originalexample )
-      {
-	output.WriteString (". ");
-	output.WriteStartElement ("a");
-	output.WriteAttributeString ("href", originalexample);
-	output.WriteAttributeString ("target", "_blank");
-	output.WriteAttributeString ("rel", "nofollow");
-	output.WriteString ("{t}original file{/t}");
-	output.WriteEndElement (); // a
-      }
+      if ("" != exampleauthor)
+	{
+	  output.WriteString (", {t 1='" + exampleauthor +
+			      "'}created by %1{/t}");
+	}
+      if ("" != originalexample)
+	{
+	  output.
+	    WriteString
+	    (". {capture name=original_file assign=original_file}");
+	  output.WriteStartElement ("a");
+	  output.WriteAttributeString ("href", originalexample);
+	  output.WriteAttributeString ("target", "_blank");
+	  output.WriteAttributeString ("rel", "nofollow");
+	  output.WriteString ("{t}original file{/t}");
+	  output.WriteEndElement ();	// a
+	  output.
+	    WriteString
+	    ("{/capture}{t escape=no 1=$original_file}See the %1{/t}");
+	}
       output.WriteEndElement ();	// li
 
       output.WriteStartElement ("li");
       output.WriteStartElement ("a");
       output.WriteAttributeString ("href",
-				   "/shapes/" + args[args.Length - 1] + "/images/" + args[args.Length - 1] +
+				   "/shapes/" + args[args.Length - 1] +
+				   "/images/" + args[args.Length - 1] +
 				   ".svg");
       output.WriteAttributeString ("class", "track");
       output.WriteString (args[args.Length - 1] + ".svg");
