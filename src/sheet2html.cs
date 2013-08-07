@@ -4,7 +4,7 @@
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007, 2009 - 2012 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009 - 2013 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -43,10 +43,16 @@ public class Sheet2Html
 	  ("--comes-with-dia           Sheet is part of the Dia distribution");
 	Console.
 	  Error.WriteLine
-	  ("--datadir=datadir			Path where sheets and shapes reside");
+	  ("--datadir=datadir          Path where sheets and shapes reside");
+	Console.
+	  Error.WriteLine
+	  ("--example-author=AUTHOR     Specify example author");
 	Console.
 	  Error.WriteLine
 	  ("-h, --help                 Display help and exit");
+        Console.
+	  Error.WriteLine
+	  ("--original-example=URL     Link to the original example file");
 	Console.
 	  Error.WriteLine
 	  ("--output-directory=DIR     Specify output directory");
@@ -65,19 +71,21 @@ public class Sheet2Html
 
     if ("-v" == args[0] || "--version" == args[0])
       {
-	Console.Error.WriteLine ("sheet2html 0.9.2");
+	Console.Error.WriteLine ("sheet2html 0.9.3");
 	Console.
-	  Error.WriteLine ("Copyright (c) 2007, 2009 - 2012 Steffen Macke");
+	  Error.WriteLine ("Copyright (c) 2007, 2009 - 2013 Steffen Macke");
 	return;
       }
 
     // Defaults
     System.IO.DirectoryInfo outputdir = new System.IO.DirectoryInfo (".");
     string author = "";
+    string exampleauthor = "";
     bool output_tpl = false;
     bool comes_with_dia = false;
     string noads = "";
     string output_suffix = "html";
+    string originalexample = "";
     string sheet_path_fragment = args[args.Length - 1];
 
     // Parse commandline arguments
@@ -93,6 +101,12 @@ public class Sheet2Html
 	if (10 < args[i].Length && "--datadir=" == args[i].Substring (0, 10))
 	  System.IO.Directory.SetCurrentDirectory (args[i].Substring (10));
 
+	if (17 < args[i].Length && "--example-author=" == args[i].Substring (0, 17))
+	   exampleauthor = args[i].Substring (17);
+        
+        if (19 < args[i].Length && "--original-example=" == args[i].Substring (0, 19))
+	    originalexample = args[i].Substring (19); 
+ 
 	if ("--tpl" == args[i])
 	  {
 	    output_tpl = true;
@@ -249,6 +263,20 @@ public class Sheet2Html
       output.WriteEndElement ();	// a
       output.WriteString (" ");
       output.WriteString ("{t}example diagram in Dia format{/t}");
+      if ( "" != exampleauthor )
+      {
+	output.WriteString (". {t 1='"+exampleauthor+"'}Example created by %1{/t}");
+      }
+      if ( "" != originalexample )
+      {
+	output.WriteString (". ");
+	output.WriteStartElement ("a");
+	output.WriteAttributeString ("href", originalexample);
+	output.WriteAttributeString ("target", "_blank");
+	output.WriteAttributeString ("rel", "nofollow");
+	output.WriteString ("{t}original file{/t}");
+	output.WriteEndElement (); // a
+      }
       output.WriteEndElement ();	// li
 
       output.WriteStartElement ("li");
