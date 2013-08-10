@@ -236,6 +236,18 @@ class DiaIconFinder
       case "ER - Participation":
 	cssclass = "dparticipation";
 	break;
+      case "Flowchart - Box":
+	cssclass = "dAssortedsquare";
+	break;
+      case "Flowchart - Parallelogram":
+	cssclass = "dpgram";
+	break;
+      case "Flowchart - Diamond":
+	cssclass = "dc2sheetdiamond";
+	break;
+      case "Flowchart - Ellipse":
+	cssclass = "dcircle";
+	break;
       case "GRAFCET - Step":
 	cssclass = "detape";
 	break;
