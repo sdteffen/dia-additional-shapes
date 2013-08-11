@@ -248,6 +248,15 @@ class DiaIconFinder
       case "Flowchart - Ellipse":
 	cssclass = "dcircle";
 	break;
+      case "FS - Flow":
+	cssclass = "dflow";
+	break;
+      case "FS - Orthflow":
+	cssclass = "dorthflow";
+	break;
+      case "FS - Function":
+	cssclass = "dc2sheetfunction";
+	break;
       case "GRAFCET - Step":
 	cssclass = "detape";
 	break;
