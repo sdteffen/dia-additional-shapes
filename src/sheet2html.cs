@@ -164,7 +164,9 @@ public class Sheet2Html
 	}
       names = nav.Select (namequery);
       string sheetname = GetValueI18n (language, names);
-      output.WriteElementString ("title", sheetname);
+      XPathNodeIterator sheetdescriptions = nav.Select (sheetdescquery);
+      string sheetdescription = GetValueI18n (language, sheetdescriptions);
+      output.WriteElementString ("title", "{t}Dia Sheet{/t} "+sheetname+": "+sheetdescription);
 
       output.WriteStartElement ("meta");
       output.WriteAttributeString ("http-equiv", "Content-type");
@@ -182,12 +184,14 @@ public class Sheet2Html
 	  output.WriteEndElement ();	// link
 	}
 
-      XPathNodeIterator sheetdescriptions = nav.Select (sheetdescquery);
-      string sheetdescription = GetValueI18n (language, sheetdescriptions);
+     
 
       output.WriteStartElement ("meta");
       output.WriteAttributeString ("name", "description");
-      output.WriteAttributeString ("content", sheetdescription);
+      if(comes_with_dia)
+      	output.WriteAttributeString ("content", "{t}Sheet{/t} "+sheetname+": "+sheetdescription+". {t}Learn more about these objects from Dia's comprehensive toolbox. See a sample diagram and download it in different formats.{/t}");
+      else
+	output.WriteAttributeString ("content", "{t}Sheet{/t} "+sheetname+": "+sheetdescription+". {t}Learn more about these objects, how they can be added to your Dia toolbox and how you can draw your diagrams with them. See a sample diagram and download it in different formats.{/t}");
       output.WriteEndElement ();
 
       // CSS sprites
