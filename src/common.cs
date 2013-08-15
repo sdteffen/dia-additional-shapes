@@ -19,7 +19,6 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
-
 using System;
 using System.Xml.XPath;
 using System.Xml;
@@ -32,6 +31,7 @@ class DiaIcons
 {
   public const string SHEET_SPECIFIC = "SHEET_SPECIFIC";
   public SortedDictionary < string, string > icons;
+  public String fullpath = "";
 
   // Parse the available icons
   public DiaIcons ()
@@ -40,36 +40,46 @@ class DiaIcons
     string[] folders =
     {
     "sheets", "shapes"};
-    var fullpath = new DirectoryInfo (".").FullName;
+    fullpath = new DirectoryInfo (".").FullName;
     foreach (string folder in folders)
     {
       DirectoryInfo dir = new DirectoryInfo (folder);
       foreach (DirectoryInfo d in dir.GetDirectories ())
       {
-	foreach (FileInfo f in d.GetFiles ("*.png"))
+	GetPngsInDir (d);
+	foreach (DirectoryInfo s in d.GetDirectories ())
 	{
-	  var path = f.FullName.Replace (fullpath + "/", "");
-	  string duplicatevalue;
-	  if (icons.TryGetValue (f.Name, out duplicatevalue))
+	  GetPngsInDir (s);
+	}
+      }
+    }
+  }
+
+  public void GetPngsInDir (DirectoryInfo d)
+  {
+
+    foreach (FileInfo f in d.GetFiles ("*.png"))
+    {
+      var path = f.FullName.Replace (fullpath + "/", "");
+      string duplicatevalue;
+      if (icons.TryGetValue (f.Name, out duplicatevalue))
+	{
+	  if (SHEET_SPECIFIC != duplicatevalue)
 	    {
-	      if (SHEET_SPECIFIC != duplicatevalue)
-		{
-		  icons.Add (DiaCss.CanonicalizePath (duplicatevalue),
-			     duplicatevalue);
-		  icons.Add (DiaCss.CanonicalizePath (path), path);
-		  icons[f.Name] = SHEET_SPECIFIC;
-		}
-	      else
-		{
-		  icons.Add (DiaCss.CanonicalizePath (path), path);
-		}
+	      icons.Add (DiaCss.CanonicalizePath (duplicatevalue),
+			 duplicatevalue);
+	      icons.Add (DiaCss.CanonicalizePath (path), path);
+	      icons[f.Name] = SHEET_SPECIFIC;
 	    }
 	  else
 	    {
-	      icons.Add (f.Name, path);
+	      icons.Add (DiaCss.CanonicalizePath (path), path);
 	    }
 	}
-      }
+      else
+	{
+	  icons.Add (f.Name, path);
+	}
     }
   }
 }
@@ -96,6 +106,7 @@ class DiaIconFinder
 
   public DiaIconFinder ()
   {
+
     icons = new DiaIcons ();
     objecticons = new Dictionary < string, string > ();
     objectsheets = new Dictionary < string, string > ();
@@ -133,34 +144,43 @@ class DiaIconFinder
     System.IO.DirectoryInfo sdir = new System.IO.DirectoryInfo ("shapes");
     foreach (System.IO.DirectoryInfo idir in sdir.GetDirectories ())
     {
-      foreach (System.IO.FileInfo f in idir.GetFiles ("*.shape"))
+      GetShapesInDir (idir);
+      foreach (System.IO.DirectoryInfo jdir in idir.GetDirectories ())
       {
-	XmlDocument shape = new XmlDocument ();
-	shape.Load (f.FullName);
-	XmlNamespaceManager nsmgr = new XmlNamespaceManager (shape.NameTable);
-	nsmgr.AddNamespace ("", "http://www.daa.com.au/~james/dia-shape-ns");
-	XmlNodeList nodeList;
-	nodeList =
-	  shape.GetElementsByTagName ("name",
-				      "http://www.daa.com.au/~james/dia-shape-ns");
-	foreach (XmlNode name in nodeList)
-	{
-	  string dummy;
-	  if ((name.ParentNode.Name == "shape")
-	      && !(objecticons.TryGetValue (name.InnerText, out dummy)))
-	    {
-	      XmlNodeList iconList;
-	      iconList =
-		shape.GetElementsByTagName ("icon",
-					    "http://www.daa.com.au/~james/dia-shape-ns");
-	      foreach (XmlNode icon in iconList)
-	      {
-		objecticons.Add (name.InnerText, icon.InnerText);
-	      }
-	    }
-	}
-
+	GetShapesInDir (jdir);
       }
+    }
+  }
+
+  public void GetShapesInDir (System.IO.DirectoryInfo idir)
+  {
+    foreach (System.IO.FileInfo f in idir.GetFiles ("*.shape"))
+    {
+      XmlDocument shape = new XmlDocument ();
+      shape.Load (f.FullName);
+      XmlNamespaceManager nsmgr = new XmlNamespaceManager (shape.NameTable);
+      nsmgr.AddNamespace ("", "http://www.daa.com.au/~james/dia-shape-ns");
+      XmlNodeList nodeList;
+      nodeList =
+	shape.GetElementsByTagName ("name",
+				    "http://www.daa.com.au/~james/dia-shape-ns");
+      foreach (XmlNode name in nodeList)
+      {
+	string dummy;
+	if ((name.ParentNode.Name == "shape")
+	    && !(objecticons.TryGetValue (name.InnerText, out dummy)))
+	  {
+	    XmlNodeList iconList;
+	    iconList =
+	      shape.GetElementsByTagName ("icon",
+					  "http://www.daa.com.au/~james/dia-shape-ns");
+	    foreach (XmlNode icon in iconList)
+	    {
+	      objecticons.Add (name.InnerText, icon.InnerText);
+	    }
+	  }
+      }
+
     }
   }
 

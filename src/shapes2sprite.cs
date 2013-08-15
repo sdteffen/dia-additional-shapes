@@ -37,16 +37,16 @@ public class Shapes2Sprite
       {
 	Console.Error.WriteLine ("USAGE: shapes2sprite [Options]");
 	Console.Error.WriteLine ("Options:");
-	Console.Error.
-	  WriteLine
+	Console.Error.WriteLine
 	  ("--montage					Output montage command line");
-	Console.Error.
-	  WriteLine
+	Console.Error.WriteLine
 	  ("--datadir=datadir			Path where sheets and shapes reside");
-	Console.Error.
-	  WriteLine ("-h, --help                 Display help and exit");
-	Console.Error.
-	  WriteLine ("-v, --version              Display version and exit");
+	Console.
+	  Error.WriteLine
+	  ("-h, --help                 Display help and exit");
+	Console.
+	  Error.WriteLine
+	  ("-v, --version              Display version and exit");
 	return;
       }
 

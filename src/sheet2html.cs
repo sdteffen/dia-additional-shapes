@@ -62,8 +62,8 @@ public class Sheet2Html
     if ("-v" == args[0] || "--version" == args[0])
       {
 	Console.Error.WriteLine ("sheet2html 0.9.3");
-	Console.Error.
-	  WriteLine ("Copyright (c) 2007, 2009 - 2013 Steffen Macke");
+	Console.
+	  Error.WriteLine ("Copyright (c) 2007, 2009 - 2013 Steffen Macke");
 	return;
       }
 
@@ -166,7 +166,9 @@ public class Sheet2Html
       string sheetname = GetValueI18n (language, names);
       XPathNodeIterator sheetdescriptions = nav.Select (sheetdescquery);
       string sheetdescription = GetValueI18n (language, sheetdescriptions);
-      output.WriteElementString ("title", "{t}Dia Sheet{/t} "+sheetname+": "+sheetdescription);
+      output.WriteElementString ("title",
+				 "{t}Dia Sheet{/t} " + sheetname + ": " +
+				 sheetdescription);
 
       output.WriteStartElement ("meta");
       output.WriteAttributeString ("http-equiv", "Content-type");
@@ -184,14 +186,20 @@ public class Sheet2Html
 	  output.WriteEndElement ();	// link
 	}
 
-     
+
 
       output.WriteStartElement ("meta");
       output.WriteAttributeString ("name", "description");
-      if(comes_with_dia)
-      	output.WriteAttributeString ("content", "{t}Sheet{/t} "+sheetname+": "+sheetdescription+". {t}Learn more about these objects from Dia's comprehensive toolbox. See a sample diagram and download it in different formats.{/t}");
+      if (comes_with_dia)
+	output.WriteAttributeString ("content",
+				     "{t}Sheet{/t} " + sheetname + ": " +
+				     sheetdescription +
+				     ". {t}Learn more about these objects from Dia's comprehensive toolbox. See a sample diagram and download it in different formats.{/t}");
       else
-	output.WriteAttributeString ("content", "{t}Sheet{/t} "+sheetname+": "+sheetdescription+". {t}Learn more about these objects, how they can be added to your Dia toolbox and how you can draw your diagrams with them. See a sample diagram and download it in different formats.{/t}");
+	output.WriteAttributeString ("content",
+				     "{t}Sheet{/t} " + sheetname + ": " +
+				     sheetdescription +
+				     ". {t}Learn more about these objects, how they can be added to your Dia toolbox and how you can draw your diagrams with them. See a sample diagram and download it in different formats.{/t}");
       output.WriteEndElement ();
 
       // CSS sprites
@@ -270,8 +278,7 @@ public class Sheet2Html
 	}
       if ("" != originalexample)
 	{
-	  output.
-	    WriteString
+	  output.WriteString
 	    (". {capture name=original_file assign=original_file}");
 	  output.WriteStartElement ("a");
 	  output.WriteAttributeString ("href", originalexample);
@@ -279,8 +286,7 @@ public class Sheet2Html
 	  output.WriteAttributeString ("rel", "nofollow");
 	  output.WriteString ("{t}original file{/t}");
 	  output.WriteEndElement ();	// a
-	  output.
-	    WriteString
+	  output.WriteString
 	    ("{/capture}{t escape=no 1=$original_file}See the %1{/t}");
 	}
       output.WriteEndElement ();	// li
