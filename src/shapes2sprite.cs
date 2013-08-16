@@ -4,7 +4,7 @@
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007, 2009 - 2011 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009 - 2013 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -52,8 +52,8 @@ public class Shapes2Sprite
 
     if (1 == args.Length && ("-v" == args[0] || "--version" == args[0]))
       {
-	Console.Error.WriteLine ("shapes2sprite 0.2.1");
-	Console.Error.WriteLine ("Copyright (c) 2011 Steffen Macke");
+	Console.Error.WriteLine ("shapes2sprite 0.2.2");
+	Console.Error.WriteLine ("Copyright (c) 2011 - 2013 Steffen Macke");
 	return;
       }
 
@@ -70,7 +70,7 @@ public class Shapes2Sprite
     string montagecmd = "montage -geometry +0+0 -tile ";
     int objectcount = 0;
     string files = "";
-    int x = 0;
+    int x = 0, y = 0;
 
     if (!montage)
       Console.WriteLine (".icon { width: 22px; height: 22px; }");
@@ -85,10 +85,15 @@ public class Shapes2Sprite
       if (!montage)
 	Console.WriteLine (".d" + icon.Key.Replace (".png", "") +
 			   " {background: transparent url(s.png) -" + x +
-			   "px 0px no-repeat;}");
+			   "px -" + y + "px no-repeat;}");
       x += 22;
+	if(2200 <= x)
+	{
+		x = 0;
+		y += 22;
+	}
     }
-    montagecmd += objectcount + "x1 " + files + " s.png";
+    montagecmd += "100x" + Math.Ceiling((decimal)objectcount/100) + " " + files + " s.png";
     if (montage)
       Console.WriteLine (montagecmd);
 
