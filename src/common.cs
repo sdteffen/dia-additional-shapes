@@ -328,6 +328,18 @@ class DiaIconFinder
       case "Jackson - phenomenon":
 	cssclass = "dshared_phen";
 	break;
+      case "Misc - Tree":
+	cssclass = "dtree";
+	break;
+      case "Misc - Analog Clock":
+	cssclass = "danalog_clock";
+	break;
+      case "Misc - Measure":
+	cssclass = "dc2sheetmeasure";
+	break;
+	case "Misc - Grid":
+	cssclass = "dgrid_object";
+	break;
       case "SADT - arrow":
 	cssclass = "darrow";
 	break;
