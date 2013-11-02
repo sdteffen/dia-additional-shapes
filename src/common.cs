@@ -337,8 +337,23 @@ class DiaIconFinder
       case "Misc - Measure":
 	cssclass = "dc2sheetmeasure";
 	break;
-	case "Misc - Grid":
+      case "Misc - Grid":
 	cssclass = "dgrid_object";
+	break;
+      case "Network - Bus":
+	cssclass = "dbus";
+	break;
+      case "Network - WAN Link":
+	cssclass = "dwanlink";
+	break;
+      case "Network - Base Station":
+	cssclass = "dbasestation";
+	break;
+      case "Network - Radio Cell":
+	cssclass = "dradiocell";
+	break;
+      case "Network - Laptop Computer":
+	cssclass = "dlaptop";
 	break;
       case "SADT - arrow":
 	cssclass = "darrow";
@@ -443,6 +458,9 @@ class DiaIconFinder
 			  case "cisconetwork":
 			  case "ciscotelephony":
 			    shape4sheet = "Cisco";
+			    break;
+			  case "network":
+			    shape4sheet = "Network";
 			    break;
 			  }
 			cssclass =

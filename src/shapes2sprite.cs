@@ -41,11 +41,9 @@ public class Shapes2Sprite
 	  ("--montage					Output montage command line");
 	Console.Error.WriteLine
 	  ("--datadir=datadir			Path where sheets and shapes reside");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("-h, --help                 Display help and exit");
-	Console.
-	  Error.WriteLine
+	Console.Error.WriteLine
 	  ("-v, --version              Display version and exit");
 	return;
       }
@@ -87,13 +85,15 @@ public class Shapes2Sprite
 			   " {background: transparent url(s.png) -" + x +
 			   "px -" + y + "px no-repeat;}");
       x += 22;
-	if(2200 <= x)
+      if (2200 <= x)
 	{
-		x = 0;
-		y += 22;
+	  x = 0;
+	  y += 22;
 	}
     }
-    montagecmd += "100x" + Math.Ceiling((decimal)objectcount/100) + " " + files + " s.png";
+    montagecmd +=
+      "100x" + Math.Ceiling ((decimal) objectcount / 100) + " " + files +
+      " s.png";
     if (montage)
       Console.WriteLine (montagecmd);
 
