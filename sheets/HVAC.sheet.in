@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!--Dia-Version: 0.97.2-->
+<!--File: C:\Users\jshaw\.dia\sheets\HVAC.sheet-->
+<!--Date: Fri Nov 29 16:07:24 2013-->
+<!--For: jshaw-->
+
+<_name>HVAC</_name>
+<_description>HVAC</_description>
+<contents>
+<!--add shapes here-->
+<object name="HVAC - CeilingVent">
+<_description>Ceiling Vent</_description></object><object name="HVAC - Duct">
+<_description>Duct</_description></object><object name="HVAC - FloorVent">
+<_description>Floor Vent</_description></object><object name="HVAC - HumiditySensor">
+<_description>Humidistat</_description></object><object name="HVAC - InsulatedDuct">
+<_description>Insulated Duct</_description></object><object name="HVAC - Thermostat">
+<_description>Thermostat</_description></object><object name="HVAC - WallVent">
+<_description>Wall Vent</_description></object><object name="HVAC - 24x24Return">
+<_description>Return</_description></object><object name="HVAC - CeilingVentVert">
+<_description>Ceiling Vent Vertical</_description></object><object name="HVAC - FloorVentVert">
+<_description>Floor Vent Vertical</_description></object><object name="HVAC - DuctVert">
+<_description>Duct Vertical</_description></object><object name="HVAC - InsulatedDuctVert">
+<_description>Insulated Duct Vertical</_description></object><object name="HVAC - WallVentVert">
+<_description>Wall Vent Vertical</_description></object><object name="HVAC - 1WayDiffuser">
+<_description>1-Way Diffuser</_description></object><object name="HVAC - 2WayDiffuser">
+<_description>2-Way Diffuser</_description></object><object name="HVAC - 3WayDiffuser">
+<_description>3-Way Diffuser</_description></object><object name="HVAC - 4WayDiffuser">
+<_description>4-Way Diffuser</_description></object><object name="HVAC - VolumeDamper">
+<_description>Volume Damper</_description></object><object name="HVAC - VolumeDamperVert">
+<_description>Volume Damper Vertical</_description></object></contents></sheet>

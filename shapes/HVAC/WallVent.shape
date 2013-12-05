@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>HVAC - WallVent</name>
+  <icon>WallVent.png</icon>
+  <connections>
+    <point x="0" y="2"/>
+    <point x="5" y="3"/>
+    <point x="0" y="3"/>
+    <point x="0" y="2.5"/>
+    <point x="5" y="2"/>
+    <point x="5" y="2.5"/>
+    <point x="2.5" y="3"/>
+    <point x="2.5" y="2"/>
+    <point x="10" y="2"/>
+    <point x="15" y="3"/>
+    <point x="10" y="3"/>
+    <point x="10" y="2.5"/>
+    <point x="15" y="2"/>
+    <point x="15" y="2.5"/>
+    <point x="12.5" y="3"/>
+    <point x="12.5" y="2"/>
+    <point x="5" y="2"/>
+    <point x="10" y="3"/>
+    <point x="5" y="3"/>
+    <point x="5" y="2.5"/>
+    <point x="10" y="2"/>
+    <point x="10" y="2.5"/>
+    <point x="7.5" y="3"/>
+    <point x="7.5" y="2"/>
+    <point x="7.49528" y="0.0230292"/>
+    <point x="7.49528" y="5.00787"/>
+    <point x="7.49528" y="2.51545"/>
+    <point x="7.24528" y="4.50798"/>
+    <point x="7.49528" y="5.00798"/>
+    <point x="7.74528" y="4.50798"/>
+    <point x="7.37028" y="4.75798"/>
+    <point x="7.62028" y="4.75798"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #000000" x="0" y="2" width="5" height="1"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="0" y="2" width="5" height="1"/>
+    <svg:rect style="fill: #000000" x="10" y="2" width="5" height="1"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="10" y="2" width="5" height="1"/>
+    <svg:rect style="fill: #ffffff" x="5" y="2" width="5" height="1"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="5" y="2" width="5" height="1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="7.49528" y1="0.0230292" x2="7.49528" y2="5.00787"/>
+    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="7.24528,4.50798 7.49528,5.00798 7.74528,4.50798 "/>
+  </svg:svg>
+</shape>

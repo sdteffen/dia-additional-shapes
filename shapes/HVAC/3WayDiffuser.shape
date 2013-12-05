@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>HVAC - 3WayDiffuser</name>
+  <icon>3WayDiffuser.png</icon>
+  <connections>
+    <point x="15" y="7"/>
+    <point x="17" y="9"/>
+    <point x="15" y="9"/>
+    <point x="15" y="8"/>
+    <point x="17" y="7"/>
+    <point x="17" y="8"/>
+    <point x="16" y="9"/>
+    <point x="16" y="7"/>
+    <point x="15" y="7"/>
+    <point x="17" y="9"/>
+    <point x="15" y="9"/>
+    <point x="15" y="8"/>
+    <point x="17" y="7"/>
+    <point x="17" y="8"/>
+    <point x="16" y="9"/>
+    <point x="16" y="7"/>
+    <point x="15" y="7"/>
+    <point x="17" y="9"/>
+    <point x="16" y="8"/>
+    <point x="17" y="7"/>
+    <point x="15" y="9"/>
+    <point x="16" y="8"/>
+    <point x="17" y="7"/>
+    <point x="16" y="8"/>
+    <point x="17" y="9"/>
+    <point x="16.5" y="7.5"/>
+    <point x="16.5" y="8.5"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #ffffff" x="15" y="7" width="2" height="2"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="15" y="7" width="2" height="2"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="15" y="7" width="2" height="2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="15" y1="7" x2="17" y2="9"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="17" y1="7" x2="15" y2="9"/>
+    <svg:polygon style="fill: #000000" points="17,7 16,8 17,9 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="17,7 16,8 17,9 "/>
+  </svg:svg>
+</shape>
