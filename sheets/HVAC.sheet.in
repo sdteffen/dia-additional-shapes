@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
-<!--Dia-Version: 0.97.2-->
-<!--File: C:\Users\jshaw\.dia\sheets\HVAC.sheet-->
-<!--Date: Fri Nov 29 16:07:24 2013-->
-<!--For: jshaw-->
-
 <_name>HVAC</_name>
-<_description>HVAC</_description>
+<_description>Heating, ventilation and air conditioning shapes</_description>
 <contents>
-<!--add shapes here-->
 <object name="HVAC - CeilingVent">
 <_description>Ceiling Vent</_description></object><object name="HVAC - Duct">
 <_description>Duct</_description></object><object name="HVAC - FloorVent">

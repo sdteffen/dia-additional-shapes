@@ -1,4 +1,4 @@
-AC_INIT([dia-shapes],[0.5.0],[sdteffen@sdteffen.de])
+AC_INIT([dia-shapes],[0.6.0],[sdteffen@sdteffen.de])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign dist-xz])
 IT_PROG_INTLTOOL([0.35.0])
 GETTEXT_PACKAGE=dia-shapes
@@ -12,7 +12,8 @@ AC_CONFIG_FILES([Makefile samples/Makefile shapes/Makefile \
 	shapes/Circuit2/Makefile shapes/CMOS/Makefile shapes/digital/Makefile \
 	shapes/edpc/Makefile shapes/Electrical/Makefile \
 	shapes/electric2/Makefile shapes/electronic/Makefile \
-	shapes/gradient/Makefile shapes/LST/Makefile shapes/Optics/Makefile \
+	shapes/gradient/Makefile shapes/HVAC/Makefile \
+	shapes/LST/Makefile shapes/Optics/Makefile \
 	shapes/Racks/Makefile \
 	shapes/renewable_energy/Makefile  shapes/scenegraph/Makefile \
 	shapes/value_stream_mapping/Makefile sheets/Makefile \
