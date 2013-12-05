@@ -17,6 +17,7 @@ sheet_in_files = \
   Electrical.sheet.in \
   electronic.sheet.in \
   gradient.sheet.in \
+  HVAC.sheet.in \
   LST.sheet.in \
   Optics.sheet.in \
   renewable_energy.sheet.in \
