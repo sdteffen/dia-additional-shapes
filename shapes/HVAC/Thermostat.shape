@@ -7,18 +7,12 @@
     <point x="1.5" y="0"/>
     <point x="0" y="1.5"/>
     <point x="3" y="1.5"/>
-    <point x="1.02501" y="1.05"/>
-    <point x="2.02501" y="1.05"/>
-    <point x="1.52501" y="1.05"/>
-    <point x="1.52501" y="1.05"/>
-    <point x="1.53391" y="2.0249"/>
-    <point x="1.52946" y="1.53745"/>
+    <point x="1.5" y="1.5" main="yes"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:ellipse style="fill: #ffffff" cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
-    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1524; stroke: #000000" x1="1.02501" y1="1.05" x2="2.02501" y2="1.05"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1524; stroke: #000000" x1="1.52501" y1="1.05" x2="1.53391" y2="2.0249"/>
+    <svg:ellipse style="fill: background" cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
+    <svg:line x1="1.02501" y1="1.05" x2="2.02501" y2="1.05"/>
+    <svg:line x1="1.52501" y1="1.05" x2="1.53391" y2="2.0249"/>
   </svg:svg>
 </shape>
