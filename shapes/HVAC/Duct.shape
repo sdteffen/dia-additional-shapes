@@ -3,14 +3,7 @@
   <name>HVAC - Duct</name>
   <icon>Duct.png</icon>
   <connections>
-    <point x="1.2" y="3"/>
-    <point x="10.8" y="5"/>
-    <point x="1.2" y="5"/>
-    <point x="1.2" y="4"/>
-    <point x="10.8" y="3"/>
-    <point x="10.8" y="4"/>
-    <point x="6" y="5"/>
-    <point x="6" y="3"/>
+    <point x="6" y="4" main="yes"/>
     <point x="1.2" y="3"/>
     <point x="10.8" y="5"/>
     <point x="1.2" y="5"/>
@@ -22,8 +15,6 @@
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:rect style="fill: #ffffff" x="1.2" y="3" width="9.6" height="2"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="1.2" y="3" width="9.6" height="2"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="1.2" y="3" width="9.6" height="2"/>
+    <svg:rect style="fill: background" x="1.2" y="3" width="9.6" height="2"/>
   </svg:svg>
 </shape>

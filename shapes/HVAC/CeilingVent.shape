@@ -3,43 +3,17 @@
   <name>HVAC - CeilingVent</name>
   <icon>CeilingVent.png</icon>
   <connections>
-    <point x="9" y="6.5"/>
     <point x="9" y="7"/>
-    <point x="9" y="6.75"/>
-    <point x="7.5" y="5.5"/>
-    <point x="10.5" y="6.5"/>
-    <point x="7.5" y="6.5"/>
-    <point x="7.5" y="6"/>
-    <point x="10.5" y="5.5"/>
-    <point x="10.5" y="6"/>
-    <point x="9" y="6.5"/>
-    <point x="9" y="5.5"/>
-    <point x="7.5" y="5.5"/>
-    <point x="10.5" y="6.5"/>
-    <point x="7.5" y="6.5"/>
-    <point x="7.5" y="6"/>
-    <point x="10.5" y="5.5"/>
-    <point x="10.5" y="6"/>
-    <point x="9" y="6.5"/>
-    <point x="9" y="5.5"/>
     <point x="9" y="5"/>
-    <point x="9" y="5.5"/>
-    <point x="9" y="5.25"/>
-    <point x="10.5" y="6"/>
     <point x="11" y="6"/>
-    <point x="10.75" y="6"/>
     <point x="7" y="6"/>
-    <point x="7.5" y="6"/>
-    <point x="7.25" y="6"/>
+    <point x="9" y="6" main="yes"/>
   </connections>
-  <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="9" y1="6.5" x2="9" y2="7"/>
-    <svg:rect style="fill: #ffffff" x="7.5" y="5.5" width="3" height="1"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="7.5" y="5.5" width="3" height="1"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="7.5" y="5.5" width="3" height="1"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="9" y1="5" x2="9" y2="5.5"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="10.5" y1="6" x2="11" y2="6"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="7" y1="6" x2="7.5" y2="6"/>
+    <svg:line style="stroke-width: 1" x1="9" y1="6.5" x2="9" y2="7"/>
+    <svg:rect style="fill: background" x="7.5" y="5.5" width="3" height="1"/>
+    <svg:line style="stroke-width: 1" x1="9" y1="5" x2="9" y2="5.5"/>
+    <svg:line style="stroke-width: 1" x1="10.5" y1="6" x2="11" y2="6"/>
+    <svg:line style="stroke-width: 1" x1="7" y1="6" x2="7.5" y2="6"/>
   </svg:svg>
 </shape>

@@ -50,14 +50,24 @@ EXTRA_DIST = $(SHAPES)
 
 HVAC_DATA = $(SHAPES)
 
-HVAC-zip: $(SHAPES) ../../sheets/HVAC.sheet
+$(SHEET)-zip: $(SHAPES) ../../sheets/$(SHEET).sheet
 	-(cd ../.. && \
-	mkdir -p website/HVAC/images && \
-	zip website/HVAC/HVAC.zip COPYING sheets/HVAC.sheet \
-	shapes/HVAC/*.png shapes/HVAC/*.shape && \
-	cp shapes/HVAC/*.png website/HVAC/images )
+	mkdir -p website/$(SHEET)/images && \
+	zip website/$(SHEET)/$(SHEET).zip COPYING \
+	sheets/$(SHEET).sheet \
+	shapes/$(SHEET)/*.png shapes/$(SHEET)/*.shape && \
+	cp shapes/$(SHEET)/*.png website/$(SHEET)/images )
 
-all: HVAC-zip
+all: $(SHEET)-zip
+
+test:
+	mkdir -p ~/.dia/shapes/$(SHEET)
+	cp * ~/.dia/shapes/$(SHEET)
+	cp ../../sheets/$(SHEET).sheet ~/.dia/sheets
+
+clean-test:
+	-rm ~/.dia/sheets/$(SHEET).sheet
+	-rm -Rf ~/.dia/shapes/$(SHEET)
 
 clean-local:
 	-rm ../../website/$(SHEET)/$(SHEET).zip

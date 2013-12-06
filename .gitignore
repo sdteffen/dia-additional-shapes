@@ -20,3 +20,4 @@ website
 po/*~
 src/*.exe
 src/*.txt
+**/*.autosave
