@@ -3,34 +3,18 @@
   <name>HVAC - CeilingVentVert</name>
   <icon>CeilingVentVert.png</icon>
   <connections>
-    <point x="2" y="2"/>
-    <point x="6" y="14"/>
-    <point x="2" y="14"/>
-    <point x="2" y="8"/>
-    <point x="6" y="2"/>
-    <point x="6" y="8"/>
-    <point x="4" y="14"/>
-    <point x="4" y="2"/>
     <point x="4" y="0"/>
-    <point x="4" y="2"/>
-    <point x="4" y="1"/>
     <point x="0" y="8"/>
-    <point x="2" y="8"/>
-    <point x="1" y="8"/>
-    <point x="6" y="8"/>
     <point x="8" y="8"/>
-    <point x="7" y="8"/>
-    <point x="4" y="14"/>
     <point x="4" y="16"/>
-    <point x="4" y="15"/>
+    <point x="4" y="8" main="yes"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:rect style="fill: #ffffff" x="2" y="2" width="4" height="12"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="2" y="2" width="4" height="12"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="4" y1="0" x2="4" y2="2"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="0" y1="8" x2="2" y2="8"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="6" y1="8" x2="8" y2="8"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="4" y1="14" x2="4" y2="16"/>
+    <svg:rect style="fill: background" x="2" y="2" width="4" height="12"/>
+    <svg:line x1="4" y1="0" x2="4" y2="2"/>
+    <svg:line x1="0" y1="8" x2="2" y2="8"/>
+    <svg:line x1="6" y1="8" x2="8" y2="8"/>
+    <svg:line x1="4" y1="14" x2="4" y2="16"/>
   </svg:svg>
 </shape>

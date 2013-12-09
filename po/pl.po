@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: diashapes 0.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-24 12:20+0200\n"
+"POT-Creation-Date: 2013-12-09 16:20+0100\n"
 "PO-Revision-Date: 2012-01-01 23:31+0000\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: Polish <sdteffen@sdteffen.de>\n"
@@ -50,75 +50,79 @@ msgstr ""
 msgid "AUTOSAR"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:6 ../sheets/scenegraph.sheet.in.h:19
+#: ../sheets/AUTOSAR.sheet.in.h:6
+msgid "AUTomotive Open System ARchitecture"
+msgstr ""
+
+#: ../sheets/AUTOSAR.sheet.in.h:7 ../sheets/scenegraph.sheet.in.h:19
 msgid "Component"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:7
+#: ../sheets/AUTOSAR.sheet.in.h:8
 msgid "Atomic Software Component"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:8
+#: ../sheets/AUTOSAR.sheet.in.h:9
 msgid "Composition"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:9
+#: ../sheets/AUTOSAR.sheet.in.h:10
 msgid "Sensor-Actuator Software Component"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:10
+#: ../sheets/AUTOSAR.sheet.in.h:11
 msgid "Runnable"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:11
+#: ../sheets/AUTOSAR.sheet.in.h:12
 msgid "Interrunnable Variables"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:12
+#: ../sheets/AUTOSAR.sheet.in.h:13
 msgid "Calibration Port (Horizontal)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:13
+#: ../sheets/AUTOSAR.sheet.in.h:14
 msgid "Calibration Port (Vertical)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:14
+#: ../sheets/AUTOSAR.sheet.in.h:15
 msgid "Client/Server Port (Provides)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:15
+#: ../sheets/AUTOSAR.sheet.in.h:16
 msgid "Client/Server Port (Requires/Horizontal)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:16
+#: ../sheets/AUTOSAR.sheet.in.h:17
 msgid "Client/Server Port (Requires/Vertical)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:17
+#: ../sheets/AUTOSAR.sheet.in.h:18
 msgid "Service Client/Server Port (Provides)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:18
+#: ../sheets/AUTOSAR.sheet.in.h:19
 msgid "Service Client/Server Port (Requires/Horizontal)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:19
+#: ../sheets/AUTOSAR.sheet.in.h:20
 msgid "Service Client/Server Port (Requires/Vertical)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:20
+#: ../sheets/AUTOSAR.sheet.in.h:21
 msgid "Service Sender/Receiver Port (Horizontal)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:21
+#: ../sheets/AUTOSAR.sheet.in.h:22
 msgid "Service Sender/Receiver Port (Vertical)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:22
+#: ../sheets/AUTOSAR.sheet.in.h:23
 msgid "Sender/Receiver Port (Horizontal)"
 msgstr ""
 
-#: ../sheets/AUTOSAR.sheet.in.h:23
+#: ../sheets/AUTOSAR.sheet.in.h:24
 msgid "Sender/Receiver Port (Vertical)"
 msgstr ""
 
@@ -1399,6 +1403,90 @@ msgstr ""
 
 #: ../sheets/gradient.sheet.in.h:10
 msgid "Dark-light vertical gradient"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:1
+msgid "HVAC"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:2
+msgid "Heating, ventilation and air conditioning shapes"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:3
+msgid "Ceiling Vent"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:4
+msgid "Duct"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:5
+msgid "Floor Vent"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:6
+msgid "Humidistat"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:7
+msgid "Insulated Duct"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:8
+msgid "Thermostat"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:9
+msgid "Wall Vent"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:10
+msgid "Return"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:11
+msgid "Ceiling Vent Vertical"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:12
+msgid "Floor Vent Vertical"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:13
+msgid "Duct Vertical"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:14
+msgid "Insulated Duct Vertical"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:15
+msgid "Wall Vent Vertical"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:16
+msgid "1-Way Diffuser"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:17
+msgid "2-Way Diffuser"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:18
+msgid "3-Way Diffuser"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:19
+msgid "4-Way Diffuser"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:20
+msgid "Volume Damper"
+msgstr ""
+
+#: ../sheets/HVAC.sheet.in.h:21
+msgid "Volume Damper Vertical"
 msgstr ""
 
 #: ../sheets/LST.sheet.in.h:1

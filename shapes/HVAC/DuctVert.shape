@@ -3,18 +3,14 @@
   <name>HVAC - DuctVert</name>
   <icon>DuctVert.png</icon>
   <connections>
-    <point x="0" y="0"/>
-    <point x="4" y="20"/>
-    <point x="0" y="20"/>
     <point x="0" y="10"/>
-    <point x="4" y="0"/>
     <point x="4" y="10"/>
     <point x="2" y="20"/>
     <point x="2" y="0"/>
+    <point x="2" y="10" main="yes"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:rect style="fill: #ffffff" x="0" y="0" width="4" height="20"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="0" y="0" width="4" height="20"/>
+    <svg:rect style="fill: background" x="0" y="0" width="4" height="20"/>
   </svg:svg>
 </shape>
