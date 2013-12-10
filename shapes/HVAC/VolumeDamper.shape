@@ -4,7 +4,9 @@
   <icon>VolumeDamper.png</icon>
   <connections>
     <point x="18" y="7"/>
+    <point x="20" y="7"/>
     <point x="20" y="8"/>
+    <point x="22" y="7"/>
     <point x="24" y="7"/>
   </connections>
   <aspectratio type="fixed"/>

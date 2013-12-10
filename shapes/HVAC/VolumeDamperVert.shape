@@ -3,9 +3,11 @@
   <name>HVAC - VolumeDamperVert</name>
   <icon>VolumeDamperVert.png</icon>
   <connections>
+    <point x="34.8346" y="25.3313"/>
     <point x="34.8346" y="35.994"/>
     <point x="37.5002" y="30.6627"/>
     <point x="34.8346" y="20"/>
+    <point x="34.8346" y="30.6627"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
