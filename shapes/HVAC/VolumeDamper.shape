@@ -4,30 +4,16 @@
   <icon>VolumeDamper.png</icon>
   <connections>
     <point x="18" y="7"/>
-    <point x="20" y="7"/>
-    <point x="19" y="7"/>
-    <point x="20" y="7"/>
     <point x="20" y="8"/>
-    <point x="20" y="7.5"/>
-    <point x="20.1853" y="6.99915"/>
-    <point x="20.572" y="8.00014"/>
-    <point x="20.9953" y="7.00479"/>
-    <point x="20.3787" y="7.49965"/>
-    <point x="20.7837" y="7.50247"/>
-    <point x="21.0007" y="6.99915"/>
-    <point x="21" y="8"/>
-    <point x="21.0004" y="7.49958"/>
-    <point x="22" y="7"/>
     <point x="24" y="7"/>
-    <point x="23" y="7"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="18" y1="7" x2="20" y2="7"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="20" y1="7" x2="20" y2="8"/>
-    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="20.1853,6.99915 20.572,8.00014 20.9953,7.00479 "/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="21.0007" y1="6.99915" x2="21" y2="8"/>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" d="M 21,8 A 0.500019,0.500019 0 0 0 21,7"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="22" y1="7" x2="24" y2="7"/>
+    <svg:line x1="18" y1="7" x2="20" y2="7"/>
+    <svg:line x1="20" y1="7" x2="20" y2="8"/>
+    <svg:polyline points="20.1853,6.99915 20.572,8.00014 20.9953,7.00479 "/>
+    <svg:line x1="21.0007" y1="6.99915" x2="21" y2="8"/>
+    <svg:path d="M 21,8 A 0.500019,0.500019 0 0 0 21,7"/>
+    <svg:line x1="22" y1="7" x2="24" y2="7"/>
   </svg:svg>
 </shape>

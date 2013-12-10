@@ -4,30 +4,16 @@
   <icon>VolumeDamperVert.png</icon>
   <connections>
     <point x="34.8346" y="35.994"/>
-    <point x="34.8346" y="30.6627"/>
-    <point x="34.8346" y="33.3283"/>
-    <point x="34.8346" y="30.6627"/>
     <point x="37.5002" y="30.6627"/>
-    <point x="36.1674" y="30.6627"/>
-    <point x="34.8333" y="30.1344"/>
-    <point x="37.488" y="29.3023"/>
-    <point x="34.8346" y="27.997"/>
-    <point x="36.1606" y="29.7184"/>
-    <point x="36.1613" y="28.6497"/>
-    <point x="34.8346" y="27.997"/>
-    <point x="37.5002" y="27.997"/>
-    <point x="36.1674" y="27.997"/>
-    <point x="34.8346" y="25.3313"/>
     <point x="34.8346" y="20"/>
-    <point x="34.8346" y="22.6657"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="34.8346" y1="35.994" x2="34.8346" y2="30.6627"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="34.8346" y1="30.6627" x2="37.5002" y2="30.6627"/>
-    <svg:polyline style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" points="34.8333,30.1344 37.488,29.3023 34.8346,27.997 "/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="34.8346" y1="27.997" x2="37.5002" y2="27.997"/>
-    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" d="M 37.5002 27.997 C 37.4939,27.2654 36.899,26.6757 36.1674,26.6757 C 35.4358,26.6757 34.841,27.2654 34.8346,27.997"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="34.8346" y1="25.3313" x2="34.8346" y2="20"/>
+    <svg:line x1="34.8346" y1="35.994" x2="34.8346" y2="30.6627"/>
+    <svg:line x1="34.8346" y1="30.6627" x2="37.5002" y2="30.6627"/>
+    <svg:polyline points="34.8333,30.1344 37.488,29.3023 34.8346,27.997 "/>
+    <svg:line x1="34.8346" y1="27.997" x2="37.5002" y2="27.997"/>
+    <svg:path d="M 37.5002 27.997 C 37.4939,27.2654 36.899,26.6757 36.1674,26.6757 C 35.4358,26.6757 34.841,27.2654 34.8346,27.997"/>
+    <svg:line x1="34.8346" y1="25.3313" x2="34.8346" y2="20"/>
   </svg:svg>
 </shape>

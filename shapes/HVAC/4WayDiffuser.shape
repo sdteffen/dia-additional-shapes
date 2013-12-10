@@ -3,35 +3,16 @@
   <name>HVAC - 4WayDiffuser</name>
   <icon>4WayDiffuser.png</icon>
   <connections>
-    <point x="15" y="7"/>
-    <point x="17" y="9"/>
-    <point x="15" y="9"/>
     <point x="15" y="8"/>
-    <point x="17" y="7"/>
     <point x="17" y="8"/>
     <point x="16" y="9"/>
     <point x="16" y="7"/>
-    <point x="15" y="7"/>
-    <point x="17" y="9"/>
-    <point x="15" y="9"/>
-    <point x="15" y="8"/>
-    <point x="17" y="7"/>
-    <point x="17" y="8"/>
-    <point x="16" y="9"/>
-    <point x="16" y="7"/>
-    <point x="15" y="7"/>
-    <point x="17" y="9"/>
-    <point x="16" y="8"/>
-    <point x="17" y="7"/>
-    <point x="15" y="9"/>
-    <point x="16" y="8"/>
+    <point x="16" y="8" main="yes"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg>
-    <svg:rect style="fill: #ffffff" x="15" y="7" width="2" height="2"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="15" y="7" width="2" height="2"/>
-    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x="15" y="7" width="2" height="2"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="15" y1="7" x2="17" y2="9"/>
-    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.001; stroke: #000000" x1="17" y1="7" x2="15" y2="9"/>
+    <svg:rect style="fill: background" x="15" y="7" width="2" height="2"/>
+    <svg:line x1="15" y1="7" x2="17" y2="9"/>
+    <svg:line x1="17" y1="7" x2="15" y2="9"/>
   </svg:svg>
 </shape>
