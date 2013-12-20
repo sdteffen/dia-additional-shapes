@@ -1,3 +1,2 @@
-Split up README for the individual packages and clean up.
 Don't repeat yourself in Makefiles.
 Add test target to all Makefiles.

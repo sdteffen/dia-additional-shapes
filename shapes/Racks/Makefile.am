@@ -56,10 +56,19 @@ Racks-zip: $(SHAPES) ../../sheets/Racks.sheet
 	-(cd ../.. && \
 	mkdir -p website/Racks/images && \
 	zip website/Racks/Racks.zip COPYING sheets/Racks.sheet \
-	shapes/Racks/*.png shapes/Racks/*.shape && \
+	shapes/Racks/*.png shapes/Racks/*.shape README.Racks.md && \
 	cp shapes/Racks/*.png website/Racks/images )
 
 all: Racks-zip
 
+test:
+	mkdir -p ~/.dia/shapes/$(SHEET)
+	cp * ~/.dia/shapes/$(SHEET)
+	cp ../../sheets/$(SHEET).sheet ~/.dia/sheets
+
+clean-test:
+	-rm ~/.dia/sheets/$(SHEET).sheet
+	-rm -Rf ~/.dia/shapes/$(SHEET)
+
 clean-local:
-	-rm ../../website/$(SHEET)/$(SHEET).zip
+	-rm ../../website/$(SHEET)/$(SHEET).zi
