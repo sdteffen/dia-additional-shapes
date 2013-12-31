@@ -49,7 +49,16 @@ building_site-zip: $(SHAPES) ../../sheets/building_site.sheet
 	shapes/building_site/*.png shapes/building_site/*.shape && \
 	cp shapes/building_site/*.png website/building_site/images )
 
-all: building_site-zip
+all: $(SHEET)-zip
+
+test:
+	mkdir -p ~/.dia/shapes/$(SHEET)
+	cp * ~/.dia/shapes/$(SHEET)
+	cp ../../sheets/$(SHEET).sheet ~/.dia/sheets
+
+clean-test:
+	-rm ~/.dia/sheets/$(SHEET).sheet
+	-rm -Rf ~/.dia/shapes/$(SHEET)
 
 clean-local:
 	-rm ../../website/$(SHEET)/$(SHEET).zip
