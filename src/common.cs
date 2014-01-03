@@ -459,6 +459,9 @@ class DiaIconFinder
 			  case "ciscotelephony":
 			    shape4sheet = "Cisco";
 			    break;
+			  case "civil":
+			    shape4sheet = "Civil";
+                            break;
 			  case "network":
 			    shape4sheet = "Network";
 			    break;
