@@ -4,7 +4,7 @@
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
 //
-// Copyright (C) 2007, 2009 - 2013 Steffen Macke (http://dia-installer.de)
+// Copyright (C) 2007, 2009 - 2014 Steffen Macke (http://dia-installer.de)
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -26,7 +26,7 @@ using System.Xml;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Sheet2Html
+public class Sheet2Html : DiaCommon
 {
   public static void Main (string[]args)
   {
@@ -63,7 +63,7 @@ public class Sheet2Html
       {
 	Console.Error.WriteLine ("sheet2html 0.9.3");
 	Console.Error.
-	  WriteLine ("Copyright (c) 2007, 2009 - 2013 Steffen Macke");
+	  WriteLine ("Copyright (c) 2007, 2009 - 2014 Steffen Macke");
 	return;
       }
 
@@ -445,26 +445,5 @@ public class Sheet2Html
       output.Close ();
     }
   }
-
-  // Return the value of a given language from an XPath
-  public static string GetValueI18n (string language,
-				     XPathNodeIterator iterator)
-  {
-    string result = "";
-    if ("en" == language)
-      language = "";
-    while (iterator.MoveNext ())
-      {
-	if (language == iterator.Current.XmlLang)
-	  {
-	    result = iterator.Current.Value;
-	    break;
-	  }
-	// Fall back to English, if language is not available
-	if ("" == result && "" == iterator.Current.XmlLang)
-	  result = iterator.Current.Value;
-      }
-    return result;
-  }
-
 }
+

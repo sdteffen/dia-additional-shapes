@@ -19,7 +19,6 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
-
 using System;
 using System.Xml.XPath;
 using System.Xml;
@@ -28,58 +27,77 @@ using System.Collections.Generic;
 using System.IO;
 
 // JSON data shapes and objects
-public class Shapes2Json
+public class Shapes2Json : DiaCommon
 {
-  public static void Main (string[]args)
-  {
-    if ((args.Length == 1 && ("-h" == args[0] || "--help" == args[0]))
-	|| args.Length > 2)
-      {
-	Console.Error.WriteLine ("USAGE: shapes2json [Options]");
-	Console.Error.WriteLine ("Options:");
-	Console.Error.WriteLine
-	  ("--datadir=datadir			Path where sheets and shapes reside");
-	Console.Error.WriteLine
+	public static void Main (string[]args)
+	{
+		if ((args.Length == 1 && ("-h" == args [0] || "--help" == args [0]))
+			|| args.Length > 2) {
+			Console.Error.WriteLine ("USAGE: shapes2json [Options]");
+			Console.Error.WriteLine ("Options:");
+			Console.Error.WriteLine
+	  ("--datadir=datadir          Path where sheets and shapes reside");
+			Console.Error.WriteLine
+          ("--language=language        2-letter language code, default is 'en'");
+			Console.Error.WriteLine
 	  ("-h, --help                 Display help and exit");
-	Console.Error.WriteLine
+			Console.Error.WriteLine
 	  ("-v, --version              Display version and exit");
-	return;
-      }
+			return;
+		}
 
-    if (1 == args.Length && ("-v" == args[0] || "--version" == args[0]))
-      {
-	Console.Error.WriteLine ("shapes2json 0.1.0");
-	Console.Error.WriteLine ("Copyright (c) 2011 - 2014 Steffen Macke");
-	return;
-      }
+		if (1 == args.Length && ("-v" == args [0] || "--version" == args [0])) {
+			Console.Error.WriteLine ("shapes2json 0.1.0");
+			Console.Error.WriteLine ("Copyright (c) 2011 - 2014 Steffen Macke");
+			return;
+		}
 
-    for (int i = 0; i < args.Length; i++)
-      {
-	if (10 < args[i].Length && "--datadir=" == args[i].Substring (0, 10))
-	  Directory.SetCurrentDirectory (args[i].Substring (10));
-      }
+		string language = "en";
+		for (int i = 0; i < args.Length; i++) {
+			if (10 < args [i].Length && "--datadir=" == args [i].Substring (0, 10))
+				Directory.SetCurrentDirectory (args [i].Substring (10));
+		}
 
-    bool first = true;
-    string o = "";
+		bool first = true;
+		string o = "";
+		int c = 0;
+		DiaIconFinder iconfinder = new DiaIconFinder ();
 
-    Console.WriteLine ("{");
+		Console.WriteLine ("{");
 
-    DiaIcons diaicons = new DiaIcons ();
-    foreach (KeyValuePair < string, string > icon in diaicons.icons)
-    {
-      if (DiaIcons.SHEET_SPECIFIC == icon.Value)
-	continue;
+		DiaIcons diaicons = new DiaIcons ();
 
-      if(first)
-      {
-        first = false;
-        o = "";
-      }
-      else
-        o = ",";
-      Console.WriteLine(o+"{c:'"+icon.Key.Replace(".png", "")+"'}");
-    }
-    Console.WriteLine("}");
-  }
+		System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo ("sheets");
+		foreach (System.IO.FileInfo f in dir.GetFiles ("*.sheet")) {
+			string sheet = f.Name.Replace (".sheet", "");
+			XPathDocument document = new XPathDocument (f.FullName);
+			XPathNavigator nav = document.CreateNavigator ();
+			XmlNamespaceManager manager = new XmlNamespaceManager (nav.NameTable);
+			manager.AddNamespace ("dia",
+			      "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns");
+
+			XPathExpression query =
+	nav.Compile ("/dia:sheet/dia:contents/dia:object");
+			query.SetContext (manager);
+			XPathNodeIterator links = nav.Select (query);
+
+			while (links.MoveNext ()) {
+				try {
+					string objectname = links.Current.GetAttribute ("name", "");
+					if (first) {
+						first = false;
+						o = "";
+					} else
+						o = ",";
+					Console.WriteLine (o+"\"" + c.ToString () + "\":{\"n\":\"" + objectname.Replace ("\"","\\\"") + "\",\"c\":\"" +
+					                   iconfinder.GetClassForObjectName(objectname).Substring (1) +
+					                   "\"}");
+					c++;
+				} catch {
+				}
+			}
+		}
+		Console.WriteLine ("}");
+	}
 }
 

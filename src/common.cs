@@ -547,3 +547,29 @@ class DiaIconFinder
     return "";
   }
 }
+
+// Common functionality
+public class DiaCommon
+{
+  // Return the value of a given language from an XPath
+  public static string GetValueI18n (string language,
+				     XPathNodeIterator iterator)
+  {
+    string result = "";
+    if ("en" == language)
+      language = "";
+    while (iterator.MoveNext ())
+      {
+	if (language == iterator.Current.XmlLang)
+	  {
+	    result = iterator.Current.Value;
+	    break;
+	  }
+	// Fall back to English, if language is not available
+	if ("" == result && "" == iterator.Current.XmlLang)
+	  result = iterator.Current.Value;
+      }
+    return result;
+  }
+}
+
