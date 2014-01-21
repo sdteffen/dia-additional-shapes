@@ -54,8 +54,10 @@ public class Shapes2Json : DiaCommon
 
 		string language = "en";
 		for (int i = 0; i < args.Length; i++) {
-			if (10 < args [i].Length && "--datadir=" == args [i].Substring (0, 10))
+			if (10 < args[i].Length && "--datadir=" == args[i].Substring (0, 10))
 				Directory.SetCurrentDirectory (args [i].Substring (10));
+			if ( 11 < args[i].Length && "--language=" == args[i].Substring (0, 11))
+				language = args[i].Substring (11);
 		}
 
 		bool first = true;
@@ -64,8 +66,6 @@ public class Shapes2Json : DiaCommon
 		DiaIconFinder iconfinder = new DiaIconFinder ();
 
 		Console.WriteLine ("{");
-
-		DiaIcons diaicons = new DiaIcons ();
 
 		System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo ("sheets");
 		foreach (System.IO.FileInfo f in dir.GetFiles ("*.sheet")) {
@@ -77,7 +77,7 @@ public class Shapes2Json : DiaCommon
 			      "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns");
 
 			XPathExpression query =
-	nav.Compile ("/dia:sheet/dia:contents/dia:object");
+				nav.Compile ("/dia:sheet/dia:contents/dia:object");
 			query.SetContext (manager);
 			XPathNodeIterator links = nav.Select (query);
 
@@ -89,8 +89,15 @@ public class Shapes2Json : DiaCommon
 						o = "";
 					} else
 						o = ",";
-					Console.WriteLine (o+"\"" + c.ToString () + "\":{\"n\":\"" + objectname.Replace ("\"","\\\"") + "\",\"c\":\"" +
-					                   iconfinder.GetClassForObjectName(objectname).Substring (1) +
+					XPathExpression descquery =
+				    	nav.Compile ("/dia:sheet/dia:contents/dia:object[@name='" +
+						 	objectname + "']/dia:description");
+				  	descquery.SetContext (manager);
+				  	XPathNodeIterator objectdescriptions = nav.Select (descquery);				    
+					Console.WriteLine (o+"\"" + c.ToString () + "\":{\"n\":\"" + objectname.Replace ("\"","\\\"") + 
+					                   "\",\"c\":\"" + iconfinder.GetClassForObjectName(objectname).Substring (1) +
+					                   "\",\"d\":\"" + GetValueI18n (language, objectdescriptions).Replace ("\"", "\\\"") +
+					                   "\",\"s\":\"" + sheet +
 					                   "\"}");
 					c++;
 				} catch {
