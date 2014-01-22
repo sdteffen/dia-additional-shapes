@@ -1,5 +1,5 @@
 //
-// shapes2sprite.cs: Convert dia shapes into JSON
+// shapes2sprite.cs: Convert dia shapes and sheets into JSON
 //
 // Author:
 //   Steffen Macke (sdteffen@sdteffen.de)
@@ -32,17 +32,19 @@ public class Shapes2Json : DiaCommon
 	public static void Main (string[]args)
 	{
 		if ((args.Length == 1 && ("-h" == args [0] || "--help" == args [0]))
-			|| args.Length > 2) {
+			|| args.Length > 3) {
 			Console.Error.WriteLine ("USAGE: shapes2json [Options]");
 			Console.Error.WriteLine ("Options:");
 			Console.Error.WriteLine
-	  ("--datadir=datadir          Path where sheets and shapes reside");
+	  			("--datadir=datadir          Path where sheets and shapes reside");
 			Console.Error.WriteLine
-          ("--language=language        2-letter language code, default is 'en'");
+          		("--language=language        2-letter language code, default is 'en'");
 			Console.Error.WriteLine
-	  ("-h, --help                 Display help and exit");
+				("--sheets                   Write sheet data");
 			Console.Error.WriteLine
-	  ("-v, --version              Display version and exit");
+	  			("-h, --help                 Display help and exit");
+			Console.Error.WriteLine
+	  			("-v, --version              Display version and exit");
 			return;
 		}
 
@@ -53,11 +55,14 @@ public class Shapes2Json : DiaCommon
 		}
 
 		string language = "en";
+		bool sheets = false;
 		for (int i = 0; i < args.Length; i++) {
 			if (10 < args[i].Length && "--datadir=" == args[i].Substring (0, 10))
 				Directory.SetCurrentDirectory (args [i].Substring (10));
-			if ( 11 < args[i].Length && "--language=" == args[i].Substring (0, 11))
+			if (11 < args[i].Length && "--language=" == args[i].Substring (0, 11))
 				language = args[i].Substring (11);
+			if ("--sheets" == args[i])
+				sheets = true;
 		}
 
 		bool first = true;
@@ -75,32 +80,45 @@ public class Shapes2Json : DiaCommon
 			XmlNamespaceManager manager = new XmlNamespaceManager (nav.NameTable);
 			manager.AddNamespace ("dia",
 			      "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns");
+			if(sheets) {
+				if (first) {
+					first = false;
+					o = "";
+				} else
+					o = ",";
+				XPathExpression namequery = nav.Compile ("/dia:sheet/dia:name");
+				namequery.SetContext (manager);
+				XPathExpression descquery = nav.Compile ("/dia:sheet/dia:description");
+				descquery.SetContext (manager);
+				Console.WriteLine (o+"\"" + sheet + "\":{\"n\":\"" + GetValueI18n (language, nav.Select (namequery)).Replace ("\"", "\\\"") +
+				                   "\",\"d\":\"" + GetValueI18n (language, nav.Select (descquery)).Replace ("\"", "\\\"") + "\"}");
+			} else {
+				XPathExpression query =
+					nav.Compile ("/dia:sheet/dia:contents/dia:object");
+				query.SetContext (manager);
+				XPathNodeIterator links = nav.Select (query);
 
-			XPathExpression query =
-				nav.Compile ("/dia:sheet/dia:contents/dia:object");
-			query.SetContext (manager);
-			XPathNodeIterator links = nav.Select (query);
-
-			while (links.MoveNext ()) {
-				try {
-					string objectname = links.Current.GetAttribute ("name", "");
-					if (first) {
-						first = false;
-						o = "";
-					} else
-						o = ",";
-					XPathExpression descquery =
-				    	nav.Compile ("/dia:sheet/dia:contents/dia:object[@name='" +
-						 	objectname + "']/dia:description");
-				  	descquery.SetContext (manager);
-				  	XPathNodeIterator objectdescriptions = nav.Select (descquery);				    
-					Console.WriteLine (o+"\"" + c.ToString () + "\":{\"n\":\"" + objectname.Replace ("\"","\\\"") + 
-					                   "\",\"c\":\"" + iconfinder.GetClassForObjectName(objectname).Substring (1) +
-					                   "\",\"d\":\"" + GetValueI18n (language, objectdescriptions).Replace ("\"", "\\\"") +
-					                   "\",\"s\":\"" + sheet +
-					                   "\"}");
-					c++;
-				} catch {
+				while (links.MoveNext ()) {
+					try {
+						string objectname = links.Current.GetAttribute ("name", "");
+						if (first) {
+							first = false;
+							o = "";
+						} else
+							o = ",";
+						XPathExpression descquery =
+					    	nav.Compile ("/dia:sheet/dia:contents/dia:object[@name='" +
+							 	objectname + "']/dia:description");
+					  	descquery.SetContext (manager);
+					  	XPathNodeIterator objectdescriptions = nav.Select (descquery);				    
+						Console.WriteLine (o+"\"" + c.ToString () + "\":{\"n\":\"" + objectname.Replace ("\"","\\\"") + 
+						                   "\",\"c\":\"" + iconfinder.GetClassForObjectName(objectname).Substring (1) +
+						                   "\",\"d\":\"" + GetValueI18n (language, objectdescriptions).Replace ("\"", "\\\"") +
+						                   "\",\"s\":\"" + sheet +
+						                   "\"}");
+						c++;
+					} catch {
+					}
 				}
 			}
 		}
