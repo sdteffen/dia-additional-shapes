@@ -26,7 +26,7 @@ using System.Xml;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Sheet2Html : DiaCommon
+public class Sheet2Html:DiaCommon
 {
   public static void Main (string[]args)
   {
@@ -62,8 +62,8 @@ public class Sheet2Html : DiaCommon
     if ("-v" == args[0] || "--version" == args[0])
       {
 	Console.Error.WriteLine ("sheet2html 0.9.3");
-	Console.Error.
-	  WriteLine ("Copyright (c) 2007, 2009 - 2014 Steffen Macke");
+	Console.
+	  Error.WriteLine ("Copyright (c) 2007, 2009 - 2014 Steffen Macke");
 	return;
       }
 
@@ -446,4 +446,3 @@ public class Sheet2Html : DiaCommon
     }
   }
 }
-

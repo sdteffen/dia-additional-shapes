@@ -461,7 +461,7 @@ class DiaIconFinder
 			    break;
 			  case "civil":
 			    shape4sheet = "Civil";
-                            break;
+			    break;
 			  case "network":
 			    shape4sheet = "Network";
 			    break;
@@ -572,4 +572,3 @@ public class DiaCommon
     return result;
   }
 }
-
