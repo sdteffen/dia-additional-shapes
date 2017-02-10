@@ -12,6 +12,6 @@
   <aspectratio type="fixed"/>
   <svg:svg>
     <svg:ellipse style="fill: default" cx="10" cy="12" rx="2" ry="2"/>
-    <svg:polygon style="fill: default" points="8.6,11 8.8,11 10,13 11.2,11 11.4,11 10,13.4 "/>
+    <svg:polygon style="fill: foreground" points="8.6,11 8.8,11 10,13 11.2,11 11.4,11 10,13.4 "/>
   </svg:svg>
 </shape>
