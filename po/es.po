@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: dia-additional-shapes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-09 16:20+0100\n"
-"PO-Revision-Date: 2012-05-17 01:13+0000\n"
-"Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
+"PO-Revision-Date: 2017-10-29 18:55-0300\n"
+"Last-Translator: Agustin Ferrario <agustin.ferrario@hotmail.com.ar>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2012-05-19 09:40+0000\n"
-"X-Generator: Launchpad (build 15259)\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: ../sheets/Automata.sheet.in.h:1
 msgid "Automata"
-msgstr ""
+msgstr "Automata"
 
 #: ../sheets/Automata.sheet.in.h:2
 msgid "Symbols for designing Automata"
@@ -126,65 +126,70 @@ msgstr ""
 msgid "Sender/Receiver Port (Vertical)"
 msgstr ""
 
+#.
+#. Author: Agustin Ferrario
+#. Source: https://github.com/py-crash/dia-additional-shapes
+#.
+#
 #: ../sheets/building_site.sheet.in.h:1
 msgid "Building Site"
-msgstr ""
+msgstr "Sitio en construcción"
 
 #: ../sheets/building_site.sheet.in.h:2
 msgid "Building Site Equipment"
-msgstr ""
+msgstr "Equipamiento del sitio en construcción"
 
 #: ../sheets/building_site.sheet.in.h:3
 msgid "Road (horizontal)"
-msgstr ""
+msgstr "Calle (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:4
 msgid "Road (vertical)"
-msgstr ""
+msgstr "Calle (vertical)"
 
 #: ../sheets/building_site.sheet.in.h:5
 msgid "Road (turn)"
-msgstr ""
+msgstr "Calle (curva)"
 
 #: ../sheets/building_site.sheet.in.h:6
 msgid "Road (tee)"
-msgstr ""
+msgstr "Calle (te)"
 
 #: ../sheets/building_site.sheet.in.h:7
 msgid "Road (rotated tee)"
-msgstr ""
+msgstr "Calle (te rotada)"
 
 #: ../sheets/building_site.sheet.in.h:8
 msgid "Road (crossroads)"
-msgstr ""
+msgstr "Calle (cruce)"
 
 #: ../sheets/building_site.sheet.in.h:9
 msgid "Fence (horizontal)"
-msgstr ""
+msgstr "Valla (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:10
 msgid "Fence (vertical)"
-msgstr ""
+msgstr "Valla (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:11
 msgid "Slope (horizontal)"
-msgstr ""
+msgstr "Pendiente (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:12
 msgid "Slope (vertical)"
-msgstr ""
+msgstr "Pendiente (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:13
 msgid "Wall (horizontal)"
-msgstr ""
+msgstr "Muro (horizontal)"
 
 #: ../sheets/building_site.sheet.in.h:14
 msgid "Wall (vertical)"
-msgstr ""
+msgstr "Muro (vertical)"
 
 #: ../sheets/building_site.sheet.in.h:15
 msgid "Pre-Silo"
-msgstr ""
+msgstr "Pre-Silo"
 
 #: ../sheets/building_site.sheet.in.h:16
 msgid "Proportioning Batcher"
@@ -192,11 +197,11 @@ msgstr ""
 
 #: ../sheets/building_site.sheet.in.h:17
 msgid "Concrete Mixer"
-msgstr ""
+msgstr "Mezclador de concreto"
 
 #: ../sheets/building_site.sheet.in.h:18
 msgid "Circle, Diagonal Quarters Filled"
-msgstr ""
+msgstr "Circulo, Cuartos diagonales rellenos"
 
 #: ../sheets/central_data_processing.sheet.in.h:1
 msgid "Central Data Processing"
@@ -312,11 +317,11 @@ msgstr ""
 
 #: ../sheets/central_data_processing.sheet.in.h:29
 msgid "Router"
-msgstr ""
+msgstr "Enrutador"
 
 #: ../sheets/central_data_processing.sheet.in.h:30
 msgid "Modem"
-msgstr ""
+msgstr "Modem"
 
 #: ../sheets/central_data_processing.sheet.in.h:31
 msgid "Voice panel 50p"
@@ -344,7 +349,7 @@ msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:2
 msgid "Work"
-msgstr ""
+msgstr "Trabajo"
 
 #: ../sheets/CH-1.sheet.in.h:3 ../sheets/edpc.sheet.in.h:4
 msgid "Event"
@@ -352,27 +357,27 @@ msgstr "Evento"
 
 #: ../sheets/CH-1.sheet.in.h:4 ../sheets/value_stream_mapping.sheet.in.h:6
 msgid "Storage"
-msgstr ""
+msgstr "Almacenamiento"
 
 #: ../sheets/CH-1.sheet.in.h:5
 msgid "Employee"
-msgstr ""
+msgstr "Empleado"
 
 #: ../sheets/CH-1.sheet.in.h:6
 msgid "Department"
-msgstr ""
+msgstr "Departamento"
 
 #: ../sheets/CH-1.sheet.in.h:7
 msgid "Outside participant"
-msgstr ""
+msgstr "Participante externo"
 
 #: ../sheets/CH-1.sheet.in.h:8
 msgid "Device"
-msgstr ""
+msgstr "Dispositivo"
 
 #: ../sheets/CH-1.sheet.in.h:9
 msgid "Condition"
-msgstr ""
+msgstr "Condición"
 
 #: ../sheets/CH-1.sheet.in.h:10
 msgid "Junction (AND, OR, XOR)"
@@ -380,148 +385,152 @@ msgstr ""
 
 #: ../sheets/CH-1.sheet.in.h:11
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
 #: ../sheets/CH-1.sheet.in.h:12
 msgid "Delay"
-msgstr ""
+msgstr "Retraso"
 
-#. For: ryan
+#.
+#. Author: Agustin Ferrario
+#. Source: https://github.com/py-crash/dia-additional-shapes
+#.
+#
 #: ../sheets/chemistry_lab.sheet.in.h:2
 msgid "Chemistry Lab"
-msgstr ""
+msgstr "Laboratorio de química"
 
 #: ../sheets/chemistry_lab.sheet.in.h:3
 msgid "Chemistry Lab Apparati"
-msgstr ""
+msgstr "Aparatos del laboratorio de química"
 
 #: ../sheets/chemistry_lab.sheet.in.h:4
 msgid "30 Degree Bend"
-msgstr ""
+msgstr "Codo a 30 grados"
 
 #: ../sheets/chemistry_lab.sheet.in.h:5
 msgid "Beaker"
-msgstr ""
+msgstr "Vaso de Precipitado"
 
 #: ../sheets/chemistry_lab.sheet.in.h:6
 msgid "Buechner Funnel"
-msgstr ""
+msgstr "Embudo Büchner"
 
 #: ../sheets/chemistry_lab.sheet.in.h:7
 msgid "Burette"
-msgstr ""
+msgstr "Bureta"
 
 #: ../sheets/chemistry_lab.sheet.in.h:8
 msgid "Clamp Extra Large"
-msgstr ""
+msgstr "Agarradera extra grande"
 
 #: ../sheets/chemistry_lab.sheet.in.h:9
 msgid "Clamp Front"
-msgstr ""
+msgstr "Agarradera frente"
 
 #: ../sheets/chemistry_lab.sheet.in.h:10
 msgid "Clamp Large"
-msgstr ""
+msgstr "Agarradera grande"
 
 #: ../sheets/chemistry_lab.sheet.in.h:11
 msgid "Clamp"
-msgstr ""
+msgstr "Agarradera"
 
 #: ../sheets/chemistry_lab.sheet.in.h:12
 msgid "Reflux Column Red-Blue"
-msgstr ""
+msgstr "Columna de Reflujo Rojo-Azúl "
 
 #: ../sheets/chemistry_lab.sheet.in.h:13
 msgid "Reflux Column Red"
-msgstr ""
+msgstr "Columna de Reflujo Rojo"
 
 #: ../sheets/chemistry_lab.sheet.in.h:14
 msgid "Reflux Column"
-msgstr ""
+msgstr "Columna de Reflujo"
 
 #: ../sheets/chemistry_lab.sheet.in.h:15
 msgid "Condenser Black"
-msgstr ""
+msgstr "Condensador Negro"
 
 #: ../sheets/chemistry_lab.sheet.in.h:16
 msgid "Condenser Blue"
-msgstr ""
+msgstr "Condensador Azúl"
 
 #: ../sheets/chemistry_lab.sheet.in.h:17
 msgid "Condenser Green"
-msgstr ""
+msgstr "Condensador Verde"
 
 #: ../sheets/chemistry_lab.sheet.in.h:18
 msgid "Liebig Condenser Vertical"
-msgstr ""
+msgstr "Tubo refrigerante vertical"
 
 #: ../sheets/chemistry_lab.sheet.in.h:19
 msgid "Condenser Orange"
-msgstr ""
+msgstr "Condensador "naranja"
 
 #: ../sheets/chemistry_lab.sheet.in.h:20
 msgid "Condenser Pale Blue"
-msgstr ""
+msgstr "Condensador celeste"
 
 #: ../sheets/chemistry_lab.sheet.in.h:21
 msgid "Condenser Red"
-msgstr ""
+msgstr "Condensador rojo"
 
 #: ../sheets/chemistry_lab.sheet.in.h:22
 msgid "Condenser"
-msgstr ""
+msgstr "Condensador"
 
 #: ../sheets/chemistry_lab.sheet.in.h:23
 msgid "Erlenmeyer Flask"
-msgstr ""
+msgstr "Matraz de Erlenmeyer"
 
 #: ../sheets/chemistry_lab.sheet.in.h:24
 msgid "Powder Funnel"
-msgstr ""
+msgstr "Embudo para polvo"
 
 #: ../sheets/chemistry_lab.sheet.in.h:25
 msgid "Gooseneck"
-msgstr ""
+msgstr "Cuello de cisne"
 
 #: ../sheets/chemistry_lab.sheet.in.h:26
 msgid "Lab Stand Front"
-msgstr ""
+msgstr "Pie de laboratorio Frontal"
 
 #: ../sheets/chemistry_lab.sheet.in.h:27
 msgid "Lab Stand Side"
-msgstr ""
+msgstr "Pie de laboratorio Lateral"
 
 #: ../sheets/chemistry_lab.sheet.in.h:28
 msgid "Ring Front"
-msgstr ""
+msgstr "Anillo Frente"
 
 #: ../sheets/chemistry_lab.sheet.in.h:29
 msgid "Ring Side"
-msgstr ""
+msgstr "Anillo de lado"
 
 #: ../sheets/chemistry_lab.sheet.in.h:30
 msgid "Separatory Funnel 2 Phases"
-msgstr ""
+msgstr "Embudo de decantación 2 fases"
 
 #: ../sheets/chemistry_lab.sheet.in.h:31
 msgid "Separatory Funnel 3 Phases"
-msgstr ""
+msgstr "Embudo de decantación 3 fases"
 
 #: ../sheets/chemistry_lab.sheet.in.h:32
 msgid "Separatory Funnel"
-msgstr ""
+msgstr "Embudo de decantación"
 
 #: ../sheets/chemistry_lab.sheet.in.h:33
 msgid "Stir Bar"
-msgstr ""
+msgstr "Agitador magnético"
 
 #: ../sheets/chemistry_lab.sheet.in.h:34
 msgid "Stir Plate Side"
-msgstr ""
+msgstr "Plato agitador Lateral"
 
 #: ../sheets/chemistry_lab.sheet.in.h:35
 msgid "Stir Plate Front"
-msgstr ""
+msgstr "Plato agitador Frontal"
 
 #: ../sheets/Circuit2.sheet.in.h:1
 msgid "Circuit2"
